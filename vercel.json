@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/lernkonsole/index.html" },
+    { "source": "/lernkonsole", "destination": "/lernkonsole/index.html" }
+  ]
+}

@@ -24,6 +24,15 @@ werden kann und dort automatisch zwei Laufzeit-Fähigkeiten nutzt:
   anzubieten (ein einfacher Datei-Download würde in der Artifact-Sandbox
   sonst stillschweigend ins Leere laufen).
 
-Wird `index.html` außerhalb der Artifact-Umgebung geöffnet (z. B. lokal im
-Browser), stehen diese Fähigkeiten nicht zur Verfügung — die App läuft dann
-weiter, speichert den Fortschritt aber nur lokal in diesem Browser.
+Wird `index.html` außerhalb der Artifact-Umgebung geöffnet — z. B. über die
+Vercel-Deployment dieses Repos —, stehen diese Fähigkeiten nicht zur
+Verfügung: Die App läuft normal weiter, speichert den Fortschritt aber nur
+lokal in diesem Browser (`localStorage`), und „Als Datei sichern" nutzt dort
+einen normalen Datei-Download statt der Downloads-Fähigkeit.
+
+## Vercel-Deployment
+
+`../vercel.json` leitet `/` und `/lernkonsole` auf `lernkonsole/index.html`
+um, damit die Root-Domain der Vercel-Preview die App zeigt statt eines
+404 — ohne diese Datei findet Vercel dort keine `index.html`, weil die App
+in diesem Unterordner liegt.

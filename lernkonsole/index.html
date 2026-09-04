@@ -577,17 +577,29 @@ function Dashboard({ state, persist, storageMode, onHome }) {
 
   const exportieren = async () => {
     const payload = JSON.stringify({ cards: state.cards, log: state.log, meta: state.meta }, null, 2);
+    const blob = new Blob([payload], { type: "application/json" });
     try {
       const downloads = (typeof window.claude !== "undefined") ? await window.claude.use("downloads") : null;
-      if (!downloads) {
-        setImportMeldung({ ok: false, text: "Sichern ist in dieser Ansicht nicht verfügbar." });
+      if (downloads) {
+        await downloads.save({ filename: "lernkonsole-fortschritt.json", data: blob });
+        setImportMeldung({ ok: true, text: "Sicherungsdatei gespeichert." });
         return;
       }
-      const blob = new Blob([payload], { type: "application/json" });
-      await downloads.save({ filename: "lernkonsole-fortschritt.json", data: blob });
-      setImportMeldung({ ok: true, text: "Sicherungsdatei gespeichert." });
     } catch (e) {
       if (e && e.code === "declined") return;
+      setImportMeldung({ ok: false, text: "Sicherung fehlgeschlagen." });
+      return;
+    }
+    // Außerhalb der Artifact-Ansicht (z. B. eigenständig gehostet): normaler Download.
+    try {
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "lernkonsole-fortschritt.json";
+      a.click();
+      URL.revokeObjectURL(url);
+      setImportMeldung({ ok: true, text: "Sicherungsdatei heruntergeladen." });
+    } catch (e) {
       setImportMeldung({ ok: false, text: "Sicherung fehlgeschlagen." });
     }
   };
