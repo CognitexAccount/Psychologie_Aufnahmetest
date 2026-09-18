@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lernkonsolen</title>
+<style>
+  :root{
+    --paper:#F2F4F7; --surface:#FFFFFF; --ink:#141A21; --muted:#66717F; --line:#DCE1E8;
+    --axis:#12355B; --axis-soft:#E7EDF5; --mark:#B08200;
+    --display:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+    --body:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55}
+  .wrap{max-width:760px;margin:0 auto;padding:0 16px 56px}
+  header{background:var(--axis);color:#fff;padding:22px 0 18px;margin-bottom:20px}
+  header .wrap{padding-bottom:0}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#9FB6D2;margin:0 0 6px}
+  h1{font-family:var(--display);font-weight:600;font-size:23px;line-height:1.25;margin:0}
+  h1 .sub{display:block;font-size:15px;font-weight:400;color:#B9CBE1;margin-top:5px;font-family:var(--body)}
+
+  .karten{display:flex;flex-direction:column;gap:14px}
+  a.karte{
+    display:block;background:var(--surface);border:1px solid var(--line);border-radius:4px;
+    padding:20px;text-decoration:none;color:inherit;transition:border-color .12s,background .12s
+  }
+  a.karte:hover{border-color:var(--axis);background:var(--axis-soft)}
+  a.karte:focus-visible{outline:2px solid var(--mark);outline-offset:2px}
+  .kopf{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+  .kopf h2{font-family:var(--display);font-size:19px;font-weight:600;margin:0}
+  .zahl{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .karte p{margin:0;font-size:14.5px;color:#33404F}
+  .pfeil{display:inline-block;font-family:var(--mono);font-size:13px;color:var(--axis);margin-top:12px}
+
+  .hinweis{border-left:3px solid var(--line);padding:2px 0 2px 14px;margin-top:26px;font-size:13.5px;color:var(--muted)}
+  .hinweis b{color:#33404F;font-weight:600}
+  @media (max-width:520px){h1{font-size:20px}.kopf h2{font-size:17.5px}.karte,a.karte{padding:16px 14px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <p class="eyebrow">Aufnahmetest Psychologie</p>
+    <h1>Lernkonsolen<span class="sub">Zwei Durchgänge mit getrenntem Fortschritt</span></h1>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="karten">
+    <a class="karte" href="/lernkonsole">
+      <div class="kopf"><h2>Lernkonsole</h2><span class="zahl">185 Fragen · Kapitel 1–8</span></div>
+      <p>Der erste Durchgang über alle acht Kapitel, von der Natur der Psychologie bis zur Differentiellen und Persönlichkeitspsychologie.</p>
+      <span class="pfeil">Öffnen →</span>
+    </a>
+    <a class="karte" href="/lernkonsole2">
+      <div class="kopf"><h2>Lernkonsole II</h2><span class="zahl">175 Fragen · Kapitel 2–8</span></div>
+      <p>Der zweite Durchgang mit durchgehend neuen Fragen. Fälligkeiten richten sich hier nach ganzen Kalendertagen statt nach Uhrzeiten.</p>
+      <span class="pfeil">Öffnen →</span>
+    </a>
+  </div>
+
+  <p class="hinweis">
+    <b>Fortschritt auf dieser Domain:</b> Beide Konsolen speichern hier lokal im Browser, jede unter
+    einem eigenen Schlüssel — sie überschreiben einander nicht, wandern aber auch nicht auf andere
+    Geräte mit. Wer den Fortschritt geräteübergreifend synchron halten will, nutzt die Artifact-Fassung;
+    die Sicherungsdatei in der Auswertung überträgt einen Stand zwischen beiden Wegen.
+  </p>
+</div>
+
+</body>
+</html>
