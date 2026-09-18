@@ -5,6 +5,7 @@
   "subtitle": "{n} neue Fragen aus sieben Kapiteln, gemischt und nach Kalendertagen gesteuert",
   "storeKey": "lernkonsole-zwei-v1",
   "appId": "lernkonsole2",
+  "serverCode": "2qbbpjia0ho671lzycnghi08",
   "faelligkeitNachKalendertagen": true,
   "kapitel": {
     "2": "Geschichte der Psychologie",

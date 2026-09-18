@@ -90,28 +90,33 @@ const testCode = `
   const stateFixture2 = { cards: stateFixture.cards, log: logFixture, meta: { sessions: 1, days: [Date.now()] } };
   renderTree(createElement(Dashboard, { state: stateFixture2, persist: async()=>{}, storageMode: "cloud", onHome(){} }));
   renderTree(createElement(Dashboard, { state: stateFixture2, persist: async()=>{}, storageMode: "local", onHome(){} }));
-  const syncProps = { onSyncEinrichten: async()=>({ok:true}), onSyncVerbinden: async()=>({ok:true}), onSyncTrennen(){} };
-  renderTree(createElement(Dashboard, { state: stateFixture2, persist: async()=>{}, storageMode: "checking", sync: { code: null, status: "aus", zuletzt: null }, ...syncProps, onHome(){} }));
-  renderTree(createElement(Dashboard, { state: { cards: {}, log: [], meta: { sessions: 0, days: [] } }, persist: async()=>{}, storageMode: "checking", onHome(){} }));
+  renderTree(createElement(Dashboard, { state: stateFixture2, persist: async()=>{}, storageMode: "checking", server: { status: "aus", zuletzt: null, meldung: null }, onServerErneut: async()=>true, onHome(){} }));
+  renderTree(createElement(Dashboard, { state: { cards: {}, log: [], meta: { sessions: 0, days: [] } }, persist: async()=>{}, storageMode: "local", server: { status: "fehler", zuletzt: null, meldung: "keine-tabelle" }, onServerErneut: async()=>true, onHome(){} }));
   console.log("Dashboard OK");
 
-  // ---- SyncKarte: aus / aktiv / fehler, dazu das geöffnete Eingabefeld ----
-  const karte = (sync) => createElement(SyncKarte, { sync, onEinrichten: async()=>({ok:true}), onVerbinden: async()=>({ok:true}), onTrennen(){} });
-  const zustaende = [
-    { code: null, status: "aus", zuletzt: null },
-    { code: "abcde23456fghij78", status: "aktiv", zuletzt: Date.now() },
-    { code: "abcde23456fghij78", status: "aktiv", zuletzt: null },
-    { code: "abcde23456fghij78", status: "fehler", zuletzt: null, meldung: "keine-datenbank" },
-    { code: "abcde23456fghij78", status: "fehler", zuletzt: null, meldung: "http-502" },
-  ];
-  zustaende.forEach((z) => renderTree(karte(z)));
+  // ---- ServerKarte: verbunden / gestört, jede Fehlermeldung einmal ----
+  const karte = (server) => createElement(ServerKarte, { server, onErneut: async()=>true });
+  [
+    { status: "aktiv", zuletzt: Date.now(), meldung: null },
+    { status: "aktiv", zuletzt: null, meldung: null },
+    { status: "aus", zuletzt: null, meldung: null },
+    { status: "fehler", zuletzt: null, meldung: "keine-datenbank" },
+    { status: "fehler", zuletzt: null, meldung: "keine-tabelle" },
+    { status: "fehler", zuletzt: null, meldung: "http-502" },
+  ].forEach((z) => renderTree(karte(z)));
+  console.log("ServerKarte OK");
 
-  // dieselben Zustände noch einmal mit aufgeklapptem Eingabefeld
-  const echtesUseState = React.useState;
-  React.useState = (init) => [typeof init === "boolean" ? true : (typeof init === "function" ? init() : init), () => {}];
-  zustaende.forEach((z) => renderTree(karte(z)));
-  React.useState = echtesUseState;
-  console.log("SyncKarte OK");
+  // ---- neuerer(): welcher Stand gewinnt ----
+  const mit = (geaendert, karten) => ({ cards: karten, log: [], meta: { geaendert } });
+  const pruef = (was, ist, soll) => { if (ist !== soll) { throw new Error("neuerer(): " + was); } };
+  pruef("Server neuer", neuerer(mit(10, {}), mit(20, {})).meta.geaendert, 20);
+  pruef("lokal neuer", neuerer(mit(30, {}), mit(20, {})).meta.geaendert, 30);
+  pruef("ohne Server", neuerer(mit(10, {}), null).meta.geaendert, 10);
+  pruef("ohne lokal", neuerer(null, mit(10, {})).meta.geaendert, 10);
+  pruef("beide leer", neuerer(null, null), null);
+  pruef("gleich alt, Server voller", Object.keys(neuerer(mit(0, { a: 1 }), mit(0, { a: 1, b: 2 })).cards).length, 2);
+  pruef("gleich alt, lokal voller", Object.keys(neuerer(mit(0, { a: 1, b: 2 }), mit(0, { a: 1 })).cards).length, 2);
+  console.log("neuerer OK");
 
   console.log("ALL COMPONENT RENDERS OK");
 })();

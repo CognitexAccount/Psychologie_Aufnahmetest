@@ -135,12 +135,11 @@ body{background:#F2F4F7;margin:0}
 .lk .diaglabel{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:7px}
 .lk .diag code{display:inline-block;font-family:var(--mono);font-size:11.5px;background:var(--paper);border:1px solid var(--line);border-radius:2px;padding:3px 7px;margin:0 6px 6px 0;color:#33404F}
 
-.lk .synccode{background:var(--paper);border:1px solid var(--line);border-radius:3px;padding:12px 14px}
-.lk .synclabel{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
-.lk .synccode code{font-family:var(--mono);font-size:15px;letter-spacing:.06em;color:var(--axis);word-break:break-all;user-select:all}
-.lk .syncform{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:14px}
-.lk .synceingabe{flex:1 1 240px;min-width:0;font-family:var(--mono);font-size:14px;letter-spacing:.04em;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:3px;padding:12px 13px}
-.lk .synceingabe:focus{outline:2px solid var(--mark);outline-offset:1px;border-color:var(--axis)}
+.lk .serverzeile{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-family:var(--mono);font-size:12.5px;color:#33404F;background:var(--paper);border:1px solid var(--line);border-radius:3px;padding:10px 13px}
+.lk .serverzeile .punkt{width:8px;height:8px;border-radius:50%;flex:0 0 auto}
+.lk .serverzeile.an .punkt{background:var(--ok)}
+.lk .serverzeile.ab .punkt{background:var(--no)}
+.lk .serverzeile .wann{color:var(--muted);margin-left:auto;letter-spacing:.03em}
 
 .lk .reviewlist{list-style:none;margin:0;padding:0}
 .lk .reviewlist li{border-top:1px solid var(--line);padding:12px 0;display:flex;flex-direction:column;gap:3px}
@@ -202,7 +201,7 @@ const TAGESGENAU = __TAGESGENAU__;
 const DB_PATH = "progress/state";
 const APP_ID = __APP_ID_JSON__;
 const API_PFAD = "/api/fortschritt";
-const SYNC_KEY = STORE_KEY + "-sync";
+const SERVER_CODE = __SERVER_CODE_JSON__;
 const SESSION_SIZE = 20;
 const NEW_QUOTA = 8;   // reservierte Plätze für neuen Stoff — sonst verdrängen
                        // Wiederholungen ihn, und der Pool ist nie komplett durch
@@ -347,37 +346,25 @@ const lokalSchreiben = (nutzlast) => {
   try { localStorage.setItem(STORE_KEY, JSON.stringify(nutzlast)); } catch (e) { /* voll oder gesperrt */ }
 };
 
-/* ══════════════ Synchronisation über die eigene Domain ══════════════
+/* ══════════════ Serverablage über die eigene Domain ══════════════
    Außerhalb der Artifact-Ansicht übernimmt eine Serverless-Funktion dieser
-   Seite die Ablage. Angemeldet wird sich nicht: Der Synchronisationscode ist
-   das Geheimnis — wer ihn hat, sieht diesen Stand. Deshalb wird er zufällig
-   erzeugt und nicht ausgedacht. */
-const ALPHABET = "23456789abcdefghjkmnpqrstuvwxyz"; // ohne leicht verwechselbare Zeichen
-const syncCode = {
-  lesen() {
-    try { return localStorage.getItem(SYNC_KEY) || null; } catch (e) { return null; }
-  },
-  schreiben(code) {
-    try {
-      if (code) localStorage.setItem(SYNC_KEY, code);
-      else localStorage.removeItem(SYNC_KEY);
-    } catch (e) { /* nicht schreibbar */ }
-  },
-  neu() {
-    const werte = new Uint8Array(20);
-    window.crypto.getRandomValues(werte);
-    return Array.from(werte, (v) => ALPHABET[v % ALPHABET.length]).join("");
-  },
-  saeubern(eingabe) {
-    return String(eingabe || "").toLowerCase().replace(/[^a-z0-9]/g, "");
-  },
-  gruppiert(code) {
-    return code ? code.replace(/(.{5})(?=.)/g, "$1-") : "";
-  },
-};
+   Seite die Ablage. Angemeldet wird sich nicht und nichts eingegeben: Jede
+   Konsole hat auf dem Server genau einen Stand, den jedes Gerät unter dieser
+   Adresse weiterführt. Welcher Stand gewinnt, entscheidet der Zeitstempel —
+   so überschreibt ein länger nicht geöffnetes Gerät nichts Neueres. */
+const geaendertAm = (stand) => (stand && stand.meta && stand.meta.geaendert) || 0;
 
-const syncUrl = (code) =>
-  API_PFAD + "?app=" + encodeURIComponent(APP_ID) + "&code=" + encodeURIComponent(code);
+function neuerer(lokal, server) {
+  if (!server) return lokal;
+  if (!lokal) return server;
+  const a = geaendertAm(lokal), b = geaendertAm(server);
+  if (a !== b) return a > b ? lokal : server;
+  /* Gleich alt (oder beide noch ohne Stempel): der vollere Stand gewinnt. */
+  return Object.keys(server.cards).length >= Object.keys(lokal.cards).length ? server : lokal;
+}
+
+const serverUrl = () =>
+  API_PFAD + "?app=" + encodeURIComponent(APP_ID) + "&code=" + encodeURIComponent(SERVER_CODE);
 
 async function antwortPruefen(antwort) {
   const inhalt = await antwort.json().catch(() => null);
@@ -389,12 +376,12 @@ async function antwortPruefen(antwort) {
   return inhalt;
 }
 
-async function wolkeLaden(code) {
-  return antwortPruefen(await fetch(syncUrl(code), { cache: "no-store" }));
+async function wolkeLaden() {
+  return antwortPruefen(await fetch(serverUrl(), { cache: "no-store" }));
 }
 
-async function wolkeSpeichern(code, nutzlast) {
-  return antwortPruefen(await fetch(syncUrl(code), {
+async function wolkeSpeichern(nutzlast) {
+  return antwortPruefen(await fetch(serverUrl(), {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(nutzlast),
@@ -406,11 +393,11 @@ function Lernkonsole() {
   const [state, setState] = useState(null);       // {cards, log, meta}
   const [loading, setLoading] = useState(true);
   const [storageMode, setStorageMode] = useState("checking"); // cloud | local
-  const [sync, setSync] = useState({ code: null, status: "aus", zuletzt: null });
+  const [server, setServer] = useState({ status: "aus", zuletzt: null, meldung: null });
   const [view, setView] = useState("home");        // home | session | ende | dashboard
   const [session, setSession] = useState(null);
   const dbRef = useRef(null);
-  const syncRef = useRef(null);
+  const serverRef = useRef(false);   // erst nach einem geglückten Abruf schreiben
   const stateRef = useRef(null);
   stateRef.current = state;
 
@@ -422,14 +409,38 @@ function Lernkonsole() {
     return m;
   }, []);
 
-  /* — Laden: Artifact-Speicher, sonst Synchronisationscode, sonst Browser — */
+  /* — Serverstand holen und mit dem hiesigen zusammenführen — */
+  const serverAbgleichen = useCallback(async (lokal) => {
+    try {
+      const antwort = await wolkeLaden();
+      const vomServer =
+        antwort.vorhanden && antwort.daten && typeof antwort.daten.cards === "object"
+          ? normalisieren(antwort.daten)
+          : null;
+      const gewaehlt = neuerer(lokal, vomServer) || leererStand();
+      serverRef.current = true;
+
+      if (gewaehlt !== vomServer) {
+        /* Hier liegt der neuere Stand — der Server bekommt ihn. */
+        const antwort2 = await wolkeSpeichern(alsNutzlast(gewaehlt));
+        return { stand: gewaehlt, server: { status: "aktiv", zuletzt: antwort2.aktualisiert || Date.now(), meldung: null } };
+      }
+      lokalSchreiben(alsNutzlast(gewaehlt));
+      return { stand: gewaehlt, server: { status: "aktiv", zuletzt: antwort.aktualisiert || Date.now(), meldung: null } };
+    } catch (e) {
+      serverRef.current = false;
+      return { stand: lokal, server: { status: "fehler", zuletzt: null, meldung: e.code || "unbekannt" } };
+    }
+  }, []);
+
+  /* — Laden: Artifact-Speicher, sonst Server, sonst nur dieser Browser — */
   useEffect(() => {
     let alive = true;
 
     (async () => {
       let loaded = null;
       let mode = "local";
-      let syncStand = { code: null, status: "aus", zuletzt: null };
+      let serverStand = { status: "aus", zuletzt: null, meldung: null };
 
       try {
         if (typeof window.claude !== "undefined") {
@@ -448,41 +459,26 @@ function Lernkonsole() {
 
       if (!loaded) loaded = lokalLesen();
 
-      /* Außerhalb der Artifact-Ansicht übernimmt der Synchronisationscode. */
       if (mode === "local") {
-        const code = syncCode.lesen();
-        if (code) {
-          syncRef.current = code;
-          try {
-            const antwort = await wolkeLaden(code);
-            if (antwort.vorhanden && antwort.daten && typeof antwort.daten.cards === "object") {
-              loaded = normalisieren(antwort.daten);
-              lokalSchreiben(alsNutzlast(loaded));
-              syncStand = { code, status: "aktiv", zuletzt: antwort.aktualisiert || null };
-            } else {
-              /* Der Code ist neu auf diesem Server: den hiesigen Stand hinterlegen. */
-              const antwort2 = await wolkeSpeichern(code, alsNutzlast(loaded || leererStand()));
-              syncStand = { code, status: "aktiv", zuletzt: antwort2.aktualisiert || Date.now() };
-            }
-          } catch (e) {
-            syncStand = { code, status: "fehler", zuletzt: null, meldung: e.code || "unbekannt" };
-          }
-        }
+        const ergebnis = await serverAbgleichen(loaded);
+        loaded = ergebnis.stand;
+        serverStand = ergebnis.server;
       }
 
       if (alive) {
         setState(loaded || leererStand());
         setStorageMode(mode);
-        setSync(syncStand);
+        setServer(serverStand);
         setLoading(false);
       }
     })();
     return () => { alive = false; };
-  }, []);
+  }, [serverAbgleichen]);
 
   const persist = useCallback(async (next) => {
-    setState(next);
-    const nutzlast = alsNutzlast(next);
+    const gestempelt = { ...next, meta: { ...next.meta, geaendert: Date.now() } };
+    setState(gestempelt);
+    const nutzlast = alsNutzlast(gestempelt);
     try {
       if (dbRef.current) {
         await dbRef.current.doc(DB_PATH).set(nutzlast);
@@ -494,60 +490,25 @@ function Lernkonsole() {
 
     lokalSchreiben(nutzlast);
 
-    if (syncRef.current) {
+    /* Erst schreiben, wenn beim Start einmal gelesen wurde — sonst könnte ein
+       Gerät, das den Server nie erreicht hat, einen fremden Stand plätten. */
+    if (serverRef.current) {
       try {
-        const antwort = await wolkeSpeichern(syncRef.current, nutzlast);
-        setSync((s) => ({ ...s, status: "aktiv", zuletzt: antwort.aktualisiert || Date.now() }));
+        const antwort = await wolkeSpeichern(nutzlast);
+        setServer({ status: "aktiv", zuletzt: antwort.aktualisiert || Date.now(), meldung: null });
       } catch (e) {
-        setSync((s) => ({ ...s, status: "fehler", meldung: e.code || "unbekannt" }));
+        setServer({ status: "fehler", zuletzt: null, meldung: e.code || "unbekannt" });
       }
     }
   }, []);
 
-  /* — Synchronisation einrichten, übernehmen, trennen — */
-  const syncEinrichten = useCallback(async () => {
-    const code = syncCode.neu();
-    try {
-      const antwort = await wolkeSpeichern(code, alsNutzlast(stateRef.current || leererStand()));
-      syncCode.schreiben(code);
-      syncRef.current = code;
-      setSync({ code, status: "aktiv", zuletzt: antwort.aktualisiert || Date.now() });
-      return { ok: true, code };
-    } catch (e) {
-      return { ok: false, fehler: e.code || "unbekannt" };
-    }
-  }, []);
-
-  const syncVerbinden = useCallback(async (eingabe) => {
-    const code = syncCode.saeubern(eingabe);
-    if (code.length < 12) return { ok: false, fehler: "code-ungueltig" };
-    try {
-      const antwort = await wolkeLaden(code);
-      if (antwort.vorhanden && antwort.daten && typeof antwort.daten.cards === "object") {
-        const uebernommen = normalisieren(antwort.daten);
-        setState(uebernommen);
-        lokalSchreiben(alsNutzlast(uebernommen));
-        syncCode.schreiben(code);
-        syncRef.current = code;
-        setSync({ code, status: "aktiv", zuletzt: antwort.aktualisiert || null });
-        return { ok: true, uebernommen: Object.keys(uebernommen.cards).length };
-      }
-      /* Zu diesem Code liegt noch nichts: den hiesigen Stand daran binden. */
-      const antwort2 = await wolkeSpeichern(code, alsNutzlast(stateRef.current || leererStand()));
-      syncCode.schreiben(code);
-      syncRef.current = code;
-      setSync({ code, status: "aktiv", zuletzt: antwort2.aktualisiert || Date.now() });
-      return { ok: true, uebernommen: 0 };
-    } catch (e) {
-      return { ok: false, fehler: e.code || "unbekannt" };
-    }
-  }, []);
-
-  const syncTrennen = useCallback(() => {
-    syncCode.schreiben(null);
-    syncRef.current = null;
-    setSync({ code: null, status: "aus", zuletzt: null });
-  }, []);
+  /* — Zweiter Anlauf, wenn der Server beim Start nicht erreichbar war — */
+  const serverErneut = useCallback(async () => {
+    const ergebnis = await serverAbgleichen(stateRef.current || lokalLesen());
+    if (ergebnis.stand) setState(ergebnis.stand);
+    setServer(ergebnis.server);
+    return ergebnis.server.status === "aktiv";
+  }, [serverAbgleichen]);
 
   /* — Auswahl der Session: fällig → neu → vorgezogen — */
   const buckets = useMemo(() => {
@@ -590,8 +551,7 @@ function Lernkonsole() {
     (view === "session" && session) ? h(Session, { session, setSession, state, persist, onDone: () => setView("ende") }) : null,
     (view === "ende" && session) ? h(Ende, { session, byId, onHome: () => { setSession(null); setView("home"); }, onDash: () => setView("dashboard") }) : null,
     view === "dashboard" ? h(Dashboard, {
-      state, persist, storageMode, sync,
-      onSyncEinrichten: syncEinrichten, onSyncVerbinden: syncVerbinden, onSyncTrennen: syncTrennen,
+      state, persist, storageMode, server, onServerErneut: serverErneut,
       onHome: () => setView("home"),
     }) : null
   );
@@ -838,7 +798,7 @@ function Ende({ session, byId, onHome, onDash }) {
 }
 
 /* ══════════════ Auswertung ══════════════ */
-function Dashboard({ state, persist, storageMode, sync, onSyncEinrichten, onSyncVerbinden, onSyncTrennen, onHome }) {
+function Dashboard({ state, persist, storageMode, server, onServerErneut, onHome }) {
   const [confirmReset, setConfirmReset] = useState(false);
   const [importMeldung, setImportMeldung] = useState(null);
   const log = state.log;
@@ -996,9 +956,9 @@ function Dashboard({ state, persist, storageMode, sync, onSyncEinrichten, onSync
         h("p", { className: "lead" },
           storageMode === "cloud"
             ? "Der Fortschritt wird laufend online gespeichert und ist bei jedem Öffnen dieser Seite im gleichen Konto wieder da. Die Sicherungsdatei bleibt trotzdem sinnvoll, etwa um auf einem anderen Konto weiterzumachen."
-            : sync && sync.status === "aktiv"
-            ? "Der Fortschritt liegt in diesem Browser und zusätzlich auf dem Server, der zu deinem Synchronisationscode gehört. Die Sicherungsdatei bleibt der Weg, um einen Stand zwischen den beiden Konsolen oder in die Artifact-Fassung zu tragen."
-            : "Der Fortschritt liegt vorerst nur in diesem Browser. Sichere ihn als Datei — oder richte unten eine Synchronisation ein, damit er auf dem Server landet und auf anderen Geräten wieder auftaucht."
+            : server && server.status === "aktiv"
+            ? "Der Fortschritt liegt in diesem Browser und zusätzlich auf dem Server dieser Seite. Die Sicherungsdatei bleibt der Weg, um einen Stand zwischen den beiden Konsolen oder in die Artifact-Fassung zu tragen."
+            : "Der Fortschritt liegt vorerst nur in diesem Browser — der Server ist gerade nicht erreichbar. Sichere ihn als Datei, bis der Abgleich unten wieder anspringt."
         ),
         h("div", { className: "actions" },
           h("button", { className: "ghost", onClick: exportieren }, "Als Datei sichern"),
@@ -1017,15 +977,13 @@ function Dashboard({ state, persist, storageMode, sync, onSyncEinrichten, onSync
           h("span", { className: "diaglabel" }, "Speicherstatus"),
           h("code", null,
             storageMode === "cloud" ? "Artifact-Speicher verbunden"
-              : sync && sync.status === "aktiv" ? "Cloud-Speicher über Synchronisationscode"
+              : server && server.status === "aktiv" ? "Server dieser Seite verbunden"
               : storageMode === "local" ? "nur lokal in diesem Browser"
               : "wird geprüft …")
         )
       ),
 
-      storageMode === "local" ? h(SyncKarte, {
-        sync, onEinrichten: onSyncEinrichten, onVerbinden: onSyncVerbinden, onTrennen: onSyncTrennen,
-      }) : null,
+      storageMode === "local" ? h(ServerKarte, { server, onErneut: onServerErneut }) : null,
 
       h("div", { className: "actions wrapactions" },
         h("button", { className: "primary", onClick: onHome }, "Zurück zum Start")
@@ -1034,124 +992,52 @@ function Dashboard({ state, persist, storageMode, sync, onSyncEinrichten, onSync
   );
 }
 
-/* ══════════════ Synchronisationskarte ══════════════
+/* ══════════════ Serverkarte ══════════════
    Nur außerhalb der Artifact-Ansicht sichtbar: dort erledigt der eingebaute
-   Speicher dasselbe ohne Code. */
-const SYNC_FEHLER = {
-  "keine-datenbank": "Auf dem Server ist noch kein Speicher eingerichtet. Solange bleibt der Fortschritt lokal in diesem Browser.",
-  "code-ungueltig": "Dieser Code ist unvollständig. Er besteht aus zwanzig Zeichen, Bindestriche darfst du mitschreiben.",
+   Speicher dasselbe. Im Normalfall steht hier nur, dass alles läuft. */
+const SERVER_FEHLER = {
+  "keine-datenbank": "Am Vercel-Projekt hängt noch keine Datenbank, oder das Deployment kennt die Zugangsdaten noch nicht.",
+  "keine-tabelle": "Die Datenbank ist verbunden, die Tabelle „fortschritt“ fehlt aber noch.",
   "kein-fortschritt": "Der Server hat den Stand abgelehnt.",
   "zu-gross": "Der Stand ist zu groß für den Speicher geworden. Sichere ihn als Datei.",
 };
-const syncMeldung = (code) =>
-  SYNC_FEHLER[code] || "Der Speicher war nicht erreichbar (" + code + "). Der Fortschritt bleibt in diesem Browser erhalten.";
+const serverMeldung = (code) =>
+  SERVER_FEHLER[code] || "Der Server war nicht erreichbar (" + code + ").";
 
-function SyncKarte({ sync, onEinrichten, onVerbinden, onTrennen }) {
-  const [offen, setOffen] = useState(false);
-  const [eingabe, setEingabe] = useState("");
+function ServerKarte({ server, onErneut }) {
   const [arbeitet, setArbeitet] = useState(false);
-  const [meldung, setMeldung] = useState(null);
-  const [kopiert, setKopiert] = useState(false);
+  const aktiv = server && server.status === "aktiv";
 
-  const aktiv = sync && sync.status === "aktiv";
-  const gestoert = sync && sync.status === "fehler";
-
-  const einrichten = async () => {
+  const erneut = async () => {
     setArbeitet(true);
-    setMeldung(null);
-    const ergebnis = await onEinrichten();
+    await onErneut();
     setArbeitet(false);
-    setMeldung(ergebnis.ok
-      ? { ok: true, text: "Code erstellt. Notiere ihn — ohne ihn kommst du auf einem anderen Gerät nicht an diesen Stand." }
-      : { ok: false, text: syncMeldung(ergebnis.fehler) });
-  };
-
-  const verbinden = async () => {
-    setArbeitet(true);
-    setMeldung(null);
-    const ergebnis = await onVerbinden(eingabe);
-    setArbeitet(false);
-    if (!ergebnis.ok) {
-      setMeldung({ ok: false, text: syncMeldung(ergebnis.fehler) });
-      return;
-    }
-    setOffen(false);
-    setEingabe("");
-    setMeldung({
-      ok: true,
-      text: ergebnis.uebernommen
-        ? ergebnis.uebernommen + " Fragen vom Server übernommen."
-        : "Verbunden. Zu diesem Code lag noch nichts, der hiesige Stand liegt jetzt dort.",
-    });
-  };
-
-  const kopieren = async () => {
-    try {
-      await navigator.clipboard.writeText(sync.code);
-      setKopiert(true);
-      setTimeout(() => setKopiert(false), 2000);
-    } catch (e) {
-      setMeldung({ ok: false, text: "Kopieren ging nicht — markiere den Code und kopiere ihn von Hand." });
-    }
-  };
-
-  const trennen = () => {
-    onTrennen();
-    setMeldung({ ok: true, text: "Getrennt. Der Stand auf dem Server bleibt liegen und ist mit dem Code wieder erreichbar." });
   };
 
   return h("div", { className: "card" },
     h("h2", { className: "ch" }, "Fortschritt geräteübergreifend"),
     h("p", { className: "lead" },
       aktiv
-        ? "Dieser Browser hängt an einem Synchronisationscode: Jede Bewertung landet auf dem Server. Gib denselben Code auf einem anderen Gerät ein, und du machst dort weiter."
-        : "Ohne Anmeldung: Ein einmal erzeugter Code ist der Schlüssel zu deinem Stand. Wer ihn hat, sieht ihn — behandle ihn wie ein Passwort."
+        ? "Jede Bewertung geht an den Server dieser Seite. Öffne dieselbe Adresse auf dem Handy oder einem anderen Rechner, und du machst dort weiter — anzumelden ist nichts."
+        : "Geplant ist: Jede Bewertung geht an den Server dieser Seite, und jedes Gerät unter dieser Adresse führt denselben Stand fort. Gerade klappt das nicht, deshalb bleibt der Fortschritt vorerst in diesem Browser."
     ),
-
-    aktiv
+    h("div", { className: "serverzeile " + (aktiv ? "an" : "ab") },
+      h("span", { className: "punkt" }),
+      h("span", null, aktiv ? "verbunden" : "nicht verbunden"),
+      aktiv && server.zuletzt
+        ? h("span", { className: "wann" }, "zuletzt gesichert " +
+            new Date(server.zuletzt).toLocaleString("de-AT", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" }))
+        : null
+    ),
+    !aktiv
       ? h(Fragment, null,
-          h("div", { className: "synccode" },
-            h("span", { className: "synclabel" }, "Dein Code"),
-            h("code", null, syncCode.gruppiert(sync.code))
-          ),
+          h("p", { className: "impmsg bad" }, serverMeldung((server && server.meldung) || "unbekannt")),
           h("div", { className: "actions" },
-            h("button", { className: "ghost", onClick: kopieren }, kopiert ? "Kopiert" : "Code kopieren"),
-            h("button", { className: "ghost", onClick: () => setOffen(true) }, "Anderen Code verwenden"),
-            h("button", { className: "danger", onClick: trennen }, "Trennen"),
-            sync.zuletzt
-              ? h("span", { className: "scoreline" }, "zuletzt " + new Date(sync.zuletzt).toLocaleString("de-AT", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" }))
-              : null
+            h("button", { className: "ghost", onClick: erneut, disabled: arbeitet },
+              arbeitet ? "wird versucht …" : "Erneut verbinden")
           )
         )
-      : h("div", { className: "actions" },
-          h("button", { className: "primary", onClick: einrichten, disabled: arbeitet }, arbeitet ? "einen Moment …" : "Synchronisation einrichten"),
-          !offen ? h("button", { className: "ghost", onClick: () => setOffen(true) }, "Vorhandenen Code eingeben") : null
-        ),
-
-    offen
-      ? h("div", { className: "syncform" },
-          h("input", {
-            type: "text",
-            className: "synceingabe",
-            value: eingabe,
-            spellCheck: false,
-            autoComplete: "off",
-            placeholder: "Code eingeben",
-            onChange: (ev) => setEingabe(ev.target.value),
-            onKeyDown: (ev) => { if (ev.key === "Enter" && !arbeitet) verbinden(); },
-          }),
-          h("button", { className: "primary", onClick: verbinden, disabled: arbeitet || syncCode.saeubern(eingabe).length < 12 }, "Verbinden"),
-          h("button", { className: "ghost", onClick: () => { setOffen(false); setEingabe(""); setMeldung(null); } }, "Abbrechen")
-        )
-      : null,
-
-    gestoert && !meldung
-      ? h("p", { className: "impmsg bad" }, syncMeldung(sync.meldung || "unbekannt"))
-      : null,
-    meldung ? h("p", { className: "impmsg " + (meldung.ok ? "good" : "bad") }, meldung.text) : null,
-    aktiv
-      ? h("p", { className: "footnote" }, "Der Code ersetzt kein Konto: Er schützt nichts weiter, als dass ihn niemand errät. Für den Notfall bleibt die Sicherungsdatei oben der zweite Weg.")
-      : null
+      : h("p", { className: "footnote" }, "Der Stand hängt an der Adresse, nicht an einem Konto: Wer diese Seite öffnet, sieht ihn. Weicht ein Gerät ab, gewinnt beim nächsten Öffnen der zuletzt geänderte Stand.")
   );
 }
 
@@ -1169,6 +1055,7 @@ app_js = (
     .replace("__KAPITEL_JSON__", json.dumps({str(k): v for k, v in CONFIG["kapitel"].items()}, ensure_ascii=False))
     .replace("__STORE_KEY_JSON__", json.dumps(CONFIG["storeKey"]))
     .replace("__APP_ID_JSON__", json.dumps(CONFIG["appId"]))
+    .replace("__SERVER_CODE_JSON__", json.dumps(CONFIG["serverCode"]))
     .replace("__TAGESGENAU__", "true" if CONFIG.get("faelligkeitNachKalendertagen") else "false")
     .replace("__APP_TITLE_JSON__", json.dumps(CONFIG["title"], ensure_ascii=False))
     .replace("__APP_SUBTITLE_JSON__", json.dumps(CONFIG["subtitle"].replace("{n}", str(POOL_COUNT)), ensure_ascii=False))
