@@ -135,6 +135,13 @@ body{background:#F2F4F7;margin:0}
 .lk .diaglabel{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:7px}
 .lk .diag code{display:inline-block;font-family:var(--mono);font-size:11.5px;background:var(--paper);border:1px solid var(--line);border-radius:2px;padding:3px 7px;margin:0 6px 6px 0;color:#33404F}
 
+.lk .synccode{background:var(--paper);border:1px solid var(--line);border-radius:3px;padding:12px 14px}
+.lk .synclabel{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.lk .synccode code{font-family:var(--mono);font-size:15px;letter-spacing:.06em;color:var(--axis);word-break:break-all;user-select:all}
+.lk .syncform{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:14px}
+.lk .synceingabe{flex:1 1 240px;min-width:0;font-family:var(--mono);font-size:14px;letter-spacing:.04em;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:3px;padding:12px 13px}
+.lk .synceingabe:focus{outline:2px solid var(--mark);outline-offset:1px;border-color:var(--axis)}
+
 .lk .reviewlist{list-style:none;margin:0;padding:0}
 .lk .reviewlist li{border-top:1px solid var(--line);padding:12px 0;display:flex;flex-direction:column;gap:3px}
 .lk .reviewlist li:first-child{border-top:0;padding-top:0}
@@ -193,6 +200,9 @@ const KAPITEL = __KAPITEL_JSON__;
 const STORE_KEY = __STORE_KEY_JSON__;
 const TAGESGENAU = __TAGESGENAU__;
 const DB_PATH = "progress/state";
+const APP_ID = __APP_ID_JSON__;
+const API_PFAD = "/api/fortschritt";
+const SYNC_KEY = STORE_KEY + "-sync";
 const SESSION_SIZE = 20;
 const NEW_QUOTA = 8;   // reservierte Plätze für neuen Stoff — sonst verdrängen
                        // Wiederholungen ihn, und der Pool ist nie komplett durch
@@ -315,14 +325,94 @@ const CONFIDENCE = [
   { key: 3, grade: 4, label: "Sofort klar", note: "ohne Zögern gewusst" },
 ];
 
+/* ══════════════ Fortschritt: Form und Ablage ══════════════ */
+const leererStand = () => ({ cards: {}, log: [], meta: { sessions: 0, days: [] } });
+const normalisieren = (raw) => ({
+  cards: raw.cards || {},
+  log: raw.log || [],
+  meta: { sessions: 0, days: [], ...(raw.meta || {}) },
+});
+const alsNutzlast = (stand) => ({
+  cards: stand.cards,
+  log: stand.log.slice(-3000),
+  meta: stand.meta,
+});
+const lokalLesen = () => {
+  try {
+    const roh = localStorage.getItem(STORE_KEY);
+    return roh ? normalisieren(JSON.parse(roh)) : null;
+  } catch (e) { return null; }
+};
+const lokalSchreiben = (nutzlast) => {
+  try { localStorage.setItem(STORE_KEY, JSON.stringify(nutzlast)); } catch (e) { /* voll oder gesperrt */ }
+};
+
+/* ══════════════ Synchronisation über die eigene Domain ══════════════
+   Außerhalb der Artifact-Ansicht übernimmt eine Serverless-Funktion dieser
+   Seite die Ablage. Angemeldet wird sich nicht: Der Synchronisationscode ist
+   das Geheimnis — wer ihn hat, sieht diesen Stand. Deshalb wird er zufällig
+   erzeugt und nicht ausgedacht. */
+const ALPHABET = "23456789abcdefghjkmnpqrstuvwxyz"; // ohne leicht verwechselbare Zeichen
+const syncCode = {
+  lesen() {
+    try { return localStorage.getItem(SYNC_KEY) || null; } catch (e) { return null; }
+  },
+  schreiben(code) {
+    try {
+      if (code) localStorage.setItem(SYNC_KEY, code);
+      else localStorage.removeItem(SYNC_KEY);
+    } catch (e) { /* nicht schreibbar */ }
+  },
+  neu() {
+    const werte = new Uint8Array(20);
+    window.crypto.getRandomValues(werte);
+    return Array.from(werte, (v) => ALPHABET[v % ALPHABET.length]).join("");
+  },
+  saeubern(eingabe) {
+    return String(eingabe || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+  },
+  gruppiert(code) {
+    return code ? code.replace(/(.{5})(?=.)/g, "$1-") : "";
+  },
+};
+
+const syncUrl = (code) =>
+  API_PFAD + "?app=" + encodeURIComponent(APP_ID) + "&code=" + encodeURIComponent(code);
+
+async function antwortPruefen(antwort) {
+  const inhalt = await antwort.json().catch(() => null);
+  if (!antwort.ok || !inhalt || !inhalt.ok) {
+    const fehler = new Error((inhalt && inhalt.fehler) || "http-" + antwort.status);
+    fehler.code = (inhalt && inhalt.fehler) || "http-" + antwort.status;
+    throw fehler;
+  }
+  return inhalt;
+}
+
+async function wolkeLaden(code) {
+  return antwortPruefen(await fetch(syncUrl(code), { cache: "no-store" }));
+}
+
+async function wolkeSpeichern(code, nutzlast) {
+  return antwortPruefen(await fetch(syncUrl(code), {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(nutzlast),
+  }));
+}
+
 /* ══════════════ App ══════════════ */
 function Lernkonsole() {
   const [state, setState] = useState(null);       // {cards, log, meta}
   const [loading, setLoading] = useState(true);
   const [storageMode, setStorageMode] = useState("checking"); // cloud | local
+  const [sync, setSync] = useState({ code: null, status: "aus", zuletzt: null });
   const [view, setView] = useState("home");        // home | session | ende | dashboard
   const [session, setSession] = useState(null);
   const dbRef = useRef(null);
+  const syncRef = useRef(null);
+  const stateRef = useRef(null);
+  stateRef.current = state;
 
   /* — Pool einmalig beim Start durchmischen — */
   const shuffledPool = useMemo(() => shuffle(POOL), []);
@@ -332,19 +422,14 @@ function Lernkonsole() {
     return m;
   }, []);
 
-  /* — Laden: zuerst der Cloud-Speicher dieser Seite, sonst dieser Browser — */
+  /* — Laden: Artifact-Speicher, sonst Synchronisationscode, sonst Browser — */
   useEffect(() => {
     let alive = true;
-    const leer = { cards: {}, log: [], meta: { sessions: 0, days: [] } };
-    const normalisieren = (raw) => ({
-      cards: raw.cards || {},
-      log: raw.log || [],
-      meta: { sessions: 0, days: [], ...(raw.meta || {}) },
-    });
 
     (async () => {
       let loaded = null;
       let mode = "local";
+      let syncStand = { code: null, status: "aus", zuletzt: null };
 
       try {
         if (typeof window.claude !== "undefined") {
@@ -359,18 +444,36 @@ function Lernkonsole() {
             }
           }
         }
-      } catch (e) { /* Cloud-Speicher nicht erreichbar */ }
+      } catch (e) { /* Artifact-Speicher nicht erreichbar */ }
 
-      if (!loaded) {
-        try {
-          const raw = localStorage.getItem(STORE_KEY);
-          if (raw) loaded = normalisieren(JSON.parse(raw));
-        } catch (e) { /* lokaler Speicher nicht lesbar */ }
+      if (!loaded) loaded = lokalLesen();
+
+      /* Außerhalb der Artifact-Ansicht übernimmt der Synchronisationscode. */
+      if (mode === "local") {
+        const code = syncCode.lesen();
+        if (code) {
+          syncRef.current = code;
+          try {
+            const antwort = await wolkeLaden(code);
+            if (antwort.vorhanden && antwort.daten && typeof antwort.daten.cards === "object") {
+              loaded = normalisieren(antwort.daten);
+              lokalSchreiben(alsNutzlast(loaded));
+              syncStand = { code, status: "aktiv", zuletzt: antwort.aktualisiert || null };
+            } else {
+              /* Der Code ist neu auf diesem Server: den hiesigen Stand hinterlegen. */
+              const antwort2 = await wolkeSpeichern(code, alsNutzlast(loaded || leererStand()));
+              syncStand = { code, status: "aktiv", zuletzt: antwort2.aktualisiert || Date.now() };
+            }
+          } catch (e) {
+            syncStand = { code, status: "fehler", zuletzt: null, meldung: e.code || "unbekannt" };
+          }
+        }
       }
 
       if (alive) {
-        setState(loaded || leer);
+        setState(loaded || leererStand());
         setStorageMode(mode);
+        setSync(syncStand);
         setLoading(false);
       }
     })();
@@ -379,17 +482,71 @@ function Lernkonsole() {
 
   const persist = useCallback(async (next) => {
     setState(next);
-    const payload = { cards: next.cards, log: next.log.slice(-3000), meta: next.meta };
+    const nutzlast = alsNutzlast(next);
     try {
       if (dbRef.current) {
-        await dbRef.current.doc(DB_PATH).set(payload);
-      } else {
-        localStorage.setItem(STORE_KEY, JSON.stringify(payload));
+        await dbRef.current.doc(DB_PATH).set(nutzlast);
+        return;
       }
     } catch (e) {
-      console.error("Speichern fehlgeschlagen", e);
-      try { localStorage.setItem(STORE_KEY, JSON.stringify(payload)); } catch (e2) { /* auch das ging nicht */ }
+      console.error("Speichern im Artifact-Speicher fehlgeschlagen", e);
     }
+
+    lokalSchreiben(nutzlast);
+
+    if (syncRef.current) {
+      try {
+        const antwort = await wolkeSpeichern(syncRef.current, nutzlast);
+        setSync((s) => ({ ...s, status: "aktiv", zuletzt: antwort.aktualisiert || Date.now() }));
+      } catch (e) {
+        setSync((s) => ({ ...s, status: "fehler", meldung: e.code || "unbekannt" }));
+      }
+    }
+  }, []);
+
+  /* — Synchronisation einrichten, übernehmen, trennen — */
+  const syncEinrichten = useCallback(async () => {
+    const code = syncCode.neu();
+    try {
+      const antwort = await wolkeSpeichern(code, alsNutzlast(stateRef.current || leererStand()));
+      syncCode.schreiben(code);
+      syncRef.current = code;
+      setSync({ code, status: "aktiv", zuletzt: antwort.aktualisiert || Date.now() });
+      return { ok: true, code };
+    } catch (e) {
+      return { ok: false, fehler: e.code || "unbekannt" };
+    }
+  }, []);
+
+  const syncVerbinden = useCallback(async (eingabe) => {
+    const code = syncCode.saeubern(eingabe);
+    if (code.length < 12) return { ok: false, fehler: "code-ungueltig" };
+    try {
+      const antwort = await wolkeLaden(code);
+      if (antwort.vorhanden && antwort.daten && typeof antwort.daten.cards === "object") {
+        const uebernommen = normalisieren(antwort.daten);
+        setState(uebernommen);
+        lokalSchreiben(alsNutzlast(uebernommen));
+        syncCode.schreiben(code);
+        syncRef.current = code;
+        setSync({ code, status: "aktiv", zuletzt: antwort.aktualisiert || null });
+        return { ok: true, uebernommen: Object.keys(uebernommen.cards).length };
+      }
+      /* Zu diesem Code liegt noch nichts: den hiesigen Stand daran binden. */
+      const antwort2 = await wolkeSpeichern(code, alsNutzlast(stateRef.current || leererStand()));
+      syncCode.schreiben(code);
+      syncRef.current = code;
+      setSync({ code, status: "aktiv", zuletzt: antwort2.aktualisiert || Date.now() });
+      return { ok: true, uebernommen: 0 };
+    } catch (e) {
+      return { ok: false, fehler: e.code || "unbekannt" };
+    }
+  }, []);
+
+  const syncTrennen = useCallback(() => {
+    syncCode.schreiben(null);
+    syncRef.current = null;
+    setSync({ code: null, status: "aus", zuletzt: null });
   }, []);
 
   /* — Auswahl der Session: fällig → neu → vorgezogen — */
@@ -432,7 +589,11 @@ function Lernkonsole() {
     view === "home" ? h(Home, { buckets, plan, state, onStart: startSession, onDash: () => setView("dashboard") }) : null,
     (view === "session" && session) ? h(Session, { session, setSession, state, persist, onDone: () => setView("ende") }) : null,
     (view === "ende" && session) ? h(Ende, { session, byId, onHome: () => { setSession(null); setView("home"); }, onDash: () => setView("dashboard") }) : null,
-    view === "dashboard" ? h(Dashboard, { state, persist, storageMode, onHome: () => setView("home") }) : null
+    view === "dashboard" ? h(Dashboard, {
+      state, persist, storageMode, sync,
+      onSyncEinrichten: syncEinrichten, onSyncVerbinden: syncVerbinden, onSyncTrennen: syncTrennen,
+      onHome: () => setView("home"),
+    }) : null
   );
 }
 
@@ -677,7 +838,7 @@ function Ende({ session, byId, onHome, onDash }) {
 }
 
 /* ══════════════ Auswertung ══════════════ */
-function Dashboard({ state, persist, storageMode, onHome }) {
+function Dashboard({ state, persist, storageMode, sync, onSyncEinrichten, onSyncVerbinden, onSyncTrennen, onHome }) {
   const [confirmReset, setConfirmReset] = useState(false);
   const [importMeldung, setImportMeldung] = useState(null);
   const log = state.log;
@@ -835,7 +996,9 @@ function Dashboard({ state, persist, storageMode, onHome }) {
         h("p", { className: "lead" },
           storageMode === "cloud"
             ? "Der Fortschritt wird laufend online gespeichert und ist bei jedem Öffnen dieser Seite im gleichen Konto wieder da. Die Sicherungsdatei bleibt trotzdem sinnvoll, etwa um auf einem anderen Konto weiterzumachen."
-            : "Cloud-Speicher ist in dieser Ansicht nicht verfügbar — der Fortschritt liegt nur lokal in diesem Browser. Sichere ihn regelmäßig als Datei, um ihn nicht zu verlieren."
+            : sync && sync.status === "aktiv"
+            ? "Der Fortschritt liegt in diesem Browser und zusätzlich auf dem Server, der zu deinem Synchronisationscode gehört. Die Sicherungsdatei bleibt der Weg, um einen Stand zwischen den beiden Konsolen oder in die Artifact-Fassung zu tragen."
+            : "Der Fortschritt liegt vorerst nur in diesem Browser. Sichere ihn als Datei — oder richte unten eine Synchronisation ein, damit er auf dem Server landet und auf anderen Geräten wieder auftaucht."
         ),
         h("div", { className: "actions" },
           h("button", { className: "ghost", onClick: exportieren }, "Als Datei sichern"),
@@ -852,14 +1015,143 @@ function Dashboard({ state, persist, storageMode, onHome }) {
         importMeldung ? h("p", { className: "impmsg " + (importMeldung.ok ? "good" : "bad") }, importMeldung.text) : null,
         h("div", { className: "diag" },
           h("span", { className: "diaglabel" }, "Speicherstatus"),
-          h("code", null, storageMode === "cloud" ? "Cloud-Speicher verbunden" : storageMode === "local" ? "nur lokal in diesem Browser" : "wird geprüft …")
+          h("code", null,
+            storageMode === "cloud" ? "Artifact-Speicher verbunden"
+              : sync && sync.status === "aktiv" ? "Cloud-Speicher über Synchronisationscode"
+              : storageMode === "local" ? "nur lokal in diesem Browser"
+              : "wird geprüft …")
         )
       ),
+
+      storageMode === "local" ? h(SyncKarte, {
+        sync, onEinrichten: onSyncEinrichten, onVerbinden: onSyncVerbinden, onTrennen: onSyncTrennen,
+      }) : null,
 
       h("div", { className: "actions wrapactions" },
         h("button", { className: "primary", onClick: onHome }, "Zurück zum Start")
       )
     )
+  );
+}
+
+/* ══════════════ Synchronisationskarte ══════════════
+   Nur außerhalb der Artifact-Ansicht sichtbar: dort erledigt der eingebaute
+   Speicher dasselbe ohne Code. */
+const SYNC_FEHLER = {
+  "keine-datenbank": "Auf dem Server ist noch kein Speicher eingerichtet. Solange bleibt der Fortschritt lokal in diesem Browser.",
+  "code-ungueltig": "Dieser Code ist unvollständig. Er besteht aus zwanzig Zeichen, Bindestriche darfst du mitschreiben.",
+  "kein-fortschritt": "Der Server hat den Stand abgelehnt.",
+  "zu-gross": "Der Stand ist zu groß für den Speicher geworden. Sichere ihn als Datei.",
+};
+const syncMeldung = (code) =>
+  SYNC_FEHLER[code] || "Der Speicher war nicht erreichbar (" + code + "). Der Fortschritt bleibt in diesem Browser erhalten.";
+
+function SyncKarte({ sync, onEinrichten, onVerbinden, onTrennen }) {
+  const [offen, setOffen] = useState(false);
+  const [eingabe, setEingabe] = useState("");
+  const [arbeitet, setArbeitet] = useState(false);
+  const [meldung, setMeldung] = useState(null);
+  const [kopiert, setKopiert] = useState(false);
+
+  const aktiv = sync && sync.status === "aktiv";
+  const gestoert = sync && sync.status === "fehler";
+
+  const einrichten = async () => {
+    setArbeitet(true);
+    setMeldung(null);
+    const ergebnis = await onEinrichten();
+    setArbeitet(false);
+    setMeldung(ergebnis.ok
+      ? { ok: true, text: "Code erstellt. Notiere ihn — ohne ihn kommst du auf einem anderen Gerät nicht an diesen Stand." }
+      : { ok: false, text: syncMeldung(ergebnis.fehler) });
+  };
+
+  const verbinden = async () => {
+    setArbeitet(true);
+    setMeldung(null);
+    const ergebnis = await onVerbinden(eingabe);
+    setArbeitet(false);
+    if (!ergebnis.ok) {
+      setMeldung({ ok: false, text: syncMeldung(ergebnis.fehler) });
+      return;
+    }
+    setOffen(false);
+    setEingabe("");
+    setMeldung({
+      ok: true,
+      text: ergebnis.uebernommen
+        ? ergebnis.uebernommen + " Fragen vom Server übernommen."
+        : "Verbunden. Zu diesem Code lag noch nichts, der hiesige Stand liegt jetzt dort.",
+    });
+  };
+
+  const kopieren = async () => {
+    try {
+      await navigator.clipboard.writeText(sync.code);
+      setKopiert(true);
+      setTimeout(() => setKopiert(false), 2000);
+    } catch (e) {
+      setMeldung({ ok: false, text: "Kopieren ging nicht — markiere den Code und kopiere ihn von Hand." });
+    }
+  };
+
+  const trennen = () => {
+    onTrennen();
+    setMeldung({ ok: true, text: "Getrennt. Der Stand auf dem Server bleibt liegen und ist mit dem Code wieder erreichbar." });
+  };
+
+  return h("div", { className: "card" },
+    h("h2", { className: "ch" }, "Fortschritt geräteübergreifend"),
+    h("p", { className: "lead" },
+      aktiv
+        ? "Dieser Browser hängt an einem Synchronisationscode: Jede Bewertung landet auf dem Server. Gib denselben Code auf einem anderen Gerät ein, und du machst dort weiter."
+        : "Ohne Anmeldung: Ein einmal erzeugter Code ist der Schlüssel zu deinem Stand. Wer ihn hat, sieht ihn — behandle ihn wie ein Passwort."
+    ),
+
+    aktiv
+      ? h(Fragment, null,
+          h("div", { className: "synccode" },
+            h("span", { className: "synclabel" }, "Dein Code"),
+            h("code", null, syncCode.gruppiert(sync.code))
+          ),
+          h("div", { className: "actions" },
+            h("button", { className: "ghost", onClick: kopieren }, kopiert ? "Kopiert" : "Code kopieren"),
+            h("button", { className: "ghost", onClick: () => setOffen(true) }, "Anderen Code verwenden"),
+            h("button", { className: "danger", onClick: trennen }, "Trennen"),
+            sync.zuletzt
+              ? h("span", { className: "scoreline" }, "zuletzt " + new Date(sync.zuletzt).toLocaleString("de-AT", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" }))
+              : null
+          )
+        )
+      : h("div", { className: "actions" },
+          h("button", { className: "primary", onClick: einrichten, disabled: arbeitet }, arbeitet ? "einen Moment …" : "Synchronisation einrichten"),
+          !offen ? h("button", { className: "ghost", onClick: () => setOffen(true) }, "Vorhandenen Code eingeben") : null
+        ),
+
+    offen
+      ? h("div", { className: "syncform" },
+          h("input", {
+            type: "text",
+            className: "synceingabe",
+            value: eingabe,
+            spellCheck: false,
+            autoComplete: "off",
+            placeholder: "Code eingeben",
+            onChange: (ev) => setEingabe(ev.target.value),
+            onKeyDown: (ev) => { if (ev.key === "Enter" && !arbeitet) verbinden(); },
+          }),
+          h("button", { className: "primary", onClick: verbinden, disabled: arbeitet || syncCode.saeubern(eingabe).length < 12 }, "Verbinden"),
+          h("button", { className: "ghost", onClick: () => { setOffen(false); setEingabe(""); setMeldung(null); } }, "Abbrechen")
+        )
+      : null,
+
+    gestoert && !meldung
+      ? h("p", { className: "impmsg bad" }, syncMeldung(sync.meldung || "unbekannt"))
+      : null,
+    meldung ? h("p", { className: "impmsg " + (meldung.ok ? "good" : "bad") }, meldung.text) : null,
+    aktiv
+      ? h("p", { className: "footnote" }, "Der Code ersetzt kein Konto: Er schützt nichts weiter, als dass ihn niemand errät. Für den Notfall bleibt die Sicherungsdatei oben der zweite Weg.")
+      : null
   );
 }
 
@@ -876,6 +1168,7 @@ app_js = (
     app_js.replace("__CSS_JSON__", json.dumps(css))
     .replace("__KAPITEL_JSON__", json.dumps({str(k): v for k, v in CONFIG["kapitel"].items()}, ensure_ascii=False))
     .replace("__STORE_KEY_JSON__", json.dumps(CONFIG["storeKey"]))
+    .replace("__APP_ID_JSON__", json.dumps(CONFIG["appId"]))
     .replace("__TAGESGENAU__", "true" if CONFIG.get("faelligkeitNachKalendertagen") else "false")
     .replace("__APP_TITLE_JSON__", json.dumps(CONFIG["title"], ensure_ascii=False))
     .replace("__APP_SUBTITLE_JSON__", json.dumps(CONFIG["subtitle"].replace("{n}", str(POOL_COUNT)), ensure_ascii=False))

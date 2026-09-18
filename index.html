@@ -37,6 +37,7 @@
 
   .hinweis{border-left:3px solid var(--line);padding:2px 0 2px 14px;margin-top:26px;font-size:13.5px;color:var(--muted)}
   .hinweis b{color:#33404F;font-weight:600}
+  .hinweis i{font-style:normal;color:#33404F}
   @media (max-width:520px){h1{font-size:20px}.kopf h2{font-size:17.5px}.karte,a.karte{padding:16px 14px}}
 </style>
 </head>
@@ -64,10 +65,11 @@
   </div>
 
   <p class="hinweis">
-    <b>Fortschritt auf dieser Domain:</b> Beide Konsolen speichern hier lokal im Browser, jede unter
-    einem eigenen Schlüssel — sie überschreiben einander nicht, wandern aber auch nicht auf andere
-    Geräte mit. Wer den Fortschritt geräteübergreifend synchron halten will, nutzt die Artifact-Fassung;
-    die Sicherungsdatei in der Auswertung überträgt einen Stand zwischen beiden Wegen.
+    <b>Fortschritt auf dieser Domain:</b> Jede Konsole speichert zuerst im Browser. In der Auswertung
+    lässt sich unter <i>Fortschritt geräteübergreifend</i> ein Synchronisationscode erzeugen — ab dann
+    liegt der Stand zusätzlich auf dem Server und ist mit demselben Code auf jedem anderen Gerät wieder
+    da. Beide Konsolen zählen dabei getrennt. Die Sicherungsdatei in der Auswertung bleibt der Weg,
+    einen Stand von Hand weiterzureichen.
   </p>
 </div>
 

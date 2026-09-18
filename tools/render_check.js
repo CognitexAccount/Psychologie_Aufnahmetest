@@ -90,8 +90,28 @@ const testCode = `
   const stateFixture2 = { cards: stateFixture.cards, log: logFixture, meta: { sessions: 1, days: [Date.now()] } };
   renderTree(createElement(Dashboard, { state: stateFixture2, persist: async()=>{}, storageMode: "cloud", onHome(){} }));
   renderTree(createElement(Dashboard, { state: stateFixture2, persist: async()=>{}, storageMode: "local", onHome(){} }));
+  const syncProps = { onSyncEinrichten: async()=>({ok:true}), onSyncVerbinden: async()=>({ok:true}), onSyncTrennen(){} };
+  renderTree(createElement(Dashboard, { state: stateFixture2, persist: async()=>{}, storageMode: "checking", sync: { code: null, status: "aus", zuletzt: null }, ...syncProps, onHome(){} }));
   renderTree(createElement(Dashboard, { state: { cards: {}, log: [], meta: { sessions: 0, days: [] } }, persist: async()=>{}, storageMode: "checking", onHome(){} }));
   console.log("Dashboard OK");
+
+  // ---- SyncKarte: aus / aktiv / fehler, dazu das geöffnete Eingabefeld ----
+  const karte = (sync) => createElement(SyncKarte, { sync, onEinrichten: async()=>({ok:true}), onVerbinden: async()=>({ok:true}), onTrennen(){} });
+  const zustaende = [
+    { code: null, status: "aus", zuletzt: null },
+    { code: "abcde23456fghij78", status: "aktiv", zuletzt: Date.now() },
+    { code: "abcde23456fghij78", status: "aktiv", zuletzt: null },
+    { code: "abcde23456fghij78", status: "fehler", zuletzt: null, meldung: "keine-datenbank" },
+    { code: "abcde23456fghij78", status: "fehler", zuletzt: null, meldung: "http-502" },
+  ];
+  zustaende.forEach((z) => renderTree(karte(z)));
+
+  // dieselben Zustände noch einmal mit aufgeklapptem Eingabefeld
+  const echtesUseState = React.useState;
+  React.useState = (init) => [typeof init === "boolean" ? true : (typeof init === "function" ? init() : init), () => {}];
+  zustaende.forEach((z) => renderTree(karte(z)));
+  React.useState = echtesUseState;
+  console.log("SyncKarte OK");
 
   console.log("ALL COMPONENT RENDERS OK");
 })();
