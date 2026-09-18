@@ -1,0 +1,546 @@
+[
+{
+  "kap": 7,
+  "sec": "7.3.4 Gehorsam gegenüber Autoritäten",
+  "stem": "Milgram (1974) berichtete 18 weitere Studien, in denen der ursprüngliche Versuch variiert wurde. Welche Aussagen zu den dabei gefundenen bedingenden Faktoren treffen zu?",
+  "opts": [
+    {"t": "Mit abnehmender Distanz zwischen Lehrer und Schüler sank der Gehorsam; selbst im gleichen Raum machten aber noch über 30 % der Lehrer bis zum Ende mit.", "c": true, "fb": "Zwischenstufen waren etwa verbales Feedback des Schülers aus dem Nebenraum, bevor beide in denselben Raum gesetzt wurden."},
+    {"t": "Gab der Versuchsleiter seine Anweisungen per Telefon statt im selben Raum, stieg die Bereitschaft zu sehr starken Stromstößen deutlich an.", "c": false, "fb": "Umgekehrt: Bei abwesendem Versuchsleiter waren weniger Lehrer bereit, sehr starke Stromstöße zu verabreichen."},
+    {"t": "In einem erkennbar heruntergekommenen Gebäude fiel der Gehorsam geringer aus als in den Räumen der Eliteuniversität Yale — annähernd 50 % gingen dort dennoch bis zur stärksten Stufe.", "c": true, "fb": "Die Räumlichkeit wirkt über die Seriosität, die der Untersuchung und damit der Autorität zugeschrieben wird."},
+    {"t": "Vor dem ersten Experiment sagten befragte Psychiater voraus, etwa ein Drittel der Versuchspersonen werde bis 450 Volt gehen; tatsächlich waren es 65 %.", "c": false, "fb": "Vorhergesagt wurde 1 %. Gerade die Kluft zu den tatsächlichen 65 % machte den Befund so folgenreich."}
+  ],
+  "concept": {
+    "title": "Bedingende Faktoren des Gehorsams (Milgram, 1974)",
+    "points": [
+      "<b>Distanz zum Opfer</b>: Je näher der Schüler, desto geringer der Gehorsam — bei gemeinsamem Raum aber immer noch über 30 % bis zur Höchststufe.",
+      "<b>Anwesenheit der Autorität</b>: Anweisungen per Telefon senken die Bereitschaft zu sehr starken Stromstößen.",
+      "<b>Räumlichkeit</b>: In ordentlichen Räumen der Universität Yale höherer Gehorsam als im heruntergekommenen Gebäude — dort dennoch annähernd 50 %.",
+      "<b>Gradueller Anstieg</b>: Der Beginn bei 15 Volt erzeugt kaum Hemmungen; danach ist der richtige Ausstiegszeitpunkt schwer zu finden.",
+      "<b>Zeitdruck und Verantwortungsverlagerung</b>: Die Situation schreitet schnell voran, man erlebt sich als „ausführendes Werkzeug“ und schreibt die Verantwortung der Expertin oder dem Experten zu (Blass, 1999).",
+      "<b>Vorhersage vs. Befund</b>: erwartet 1 %, tatsächlich 65 %. Die Ergebnisse lieferten eine mögliche Erklärung dafür, wie nach außen unauffällige Bürger:innen am Holocaust beteiligt sein konnten."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.5.2 Empathie-Altruismus-Hypothese",
+  "stem": "Wie lässt sich altruistisch motiviertes von nicht altruistisch motiviertem prosozialen Verhalten unterscheiden?",
+  "opts": [
+    {"t": "Altruistisch motivierte Personen berichten nach einem gelungenen Hilfeversuch eine deutlich stärkere Stimmungsverbesserung als nicht altruistisch motivierte.", "c": false, "fb": "Eine Stimmungsverbesserung kann bei empathisch motivierter Hilfe zwar eintreten, gilt aber als Nebeneffekt und taugt nicht als Unterscheidungskriterium."},
+    {"t": "Man fragt, ob ein fehlgeschlagener Hilfeversuch die Stimmung verschlechtern würde — bei empathisch motivierter Hilfe ist das sehr wahrscheinlich der Fall.", "c": true, "fb": "Im Vordergrund steht die tatsächliche Notlinderung der anderen Person; bleibt sie aus, verschlechtert sich die Stimmung der helfenden Person."},
+    {"t": "Bleibt die Notlinderung aus, verschlechtert sich die Stimmung nur dann, wenn der Hilfeversuch objektiv vermeidbar gewesen wäre.", "c": false, "fb": "Die Verschlechterung tritt auch dann ein, wenn das Scheitern objektiv gesehen unvermeidbar war."},
+    {"t": "Bei nicht empathisch motivierter Hilfe fällt die Stimmungsverschlechterung nach einem Fehlschlag besonders stark aus, weil der erhoffte soziale Gewinn ausbleibt.", "c": false, "fb": "Dort tritt gerade keine Verschlechterung ein — allein der Versuch reicht aus, um das Gewissen zu beruhigen (vgl. Batson & Weeks, 1996)."}
+  ],
+  "concept": {
+    "title": "Altruistisch oder nicht? Das Kriterium des fehlgeschlagenen Hilfeversuchs",
+    "points": [
+      "<b>Altruismus</b>: prosoziales Verhalten ohne egoistische Motivation, frei von Hintergedanken über eigene Vorteile und durch Empathie motiviert (Batson & Weeks, 1996).",
+      "<b>Prosoziales Verhalten allgemein</b> kann der helfenden Person durchaus nutzen — etwa durch soziale Anerkennung oder um später Gunst zu gewinnen.",
+      "<b>Prüffrage</b>: Würde ein fehlgeschlagener Hilfeversuch die Stimmung verschlechtern?",
+      "<b>Empathisch motiviert</b>: ja, weil die angestrebte Notlinderung ausbleibt — und zwar auch dann, wenn das Scheitern unvermeidbar war.",
+      "<b>Nicht empathisch motiviert</b>: nein, weil bereits der Versuch das Gewissen beruhigt.",
+      "<b>Nebeneffekt</b>: Auch empathisch motivierte Hilfe kann die eigene Stimmung verbessern; das macht sie nicht weniger altruistisch (Werth & Mayer, 2020)."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.3.6 Soziale Rollen und Normen",
+  "stem": "Welche Aussagen zur Deindividuation und zu den Bedingungen, unter denen sie entsteht, treffen zu?",
+  "opts": [
+    {"t": "Deindividuation beschreibt die Vernachlässigung der eigenen Identität bei gleichzeitig verstärkter Anpassung an Gruppennormen und deren Befolgung.", "c": true, "fb": "Der Begriff verbindet damit zwei Seiten: den Rückzug des Individuellen und die Zunahme des Normkonformen."},
+    {"t": "Mit steigender Mitgliederzahl wächst die Anonymität der oder des Einzelnen, und das eigene Verhalten wird weniger stark reflektiert (Diener, Lusk, DeFour & Flax, 1980).", "c": true, "fb": "Die Gruppengröße ist damit eine direkte Bedingung der Deindividuation."},
+    {"t": "Uniformen dienen ausschließlich der Deindividuation und wirken der Identifikation mit der Gruppe entgegen.", "c": false, "fb": "Uniformen fördern zwar die Anonymität, tragen aber ebenso zur positiven Identifikation mit der Gruppe und deren Zielen bei."},
+    {"t": "Das Tragen von Masken oder Uniformen kann den Prozess zusätzlich verstärken (Rehm, Steinleitner & Lilli, 1987).", "c": true, "fb": "Solche Mittel fördern Anonymität und Identifikation mit der Gruppe gleichermaßen."}
+  ],
+  "concept": {
+    "title": "Deindividuation (Infobox 7.5)",
+    "points": [
+      "<b>Definition</b>: psychologisches Phänomen, bei dem es zur Vernachlässigung der eigenen Identität und zu verstärkter Anpassung an Gruppennormen sowie deren Befolgung kommt.",
+      "<b>Bedingung Gruppengröße</b>: Mit der Mitgliederzahl steigt die Anonymität, und das eigene Verhalten wird weniger reflektiert (Diener et al., 1980).",
+      "<b>Verstärker</b>: Masken und Uniformen erhöhen Anonymität und Identifikation mit der Gruppe (Rehm, Steinleitner & Lilli, 1987).",
+      "<b>Zweck im Heer</b>: Angleichung über Uniformen und kurze Haare unterdrückt die Persönlichkeit, damit jedes Mitglied die Gruppenziele übernimmt — Uniformen stiften zugleich positive Identifikation.",
+      "<b>Anwendungsfall</b>: Im Stanford Gefängnisexperiment verschwammen individuelle Identität und persönliche Werte hinter den zugeschriebenen Rollen Wärter und Häftling."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.2.1 Schemata",
+  "stem": "Welche Aussagen zum Schemabegriff und zum Nutzen der Kategorisierung treffen zu?",
+  "opts": [
+    {"t": "Ein Schema umfasst das erworbene Wissen über ein Thema in Form von Attributen, nicht jedoch die Beziehungen zwischen einzelnen Konzepten.", "c": false, "fb": "Gerade die Beziehungen gehören dazu — im Konzertbeispiel etwa die Verknüpfung von „aufregend“ mit „(Vor-)Freude“."},
+    {"t": "Schemata lassen sich als vereinfachte Gedächtnisrepräsentationen und Auffassungen über Menschen, Gegenstände und Ereignisse beschreiben.", "c": true, "fb": "Sie gliedern Wissen und Erleben und beeinflussen dadurch Wahrnehmung, Interpretation, Erinnerung und Verhalten."},
+    {"t": "Der Vorteil der Kategorisierung liegt darin, dass sich die aus der Kategorie erschlossenen Merkmale einer Person zuverlässig als richtig erweisen.", "c": false, "fb": "Solche Schlussfolgerungen können oft richtig sein, es kann aber ebenso zu falschen Schlussfolgerungen kommen."},
+    {"t": "Durch die Zuordnung eines Zielobjekts zu einer Kategorie lassen sich mehr Informationen erschließen, als auf den ersten Blick verfügbar sind.", "c": true, "fb": "Im Beispiel des Kapitels erschließt die Kategorie „Groupie“ Merkmale, die die Person selbst nicht sichtbar macht."}
+  ],
+  "concept": {
+    "title": "Der Schemabegriff und die Leistung von Kategorien",
+    "points": [
+      "<b>Schema</b>: übergeordnete Wissensstruktur, die Wissen und Erleben gliedert und dadurch Wahrnehmung, Interpretation, Erinnerung und Verhalten beeinflusst (Jonas, Stroebe & Hewstone, 2014).",
+      "<b>Inhalt eines Schemas</b>: erworbenes Wissen in Form von Attributen <i>und</i> die Beziehungen zwischen verschiedenen Konzepten.",
+      "<b>Kurzformel</b>: vereinfachte Gedächtnisrepräsentationen und Auffassungen über Menschen, Gegenstände, Ereignisse.",
+      "<b>Nutzen der Kategorisierung</b>: Aus dem Kategorienwissen lassen sich mehr Informationen erschließen, als auf den ersten Blick verfügbar sind.",
+      "<b>Kehrseite</b>: Schlussfolgerungen über typische Merkmale sind oft, aber nicht immer richtig — es kann zu falschen Schlussfolgerungen kommen.",
+      "<b>Gedankenexperiment</b>: Der Begriff „Konzert“ ruft Attribute wie „aufregend“ und „unterhaltsam“ ab, die untereinander verknüpft sind."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.4 Intergruppenprozesse",
+  "stem": "Ferienlagerexperiment und Minimalgruppenparadigma zeichnen ein zum Teil destruktives Bild von Gruppenzugehörigkeit. Welche Gegenargumente führt das Kapitel an?",
+  "opts": [
+    {"t": "Gruppenzugehörigkeiten sind sinn- und identitätsstiftend und helfen dabei, sich in der Welt zurechtzufinden.", "c": true, "fb": "Zugehörigkeit nach Berufsgruppe, Hobby, nationaler, religiöser oder politischer Ausrichtung ist deshalb von hoher Wichtigkeit für das Individuum."},
+    {"t": "Sie bieten Geborgenheit und befriedigen das Bedürfnis nach sozialer Eingebundenheit und Kontakt.", "c": true, "fb": "Damit erfüllen Gruppen ein Grundbedürfnis, das auch unabhängig von der Überlebenssicherung besteht."},
+    {"t": "Sie sind zentral für die Selbstdefinition und den Selbstwert.", "c": true, "fb": "Deshalb wirkt sich der Vergleich der eigenen Gruppe mit anderen unmittelbar auf die Selbsteinschätzung aus."},
+    {"t": "Weil Menschen zum Überleben immer auf Gruppen angewiesen waren, ist es sinnvoll, dass Gruppen im Zweifels- oder Bedarfsfall von ihren Mitgliedern verteidigt werden.", "c": true, "fb": "Die Verteidigungsbereitschaft ist damit funktional und nicht bloß eine Fehlleistung."}
+  ],
+  "concept": {
+    "title": "Funktionen von Gruppenzugehörigkeit",
+    "points": [
+      "<b>Identitätsstiftung</b>: Gruppenzugehörigkeiten sind sinn- und identitätsstiftend und helfen bei der Orientierung in der Welt.",
+      "<b>Bedürfnisbefriedigung</b>: Sie bieten Geborgenheit und befriedigen das Bedürfnis nach sozialer Eingebundenheit und Kontakt.",
+      "<b>Selbstwert</b>: Sie sind zentral für Selbstdefinition und Selbstwert — Grundlage der Theorie der Sozialen Identität.",
+      "<b>Evolutionäre Funktion</b>: Menschen waren zum Überleben immer auf Gruppen angewiesen; die Verteidigung der eigenen Gruppe ist daher funktional.",
+      "<b>Konstruktives Beispiel</b>: In der Covid-Pandemie hing die Identifikation mit der eigenen Nation mit der Unterstützung von Schutzmaßnahmen und dem eigenen Gesundheitsverhalten zusammen (van Bavel et al., 2020).",
+      "<b>Fazit</b>: Die Folgen von Gruppenzugehörigkeit sind mannigfaltig und können konstruktiv wie destruktiv ausfallen."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.3.1 Soziale Erleichterung vs. soziale Hemmung",
+  "stem": "Die Distraction-Conflict-Theory beschreibt die Leistungssteigerung durch Anwesende als Folge mehrerer aufeinanderfolgender kausaler Schritte. Welche Aussage dazu trifft zu?",
+  "opts": [
+    {"t": "Der Aufmerksamkeitskonflikt entsteht dadurch, dass Anwesende eine besonders gut vorhersehbare Reizquelle darstellen.", "c": false, "fb": "Anwesende gelten gerade als unberechenbar; sie bieten Informationen und Hinweisreize und ermöglichen Vergleiche."},
+    {"t": "Bereits die Bewältigung der Aufgabe allein bindet kaum Aufmerksamkeit, weshalb Anwesende sie nahezu vollständig auf sich ziehen.", "c": false, "fb": "Die Theorie setzt gerade voraus, dass schon die Aufgabe selbst ein gewisses Maß an Aufmerksamkeit fordert — erst daraus entsteht der Konflikt."},
+    {"t": "Ein Aufmerksamkeitskonflikt setzt voraus, dass die handelnde Person die Tendenz oder den Bedarf hat, sich zwei einander ausschließenden Reizen zu widmen.", "c": true, "fb": "Aufgabe einerseits, Beobachter:innen andererseits — erst dieser Konflikt zieht Ressourcen von der Aufgabe ab."},
+    {"t": "Der Abzug von Aufmerksamkeitsressourcen wirkt sich vor allem bei komplexen Aufgaben günstig aus.", "c": false, "fb": "Die Verengung auf zentrale Aspekte hilft bei leichten Aufgaben; bei schwierigen führt sie zur sozialen Hemmung."}
+  ],
+  "concept": {
+    "title": "Die drei kausalen Schritte der Distraction-Conflict-Theory (Baron, 1986)",
+    "points": [
+      "<b>Ausgangspunkt</b>: Bereits die Aufgabe selbst fordert ein gewisses Maß an Aufmerksamkeit.",
+      "<b>Schritt 1</b>: Anwesende Menschen stellen eine Ablenkung dar — sie sind unberechenbar, bieten Informationen oder Hinweisreize und ermöglichen Vergleiche.",
+      "<b>Schritt 2</b>: Die Ablenkung führt zu Aufmerksamkeitskonflikten, sofern die handelnde Person die Tendenz oder den Bedarf hat, sich zwei einander ausschließenden Reizen zu widmen.",
+      "<b>Schritt 3</b>: Aufmerksamkeitsressourcen werden von der Aufgabe abgezogen; nur die zentralen Aspekte werden beachtet, periphere vernachlässigt.",
+      "<b>Doppelte Folge</b>: Bei leichten Aufgaben hilfreich (soziale Erleichterung), bei schwierigen hinderlich, weil dort mehrere Aspekte einzubeziehen wären (soziale Hemmung).",
+      "<b>Verhältnis zu Zajonc (1965)</b>: Die Theorie ergänzt bzw. erweitert die Erklärung über physiologische Erregung, ersetzt sie aber nicht."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.3.3 Einfluss von Minderheiten",
+  "stem": "Welche Aussagen zur Anagrammstudie von Nemeth und Kwan (1987) treffen zu?",
+  "opts": [
+    {"t": "Die Versuchspersonen bearbeiteten die Aufgaben in Gruppen zu vier Personen und notierten jeweils das erste dreibuchstabige Wort, das sie identifizierten.", "c": true, "fb": "Bei der Buchstabenfolge „TDOGT“ wäre etwa „DOG“ die naheliegendste Lösung."},
+    {"t": "In der Minderheitsbedingung übernahmen die Versuchspersonen die abweichende Strategie unverändert und bildeten die Wörter fortan rückwärts.", "c": false, "fb": "Das geschah in der Mehrheitsbedingung. In der Minderheitsbedingung wurde die Strategie nicht blind übernommen, sondern das eigene Vorgehen erweitert."},
+    {"t": "Die Rückmeldung lautete in der Mehrheitsbedingung, 1 von 4 Personen habe „GOD“ notiert.", "c": false, "fb": "1 von 4 war die Minderheitsbedingung; in der Mehrheitsbedingung waren es 3 von 4."},
+    {"t": "Die abweichende Lösung bestand aus denselben Buchstaben in umgekehrter Reihenfolge — bei „TDOGT“ also „GOD“ statt „DOG“.", "c": true, "fb": "Dieselben Buchstaben, andere Leserichtung: Genau daran ließ sich prüfen, ob die Strategie übernommen oder erweitert wird."}
+  ],
+  "concept": {
+    "title": "Divergentes Denken durch Minderheiten (Nemeth & Kwan, 1987)",
+    "points": [
+      "<b>Aufbau</b>: Gruppen zu vier Personen bearbeiteten Anagrammaufgaben und notierten jeweils das erste gefundene Wort mit drei Buchstaben.",
+      "<b>Manipulation</b>: Rückmeldung, dass 3 von 4 Personen (Mehrheitsbedingung) oder 1 von 4 Personen (Minderheitsbedingung) das rückwärts gebildete Wort notiert hatten.",
+      "<b>Mehrheitsbedingung</b>: Die Versuchspersonen folgten in den weiteren Durchläufen ebenfalls der Rückwärts-Strategie.",
+      "<b>Minderheitsbedingung</b>: Die abweichende Strategie wurde nicht blind übernommen; stattdessen wurde das eigene Vorgehen erweitert (vorwärts, rückwärts, gemischt).",
+      "<b>Schluss</b>: Minderheiten fördern divergentes Denken — es werden mehrere Lösungsansätze in Betracht gezogen. Mehrheiten erzeugen dagegen konformes Verhalten."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.2.3 Zwei-Prozess-Modelle: ELM",
+  "stem": "Das Kapitel lädt dazu ein, drei Alltagssituationen einer der beiden ELM-Routen zuzuordnen. Welche Zuordnungen und Begründungen treffen zu?",
+  "opts": [
+    {"t": "Wer sich einen Vormittag Zeit nimmt, um sich im Elektrofachmarkt umfassend zum Smartphonekauf beraten zu lassen, verarbeitet auf der zentralen Route.", "c": true, "fb": "Persönliche Relevanz ist hoch, Vorwissen vorhanden, Zeitdruck besteht nicht — die Voraussetzungen der zentralen Route."},
+    {"t": "Wer nach einem anstrengenden Arbeitstag vor allem vom Lächeln und der Art zu sprechen der werbenden Person beeindruckt ist, verarbeitet zentral, weil bewusst entschieden wird.", "c": false, "fb": "Hier wirken oberflächliche Eigenschaften statt der Argumente — das kennzeichnet die periphere Route."},
+    {"t": "Wer sich bei der Bankberatung vom Grundsatz „Auf Expert:innen kann man sich verlassen“ leiten lässt, folgt der peripheren Route.", "c": true, "fb": "Ohne eigenes Vorwissen wird auf vorhandene Schemata über Expert:innenwissen zurückgegriffen — eine klassische Urteilsheuristik."},
+    {"t": "Starke Argumente führen auf der zentralen Route zu vorwiegend positiven Gedanken und damit zu einer Einstellungsänderung.", "c": true, "fb": "Schwache Argumente erzeugen dort vorwiegend negative Gedanken und bewirken keine Veränderung."}
+  ],
+  "concept": {
+    "title": "Die beiden Routen des ELM im Anwendungsfall",
+    "points": [
+      "<b>Zentrale Route</b>: hohe Motivation und Kapazität, systematische Verarbeitung. Starke Argumente → positive Gedanken → Einstellungsänderung; schwache Argumente → negative Gedanken → keine Änderung.",
+      "<b>Periphere Route</b>: geringe Motivation oder Kapazität, heuristische Verarbeitung. Positiver heuristischer Hinweisreiz (z. B. hohe Glaubwürdigkeit) → Änderung; negativer Hinweisreiz (z. B. geringe Glaubwürdigkeit) → keine Änderung.",
+      "<b>Beispiel 1 — Android oder iOS</b>: zentrale Route (Relevanz hoch, Vorwissen vorhanden, kein Zeitdruck).",
+      "<b>Beispiel 2 — Umweltschutzverein</b>: periphere Route (Beeinflussung nicht durch den Inhalt der Argumente, sondern durch oberflächliche Eigenschaften).",
+      "<b>Beispiel 3 — Bankberatung</b>: periphere Route (kein Vorwissen, Entscheidung auf Basis vorhandener Schemata über Expert:innenwissen).",
+      "<b>Merkregel</b>: Nicht der Inhalt der Botschaft entscheidet über die Route, sondern Motivation, Kapazität und Zeit auf Seiten der empfangenden Person."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.3.6 Soziale Rollen und Normen",
+  "stem": "Womit wurden Wärter und Häftlinge im simulierten Gefängnis der Universität Stanford ausgestattet, und wie war der Versuch organisiert?",
+  "opts": [
+    {"t": "Die Wärter erhielten detaillierte Vorgaben, mit welchen Maßnahmen sie die Ordnung unter den Gefangenen aufrechtzuerhalten hatten.", "c": false, "fb": "Sie erhielten die Instruktion, eigenständig Regeln auszuarbeiten und alle nötigen Schritte selbst zu ergreifen."},
+    {"t": "Die Häftlinge behielten ihre Namen und erhielten lediglich zusätzlich eine Nummer für die Verwaltung.", "c": false, "fb": "Sie wurden für die Dauer des Experiments anstatt ihres Namens mit Nummern angesprochen — ein zentraler Baustein der Deindividuation."},
+    {"t": "Der simulierte Gefängnistrakt wurde eigens außerhalb des Universitätsgeländes angemietet.", "c": false, "fb": "Das Experiment fand im Untergeschoss eines Gebäudes der Universität Stanford statt, das dafür umgebaut wurde."},
+    {"t": "Zur Ausstattung der Wärter gehörten khakifarbene Uniform, Pfeife, Schlagstock sowie verspiegelte Sonnenbrillen.", "c": true, "fb": "Die Häftlinge trugen demgegenüber ein langes Hemd und eine Kappe aus Nylonstrümpfen."}
+  ],
+  "concept": {
+    "title": "Rollen, Ausstattung und Eskalation im Stanford Gefängnisexperiment",
+    "points": [
+      "<b>Ort und Dauer</b>: umgebautes Untergeschoss eines Gebäudes der Universität Stanford, geplant für 14 Tage, abgebrochen nach sechs.",
+      "<b>Häftlinge</b>: Ansprache über Nummern statt Namen, langes Hemd, Kappe aus Nylonstrümpfen.",
+      "<b>Wärter</b>: khakifarbene Uniform, Pfeife, Schlagstock, verspiegelte Sonnenbrillen — dazu die Instruktion, eigenständig Regeln zu erarbeiten.",
+      "<b>Eskalation</b>: nächtliches Durchzählen, Aufstand am zweiten Tag, danach Entzug von Betten und Kleidung, Abspritzen mit dem Feuerlöscher, verwehrter Toilettengang.",
+      "<b>Deutung</b>: Individuelle Identität und persönliche Werte verschwanden hinter den zugeschriebenen Rollen — Deindividuation in einer Situation mit besonderem Machtgefälle.",
+      "<b>Einschränkung</b>: indirekte Instruktion der Wärter zu Grausamkeiten; etwa ein Drittel handelte sadistisch, zwei Drittel human (Griggs & Whitehead, 2014)."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.5.2 Empathie-Altruismus-Hypothese",
+  "stem": "Wie ist Empathie definiert, und wovon hängt es ab, wie viel Empathie eine helfende Person empfindet?",
+  "opts": [
+    {"t": "Empathie meint, die eigenen Emotionen einer anderen Person so verständlich zu machen, dass diese die Situation nachvollziehen kann.", "c": false, "fb": "Die Richtung ist umgekehrt: Empathie meint, sich selbst an die Stelle der anderen Person zu versetzen und deren Erleben nachzuempfinden."},
+    {"t": "Empathieförderlich wirkt es, wenn erkennbar ist, dass die hilfsbedürftige Person unverschuldet in ihre Lage geraten ist.", "c": true, "fb": "Ebenso förderlich sind das Kennen der Person und eine wahrgenommene Ähnlichkeit zu ihr."},
+    {"t": "Auf Seiten der helfenden Person gelten eine Veranlagung zu empathischem Verhalten sowie das weibliche Geschlecht als förderliche Merkmale.", "c": true, "fb": "Studien zeigen mehr Empathie bei Frauen; das kann biologisch wie durch Sozialisation begründet sein (Werth & Mayer, 2020)."},
+    {"t": "Wie viel Empathie empfunden wird, hängt ausschließlich von stabilen Persönlichkeitsmerkmalen der helfenden Person ab.", "c": false, "fb": "Es hängt sowohl von Persönlichkeitsmerkmalen als auch von Merkmalen der Situation ab."}
+  ],
+  "concept": {
+    "title": "Empathie (Infobox 7.9) und ihre Bedingungen",
+    "points": [
+      "<b>Definition</b>: Fähigkeit, sich selbst an die Stelle einer anderen Person beziehungsweise eines fühlenden Wesens zu versetzen und deren Ereignisse und Emotionen aus ihrer Perspektive zu erleben und nachzuempfinden (vgl. Aronson, Wilson & Akert, 2014).",
+      "<b>Zwei Quellen</b>: Empathie hängt von Persönlichkeitsmerkmalen der helfenden Person <i>und</i> von Merkmalen der Situation ab.",
+      "<b>Situationsmerkmale</b>: Kennen der hilfsbedürftigen Person, Ähnlichkeit zu ihr, erkennbar unverschuldete Notlage.",
+      "<b>Personenmerkmale</b>: Veranlagung zu empathischem Verhalten sowie das weibliche Geschlecht — biologisch oder durch Sozialisation begründbar.",
+      "<b>Funktion</b>: Empathie ist die motivationale Grundlage altruistisch basierten prosozialen Verhaltens (Batson & Weeks, 1996)."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.4.1 Ferienlagerexperiment der Sherifs",
+  "stem": "Welche Aussagen zur Gruppenkohäsion und zur Konfliktphase des Ferienlagerexperiments treffen zu?",
+  "opts": [
+    {"t": "Der Grad an Gruppenkohäsion bemisst sich vor allem an der Mitgliederzahl: Je größer die Gruppe, desto geschlossener tritt sie auf.", "c": false, "fb": "Kohäsion wird durch die gegenseitigen Beziehungen zwischen den Mitgliedern und den Wunsch bestimmt, Teil der Gruppe zu sein und zu bleiben — nicht durch die Größe."},
+    {"t": "Gruppen mit hoher Kohäsion können Ziele leichter festlegen und auch erreichen (D. W. Johnson & Johnson, 2013).", "c": true, "fb": "Kohäsion ist damit nicht nur ein Beschreibungs-, sondern auch ein Leistungsmerkmal von Gruppen."},
+    {"t": "Das Gewinnerteam erhielt attraktive Preise wie einen Pokal, individuelle Medaillen und Campingmesser, während das Verliererteam leer ausging.", "c": true, "fb": "Die asymmetrische Belohnung war das Mittel, mit dem die Konkurrenzsituation überhaupt erst hergestellt wurde."},
+    {"t": "Mit zunehmendem Intergruppenkonflikt stieg die Solidarität gegenüber der jeweils eigenen Gruppe; freundliches Verhalten gegenüber der anderen Gruppe wurde gerügt.", "c": true, "fb": "Der Konflikt nach außen und der Zusammenhalt nach innen verstärkten sich also wechselseitig."}
+  ],
+  "concept": {
+    "title": "Gruppenkohäsion (Infobox 7.7) und die Konfliktphase",
+    "points": [
+      "<b>Gruppenkohäsion</b>: Ausmaß, in dem eine Gruppe als geschlossene Einheit auftritt. Bestimmt durch die gegenseitigen Beziehungen der Mitglieder und den Wunsch, Teil der Gruppe zu sein und zu bleiben.",
+      "<b>Wirkung</b>: Gruppen mit hoher Kohäsion können Ziele leichter festlegen und erreichen (D. W. Johnson & Johnson, 2013).",
+      "<b>Herstellung der Konkurrenz</b>: Wettbewerbe wie Baseball und Tauziehen; Preise (Pokal, Medaillen, Campingmesser) nur für das Gewinnerteam.",
+      "<b>Manipulation</b>: Der Punktestand wurde etwa über manipulierbare Schnitzeljagden ausgeglichen gehalten, damit ein für beide Gruppen frustrierendes Kopf-an-Kopf-Rennen entstand.",
+      "<b>Folgen</b>: feindselige Rhetorik, Erniedrigung der anderen Gruppe, negative Vorurteile, Meiden und Ignoranz, Überfälle auf die Lager, physische Gewalt.",
+      "<b>Nach innen</b>: steigende Solidarität in der eigenen Gruppe; freundliches oder nicht aggressives Verhalten gegenüber der anderen Gruppe wurde unterbunden und gerügt."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.3.5 Bewusste soziale Einflussnahme",
+  "stem": "Welche der folgenden Beeinflussungstechniken zählt das Kapitel ausdrücklich zu den „Judo-Strategien“ (Werth & Mayer, 2020)?",
+  "opts": [
+    {"t": "Das Prinzip sozialer Bewährtheit — in mehrdeutigen Situationen verlässt man sich darauf, wie sich andere verhalten.", "c": true, "fb": "„Was alle tun, muss gut sein“: Friedman und Fireworker (1977) zeigten dies an der Bewertung von Wein."},
+    {"t": "Das Kontrastprinzip — Objekte werden in Abhängigkeit von einem gewählten Vergleichsstandard bewertet.", "c": true, "fb": "Ein mittelmäßiges Produkt wirkt attraktiv, wenn es nur neben schlechteren präsentiert wird."},
+    {"t": "Das Prinzip der Verfügbarkeitsverankerung — je leichter ein Beispiel erinnerbar ist, desto stärker prägt es die Entscheidung.", "c": false, "fb": "Eine solche Strategie führt das Kapitel nicht auf. Genannt werden soziale Bewährtheit, Knappheit, Kontrastprinzip, Reziprozitätsnorm und Commitment."},
+    {"t": "Die Norm der kognitiven Balance — man strebt danach, Einstellungen und Beziehungen widerspruchsfrei zu halten.", "c": false, "fb": "Ebenfalls nicht Teil der Aufzählung. Verwechselbar ist sie mit der Reziprozitätsnorm, die auf die Gegenseitigkeit von Geben und Nehmen abzielt."}
+  ],
+  "concept": {
+    "title": "Die Judo-Strategien der bewussten Einflussnahme (Werth & Mayer, 2020)",
+    "points": [
+      "<b>Begriff</b>: Strategien, mit denen man jemanden „zu Fall bringt“, indem die menschliche Informationsverarbeitung in eine bestimmte Richtung gelenkt wird.",
+      "<b>Prinzip sozialer Bewährtheit</b> — „Was alle tun, muss gut sein“: Orientierung an anderen in mehrdeutigen Situationen (Friedman & Fireworker, 1977: als „fantastisch“ beschriebener Wein wurde besser und teurer eingeschätzt).",
+      "<b>Prinzip der Knappheit</b> — „Was rar ist, muss viel wert sein“: extremere Beurteilung und Reaktanz.",
+      "<b>Kontrastprinzip</b> — „Im Vergleich zu …“: Bewertung anhand eines gewählten Vergleichsstandards.",
+      "<b>Reziprozitätsnorm</b> — „Wie du mir, so ich dir“: Verpflichtungsgefühl zur Erwiderung von Gefälligkeiten.",
+      "<b>Commitment</b> — „Wer A sagt, muss auch B sagen“: Verpflichtung aus dem Streben nach Konsistenz. Hinzu kommt der Expert:innen- bzw. Autoritätsstatus als eigener Hebel."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.3.2 Einfluss von Mehrheiten",
+  "stem": "Welche Aussage zum Experiment von Chartrand und Bargh (1999) trifft zu?",
+  "opts": [
+    {"t": "Die Versuchspersonen hatten die Aufgabe, mit einer anderen Person vorgegebene Bilder aus Zeitungen zu diskutieren und einzuschätzen.", "c": true, "fb": "Dass es sich beim Gegenüber um ein Mitglied der Forschungsgruppe handelte, war ihnen nicht bekannt."},
+    {"t": "Jede Versuchsperson durchlief nur eine der beiden Bedingungen, damit die Manipulation nicht auffiel.", "c": false, "fb": "Alle Versuchspersonen durchliefen beide Bedingungen — Streichen über das Gesicht und Wippen mit dem Fuß."},
+    {"t": "Die eingeweihte Person hatte die Aufgabe, das Verhalten der Versuchsperson möglichst genau zu spiegeln.", "c": false, "fb": "Es verhielt sich umgekehrt: Die eingeweihte Person zeigte ein festgelegtes Verhalten, das die Versuchspersonen dann signifikant häufiger selbst zeigten."},
+    {"t": "Der Effekt trat nur bei bewusst wahrgenommenen Gesten auf, nicht bei beiläufigen Bewegungen.", "c": false, "fb": "Der Chamäleon-Effekt betrifft gerade das unbewusste Nachahmen nonverbaler Verhaltensweisen wie Gesten und Gesichtsausdrücke."}
+  ],
+  "concept": {
+    "title": "Der Chamäleon-Effekt (Chartrand & Bargh, 1999)",
+    "points": [
+      "<b>Aufgabe</b>: Die Versuchspersonen sollten mit einer anderen Person vorgegebene Bilder aus Zeitungen diskutieren und einschätzen.",
+      "<b>Verdeckte Manipulation</b>: Das Gegenüber war ein Mitglied der Forschungsgruppe und strich sich entweder regelmäßig über das Gesicht (Bedingung 1) oder wippte mit dem Fuß (Bedingung 2).",
+      "<b>Design</b>: Alle Versuchspersonen durchliefen beide Bedingungen.",
+      "<b>Befund</b>: Die Versuchspersonen zeigten das jeweilige Verhalten signifikant häufiger, als wenn sie allein im Raum waren.",
+      "<b>Chamäleon-Effekt</b>: unbewusstes Nachahmen nonverbaler Verhaltensweisen anderer Personen, etwa Gesten und Gesichtsausdrücke — sozialer Einfluss ohne jede bewusste Absicht."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.3.6 Soziale Rollen und Normen",
+  "stem": "Welche Aussagen über soziale Normen in Gruppen treffen zu?",
+  "opts": [
+    {"t": "Soziale Normen sind allgemein geteilte Erwartungen und Regeln darüber, wie sich Gruppenmitglieder zu verhalten haben und welche Einstellungen erwünscht oder toleriert werden.", "c": true, "fb": "Sie werden häufig als „ungeschriebene Gesetze“ wahrgenommen, die eine reibungslose Interaktion sichern."},
+    {"t": "Normen ersparen wiederkehrende Entscheidungen über angemessenes Verhalten; die dadurch geschonten Ressourcen können der Verwirklichung der Gruppenziele dienen.", "c": true, "fb": "Das Beispiel des Kapitels ist die Kleiderordnung: Ist der Dresscode transparent, entfällt das Abwägen."},
+    {"t": "Wird eine Norm verletzt, kann die Gruppe mit Sanktionen reagieren — etwa mit Ausgrenzung oder der Drohung, die Gruppe verlassen zu müssen.", "c": true, "fb": "Normen werden nicht immer freiwillig eingehalten und können durchaus als Einschränkung erlebt werden."},
+    {"t": "Je stärker sich die Mitglieder mit der Gruppe identifizieren, desto stärker wirken Gruppennormen auf ihr Verhalten (Ashforth & Mael, 1989).", "c": true, "fb": "Mit der Identifikation steigt zugleich die Wahrscheinlichkeit, dass dieselben Ziele verfolgt werden."}
+  ],
+  "concept": {
+    "title": "Soziale Normen in Gruppen",
+    "points": [
+      "<b>Definition</b>: allgemein geteilte Erwartungen und Regeln darüber, wie sich Gruppenmitglieder zu verhalten haben und welche Einstellungen erwünscht oder toleriert sind.",
+      "<b>Funktion</b>: „ungeschriebene Gesetze“ für reibungslose Interaktion; sie erlauben den Rückgriff auf Verhaltensmuster und schonen so Ressourcen für die Gruppenziele.",
+      "<b>Sanktionen</b>: Bei einem „aus der Reihe tanzen“ drohen sozialer Druck, Ausgrenzung oder die Drohung, die Gruppe verlassen zu müssen.",
+      "<b>Identifikation</b>: Je stärker die Identifikation mit der Gruppe, desto eher werden dieselben Ziele verfolgt und desto stärker wirken die Normen (Ashforth & Mael, 1989).",
+      "<b>Gruppengröße</b>: Mit steigender Mitgliederzahl wächst die Anonymität und das eigene Verhalten wird weniger reflektiert — es kommt zur Deindividuation (Diener et al., 1980).",
+      "<b>Inhaltsabhängigkeit</b>: Normen wirken in die Richtung, die sie inhaltlich vorgeben — eine Gewaltnorm begünstigt aggressives, eine wertschätzende Norm lösungsorientiertes Verhalten."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.2 Soziale Kognition",
+  "stem": "Auf einer Party bemerken Sie, dass eine Freundin seit über einer Stunde nicht zu sehen ist, deuten das als alarmierend, weil Sie von ihren privaten Problemen wissen, und machen sich auf die Suche. Welche Aussagen zu diesem Beispiel und zum Begriff der sozialen Kognition treffen zu?",
+  "opts": [
+    {"t": "Das Bemerken der Abwesenheit entspricht bereits der Stufe der Kategorisierung, weil der Situation dabei Bedeutung zugeschrieben wird.", "c": false, "fb": "Das Bemerken selbst ist Stufe 1 (Wahrnehmung); erst die Deutung als alarmierend gehört zu Stufe 2."},
+    {"t": "Als soziale Objekte gelten nach der Definition ausschließlich andere Menschen, nicht die eigene Person.", "c": false, "fb": "Soziale Objekte umfassen ausdrücklich die eigene Person ebenso wie andere Menschen."},
+    {"t": "Die Entscheidung, sich auf die Suche zu machen, entspricht der Stufe der Urteilsgenerierung.", "c": true, "fb": "Neu enkodierte Informationen und bestehendes Vorwissen ermöglichen hier Schlussfolgerungen und Entscheidungen über angebrachtes Verhalten."},
+    {"t": "Dass Sie um das Trinkverhalten Ihrer Freundin in belastenden Phasen wissen, wirkt als Einfluss der Wissensorganisation auf die Kategorisierung.", "c": true, "fb": "Das organisierte Vorwissen ist Grundlage der Informationsverarbeitung auf allen Stufen, nicht nur auf der letzten."}
+  ],
+  "concept": {
+    "title": "Soziale Kognition — Definition und Beispielverlauf",
+    "points": [
+      "<b>Definition</b> (vgl. Dorsch Lexikon der Psychologie, 2022): Art und Weise, wie Menschen Informationen über soziale Objekte aufnehmen und verarbeiten, und welche Gedanken, Gefühle und Handlungen aus einem sozialen Kontext resultieren.",
+      "<b>Soziale Objekte</b>: die eigene Person ebenso wie andere Menschen. <b>Soziale Akteure</b>: Einzelpersonen, aber auch Gruppen oder Gesellschaften.",
+      "<b>Stufe 1 im Beispiel</b>: Ihnen fällt auf, dass die Freundin seit über einer Stunde nicht zu sehen ist (Wahrnehmung).",
+      "<b>Stufe 2 im Beispiel</b>: Sie deuten das als ungewöhnlich und alarmierend (Kategorisierung) — beeinflusst durch Ihr Wissen um ihre private Belastung (Wissensorganisation).",
+      "<b>Stufe 3 im Beispiel</b>: Sie entscheiden sich, nach ihr zu suchen (Urteilsgenerierung).",
+      "<b>Merkregel</b>: Wahrnehmen — Deuten — Entscheiden; das Vorwissen wirkt auf alle drei Schritte."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.4.3 Stereotype, Vorurteile und Diskriminierung",
+  "stem": "Welche Aussagen zu Erwartungshaltungen im Bildungskontext und zur Erklärung des Stereotype Threat treffen zu?",
+  "opts": [
+    {"t": "Erwartungshaltungen von Lehrpersonen wirken sich besonders auf die Leistung schwacher Schüler:innen aus (Madon, Jussim & Eccles, 1997).", "c": true, "fb": "Gerade dort, wo die Leistung ohnehin fragil ist, schlagen Erwartungen am stärksten durch."},
+    {"t": "Ein Erklärungsansatz lautet, dass die Bedrohung durch das Stereotyp Angst und negatives Denken auslöst, wodurch die mögliche Leistung nicht erbracht werden kann.", "c": true, "fb": "Die Bedrohung richtet sich dabei auf das Selbst, nicht bloß auf das Ergebnis."},
+    {"t": "Dieses angstbesetzte, negative Denken muss den Betroffenen nicht explizit bewusst sein.", "c": true, "fb": "Gerade deshalb lässt sich der Effekt nicht einfach durch Willensanstrengung überwinden."},
+    {"t": "Bei Spencer, Steele und Quinn (1999) unterschieden sich die beiden Gruppen bereits vor dem Test in ihrer tatsächlichen mathematischen Leistung, was den Effekt miterklärt.", "c": false, "fb": "Die Teilnehmer:innen beider Gruppen waren hinsichtlich ihrer tatsächlichen Leistung ausbalanciert — der Unterschied entstand erst durch die Instruktion."}
+  ],
+  "concept": {
+    "title": "Erwartungshaltungen und die Wirkweise des Stereotype Threat",
+    "points": [
+      "<b>Erwartungseffekte</b>: Studien im Bildungskontext zeigen, dass Erwartungshaltungen von Lehrpersonen besonders die Leistung schwacher Schüler:innen beeinflussen (Madon, Jussim & Eccles, 1997).",
+      "<b>Stereotype Threat</b>: Der Hinweis auf ein leistungsbezogenes Gruppenstereotyp erzeugt ein hohes Bedrohungslevel und die Angst, das Stereotyp zu erfüllen — also eine Bedrohung auf das Selbst.",
+      "<b>Erklärungsansatz</b>: Angst und negatives Denken mindern die abrufbare Leistung; dieses Denken muss nicht explizit bewusst sein.",
+      "<b>Kontrolle des Vorwissens</b>: Bei Spencer, Steele und Quinn (1999) waren die Gruppen hinsichtlich der tatsächlichen Leistung ausbalanciert; nur die Instruktion unterschied sich.",
+      "<b>Auflösbarkeit</b>: Weil die Effekte kognitiver Natur sind, lassen sie sich kognitiv auflösen — Aufklärung über Stereotype Threat verringerte oder beseitigte ihn (Johns, Schmader & Martens, 2005)."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.5 Prosoziales Verhalten",
+  "stem": "Welche Aussage zu den Definitionen von prosozialem Verhalten und Altruismus trifft zu?",
+  "opts": [
+    {"t": "Prosoziales Verhalten liegt nur dann vor, wenn die helfende Person keinerlei Nutzen aus ihrem Handeln zieht.", "c": false, "fb": "Das kennzeichnet den Altruismus. Prosoziales Verhalten kann der helfenden Person durchaus nutzen, etwa durch soziale Anerkennung."},
+    {"t": "Prosoziales Verhalten meint jegliches Verhalten, durch das das Wohlergehen anderer erhöht werden soll, wobei es absichtlich und freiwillig gezeigt wird.", "c": true, "fb": "Absichtlichkeit und Freiwilligkeit sind die beiden definitorischen Bedingungen (vgl. Eisenberg & Fabes, 1998)."},
+    {"t": "Altruismus setzt voraus, dass die helfende Person mit der hilfsbedürftigen verwandt oder eng bekannt ist.", "c": false, "fb": "Altruismus ist über Selbstlosigkeit in Denken, Fühlen und Handeln definiert (Bergius & Six, 2021), nicht über die Beziehung zur anderen Person."},
+    {"t": "Eine unmittelbare Gegenleistung darf erwartet werden, solange sie nicht ausdrücklich vereinbart wurde.", "c": false, "fb": "Prosoziales Verhalten wird gerade ohne die Erwartung einer unmittelbaren Belohnung gezeigt."}
+  ],
+  "concept": {
+    "title": "Prosoziales Verhalten und Altruismus — die Begriffe",
+    "points": [
+      "<b>Prosoziales Verhalten</b>: jegliches Verhalten, durch das das Wohlergehen anderer erhöht werden soll, absichtlich und freiwillig gezeigt (vgl. Eisenberg & Fabes, 1998) — ohne Erwartung einer unmittelbaren Belohnung.",
+      "<b>Altruismus</b>: uneigennützige Rücksichtnahme auf andere, gekennzeichnet durch Selbstlosigkeit in Denken, Fühlen und Handlungen (Bergius & Six, 2021).",
+      "<b>Verhältnis</b>: Altruismus ist die engere Kategorie — prosoziales Verhalten darf der helfenden Person nutzen, altruistisches ist frei von Hintergedanken über eigene Vorteile.",
+      "<b>Beispiele aus dem Kapitel</b>: den fallengelassenen Stift aufheben, einer älteren Dame über die Straße helfen, ehrenamtliche Rettungseinsätze.",
+      "<b>Drei Erklärungstheorien</b>: evolutionspsychologischer Ansatz, Empathie-Altruismus-Hypothese, Soziale-Austausch-Theorie."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.3.5 Bewusste soziale Einflussnahme",
+  "stem": "Welche Aussagen zum Commitment und zum Experiment von Freedman und Fraser (1966) treffen zu?",
+  "opts": [
+    {"t": "Commitment wird besonders verhaltenswirksam, wenn es aktiv und öffentlich geäußert, mit Anstrengung verbunden und freiwillig eingegangen wird.", "c": true, "fb": "Eine bloß innerlich gefasste Meinung lässt sich dagegen leicht wieder ändern; erst die Äußerung bindet."},
+    {"t": "Der ersten Gruppe wurde zunächst die kleine Bitte gestellt, woraufhin später 22 % auch der großen Bitte zustimmten.", "c": false, "fb": "Die 22 % beziehen sich auf jene Gruppe, der die große Bitte ohne Vorbereitung gestellt wurde; nach vorheriger kleiner Bitte waren es 53 %."},
+    {"t": "Damit das Foot-in-the-door-Prinzip wirkt, müssen beide Bitten zwingend von derselben Person stammen.", "c": false, "fb": "Eine nachfolgende Studie zeigte, dass es auch bei zwei verschiedenen Personen funktioniert, sofern die Bitten auf dasselbe Thema abzielen."},
+    {"t": "Die große Bitte bestand darin, sechs Mitarbeiter:innen für zwei Stunden eine Bestandsaufnahme der vorhandenen Seifenprodukte im Haus durchführen zu lassen.", "c": true, "fb": "Dafür hätten diese in alle Schränke und Schubladen sehen müssen — die Bitte war also bewusst weitreichend."}
+  ],
+  "concept": {
+    "title": "Commitment und das Foot-in-the-door-Prinzip",
+    "points": [
+      "<b>Commitment</b>: Engagement beziehungsweise Verpflichtung zu einer Sache; Grundlage ist das menschliche Streben nach Konsistenz in Aussagen und Handlungen.",
+      "<b>Wirkbedingungen</b>: aktiv und öffentlich geäußert, mit Anstrengung verbunden, freiwillig eingegangen. Eine bloß gedankliche Meinung lässt sich leicht ändern, eine geäußerte bindet.",
+      "<b>Foot-in-the-door</b>: Auf eine kleine, leicht zu gewährende Bitte folgt eine größere im selben Kontext, der eher zugestimmt wird, um konsistent zu bleiben.",
+      "<b>Freedman & Fraser (1966)</b>: Große Bitte direkt gestellt — 22 % Zustimmung. Nach vorheriger kleiner Bitte (Telefonbefragung) — 53 %.",
+      "<b>Ergänzender Befund</b>: Die beiden Bitten müssen nicht von derselben Person kommen, solange sie dasselbe Thema betreffen. Einmal erzeugtes Commitment wirkt langfristig und personenunabhängig, weil das Selbstbild angesprochen und verändert wird.",
+      "<b>Abgrenzung</b>: Door-in-the-face beruht auf Reziprozität, Foot-in-the-door auf selbstbildkonsistentem Commitment."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.2.3 Kontrolliertes vs. automatisches Denken",
+  "stem": "Welche Aussagen zur Unterscheidung von automatischem und kontrolliertem Denken treffen zu?",
+  "opts": [
+    {"t": "Automatisches Denken ist als unbewusster, unbeabsichtigter und ressourcenschonender Prozess definiert, der andere parallel stattfindende kognitive Prozesse nicht stört.", "c": true, "fb": "Gerade diese Störungsfreiheit macht es zum Regelfall der alltäglichen Informationsverarbeitung."},
+    {"t": "Kontrolliertes Denken unterliegt der willentlichen Kontrolle und ist mit höherem kognitivem Aufwand verbunden.", "c": true, "fb": "Es ist bewusst und beabsichtigt — kurz gesagt: mühsamer."},
+    {"t": "In der Geschichte über den Autounfall führt das kontrollierte Denken dazu, dass ein rein männliches Chirurgieteam angenommen und ein Widerspruch wahrgenommen wird.", "c": false, "fb": "Diese Annahme entsteht durch automatisches Denken auf Basis des Schemas Chirurgie = männlich. Das kontrollierte Denken löst den vermeintlichen Widerspruch erst auf."},
+    {"t": "Zwei-Prozess-Modelle nehmen an, dass bei unzureichender Motivation oder geringen kognitiven Ressourcen die automatischen Prozesse die kontrollierten überwiegen.", "c": true, "fb": "Stress, Müdigkeit oder ein Fokus auf etwas anderes sind typische Auslöser dieser Verschiebung."}
+  ],
+  "concept": {
+    "title": "Automatisches und kontrolliertes Denken",
+    "points": [
+      "<b>Automatisches Denken</b>: unbewusster, unbeabsichtigter und ressourcenschonender Prozess, der andere parallel laufende kognitive Prozesse nicht stört.",
+      "<b>Kontrolliertes Denken</b>: bewusster und beabsichtigter Prozess, der der willentlichen Kontrolle unterliegt und mit mehr kognitivem Aufwand verbunden ist.",
+      "<b>Die Chirurgie-Geschichte</b>: Wer das Schema Chirurgie = männlich verinnerlicht hat, nimmt automatisch ein rein männliches Team an — die Geschichte scheint dann einen Widerspruch zu enthalten.",
+      "<b>Auflösung</b>: Mit kontrolliertem Denken wird geschlossen, dass es sich beim Mitglied des Chirurgieteams um die Mutter handeln muss. Der nötige Aufwand hängt davon ab, wie stark das Stereotyp ausgeprägt ist.",
+      "<b>Grundannahme der Zwei-Prozess-Modelle</b>: Beide Prozessarten sind klar voneinander abgrenzbar; bei unzureichender Motivation oder wenigen Ressourcen (Stress, Müdigkeit, Ablenkung) überwiegen die automatischen.",
+      "<b>Zwei Ausprägungen</b>: das ELM (Petty & Cacioppo, 1986) für Einstellungsänderung, das RIM (Strack & Deutsch, 2004) für Verhalten."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.4.2 Minimalgruppenparadigma nach Tajfel",
+  "stem": "Die Zahlenpaar-Matrizen in Tajfels Experimenten stellten an ihren Polen jeweils zwei Aufteilungsstrategien gegenüber. Welche Aussage dazu trifft zu?",
+  "opts": [
+    {"t": "In Item A standen sich Fremdgruppenbegünstigung und maximaler gemeinsamer Profit gegenüber.", "c": false, "fb": "In Item A wurden Fairness (85 : 85) und maximaler Unterschied (85 : 50) kontrastiert."},
+    {"t": "Die gewählten Zahlenpaare ließen keine Rückschlüsse auf die verfolgte Strategie zu und dienten allein der Ablenkung.", "c": false, "fb": "Gerade aus dem gewählten Zahlenpaar wurde erschlossen, welche der beiden gegenübergestellten Strategien der Person pro Entscheidung wichtiger war."},
+    {"t": "In Item C standen sich Fremdgruppenbegünstigung (50 : 99) und Fairness (85 : 85) gegenüber.", "c": true, "fb": "Item B kontrastierte demgegenüber maximalen Unterschied (82 : 15) mit maximalem gemeinsamem Profit (96 : 50)."},
+    {"t": "Fußnote 24 hält fest, dass Tajfels Gruppen alle gängigen Kriterien einer sozialpsychologischen Gruppe erfüllen.", "c": false, "fb": "Die Fußnote merkt gerade an, dass die Mitglieder nicht miteinander interagierten — Tajfels Experimente erweitern damit die Definition davon, was eine Gruppe ist und wann Gruppeneffekte wirken."}
+  ],
+  "concept": {
+    "title": "Die Zahlenpaar-Matrizen und die vier Aufteilungsstrategien",
+    "points": [
+      "<b>Prinzip</b>: Jede Matrize stellt an ihren Polen zwei Strategien gegenüber; aus dem gewählten Zahlenpaar wird erschlossen, welche der Person wichtiger war.",
+      "<b>Item A</b>: Fairness (85 : 85) gegen maximaler Unterschied (85 : 50).",
+      "<b>Item B</b>: maximaler Unterschied (82 : 15) gegen maximaler Profit der eigenen Gruppe bzw. maximaler gemeinsamer Profit (96 : 50).",
+      "<b>Item C</b>: Fremdgruppenbegünstigung (50 : 99) gegen Fairness (85 : 85).",
+      "<b>Befundmuster</b>: Ingroup gegen Outgroup → Bevorzugung der Ingroup und maximaler Unterschied (etwa 84 : 20 statt 96 : 50). Gleiche Gruppe auf beiden Seiten → Fairness.",
+      "<b>Fußnote 24</b>: Diese Gruppen erfüllen das Kriterium der Interaktion nicht — Tajfels Experimente erweitern deshalb den Gruppenbegriff und die Frage, wann Gruppeneffekte wirken."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.3.3 Einfluss von Minderheiten",
+  "stem": "Was macht eine Minderheit im sozialpsychologischen Sinn aus, und wofür stehen die Beispiele Rosa Parks und „Fridays For Future“?",
+  "opts": [
+    {"t": "Minderheiten zeichnen sich im sozialpsychologischen Kontext vor allem durch numerische Unterlegenheit bei gleichzeitig hohem sozialem Ansehen aus.", "c": false, "fb": "Sie verfügen weder über Macht und Einfluss noch über ein positives soziales Image; eher werden sie als unvernünftig, unsympathisch und abweichend wahrgenommen."},
+    {"t": "Die Weigerung von Rosa Parks, einen für Weiße Personen reservierten Sitzplatz zu räumen, löste den Busboykott von Montgomery aus.", "c": true, "fb": "Die Bürgerrechtsbewegung gipfelte 1964 im Civil Rights Act, der die Diskriminierung aufgrund von Herkunft oder Hautfarbe offiziell beendete."},
+    {"t": "Der Einfluss von Minderheiten muss im Verhalten liegen, das konkrete Handlungen, den Ausdruck von Einstellungen sowie Ansprachen und nonverbale Hinweise umfasst (Moscovici & Mugny, 1983).", "c": true, "fb": "Weil ihnen Macht und positives Image fehlen, bleibt allein das Verhalten als Einflussweg."},
+    {"t": "Die „Fridays For Future“-Bewegung wird als Beispiel dafür angeführt, dass Minderheiten erst mit institutioneller Rückendeckung Wirkung entfalten.", "c": false, "fb": "Sie dient als aktuelles Beispiel dafür, dass eine Minderheit — ausgehend von Schüler:innen, allen voran Greta Thunberg — auch ohne Machtposition Großes bewegen kann."}
+  ],
+  "concept": {
+    "title": "Merkmale und Wirkung von Minderheiten",
+    "points": [
+      "<b>Kennzeichen</b>: neben der numerischen Unterlegenheit vor allem von der Mehrheitsüberzeugung abweichende Meinungen und Einstellungen; sie stellen sich gegen etablierte Gesetzmäßigkeiten und Normen.",
+      "<b>Ausgangsnachteil</b>: weder Macht und Einfluss noch positives soziales Image — eher gelten sie als unvernünftig, unsympathisch und abweichend.",
+      "<b>Einflussweg</b>: allein das Verhalten — konkrete Handlungen, Ausdruck von Einstellungen und Meinungen, Ansprachen, nonverbale Hinweise (Moscovici & Mugny, 1983).",
+      "<b>Zentraler Faktor</b>: Konsistenz, mit der die abweichende Überzeugung vertreten wird.",
+      "<b>Historisches Beispiel</b>: Rosa Parks weigerte sich, einen reservierten Sitzplatz zu räumen; daraus folgten der Busboykott von Montgomery und schließlich der Civil Rights Act 1964.",
+      "<b>Aktuelles Beispiel</b>: die „Fridays For Future“-Bewegung, ausgehend von Schüler:innen um Greta Thunberg."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.2.2 Priming",
+  "stem": "Affektives Priming wurde von Yi (1990) im Werbekontext untersucht. Welche Aussagen dazu treffen zu?",
+  "opts": [
+    {"t": "Beim affektiven Priming beeinflusst ein affektiver, also emotionaler Reiz die Verarbeitung eines anschließenden Zielreizes.", "c": true, "fb": "Damit unterscheidet es sich vom semantischen Priming, bei dem Prime und Target inhaltlich verknüpft sind."},
+    {"t": "Die Studienteilnehmer:innen lasen zunächst einen Zeitungsartikel mit entweder positivem oder negativem Inhalt.", "c": true, "fb": "Der Artikel diente als affektiver Prime."},
+    {"t": "Im Anschluss an den Prime wurden sie gebeten, eine Autowerbung zu beurteilen.", "c": true, "fb": "Untersucht wurde damit, wie affektives Priming auf die Effektivität von Werbung wirken kann."},
+    {"t": "Als Alltagsbeispiel nennt das Kapitel Stimmungsverbesserungen durch Bilder niedlicher Tierbabys oder Nachrichten geliebter Menschen, die auf davon völlig unabhängige Ereignisse ausstrahlen.", "c": true, "fb": "Genau diese Übertragung auf unabhängige Ereignisse macht den Effekt aus."}
+  ],
+  "concept": {
+    "title": "Affektives Priming (Yi, 1990)",
+    "points": [
+      "<b>Definition</b>: Form des Primings, bei der ein affektiver (emotionaler) Reiz die Verarbeitung eines anschließenden Zielreizes beeinflusst.",
+      "<b>Abgrenzung</b>: Beim semantischen Priming sind Hinweis- und Zielreiz inhaltlich verknüpft; beim affektiven ist die Verknüpfung emotional.",
+      "<b>Alltagsbeispiel</b>: Bilder niedlicher Tierbabys, Urlaubsfotos oder Nachrichten geliebter Menschen heben die Stimmung — mit Auswirkungen auf davon völlig unabhängige Ereignisse.",
+      "<b>Studienaufbau</b>: Zeitungsartikel mit positivem oder negativem Inhalt als affektiver Prime, anschließend Beurteilung einer Autowerbung.",
+      "<b>Ergebnis</b>: Positiv geprimte Personen berichteten eine positivere Einstellung gegenüber der Werbung und eine stärkere Kaufabsicht als negativ geprimte.",
+      "<b>Gemeinsame Voraussetzung</b>: Für einen positiven Primingeffekt müssen Prime und Target assoziativ miteinander verknüpft sein."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.3.6 Soziale Rollen und Normen",
+  "stem": "Was kennzeichnet die Rolle, die eine einzelne Person innerhalb eines sozialen Gefüges einnimmt?",
+  "opts": [
+    {"t": "Anders als Normen gelten Rollen nicht für alle Gruppenmitglieder gleichermaßen; jede Person hat innerhalb der Gruppe eine bestimmte Rolle.", "c": true, "fb": "Normen betreffen die ganze Gruppe, Rollen die einzelne Position darin."},
+    {"t": "Rollenerwartungen bestehen nur gegenüber Personen in hierarchisch übergeordneten Positionen.", "c": false, "fb": "Gruppen bilden gegenüber jeder Rolle die Erwartung, dass die Person das entsprechende Verhalten zeigt — im Seminarbeispiel auch gegenüber den Studierenden."},
+    {"t": "Dieselbe Person kann je nach Setting völlig unterschiedliche und einander sogar widersprechende Rollen einnehmen.", "c": true, "fb": "Die Universitätsprofessorin ist zugleich Nachbarin, Kollegin, Chefin, womöglich Mutter oder Freundin — mit teils gegenläufigen Erwartungen."},
+    {"t": "Treffen zwei Personen aus einem anderen sozialen Setting in einem neuen aufeinander, ist neu zu vereinbaren, welche Rollenerwartungen gelten, um einen Rollenkonflikt aufzulösen.", "c": true, "fb": "Schwierig wird es besonders dann, wenn das Machtverhältnis im neuen Setting umgekehrt wäre."}
+  ],
+  "concept": {
+    "title": "Soziale Rollen und Rollenkonflikte",
+    "points": [
+      "<b>Abgrenzung zur Norm</b>: Normen gelten für alle Gruppenmitglieder, Rollen sind individuell — jede Person hat innerhalb der Gruppe eine bestimmte Rolle.",
+      "<b>Rollenerwartung</b>: Die Gruppe erwartet von jeder Person das der Rolle entsprechende Verhalten — von der Professorin Leitung, Kompetenz, faire Prüfungen und gerechte Noten.",
+      "<b>Hierarchie im Beispiel</b>: Der Tutor steht über den Studierenden und unter der Professorin; das „Du“ ist mit ihm üblich, gegenüber der Professorin wäre es ohne Angebot ein Bruch der sozialen Norm.",
+      "<b>Rollenvielfalt</b>: Eine Person nimmt je nach Setting ganz unterschiedliche Rollen ein, die einander widersprechen können.",
+      "<b>Rollenkonflikt</b>: Treffen Personen aus einem Setting in einem neuen aufeinander — womöglich mit umgekehrtem Machtverhältnis —, müssen die geltenden Rollenerwartungen neu vereinbart werden.",
+      "<b>Wirkmacht</b>: Schon die bloße Übernahme einer zugeschriebenen, künstlichen Rolle kann das Verhalten maßgeblich verändern (Stanford Gefängnisexperiment)."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.3.2 Einfluss von Mehrheiten",
+  "stem": "Sie besuchen zum ersten Mal die Zeremonie einer Religionsgemeinschaft, deren Riten Sie nicht kennen, und richten Ihr Verhalten nach dem der übrigen Anwesenden. Welche Aussagen dazu treffen zu?",
+  "opts": [
+    {"t": "Maßgeblich ist hier, dass Sie die betreffenden Abläufe zuvor als Norm kennengelernt haben.", "c": false, "fb": "Gerade nicht: Sie orientieren sich, weil Sie die anderen als kompetent in dieser sozialen Situation wahrnehmen — nicht, weil Sie die Norm kennen."},
+    {"t": "Die Situation ist neu und mehrdeutig, was informationalen sozialen Einfluss besonders wahrscheinlich macht.", "c": true, "fb": "Mehrdeutigkeit und die damit verbundene Unsicherheit sind die typischen Bedingungen dieses Einflussweges."},
+    {"t": "Ein solches Verhalten wäre als Gehorsam einzuordnen, weil die Anwesenden in dieser Situation über Autorität verfügen.", "c": false, "fb": "Gehorsam setzt eine Autoritätsperson voraus, die Anweisungen erteilt. Hier liegt bloße Orientierung am Verhalten anderer vor."},
+    {"t": "Dass Menschen überhaupt den Kontakt zu anderen suchen, wird heute vor allem auf das Grundbedürfnis nach sozialer Zugehörigkeit zurückgeführt (Ryan & Deci, 2000).", "c": true, "fb": "Die Sicherung des Überlebens, die historisch im Vordergrund stand, ist es heute meist nicht mehr."}
+  ],
+  "concept": {
+    "title": "Informationaler sozialer Einfluss im Anwendungsfall",
+    "points": [
+      "<b>Kernsatz</b>: „Das, was die anderen tun, muss richtig sein“ — andere werden als Informationsquelle für adäquates Handeln oder akzeptierte Einstellungen herangezogen.",
+      "<b>Typische Bedingung</b>: mehrdeutige oder neue Situationen, die große Unsicherheit mit sich bringen — etwa der erste Besuch einer fremden Zeremonie.",
+      "<b>Begründung der Anpassung</b>: nicht Kenntnis der Norm, sondern die Wahrnehmung der anderen als kompetent in dieser Situation.",
+      "<b>Weitere Verstärker</b>: Krisensituationen mit Angst oder Zeitdruck, zugeschriebene Expertise der Anwesenden, besondere Wichtigkeit des Urteils der anderen über die eigene Person.",
+      "<b>Abgrenzung</b>: Normativer Einfluss zielt auf Vermeidung von Ablehnung; Gehorsam setzt zusätzlich eine anweisende Autoritätsperson voraus.",
+      "<b>Grundbedürfnis</b>: Heute sucht man den Kontakt zu anderen vor allem aus dem Bedürfnis nach sozialer Zugehörigkeit, weniger zur Sicherung des Überlebens (Ryan & Deci, 2000)."
+    ]
+  }
+},
+{
+  "kap": 7,
+  "sec": "7.3.4 Gehorsam gegenüber Autoritäten",
+  "stem": "Wie lässt sich unkritischer Gehorsam gegenüber Autoritäten dem Kapitel zufolge verringern?",
+  "opts": [
+    {"t": "Indem die Verantwortung möglichst eindeutig bei der Autoritätsperson verortet wird, damit die handelnde Person entlastet entscheiden kann.", "c": false, "fb": "Genau diese Verlagerung begünstigt Gehorsam. Wirksam ist umgekehrt, die Eigenverantwortung der handelnden Person bewusst zu machen (Kilham & Mann, 1974)."},
+    {"t": "Indem Anweisungen grundsätzlich unabhängig von der Situation befolgt werden, um gefährliche Verzögerungen zu vermeiden.", "c": false, "fb": "Sinnvoll ist gerade die Prüfung im Einzelfall: In einer Notsituation ist rasches Befolgen angebracht, in einem Szenario wie Milgrams Experiment das Hinterfragen."},
+    {"t": "Indem die Expertise und die Motive der Autoritätsperson hinterfragt werden.", "c": true, "fb": "Dazu kommen das Bewusstmachen der Eigenverantwortung und die Prüfung, ob Gehorsam in dieser Situation überhaupt angemessen ist."},
+    {"t": "Indem man sich vergegenwärtigt, dass professionelles Auftreten, akademischer Titel und Kleidung verlässliche Belege für Expertise sind.", "c": false, "fb": "Diese Merkmale führen lediglich dazu, dass Expert:innenstatus zugeschrieben wird — belegt ist er damit nicht."}
+  ],
+  "concept": {
+    "title": "Autoritätsstatus als Einflussmittel — und wie sich Gehorsam senken lässt",
+    "points": [
+      "<b>Zuschreibung von Expertise</b>: Professionelles Auftreten, akademischer Titel oder Kleidung führen dazu, dass einer Person Expert:innenstatus zugeschrieben wird — Anweisungen erscheinen dann als hilfreiche Information.",
+      "<b>Erster Hebel</b>: die Eigenverantwortung der handelnden Person bewusst machen (Kilham & Mann, 1974).",
+      "<b>Zweiter Hebel</b>: Expertise und Motive der Autoritätsperson hinterfragen.",
+      "<b>Dritter Hebel</b>: die Angemessenheit des Gehorsams in der konkreten Situation prüfen.",
+      "<b>Abwägung</b>: In einer Notsituation ist es sinnvoll, den Anweisungen eines Sanitäters oder einer Ärztin rasch zu folgen; in einem Szenario wie Milgrams Experiment wäre Hinterfragen angebracht.",
+      "<b>Einordnung</b>: Der Autoritäts- bzw. Expert:innenstatus ist nur eine von mehreren Strategien, die menschliche Informationsverarbeitung gezielt zu lenken."
+    ]
+  }
+}
+]

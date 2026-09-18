@@ -1,0 +1,531 @@
+[
+{
+  "kap": 4,
+  "sec": "4.2.2 Ruhe- und Aktionspotenzial",
+  "stem": "Welche Aussagen zu den Flüssigkeiten und Ladungen an der Zellmembran treffen zu?",
+  "opts": [
+    {"t": "Die Flüssigkeit im Inneren eines Neurons wird auch Cytosol oder intrazelluläre Flüssigkeit genannt; ihr Hauptbestandteil ist Wasser.", "c": true, "fb": "Das gilt ebenso für die extrazelluläre Flüssigkeit rund um das Neuron. In beiden sind Ionen gelöst."},
+    {"t": "Ionen sind ungeladene Atome, die sich frei durch die Lipid-Doppelschicht bewegen können.", "c": false, "fb": "Ionen sind gerade elektrisch geladene Atome – deshalb erzeugen sie überhaupt eine Spannung. Und frei passieren können sie die Membran nicht, sie brauchen Ionenkanäle."},
+    {"t": "Ein Neuron im Ruhezustand gilt als elektrisch neutral, weil sich die Ladungen innen und außen ausgleichen.", "c": false, "fb": "Im Ruhezustand liegt gerade kein Ausgleich vor: Das Zellinnere ist mit etwa −70 mV negativ gegenüber außen – das Neuron ist polarisiert."},
+    {"t": "Als Membranpotenzial bezeichnet man den Spannungsunterschied an der Membran, der aus den unterschiedlichen Ionenkonzentrationen innen und außen entsteht.", "c": true, "fb": "Die Definition ist präzise an die Ursache gekoppelt: unterschiedliche Konzentration geladener Atome → unterschiedliche Ladung → Spannungsunterschied."}
+  ],
+  "concept": {
+    "title": "Das Membranpotenzial – Grundprinzip",
+    "points": [
+      "Innen (Cytosol) und außen (extrazelluläre Flüssigkeit) ist überwiegend Wasser, darin gelöst: <b>Ionen</b> = elektrisch geladene Atome.",
+      "Unterschiedliche Ionenkonzentration innen/außen → unterschiedliche Ladung → <b>Spannungsunterschied an der Membran = Membranpotenzial</b>.",
+      "Im Ruhezustand ≈ <b>−70 mV</b>, innen negativ: die Zelle ist <b>polarisiert</b>.",
+      "Ionen kommen nicht frei durch die Lipid-Doppelschicht, sondern nur durch <b>Ionenkanäle</b>, die meist nur einen Ionentyp durchlassen."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.3.3 Das Gehirn",
+  "stem": "Welche Aussagen zu den Lappen des cerebralen Cortex treffen zu?",
+  "opts": [
+    {"t": "Die Parietallappen sind an der Integration sensumotorischer Informationen sowie an Aufmerksamkeit und räumlicher Orientierung beteiligt.", "c": true, "fb": "Der Tastsinn wird dabei kontralateral verarbeitet: rechte Körperseite im linken Parietallappen und umgekehrt."},
+    {"t": "In den Temporallappen liegen Regionen für das Hören sowie spezialisierte visuelle Areale, etwa für das Erkennen von Gesichtern.", "c": true, "fb": "Zusätzlich sind dort Hippocampus (Gedächtnis) und Amygdala (emotionale Verarbeitung) eingebettet."},
+    {"t": "Im Okzipitallappen befindet sich der primäre visuelle Cortex, das erste Hauptziel visueller Informationen.", "c": true, "fb": "Daher auch der zweite Name Hinterhauptlappen – er liegt im Hinterhaupt."},
+    {"t": "Die vier Lappen stellen keine funktionalen Einheiten dar, sondern kommen durch die Furchung des Gehirns zustande.", "c": true, "fb": "Das ist ein häufig unterschätzter Punkt: Die Einteilung ist anatomisch, nicht funktional begründet."}
+  ],
+  "concept": {
+    "title": "Die vier Lappen des cerebralen Cortex",
+    "points": [
+      "<b>Frontallappen</b> (Stirnlappen): Planung, Sprache, Sozialverhalten, Emotionsregulation, Bewegung. Der <b>präfrontale Cortex</b> gilt als Sitz von Persönlichkeit und Sozialverhalten.",
+      "<b>Parietallappen</b> (Scheitellappen): sensumotorische Integration (Tastsinn, kontralateral), Aufmerksamkeit, räumliche Orientierung.",
+      "<b>Temporallappen</b> (Schläfenlappen): Hören, Gesichtererkennung; enthält Hippocampus und Amygdala.",
+      "<b>Okzipitallappen</b> (Hinterhauptlappen): primärer visueller Cortex.",
+      "Rahmen: Cortex = Großhirnrinde, nur 2–5 <b>Millimeter</b> dick, vorwiegend graue Substanz, stark gefurcht zur Oberflächenvergrößerung. Die Hemisphären sind über das <b>Corpus callosum</b> verbunden."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.4 Das visuelle System",
+  "stem": "Welche Aussage zum Schichtaufbau der Retina ist korrekt?",
+  "opts": [
+    {"t": "Die an die Aderhaut angrenzende Schicht der Retina besteht aus Ganglienzellen.", "c": false, "fb": "Dort liegen die Pigmentepithelzellen. Die Ganglienzellen sitzen am anderen Ende der Verschaltung, ihre Axone bilden den Sehnerv."},
+    {"t": "Die Photorezeptorzellen liegen in der äußeren Schicht der Retina, sodass eintreffendes Licht erst mehrere Zellschichten durchqueren muss.", "c": true, "fb": "Ein zunächst widersinnig wirkender Aufbau: Die lichtaufnehmenden Zellen liegen ganz hinten, das Licht muss an ihnen vorbei durch die Signalschichten."},
+    {"t": "Die Bildverzerrung durch die vorgelagerten Zellschichten ist erheblich, weil diese kaum lichtdurchlässig sind.", "c": false, "fb": "Genau umgekehrt: Diese Zellen sind relativ transparent, die Verzerrung ist minimal."},
+    {"t": "Die Müller-Zellen sind ein Photorezeptortyp, der vor allem bei dämmriger Beleuchtung aktiv ist.", "c": false, "fb": "Müller-Zellen sind eine spezielle Art von Gliazellen in der Retina; sie leiten gestreutes Licht durch die Retina. Bei Dämmerung dominieren die Stäbchen."}
+  ],
+  "concept": {
+    "title": "Der Weg des Lichts durch die Retina",
+    "points": [
+      "Von der Aderhaut nach innen: <b>Pigmentepithelzellen</b> → <b>Photorezeptorzellen</b> (Stäbchen, Zapfen) → Bipolarzellen → Ganglienzellen.",
+      "Das Licht läuft in <b>umgekehrter</b> Richtung: erst durch die transparenten Signalschichten, dann auf die außen liegenden Rezeptoren. Verzerrung: minimal.",
+      "<b>Transduktion</b> = Umwandlung von Lichtenergie in neuronale Signale, findet in den Photorezeptorzellen statt.",
+      "<b>Müller-Zellen</b> = Gliazellen der Retina, leiten gestreutes Licht."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.1 Was ist Biologische Psychologie",
+  "stem": "Welche Zuordnungen zu den Teilbereichen der Biologischen Psychologie treffen zu?",
+  "opts": [
+    {"t": "Die Vergleichende Psychologie manipuliert die neuronale Aktivität durch Medikamente und Drogen, um neue Wirkstoffe zu entwickeln.", "c": false, "fb": "Das ist die Psychopharmakologie. Die Vergleichende Psychologie vergleicht das Verhalten verschiedener Spezies."},
+    {"t": "Die Physiologische Psychologie arbeitet häufig mit Tierversuchen, um Theorien über menschliches Verhalten zu entwickeln und experimentell zu prüfen.", "c": true, "fb": "Ihr Zugang ist möglichst direkt: elektrische Stimulation oder chirurgische Eingriffe an den interessierenden Strukturen."},
+    {"t": "Die Kognitive Neurowissenschaft ist ein vergleichsweise junger Bereich und stützt sich stark auf funktionelle und strukturelle Bildgebung wie die MRT.", "c": true, "fb": "Ihr Gegenstand sind die neuronalen Grundlagen der Kognition."},
+    {"t": "Die Hauptbereiche der Biologischen Psychologie überschneiden sich inhaltlich häufig und sind keine völlig abgegrenzten Gebiete.", "c": true, "fb": "Sie unterscheiden sich in ihren Schwerpunkten, nicht in scharfen Grenzen. Eine allgemeingültige Unterteilung gibt es ohnehin nicht."}
+  ],
+  "concept": {
+    "title": "Die sechs Teilbereiche nach Pinel, Barnes und Pauli",
+    "points": [
+      "<b>Physiologische Psychologie</b>: direkte Erklärung neuronaler Mechanismen, invasiv (Stimulation, Eingriffe), oft Tierversuch.",
+      "<b>Neuropsychologie</b>: psychologische Folgen von Hirnschädigungen beim Menschen; stark anwendungsorientiert (Diagnostik, Rehabilitation).",
+      "<b>Psychophysiologie</b>: physiologische ↔ psychologische Prozesse beim Menschen, nicht-invasiv (EEG, Herzrate, Muskelspannung); Themen: Stress, Emotion, biologische Rhythmen.",
+      "<b>Kognitive Neurowissenschaft</b>: neuronale Grundlagen der Kognition, Bildgebung (MRT); junger Bereich.",
+      "<b>Psychopharmakologie</b>: Manipulation durch Medikamente und Drogen; interdisziplinär mit Medizin und Pharmakologie.",
+      "<b>Vergleichende Psychologie</b>: Verhaltensvergleich zwischen Spezies → Evolution, Genetik, adaptives Verhalten.",
+      "Die Bereiche sind Schwerpunkte, keine abgeschlossenen Gebiete."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.3.1 Anatomische Bezugspunkte",
+  "stem": "Welche Aussagen zu den anatomischen Lage- und Orientierungsbezeichnungen treffen zu?",
+  "opts": [
+    {"t": "Anterior bezeichnet beim Gehirn die Richtung zum Hinterhaupt.", "c": false, "fb": "Anterior heißt vorne, beim Gehirn also Richtung Nase. Zum Hinterhaupt zeigt posterior."},
+    {"t": "Beim Rumpf des Menschen bedeutet ventral „in Richtung des Rückens“.", "c": false, "fb": "Ventral heißt beim Rumpf Richtung Brustkorb. Zum Rücken zeigt dorsal."},
+    {"t": "Superior bezeichnet etwas, das sich in Richtung des Kopfes befindet, inferior etwas in Richtung der Füße und Zehen.", "c": true, "fb": "Diese beiden Begriffe wurden nötig, weil sich durch den aufrechten Gang die Bedeutung von dorsal/ventral am Rumpf verschoben hat."},
+    {"t": "In Bezug auf das Gehirn gibt es keine Unterschiede in den Richtungsbezeichnungen zwischen Hund und Mensch.", "c": true, "fb": "Verschoben haben sich nur die Bezeichnungen am übrigen Körper – deshalb der Umweg über den Vierbeiner zum Verständnis."}
+  ],
+  "concept": {
+    "title": "Lage- und Orientierungsbezeichnungen (Tabelle 4.1)",
+    "points": [
+      "<b>dorsal</b> = oben: Gehirn → Kopfoberseite, Rumpf → Rücken.",
+      "<b>ventral</b> = unten: Gehirn → Kopfunterseite, Rumpf → Brustkorb.",
+      "<b>anterior</b> = vorne: Gehirn → Nase, Rumpf → Brustkorb.",
+      "<b>posterior</b> = hinten: Gehirn → Hinterhaupt, Rumpf → Rücken.",
+      "<b>superior</b> = Richtung Kopf, <b>inferior</b> = Richtung Füße (nötig, weil am Rumpf dorsal/posterior bzw. ventral/anterior zusammenfallen).",
+      "<b>medial</b> = nahe der Mittellinie, <b>lateral</b> = seitlich davon entfernt.",
+      "<b>ipsilateral</b> = gleiche Körperseite, <b>kontralateral</b> = gegenüberliegende Seite.",
+      "Beim Gehirn identisch für Hund und Mensch – nur der Rumpf hat sich durch den aufrechten Gang verschoben."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.2.3 Synaptische Übertragung",
+  "stem": "Welche Aussagen zur chemischen Synapse sind korrekt?",
+  "opts": [
+    {"t": "Die kleinen Bläschen in der Axonterminale heißen synaptische Vesikel und enthalten die Neurotransmitter.", "c": true, "fb": "Sie besitzen eine eigene, sie umgebende Membran, die bei der Exocytose mit der präsynaptischen Membran fusioniert."},
+    {"t": "Nach der Exocytose geht die Vesikelmembran verloren und muss vollständig neu gebildet werden.", "c": false, "fb": "Die Vesikelmembran wird später wieder zurückgewonnen und füllt sich erneut mit Neurotransmittern."},
+    {"t": "Die Zellmembran der informationssendenden Zelle heißt präsynaptische Membran, die der empfangenden Zelle postsynaptische Membran.", "c": true, "fb": "Zwischen beiden liegt der synaptische Spalt, der von den Neurotransmittern überbrückt werden muss."},
+    {"t": "In einer einzigen präsynaptischen Endigung können unterschiedliche Vesikeltypen mit jeweils spezifischen Neurotransmittern vorkommen.", "c": true, "fb": "Eine Endigung ist also nicht auf einen einzigen Botenstoff festgelegt."}
+  ],
+  "concept": {
+    "title": "Ablauf der chemischen synaptischen Übertragung",
+    "points": [
+      "Aktionspotenzial erreicht die <b>Axonterminale</b> → Depolarisation → <b>spannungsgesteuerte Calciumkanäle</b> öffnen.",
+      "Calciumeinstrom → synaptische <b>Vesikel</b> verschmelzen mit der präsynaptischen Membran → <b>Exocytose</b>: Neurotransmitter in den <b>synaptischen Spalt</b>.",
+      "Bindung an Rezeptoren der <b>postsynaptischen Membran</b> nach dem <b>Schlüssel-Schloss-Prinzip</b> → Ionenkanäle öffnen.",
+      "Entfernung aus dem Spalt: überwiegend <b>Wiederaufnahme</b> in die Endknöpfchen, Rest Abbau durch <b>Enzyme</b> oder Aufnahme durch <b>Astrozyten</b>.",
+      "Die Vesikelmembran wird zurückgewonnen und neu befüllt."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.3.3 Das Gehirn",
+  "stem": "Welche Aussage zum Mesencephalon ist korrekt?",
+  "opts": [
+    {"t": "Im Tegmentum liegende Strukturen sind am visuellen und auditorischen System beteiligt und steuern Reflexbewegungen von Augen und Kopf.", "c": false, "fb": "Das leistet das Tectum. Im Tegmentum liegen Strukturen für psychische und psychomotorische Funktionen."},
+    {"t": "Das periaquäduktale Grau ist vor allem für die Regulation von Hunger und Durst zuständig.", "c": false, "fb": "Es spielt eine wichtige Rolle bei der Schmerzwahrnehmung. Motivationale Verhaltensweisen wie Essen reguliert der Hypothalamus."},
+    {"t": "Strukturell lassen sich das dorsal liegende Tectum und das ventral liegende Tegmentum unterscheiden.", "c": true, "fb": "Merkhilfe über die Lage: Tectum oben (lat. Dach), Tegmentum unten."},
+    {"t": "Die Substantia nigra liegt im Tectum und besteht aus serotoninproduzierenden Neuronen.", "c": false, "fb": "Sie liegt im Tegmentum und besteht aus dopaminproduzierenden Neuronen mit Aufgaben in der Bewegungssteuerung."}
+  ],
+  "concept": {
+    "title": "Mesencephalon (Mittelhirn)",
+    "points": [
+      "Bildet zusammen mit <b>Pons</b> und <b>Medulla oblongata</b> den <b>Hirnstamm</b>; liegt über dem Pons.",
+      "Wird wie der übrige Hirnstamm von afferenten und efferenten Nervenfasern durchzogen.",
+      "<b>Tectum</b> (dorsal): visuelles und auditorisches System, Reflexbewegungen von Augen und Kopf.",
+      "<b>Tegmentum</b> (ventral): psychische und psychomotorische Funktionen – u. a. <b>periaquäduktales Grau</b> (Schmerzwahrnehmung) und <b>Substantia nigra</b> (dopaminproduzierend, Bewegungssteuerung)."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.4 Das visuelle System",
+  "stem": "Welche Aussagen zu den Zapfen und zum Farbsehen treffen zu?",
+  "opts": [
+    {"t": "Das Außenglied der Zapfen ist lang und zylindrisch und enthält besonders viele Photopigmente.", "c": false, "fb": "Das beschreibt die Stäbchen. Das Außenglied der Zapfen ist deutlich kürzer und läuft spitz zu."},
+    {"t": "Es gibt drei Zapfentypen, die sich durch ihre Photopigmente unterscheiden und unterschiedlich stark auf verschieden lange Wellenlängen reagieren.", "c": true, "fb": "Ein Typ reagiert besonders gut auf blaues, einer auf grünes, einer auf rotes Licht."},
+    {"t": "Die tatsächliche Farbwahrnehmung hängt von der relativen Beteiligung der drei Zapfentypen ab.", "c": true, "fb": "Nicht ein einzelner Zapfentyp bestimmt die Farbe, sondern das Verhältnis ihrer Aktivierung zueinander."},
+    {"t": "Die Empfindlichkeitsbereiche der drei Zapfentypen sind scharf voneinander getrennt und überlappen nicht.", "c": false, "fb": "Die Wellenlängenbereiche überlappen sich – genau deshalb funktioniert das Prinzip der relativen Beteiligung überhaupt."}
+  ],
+  "concept": {
+    "title": "Stäbchen, Zapfen und Farbsehen",
+    "points": [
+      "Beide besitzen ein <b>Außen- und ein Innenglied</b>.",
+      "<b>Stäbchen</b>: langes zylindrisches Außenglied, viele Photopigmente → sehr lichtempfindlich → Dämmerungssehen. Etwa <b>20-mal so viele</b> wie Zapfen.",
+      "<b>Zapfen</b>: kurzes, spitz zulaufendes Außenglied → dominieren bei guter Beleuchtung, liefern scharfe farbige Wahrnehmung. In der <b>Fovea</b> ausschließlich Zapfen → Ort des schärfsten Sehens.",
+      "<b>Drei Zapfentypen</b> (blau / grün / rot), Wellenlängenbereiche <b>überlappen</b>; die Farbwahrnehmung ergibt sich aus ihrer <b>relativen Beteiligung</b>.",
+      "Fehlen oder Fehlfunktion eines Typs → <b>Farbfehlsichtigkeit</b>, am häufigsten die Rot-Grün-Schwäche."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.3.3 Das Gehirn",
+  "stem": "Welche Aussagen zu Lateralisation und Split-Brain treffen zu?",
+  "opts": [
+    {"t": "Bei Split-Brain-Patient:innen sind die Hemisphären getrennt, meist infolge einer Operation zur Eindämmung epileptischer Anfälle.", "c": true, "fb": "Damit ist der Informationsaustausch über das Corpus callosum unterbrochen."},
+    {"t": "Die linke Hemisphäre ist in der Regel sprachdominant, während die rechte bei der räumlichen Verarbeitung dominant ist.", "c": true, "fb": "Genau diese Lateralisation erklärt das Untersuchungsergebnis: Der rechten Hemisphäre fehlen die Worte."},
+    {"t": "Die Untersuchungen von Gazzaniga, Bogen und Sperry (1962) zeigten, dass Reize der linken Gesichtsfeldhälfte nicht benannt werden konnten.", "c": true, "fb": "Reize in der rechten Gesichtsfeldhälfte stellten dagegen kein Problem dar."},
+    {"t": "Split-Brain-Patient:innen zeigen im Alltag schwere Ausfälle beim Gehen, Sprechen und in sozialen Interaktionen.", "c": false, "fb": "Sie verhalten sich auffällig normal – die Ausfälle zeigen sich erst in gezielten Untersuchungsanordnungen."}
+  ],
+  "concept": {
+    "title": "Lateralisation und Split-Brain (Infobox 4.3)",
+    "points": [
+      "Normalfall: Beide Hemisphären arbeiten über das <b>Corpus callosum</b> zusammen.",
+      "Bei <b>Split-Brain</b> ist diese Verbindung durchtrennt (meist zur Eindämmung epileptischer Anfälle). Im Alltag: auffällig normales Verhalten.",
+      "Befund von <b>Gazzaniga, Bogen und Sperry (1962)</b>: Reize in der <b>linken</b> Gesichtsfeldhälfte können nicht benannt werden, Reize rechts schon.",
+      "Zwei Erklärungsbausteine: (1) <b>kontralaterale</b> Verarbeitung visueller Reize – linkes Gesichtsfeld → rechte Hemisphäre; (2) <b>Lateralisation</b> – links sprachdominant, rechts dominant für räumliche Verarbeitung."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.2.1 Bausteine des Nervensystems",
+  "stem": "Welche Aussage zur Blut-Hirn-Schranke und zur Rolle der Gliazellen ist korrekt?",
+  "opts": [
+    {"t": "Die Blut-Hirn-Schranke hält vor allem fettlösliche Substanzen zurück.", "c": false, "fb": "Umgekehrt: Weil die Blutgefäße mit Fett umgeben werden, können gerade viele nicht fettlösliche Giftstoffe die Barriere nicht überwinden."},
+    {"t": "Astrozyten umgeben die Blutgefäße im Gehirn mit Fett und sind so an der Blut-Hirn-Schranke beteiligt.", "c": true, "fb": "Astrozyten sind eine Art von Gliazellen; die Barriere schützt vor Giftstoffen und Krankheitserregern im Blut."},
+    {"t": "Oligodendrozyten bilden die Blut-Hirn-Schranke im peripheren Nervensystem.", "c": false, "fb": "Oligodendrozyten bilden das Myelin im zentralen Nervensystem. An der Blut-Hirn-Schranke sind Astrozyten beteiligt."},
+    {"t": "An der neuronalen Kommunikation sind Gliazellen nicht beteiligt, da sie keine Ionenkonzentrationen beeinflussen.", "c": false, "fb": "Man geht davon aus, dass sie eine aktive Rolle spielen, indem sie möglicherweise die Konzentration von Ionen beeinflussen."}
+  ],
+  "concept": {
+    "title": "Aufgaben der Gliazellen",
+    "points": [
+      "Unterstützen während der <b>embryonalen Entwicklung</b> neu gebildete Neuronen bei der Ortsfindung.",
+      "<b>Gehirnstoffwechsel</b>: bereiten Nährstoffe auf, entsorgen zelluläres Abfallmaterial.",
+      "Nehmen überschüssige <b>Neurotransmitter</b> aus dem synaptischen Spalt auf.",
+      "<b>Blut-Hirn-Schranke</b>: Astrozyten umgeben Blutgefäße mit Fett → nicht fettlösliche Giftstoffe kommen nicht durch.",
+      "Vermutlich aktive Rolle in der <b>neuronalen Kommunikation</b> über die Ionenkonzentration.",
+      "Bilden <b>Myelin</b>: Oligodendrozyten im ZNS, Schwann-Zellen im PNS.",
+      "Früher als reine Stützzellen gesehen – daher „die vergessenen Zellen“."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.2.3 Synaptische Übertragung",
+  "stem": "Welche Aussagen zu den Vorgängen an der postsynaptischen Membran treffen zu?",
+  "opts": [
+    {"t": "Werden Natriumkanäle geöffnet, entsteht durch die Depolarisation ein exzitatorisches postsynaptisches Potenzial.", "c": true, "fb": "Natrium strömt ein, das Zellinnere wird weniger negativ – die Feuerwahrscheinlichkeit steigt."},
+    {"t": "Werden Kalium- oder Chloridkanäle geöffnet, kommt es zu einer Depolarisation und damit zu einem exzitatorischen Signal.", "c": false, "fb": "Dabei wird die Membran hyperpolarisiert, es entsteht ein inhibitorisches postsynaptisches Signal."},
+    {"t": "Neurotransmitter, die nicht wiederaufgenommen werden, werden ausschließlich von Enzymen abgebaut.", "c": false, "fb": "Ein Teil wird auch von Astrozyten aufgenommen, die sie abbauen und die Abbauprodukte an die Neurone zurückgeben."},
+    {"t": "Ob in der Nähe des Axonhügels ein Aktionspotenzial ausgelöst wird, entscheidet die Summe der exzitatorischen und inhibitorischen postsynaptischen Signale.", "c": true, "fb": "Depolarisationen und Hyperpolarisationen laufen gleichzeitig an vielen Stellen der Dendriten und am Soma ab und werden verrechnet."}
+  ],
+  "concept": {
+    "title": "Vom Transmitter zum Aktionspotenzial",
+    "points": [
+      "Rezeptoren der postsynaptischen Membran veranlassen das <b>Öffnen von Ionenkanälen</b>.",
+      "<b>Natriumkanäle offen</b> → Depolarisation → <b>exzitatorisches</b> postsynaptisches Potenzial (EPSP).",
+      "<b>Kalium- oder Chloridkanäle offen</b> → Hyperpolarisation → <b>inhibitorisches</b> postsynaptisches Signal (IPSP).",
+      "Viele solcher Signale laufen gleichzeitig an Dendriten und Soma ab. Ihre <b>Summe</b> entscheidet, ob am Axonhügel der Schwellenwert (≈ −55 mV) überschritten wird.",
+      "Danach müssen die Transmitter aus dem Spalt entfernt werden: <b>Wiederaufnahme</b> (Mehrheit), <b>Enzyme</b>, <b>Astrozyten</b>."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.4 Das visuelle System",
+  "stem": "Welche Aussagen zum Auge und zur Linse treffen zu?",
+  "opts": [
+    {"t": "Die Augen werden in den Augenhöhlen von sechs Muskeln gestützt, die Bewegungen in horizontaler und vertikaler Achse erlauben.", "c": true, "fb": "Diese Muskeln setzen an der äußeren Augenhaut an."},
+    {"t": "Der Sehnerv ist Teil des peripheren Nervensystems und tritt an der Vorderseite des Auges aus.", "c": false, "fb": "Er ist Teil des zentralen Nervensystems und tritt an der Augenrückseite aus – diese Stelle ist der Blinde Fleck."},
+    {"t": "Die Augenlinse ist bikonvex; ihre Vorderseite ist etwas schwächer gekrümmt als die Hinterseite.", "c": true, "fb": "Bikonvex heißt beidseitig nach außen gewölbt."},
+    {"t": "Bei der Akkommodation wird die Brechkraft erhöht, um Objekte wahrzunehmen, die sich nahe am Auge befinden.", "c": true, "fb": "Die Wölbung der Linse wird dabei durch den Ziliarmuskel verändert."}
+  ],
+  "concept": {
+    "title": "Aufbau des Auges – die drei Augenhäute",
+    "points": [
+      "<b>Äußere Augenhaut</b>: hinten und seitlich die <b>Lederhaut</b>, vorne die <b>Cornea</b> (Hornhaut). Ohne Blutgefäße → lichtdurchlässig. Ansatzpunkt der sechs Augenmuskeln.",
+      "<b>Mittlere Augenhaut</b>: <b>Aderhaut</b> (reich an Blutgefäßen), <b>Ziliarkörper</b> (Ziliarmuskel verformt die Linse) und <b>Iris</b> (Blende; in ihrer Mitte die <b>Pupille</b>).",
+      "<b>Innere Augenhaut</b>: <b>Retina</b> mit den Photorezeptorzellen.",
+      "Weiter: bikonvexe <b>Linse</b> (Vorderseite schwächer gekrümmt), <b>Akkommodation</b> = Veränderung der Linsenform für Nahsehen, <b>Glaskörper</b> als gallertige Masse, <b>Blinder Fleck</b> am Austritt des Sehnervs (Teil des ZNS).",
+      "Pupillenweite: viel Licht → kleiner, wenig Licht → größer."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.3 Aufbau des Nervensystems",
+  "stem": "Welche Aussage zur Gliederung des Nervensystems ist korrekt?",
+  "opts": [
+    {"t": "Zum zentralen Nervensystem gehören die Nerven und Nervenbahnen des Gehirns und des Rückenmarks.", "c": true, "fb": "Das periphere Nervensystem ist entsprechend alles, was außerhalb von Schädel und Wirbelsäule liegt."},
+    {"t": "Das periphere Nervensystem umfasst alle Strukturen innerhalb von Schädel und Wirbelsäule.", "c": false, "fb": "Die Richtung ist umgedreht: Das periphere Nervensystem liegt gerade außerhalb von Schädel und Wirbelsäule."},
+    {"t": "Das zentrale Nervensystem lässt sich in das somatische und das autonome Nervensystem unterteilen.", "c": false, "fb": "Diese Unterteilung betrifft das periphere Nervensystem. Das ZNS gliedert sich in Gehirn und Rückenmark."},
+    {"t": "Die Integration und Koordination aller körperlichen Funktionen ist die Aufgabe des peripheren Nervensystems.", "c": false, "fb": "Das ist die Aufgabe des ZNS: Verarbeitung eintreffender Informationen, deren Integration und das Senden von Signalen."}
+  ],
+  "concept": {
+    "title": "Gliederung des Nervensystems",
+    "points": [
+      "<b>Zentrales Nervensystem (ZNS)</b> = Gehirn + Rückenmark. Aufgabe: Integration und Koordination aller körperlichen Funktionen.",
+      "<b>Peripheres Nervensystem (PNS)</b> = alles außerhalb von Schädel und Wirbelsäule.",
+      "<b>Somatisches Nervensystem</b> (Teil des PNS): sensorische Information von Haut, Muskeln, Gelenken zum ZNS und motorische Signale zurück.",
+      "<b>Autonomes (vegetatives) Nervensystem</b> (Teil des PNS): Steuerung innerer Organe, unbewusst. Untergliedert in <b>Sympathikus</b> (Aktivierung) und <b>Parasympathikus</b> (Normalbetrieb)."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.2.1 Bausteine des Nervensystems",
+  "stem": "Welche Aussagen zu den drei Neuronenarten auf Ebene des Rückenmarks treffen zu?",
+  "opts": [
+    {"t": "Interneuronen geben Signale an benachbarte Neuronen weiter und sind an der Ausbreitung des Signals beteiligt.", "c": true, "fb": "Sie kommunizieren innerhalb des Nervensystems und integrieren Informationen."},
+    {"t": "Rezeptoren in Haut und Muskeln senden über Motoneuronen Signale zurück an das Gehirn.", "c": false, "fb": "Diesen Rückweg übernehmen sensorische Neuronen. Motoneuronen laufen in die Gegenrichtung, zu den Muskeln."},
+    {"t": "Sensorische Neuronen reagieren auf spezifischen Input und nehmen Information aus der Umwelt oder aus dem Körperinneren auf.", "c": true, "fb": "Beide Quellen zählen – die Außenwelt ebenso wie Zustände im eigenen Körper."},
+    {"t": "Interneuronen verbinden ausschließlich das Rückenmark mit den Muskeln.", "c": false, "fb": "Diese Verbindung stellen Motoneuronen her. Interneuronen arbeiten innerhalb des Nervensystems."}
+  ],
+  "concept": {
+    "title": "Drei Neuronenarten im Zusammenspiel",
+    "points": [
+      "<b>Sensorische Neuronen</b>: nehmen Information aus Umwelt und Körperinnerem auf (Reaktion auf spezifischen Input).",
+      "<b>Interneuronen</b>: kommunizieren innerhalb des Nervensystems, integrieren Informationen, geben sie an benachbarte Neuronen weiter.",
+      "<b>Motoneuronen</b>: rufen Bewegungen hervor, indem sie Muskeln zur Kontraktion oder Entspannung veranlassen.",
+      "Beispiel Stift halten: Gehirn → <b>Motoneuronen</b> → Fingermuskeln bewegen den Stift; Hautrezeptoren → <b>sensorische Neuronen</b> → Rückmeldung über den nötigen Druck; <b>Interneuronen</b> verteilen die Signale."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.3.3 Das Gehirn",
+  "stem": "Welche Aussagen zum Metencephalon treffen zu?",
+  "opts": [
+    {"t": "Das Metencephalon lässt sich in Cerebellum und Pons unterteilen; der Pons liegt direkt über der Medulla oblongata.", "c": true, "fb": "Das Metencephalon ist das Hinterhirn und entwickelt sich aus dem Rautenhirnbläschen."},
+    {"t": "Der Pons enthält im Gegensatz zur Medulla oblongata keine afferenten und efferenten Nervenfasern.", "c": false, "fb": "Er beinhaltet wie die Medulla oblongata viele solcher Fasern."},
+    {"t": "Das Kleinhirn integriert unter anderem Informationen aus dem Gleichgewichtsorgan, das im Mittelohr liegt.", "c": false, "fb": "Die Aussage über die Integration stimmt, der Ort nicht: Das Gleichgewichtsorgan liegt im Innenohr."},
+    {"t": "Das Cerebellum besteht wie das Großhirn aus zwei Hälften, den Kleinhirnhemisphären, und liegt hinter dem Pons.", "c": true, "fb": "Seine wichtigsten Funktionen liegen im Bereich der Motorik."}
+  ],
+  "concept": {
+    "title": "Metencephalon (Hinterhirn)",
+    "points": [
+      "Entsteht gemeinsam mit dem Myelencephalon aus dem <b>Rautenhirnbläschen</b>. Zwei Teile: <b>Pons</b> und <b>Cerebellum</b>.",
+      "<b>Pons</b> (Brücke): liegt direkt über der Medulla oblongata, beinhaltet viele afferente und efferente Nervenfasern. Gehört zum Hirnstamm.",
+      "<b>Cerebellum</b> (Kleinhirn): große gewundene Struktur hinter dem Pons, zwei <b>Kleinhirnhemisphären</b>.",
+      "Funktion des Cerebellums: <b>Motorik</b>. Es integriert Informationen aus Rückenmark, <b>Gleichgewichtsorgan (Innenohr)</b> und anderen Hirnteilen, um Bewegungsabläufe glatt abzustimmen."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.2.2 Ruhe- und Aktionspotenzial",
+  "stem": "Welche Aussage über die im Kapitel genannten Prozesse, die zum Ruhepotenzial führen, ist korrekt?",
+  "opts": [
+    {"t": "Zu ihnen zählen die selektive Permeabilität, der Osmosegradient und die Calcium-Natrium-Pumpe.", "c": false, "fb": "Osmosegradient und Calcium-Natrium-Pumpe kommen im Kapitel nicht vor. Gemeint sind Potenzialgradient und Natrium-Kalium-Pumpe."},
+    {"t": "Zu ihnen zählen neben Diffusion und Potenzialgradient auch die saltatorische Erregungsleitung und die Exocytose.", "c": false, "fb": "Saltatorische Erregungsleitung und Exocytose gehören zu ganz anderen Kapiteln – zur Fortleitung entlang des Axons bzw. zur synaptischen Übertragung."},
+    {"t": "Zu ihnen zählen ausschließlich der Konzentrationsgradient und der Potenzialgradient; aktive Transportprozesse spielen keine Rolle.", "c": false, "fb": "Ohne die energieaufwendige Natrium-Kalium-Pumpe würde das Membranpotenzial über die Zeit verloren gehen."},
+    {"t": "Zu ihnen zählen die selektive Permeabilität, der Konzentrationsgradient, der Potenzialgradient und die Natrium-Kalium-Pumpe.", "c": true, "fb": "Genau diese vier Prozesse führt das Skript nummeriert auf."}
+  ],
+  "concept": {
+    "title": "Die vier Prozesse hinter dem Ruhepotenzial",
+    "points": [
+      "<b>1. Selektive Permeabilität</b>: Membran im Ruhezustand hoch durchlässig für Chlorid und Kalium, kaum für Natrium.",
+      "<b>2. Konzentrationsgradient</b>: Teilchen streben gleichmäßige Verteilung an → Bewegung von hoher zu niedriger Konzentration = <b>Diffusion</b>.",
+      "<b>3. Potenzialgradient</b>: Die Ionen wollen den Spannungsunterschied von ≈ −70 mV ausgleichen. Betrifft die positiven Natriumionen außen; Kalium innen und Chlorid außen sind bereits im Einklang.",
+      "<b>4. Natrium-Kalium-Pumpe</b>: befördert unter Energieaufwand <b>3 Na⁺ hinaus</b> und <b>2 K⁺ hinein</b> und gleicht so den geringen Natriumeinstrom aus.",
+      "Ergebnis: stabiles Ruhepotenzial von etwa −70 mV."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.4 Das visuelle System",
+  "stem": "Welche Aussagen zur Verschaltung innerhalb der Retina treffen zu?",
+  "opts": [
+    {"t": "Die direkteste Bahn verläuft von den Photorezeptorzellen über die Bipolarzellen zu den Ganglienzellen.", "c": true, "fb": "Bipolarzellen kombinieren die Signale mehrerer Photorezeptorzellen, Ganglienzellen die Signale einer oder mehrerer Bipolarzellen."},
+    {"t": "Horizontalzellen verbinden Photorezeptorzellen untereinander, sodass benachbarte Rezeptoren sich gegenseitig beeinflussen.", "c": true, "fb": "Sie greifen also früh in den Signalfluss ein, noch auf Rezeptorebene."},
+    {"t": "Die Axone der Ganglienzellen bilden den Sehnerv, der die visuelle Information aus dem Auge zum Gehirn transportiert.", "c": true, "fb": "Damit sind die Ganglienzellen die letzte Station innerhalb der Retina."},
+    {"t": "Als rezeptives Feld bezeichnet man diejenige Retinafläche, von der aus eine einzelne Nervenzelle beeinflusst werden kann.", "c": true, "fb": "Gleichbedeutend: die Gesamtheit der Photorezeptorzellen, die Einfluss auf diese eine Nervenzelle haben."}
+  ],
+  "concept": {
+    "title": "Signalfluss und rezeptives Feld",
+    "points": [
+      "Hauptbahn: <b>Photorezeptorzellen → Bipolarzellen → Ganglienzellen</b>. Dabei wird schrittweise zusammengefasst (mehrere Rezeptoren auf eine Bipolarzelle, mehrere Bipolarzellen auf eine Ganglienzelle).",
+      "<b>Horizontalzellen</b>: verbinden Photorezeptorzellen untereinander (frühe Beeinflussung).",
+      "<b>Amakrinzellen</b>: interagieren etwas später mit Bipolar- und Ganglienzellen und beeinflussen den Signalfluss zu den Ganglienzellen.",
+      "Die <b>Axone der Ganglienzellen</b> bilden den <b>Sehnerv</b>.",
+      "<b>Rezeptives Feld</b> = Retinafläche, von der aus eine einzelne Nervenzelle beeinflusst werden kann."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.3.2 Das Rückenmark",
+  "stem": "Welche Aussagen zum Rückenmark sind korrekt?",
+  "opts": [
+    {"t": "Die Spinalnerven treten auf nur einer Körperseite aus dem Rückenmark aus und verlaufen von dort zu entfernteren Gebieten.", "c": false, "fb": "Sie treten auf beiden Seiten durch die Zwischenräume zwischen den Wirbelkörpern aus."},
+    {"t": "Im Seitenstrang verläuft unter anderem die Pyramidenbahn, ein paariges Faserbündel mit zentraler Rolle bei der motorischen Steuerung.", "c": true, "fb": "Der Seitenstrang gehört wie Hinter- und Vorderstrang zur weißen Substanz."},
+    {"t": "Sensorische Nervenfasern dringen über die Hinterwurzel in das Rückenmark ein, motorische treten über die Vorderwurzel aus.", "c": true, "fb": "Das passt zur Verteilung der grauen Substanz: sensorisch hinten, motorisch vorne."},
+    {"t": "Der Zentralkanal durchzieht das Rückenmark von oben nach unten und ist mit Liquor gefüllt.", "c": true, "fb": "Er liegt als kleine, annähernd kreisförmige Öffnung im Zentrum der grauen Substanz."}
+  ],
+  "concept": {
+    "title": "Querschnitt des Rückenmarks",
+    "points": [
+      "<b>Graue Substanz</b> (H-förmiger innerer Kern, überwiegend Zellkörper): <b>Hinterhörner</b> dorsal = sensorisch, <b>Vorderhörner</b> ventral = motorisch.",
+      "<b>Weiße Substanz</b> (außen, überwiegend Axone): <b>Hinterstrang</b> = aufsteigende Bahnen zum Gehirn, <b>Vorderstrang</b> = absteigende Bahnen vom Gehirn, <b>Seitenstrang</b> = u. a. <b>Pyramidenbahn</b> (motorische Steuerung).",
+      "<b>Zentralkanal</b>: kleine Öffnung im Zentrum der grauen Substanz, mit Liquor gefüllt.",
+      "<b>Hinterwurzel</b> = Eintritt sensorischer Fasern (davor die Verdickung <b>Spinalganglion</b>), <b>Vorderwurzel</b> = Austritt motorischer Fasern.",
+      "Rahmen: ca. 40–45 cm lang, zylindrisch, im Wirbelsäulenkanal; <b>Spinalnerven</b> treten beidseits aus, jedem ist ein <b>Dermatom</b> zugeordnet (mit Überlappung zu den Nachbarn)."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.2.4 Neurotransmitter",
+  "stem": "Welche Aussage über einzelne Neurotransmitter ist korrekt?",
+  "opts": [
+    {"t": "Noradrenalin ist chemisch eine Abbaustufe von Adrenalin und wirkt dämpfend auf die physiologische Erregung.", "c": false, "fb": "Es ist eine Vorstufe zu Adrenalin und wirkt aktivierend – beteiligt an physiologischer Erregung und Wachheit."},
+    {"t": "Acetylcholin ist neben der motorischen Kontrolle auch an komplexen mentalen Prozessen wie Lernen, Gedächtnis, Schlaf und Träumen beteiligt.", "c": true, "fb": "Für die motorische Kontrolle ist es am Übergang zwischen Nerven und Muskeln zuständig."},
+    {"t": "Adrenalin ist ein reines Stresshormon und wirkt im zentralen Nervensystem nicht als Neurotransmitter.", "c": false, "fb": "Laut Fußnote wirkt Adrenalin im zentralen Nervensystem sehr wohl auch als Neurotransmitter."},
+    {"t": "GABA ist vor allem im Rückenmark vertreten und wirkt dort als wichtigster exzitatorischer Transmitter.", "c": false, "fb": "GABA ist vor allem im Gehirn vertreten und ist der bedeutendste inhibitorisch wirkende Neurotransmitter."}
+  ],
+  "concept": {
+    "title": "Die wichtigsten Neurotransmitter im Überblick",
+    "points": [
+      "<b>Glutamat</b>: wichtigster <b>exzitatorischer</b> Transmitter im Gehirn; emotionale Reaktionen, Lernen, Gedächtnis; Transmitter der Sinneszellen.",
+      "<b>GABA</b>: bedeutendster <b>inhibitorischer</b> Transmitter, vor allem im Gehirn; Benzodiazepine binden an GABA-Rezeptoren (angstlösend, schlaffördernd, muskelentspannend).",
+      "<b>Dopamin</b>: Motivation und Belohnung; Mangel → Bewegungsprobleme, Morbus Parkinson durch Absterben dopaminproduzierender Neuronen.",
+      "<b>Serotonin</b>: Regulation emotionaler Zustände; SSRI hemmen die Wiederaufnahme, häufig bei Depressionen.",
+      "<b>Acetylcholin</b>: motorische Kontrolle am Übergang Nerv–Muskel; außerdem Lernen, Gedächtnis, Schlaf, Träumen.",
+      "<b>Noradrenalin</b>: chemische <b>Vorstufe zu Adrenalin</b>, aktivierend – physiologische Erregung und Wachheit.",
+      "Die Liste ist ausdrücklich eine <b>Auswahl</b>, nicht vollständig."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.2.2 Ruhe- und Aktionspotenzial",
+  "stem": "Welche Aussagen zur Fortleitung des Aktionspotenzials entlang des Axons treffen zu?",
+  "opts": [
+    {"t": "Ein Zurückwandern wird durch die Hyperpolarisation der bereits durchlaufenen Abschnitte verhindert, in denen die Kaliumkanäle inaktiviert sind.", "c": false, "fb": "Verantwortlich ist die Refraktärphase, und inaktiviert sind dort die Natriumkanäle – deshalb ist eine erneute Auslösung so kurz danach unmöglich."},
+    {"t": "Das Aktionspotenzial entsteht in der Nähe des Axonhügels und wandert von dort bis zu den Endknöpfchen.", "c": true, "fb": "Erst dort kann die Information an ein anderes Neuron weitergegeben werden."},
+    {"t": "Es breitet sich aus, indem benachbarte spannungsgesteuerte Natriumkanäle geöffnet werden und die Membran auch dort depolarisiert wird.", "c": true, "fb": "So entsteht Abschnitt für Abschnitt ein neues Aktionspotenzial – daher die Zündschnur-Analogie."},
+    {"t": "In myelinisierten Axonen wird die Potenzialveränderung im Bereich der Myelinscheiden aktiv durch Ionenströme weitergegeben.", "c": false, "fb": "Dort erfolgt die Ausbreitung passiv über die Abstoßungskräfte zwischen den geladenen Teilchen. Aktive Auslösung geschieht nur an den Ranvier-Schnürringen."}
+  ],
+  "concept": {
+    "title": "Fortleitung entlang des Axons",
+    "points": [
+      "Auslösung nahe dem <b>Axonhügel</b>, Wanderung bis zu den <b>Endknöpfchen</b>.",
+      "<b>Unmyelinisiert</b>: benachbarte spannungsgesteuerte Natriumkanäle öffnen → dortige Depolarisation → neues Aktionspotenzial. Abschnitt für Abschnitt.",
+      "<b>Myelinisiert – saltatorische Erregungsleitung</b>: Unter dem Myelin läuft die Potenzialveränderung <b>passiv</b> (sehr schnell, aber mit Abnahme über die Distanz). Nur an den <b>Ranvier-Schnürringen</b> hat die Membran Kontakt zur extrazellulären Flüssigkeit; dort liegen viele Natriumkanäle und es entstehen neue Aktionspotenziale.",
+      "Daraus folgt: Der Abstand der Schnürringe darf nicht zu groß sein, sonst erreicht das abnehmende Signal den nächsten Ring nicht.",
+      "<b>Nur eine Richtung</b>: Die durchlaufenen Abschnitte sind refraktär, ihre <b>Natriumkanäle inaktiviert</b> – wie das Feuer einer Zündschnur."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.2.4 Neurotransmitter",
+  "stem": "Welche Aussagen über Neurotransmitter und ihre Bedeutung treffen zu?",
+  "opts": [
+    {"t": "Bei vielen psychischen Erkrankungen vermutet man ein Ungleichgewicht in bestimmten Neurotransmittersystemen; Psychopharmaka greifen häufig genau dort ein.", "c": true, "fb": "Das ist die Brücke von der Zellebene zur Klinischen Psychologie und zur Psychopharmakologie."},
+    {"t": "Neurotransmitter übertragen die Erregung an elektrischen Synapsen von einer Nervenzelle auf andere Zellen.", "c": false, "fb": "Sie wirken an chemischen Synapsen. An elektrischen Synapsen wandern Ionen und kleine Moleküle direkt durch eine Art Röhre."},
+    {"t": "Enzyme, die Neurotransmitter im synaptischen Spalt abbauen, sind meist Proteine und beschleunigen biochemische Abläufe im Organismus.", "c": true, "fb": "Diese Definition steht in einer mit Ziffer nummerierten Fußnote und gehört damit zum Lernstoff."},
+    {"t": "Die im Skript genannte Liste der Neurotransmitter ist vollständig und umfasst alle im Nervensystem vorkommenden Botenstoffe.", "c": false, "fb": "Das Skript weist ausdrücklich darauf hin, dass es sich nur um eine Auswahl handelt – ebenso bei den genannten Aufgabengebieten."}
+  ],
+  "concept": {
+    "title": "Was Neurotransmitter sind und leisten",
+    "points": [
+      "<b>Definition</b>: Stoffe, die an <b>chemischen</b> Synapsen die Erregung von einer Nervenzelle auf andere Zellen übertragen. Sie bestimmen, welche Reaktion in der empfangenden Zelle ausgelöst wird.",
+      "Sie liegen in den <b>synaptischen Vesikeln</b> und binden nach dem Schlüssel-Schloss-Prinzip an Rezeptorproteine.",
+      "<b>Klinischer Bezug</b>: Bei vielen psychischen Erkrankungen wird ein Ungleichgewicht in Neurotransmittersystemen vermutet; Psychopharmaka setzen dort an (z. B. SSRI bei Depression, Benzodiazepine an GABA-Rezeptoren).",
+      "<b>Abbau</b>: Wiederaufnahme, <b>Enzyme</b> (meist Proteine, die biochemische Abläufe beschleunigen) oder Astrozyten.",
+      "Die Aufzählung im Skript ist eine <b>Auswahl</b>, keine vollständige Liste."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.1 Was ist Biologische Psychologie",
+  "stem": "Welche Aussage zum heutigen Verständnis der Funktionsweise des Gehirns entspricht dem Kapitel?",
+  "opts": [
+    {"t": "Seit Brocas Arbeiten gilt als gesichert, dass für jede spezifische Aufgabe genau eine Gehirnregion zuständig ist.", "c": false, "fb": "Genau das hat sich als zu einfach erwiesen. Broca lieferte lediglich den ersten Hinweis auf spezialisierte Funktionen."},
+    {"t": "In der Regel ist nicht eine einzelne Gehirnregion für eine Aufgabe zuständig, sondern es handelt sich um ein komplexes Zusammenspiel vieler Regionen.", "c": true, "fb": "Einigen Regionen konnten zwar spezifische Funktionen zugeordnet werden, aber eben nicht im Sinne einer Eins-zu-eins-Zuordnung."},
+    {"t": "Fragen wie die nach der Entstehung des Bewusstseins gelten inzwischen als weitgehend geklärt.", "c": false, "fb": "Sie zählen ausdrücklich zu den trotz vorhandener Theorien noch ungeklärten Fragen."},
+    {"t": "Die Biologische Psychologie interessiert sich ausschließlich für physische Merkmale und klammert psychische Zustände bewusst aus.", "c": false, "fb": "Ihr Gegenstand ist gerade die Beziehung zwischen physischen Merkmalen, Zuständen und Prozessen einerseits und psychischen Zuständen andererseits."}
+  ],
+  "concept": {
+    "title": "Von der Lokalisation zum Netzwerk",
+    "points": [
+      "<b>Gegenstand der Biologischen Psychologie</b>: die Beziehung zwischen physischen Merkmalen, Zuständen und Prozessen und den psychischen Zuständen.",
+      "<b>Historischer Anstoß</b>: Einzelfälle wie Phineas Gage (1848, linker vorderer Frontallappen) und Patient „Tan“ (Broca, Sprachproduktion, linke Hemisphäre) warfen neue Fragen auf.",
+      "<b>Zwischenschritt</b>: Einigen Regionen konnten spezifische Funktionen zugeordnet werden, unterstützt durch Methoden zur Messung der Gehirnaktivität.",
+      "<b>Heutiger Stand</b>: In der Regel ist nicht eine einzelne Region für eine Aufgabe zuständig, sondern ein komplexes Zusammenspiel vieler Regionen.",
+      "Vieles bleibt offen – etwa, was Bewusstsein ist und wie es entsteht."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.2.2 Ruhe- und Aktionspotenzial",
+  "stem": "Welche Aussagen zum Ablauf eines Aktionspotenzials sind korrekt?",
+  "opts": [
+    {"t": "Den durch den Natriumeinstrom bedingten Anstieg des Membranpotenzials bezeichnet man auch als Aufstrich.", "c": true, "fb": "Er beginnt, sobald der Schwellenwert überschritten ist und sich die spannungsgesteuerten Natriumkanäle öffnen."},
+    {"t": "Während des Aufstrichs und der frühen Repolarisationsphase bleibt eine zusätzliche Erregung ohne Wirkung.", "c": true, "fb": "Hier herrscht die absolute Refraktärphase; die Natriumkanäle sind noch im inaktivierten Zustand."},
+    {"t": "Spannungsgesteuerte Ionenkanäle sind im Ruhezustand normalerweise geöffnet und schließen sich erst bei Überschreiten des Schwellenwerts.", "c": false, "fb": "Umgekehrt: Im Ruhezustand sind sie normalerweise geschlossen und öffnen sich erst bei einer bestimmten Spannung."},
+    {"t": "Die relative Refraktärphase dauert bis ins Nachpotenzial an; dort kann nur eine erhöhte Erregungsstärke ein zweites Aktionspotenzial auslösen.", "c": true, "fb": "Sie schließt unmittelbar an die absolute Refraktärphase an."}
+  ],
+  "concept": {
+    "title": "Phasen eines Aktionspotenzials",
+    "points": [
+      "<b>Ruhepotenzial</b> ≈ −70 mV. Schwellenwert ≈ <b>−55 mV</b>.",
+      "<b>Aufstrich / Depolarisation</b>: spannungsgesteuerte Natriumkanäle öffnen, massiver Na⁺-Einstrom.",
+      "<b>Overshoot</b>: Potenzial steigt auf etwa <b>+50 mV</b>, Zellinneres jetzt positiv.",
+      "Natriumkanäle schließen nach ca. <b>1 ms</b> und werden <b>inaktiviert</b>; verzögert öffnen die Kaliumkanäle.",
+      "<b>Repolarisation</b>: K⁺-Ausstrom, Zellinneres wird wieder negativ.",
+      "<b>Hyperpolarisation / Nachpotenzial</b>: Kaliumkanäle schließen erst nach Erreichen des Ruhepotenzials → Potenzial unterschreitet den Ruhewert. Die Natrium-Kalium-Pumpe stellt die Ausgangslage wieder her.",
+      "<b>Absolute Refraktärphase</b> (Aufstrich + frühe Repolarisation): keine Erregung möglich. <b>Relative Refraktärphase</b> (bis ins Nachpotenzial): nur erhöhte Erregungsstärke wirkt.",
+      "<b>Alles-oder-Nichts-Gesetz</b>: entweder gar kein Aktionspotenzial oder ein für die Zelle immer gleich starkes."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.3.4 Peripheres Nervensystem",
+  "stem": "Welche Aussage zum somatischen Nervensystem ist korrekt?",
+  "opts": [
+    {"t": "Spezialisierte Rezeptoren an Haut, in Muskeln und Gelenken senden Informationen an das Rückenmark, von wo sie an das Gehirn weitergeleitet werden.", "c": true, "fb": "In analoger Weise laufen Signale vom Gehirn über das Rückenmark zurück an Muskeln, Gelenke und Haut."},
+    {"t": "Es leitet Signale ausschließlich zum Gehirn hin; absteigende Bahnen verlaufen über das autonome Nervensystem.", "c": false, "fb": "Es arbeitet in beide Richtungen und initiiert, moduliert oder hemmt auch Bewegungen."},
+    {"t": "Es arbeitet unbewusst und entzieht sich in der Regel der willkürlichen Kontrolle.", "c": false, "fb": "Das beschreibt das autonome Nervensystem, das innere Organe und Drüsen steuert."},
+    {"t": "Es gehört gemeinsam mit dem Rückenmark zum zentralen Nervensystem.", "c": false, "fb": "Es ist eine Untergliederung des peripheren Nervensystems."}
+  ],
+  "concept": {
+    "title": "Peripheres Nervensystem",
+    "points": [
+      "<b>Somatisches Nervensystem</b>: überträgt sensorische Informationen von Rezeptoren in Haut, Muskeln und Gelenken über das Rückenmark an das Gehirn – und leitet umgekehrt Signale zurück, um Bewegungen zu <b>initiieren, modulieren oder hemmen</b>.",
+      "<b>Autonomes (vegetatives) Nervensystem</b>: Steuerung innerer Organe, Stimulation von Drüsen; läuft in der Regel <b>unbewusst und ohne willkürliche Kontrolle</b> ab.",
+      "<b>Sympathikus</b>: Aktivierung – Adrenalinausschüttung, Blut zu den Muskeln, Puls und Sauerstoffverbrauch steigen, Verdauung wird heruntergeregelt.",
+      "<b>Parasympathikus</b>: Beruhigung – langsamerer Herzschlag, ruhigere Atmung, Verdauung stellt sich wieder ein. „Normalbetrieb“."
+    ]
+  }
+},
+{
+  "kap": 4,
+  "sec": "4.2.1 Bausteine des Nervensystems",
+  "stem": "Welche Aussagen zum Neuron als Zelle sind korrekt?",
+  "opts": [
+    {"t": "Als Sonderform der tierischen Zelle enthält das Neuron alle Organellen, die in tierischen Zellen vorhanden sind, etwa Mitochondrien und einen Zellkern.", "c": true, "fb": "Das Besondere am Neuron liegt nicht in exotischen Bestandteilen, sondern in seiner Spezialisierung auf Signalverarbeitung."},
+    {"t": "Neuronen weisen untereinander eine sehr ähnliche Struktur auf; die Zahl der Fortsätze und die Axonlänge variieren nur geringfügig.", "c": false, "fb": "Tatsächlich gibt es eine sehr große Vielfalt: von einem einzigen bis zu sehr vielen Fortsätzen, lange oder kurze Axone, keine oder viele Verzweigungen."},
+    {"t": "Die äußere Gestalt eines Neurons ist unabhängig von seinem Aufgabengebiet festgelegt.", "c": false, "fb": "Sie kann sich je nach Aufgabengebiet unterschiedlich zeigen."},
+    {"t": "Das Soma enthält neben dem Zellkern zumeist eine große Zahl von Organellen wie Mitochondrien, Golgi-Apparate und Ribosomen.", "c": true, "fb": "Das Soma wird auch Zellkörper oder Perikaryon genannt; im Zellkern (Nucleus) liegt die DNA."}
+  ],
+  "concept": {
+    "title": "Der Bauplan des Neurons",
+    "points": [
+      "<b>Zellmembran</b>: Lipid-Doppelschicht mit eingebetteten Proteinmolekülen (Basis für Ionenkanäle, Pumpen, Rezeptoren).",
+      "<b>Soma</b> (Zellkörper, Perikaryon): enthält den <b>Zellkern</b> (Nucleus, DNA) und viele Organellen – Mitochondrien, Golgi-Apparate, Ribosomen.",
+      "<b>Dendriten</b>: zahlreiche, meist kurze Fortsätze am Soma; <b>Empfang</b> von Informationen.",
+      "<b>Axon</b>: meist genau eines, tritt am <b>Axonhügel</b> aus; Transport <b>weg</b> vom Zellkörper zu den Endknöpfchen (<b>Axonterminale</b>). Länge von unter 1 mm bis über 1 m; kann sich verzweigen.",
+      "Trotz der Standarddarstellung: sehr große <b>Vielfalt</b> an Formen, abhängig vom Aufgabengebiet."
+    ]
+  }
+}
+]

@@ -191,6 +191,7 @@ const POOL = JSON.parse(document.getElementById("pool-data").textContent);
 const KAPITEL = __KAPITEL_JSON__;
 
 const STORE_KEY = __STORE_KEY_JSON__;
+const TAGESGENAU = __TAGESGENAU__;
 const DB_PATH = "progress/state";
 const SESSION_SIZE = 20;
 const NEW_QUOTA = 8;   // reservierte Plätze für neuen Stoff — sonst verdrängen
@@ -240,13 +241,19 @@ function nextStability(D, S, R, grade) {
     (Math.exp(W[10] * (1 - R)) - 1) * hard * easy;
   return clampS(S * growth);
 }
+/* Mit TAGESGENAU richten sich Fälligkeiten nach ganzen Kalendertagen: Eine
+   Karte wird am Morgen ihres Fälligkeitstages fällig, unabhängig davon, zu
+   welcher Uhrzeit sie zuletzt beantwortet wurde. */
+const tagesBezug = (ms) => (TAGESGENAU ? startOfDay(ms) : ms);
+
 function schedule(card, grade, nowMs) {
   let S, D;
+  const jetzt = tagesBezug(nowMs);
   if (!card) {
     const init = initCard(grade);
     S = init.S; D = init.D;
   } else {
-    const elapsed = Math.max(0, (nowMs - card.last) / DAY);
+    const elapsed = Math.max(0, (jetzt - tagesBezug(card.last)) / DAY);
     const R = retrievability(elapsed, card.S);
     D = nextDifficulty(card.D, grade);
     S = nextStability(D, card.S, R, grade);
@@ -255,7 +262,7 @@ function schedule(card, grade, nowMs) {
   return {
     S, D,
     last: nowMs,
-    due: nowMs + days * DAY,
+    due: jetzt + days * DAY,
     reps: (card?.reps || 0) + 1,
     lapses: (card?.lapses || 0) + (grade === 1 ? 1 : 0),
     interval: days,
@@ -388,12 +395,12 @@ function Lernkonsole() {
   /* — Auswahl der Session: fällig → neu → vorgezogen — */
   const buckets = useMemo(() => {
     if (!state) return { due: [], neu: [], early: [] };
-    const now = Date.now();
+    const now = tagesBezug(Date.now());
     const due = [], neu = [], early = [];
     shuffledPool.forEach((q) => {
       const c = state.cards[q.id];
       if (!c) neu.push(q);
-      else if (c.due <= now) due.push(q);
+      else if (tagesBezug(c.due) <= now) due.push(q);
       else early.push(q);
     });
     due.sort((a, b) => state.cards[a.id].due - state.cards[b.id].due);
@@ -601,11 +608,11 @@ function Session({ session, setSession, state, persist, onDone }) {
               ? `Alle vier Optionen richtig bewertet. Wiedervorlage in ${letzte.interval} ${letzte.interval === 1 ? "Tag" : "Tagen"}.`
               : `Mindestens eine Option falsch bewertet. Wiedervorlage in ${letzte.interval} ${letzte.interval === 1 ? "Tag" : "Tagen"}.`)
           ),
-          h("div", { className: "concept" },
+          q.concept ? h("div", { className: "concept" },
             h("span", { className: "clabel" }, "Konzept"),
             h("h3", null, q.concept.title),
             h("ul", null, q.concept.points.map((p, i) => h("li", { key: i, dangerouslySetInnerHTML: { __html: p } })))
-          ),
+          ) : null,
           h("div", { className: "actions" },
             h("button", { className: "primary", onClick: weiter }, idx + 1 >= items.length ? "Session abschließen" : "Weiter"),
             h("span", { className: "scoreline" }, punkte, " / ", results.length)
@@ -640,7 +647,7 @@ function Ende({ session, byId, onHome, onDash }) {
             return h("li", { key: i },
               h("span", { className: "rk" }, q.sec),
               h("span", { className: "rs" }, q.stem),
-              h("span", { className: "rc" }, q.concept.title)
+              q.concept ? h("span", { className: "rc" }, q.concept.title) : null
             );
           })
         )
@@ -869,6 +876,7 @@ app_js = (
     app_js.replace("__CSS_JSON__", json.dumps(css))
     .replace("__KAPITEL_JSON__", json.dumps({str(k): v for k, v in CONFIG["kapitel"].items()}, ensure_ascii=False))
     .replace("__STORE_KEY_JSON__", json.dumps(CONFIG["storeKey"]))
+    .replace("__TAGESGENAU__", "true" if CONFIG.get("faelligkeitNachKalendertagen") else "false")
     .replace("__APP_TITLE_JSON__", json.dumps(CONFIG["title"], ensure_ascii=False))
     .replace("__APP_SUBTITLE_JSON__", json.dumps(CONFIG["subtitle"].replace("{n}", str(POOL_COUNT)), ensure_ascii=False))
 )

@@ -1,0 +1,277 @@
+[
+{
+  "kap": 3,
+  "sec": "3.1 Einführung & Forschungsprozess",
+  "stem": "Welche Aussagen zum Rückschaufehler und zum kritischen Denken treffen zu?",
+  "opts": [
+    {"t": "Der Rückschaufehler entsteht dadurch, dass Menschen zukünftige Ereignisse systematisch zu vorsichtig vorhersagen.", "c": false, "fb": "Der Fehler betrifft nicht die Vorhersage, sondern die Rückschau: Erst nach dem Ausgang meint man, ihn ohnehin gewusst zu haben."},
+    {"t": "Unter kritischem Denken versteht man das systematische Hinterfragen und die Bewertung von Informationen.", "c": true, "fb": "Leitfragen sind etwa: Woher stammt die Information? Was genau ist gemeint? Liegt genug Evidenz vor?"},
+    {"t": "Kritisches Denken setzt erst nach der Publikation einer Studie ein, wenn andere Forschende die Ergebnisse bewerten.", "c": false, "fb": "Es ist der erste Schritt in Richtung Wissenschaftlichkeit und damit Voraussetzung dafür, psychische Phänomene überhaupt zu prüfen."},
+    {"t": "Der Rückschaufehler bezeichnet den Eindruck, den Ausgang eines Geschehnisses im Nachhinein schon vorher richtig vorausgesagt zu haben.", "c": true, "fb": "Beispiel aus dem Skript: Nach einem Spiel hat man häufig den subjektiven Eindruck, den Sieger vorher gekannt zu haben."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.1 Einführung & Forschungsprozess",
+  "stem": "Welche Aussage zur Methodenlehre und zur wissenschaftlichen Methode trifft zu?",
+  "opts": [
+    {"t": "Die Methodenlehre lehrt, welche wissenschaftlichen Methoden für ein bestimmtes Forschungsziel geeignet sind und wie diese anzuwenden sind.", "c": true, "fb": "Das durch sie vermittelte Vorgehen soll genau die Fehler minimieren, die in der Alltagspsychologie auftreten."},
+    {"t": "Als wissenschaftliche Methode bezeichnet man die aus Erfahrung gebildeten Theorien über Ursachen und Konsequenzen des Verhaltens anderer Personen.", "c": false, "fb": "Das sind Alltagstheorien. Wissenschaftliche Methoden sind Vorgehensweisen, Verfahren und Techniken, die möglichst präzise und fehlerfreie Aussagen ermöglichen sollen."},
+    {"t": "Die Methodenlehre ist eine Besonderheit der Psychologie und für andere Wissenschaften ohne Bedeutung.", "c": false, "fb": "Die Methodenlehre ist Grundlage jeder Wissenschaft, nicht nur der Psychologie."},
+    {"t": "Ziel der wissenschaftlichen Psychologie ist es in erster Linie, die Lebensweisheiten des gesunden Menschenverstands zu bestätigen.", "c": false, "fb": "Sie prüft den Wahrheitsgehalt solcher Annahmen — und widerspricht ihnen tatsächlich oft."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.1 Einführung & Forschungsprozess",
+  "stem": "Welche Aussagen zu den Kriterien der wissenschaftlichen Qualität einer Studie treffen zu?",
+  "opts": [
+    {"t": "Die inhaltliche Relevanz betrifft, in welchem Maß eine Studie zum wissenschaftlichen Erkenntnisfortschritt und zur Lösung praktischer Probleme beiträgt.", "c": true, "fb": "Sie ist dem Standard „Formulierung eines wissenschaftlichen Forschungsproblems“ zugeordnet."},
+    {"t": "Die ethische Strenge beschreibt das Ausmaß, in dem der Forschungsprozess für Dritte nachvollziehbar dokumentiert wurde.", "c": false, "fb": "Verwechslung zweier Kriterien: Die ethische Strenge misst die Erfüllung der Standards der Wissenschafts- und Forschungsethik. Nachvollziehbarkeit gehört zur Dokumentation bzw. Präsentationsqualität."},
+    {"t": "Die methodische Strenge verlangt, dass die angewandten Methoden für das konkrete Forschungsproblem geeignet sind und regelkonform umgesetzt werden.", "c": true, "fb": "Eine Studie guter Qualität weist eine hohe methodische Strenge im gesamten Forschungsprozess auf."},
+    {"t": "Die Präsentationsqualität wird unter anderem anhand der Strukturiertheit und Lesbarkeit sowie der Einhaltung der Standards der Berichterstattung beurteilt.", "c": true, "fb": "Sie ist eines von vier Qualitätskriterien; die Gesamtqualität ergibt sich aus deren Zusammenspiel."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.1 Einführung & Forschungsprozess",
+  "stem": "Welche Aussagen über den Ablauf des hypothesenprüfenden Forschungsprozesses treffen zu?",
+  "opts": [
+    {"t": "Der Prozess beginnt damit, dass die Forschungsfragestellung in einer einschlägigen Fachzeitschrift veröffentlicht wird.", "c": false, "fb": "Die Publikation steht am Ende, nicht am Anfang. Am Beginn steht die Wahl einer Forschungsfragestellung."},
+    {"t": "Die Operationalisierung und Untersuchungsplanung folgt auf die theoretische Einbettung und die Ableitung von Hypothesen.", "c": true, "fb": "Erst wenn feststeht, was untersucht werden soll, wird festgelegt, wie die Phänomene messbar gemacht werden."},
+    {"t": "Bei der Datenaufbereitung werden die Daten gesichtet, auf Plausibilität geprüft und für die eigentliche Analyse vorbereitet.", "c": true, "fb": "Dazu kann etwa das Digitalisieren von Fragebogendaten oder das Filtern von Gehirnaktivitätsaufzeichnungen gehören."},
+    {"t": "Die Interpretation der Ergebnisse erfolgt unmittelbar vor der Datenanalyse.", "c": false, "fb": "Die Reihenfolge ist umgedreht: Erst wird analysiert, dann werden aus den Daten Schlussfolgerungen im Hinblick auf die Forschungsfrage gezogen."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.1 Einführung & Forschungsprozess",
+  "stem": "Welche Aussagen über Alltagspsychologie und wissenschaftliche Psychologie treffen zu?",
+  "opts": [
+    {"t": "Alltagspsychologie wird auch als Laienpsychologie bezeichnet.", "c": true, "fb": "Beide Begriffe meinen dieselben aus Alltagserfahrung gewonnenen Vorstellungen über Erleben und Verhalten."},
+    {"t": "Alltagstheorien entstehen dadurch, dass Menschen aus eigenen Erfahrungen vermeintliche Gesetzmäßigkeiten über Ursachen und Konsequenzen des Verhaltens ableiten.", "c": true, "fb": "Weil dabei selten hinterfragt wird, wie wir wahrnehmen und Informationen verarbeiten, liegt der gesunde Menschenverstand oft falsch."},
+    {"t": "Die wissenschaftliche Psychologie überprüft solche Theorien mit wissenschaftlichen Methoden und will fundierte, prüfbare Aussagen über den Wahrheitsgehalt von Alltagsphänomenen treffen.", "c": true, "fb": "Genau darin liegt die Abgrenzung zur Alltagspsychologie."},
+    {"t": "Die wissenschaftliche Psychologie widerspricht den durch den gesunden Menschenverstand gebildeten Lebensweisheiten oftmals.", "c": true, "fb": "Das ist der Ausgangspunkt des Kapitels und der Grund, warum es die Methodenlehre überhaupt braucht."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.2 Theorien & Hypothesen",
+  "stem": "Welche Aussagen zu Veränderungshypothesen treffen zu?",
+  "opts": [
+    {"t": "Veränderungshypothesen sind Vermutungen über die Veränderung von Variablen bei denselben Personen über die Zeit bzw. zwischen zwei Erhebungszeitpunkten.", "c": true, "fb": "Das unterscheidet sie von Unterschiedshypothesen, die verschiedene Gruppen vergleichen."},
+    {"t": "Auch Unterschiedshypothesen benötigen zu ihrer Überprüfung zwingend mindestens zwei Erhebungszeitpunkte.", "c": false, "fb": "Gerade darin liegt die Abgrenzung: Mehrere Erhebungszeitpunkte braucht die Veränderungs-, nicht die Unterschiedshypothese."},
+    {"t": "Veränderungshypothesen lassen sich ausschließlich ungerichtet formulieren.", "c": false, "fb": "Auch hier ist beides möglich. „Das Ausmaß der depressiven Symptomatik reduziert sich …“ ist eine gerichtete Veränderungshypothese."},
+    {"t": "Zur Überprüfung von Veränderungshypothesen sind mehrere Erhebungszeitpunkte nötig.", "c": true, "fb": "Bei der Untersuchung einer Therapiewirkung heißt das: eine Messung vor und eine nach der Behandlung."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.2 Theorien & Hypothesen",
+  "stem": "Welche Aussage über Zusammenhangshypothesen trifft zu?",
+  "opts": [
+    {"t": "Eine positiv gerichtete Zusammenhangshypothese besagt, dass hohe Werte der einen Variable mit niedrigen Werten der anderen einhergehen.", "c": false, "fb": "Die Richtung ist vertauscht — das beschreibt einen negativ gerichteten Zusammenhang. Positiv heißt: hoch mit hoch, niedrig mit niedrig."},
+    {"t": "Von Kovariation spricht man, wenn zwei Variablen gemeinsam variieren; genau solche Kovariationen postulieren Zusammenhangshypothesen.", "c": true, "fb": "Beispiel: Die Lernstunden der Eltern kovariieren mit der durchschnittlichen Schulnote der Kinder."},
+    {"t": "Die Bezeichnungen „positiv“ und „negativ“ sind bei Zusammenhangshypothesen als Wertung des Zusammenhangs zu verstehen.", "c": false, "fb": "Ausdrücklich nicht — sie beschreiben lediglich die Richtung des Zusammenhangs."},
+    {"t": "Zusammenhangshypothesen vergleichen zwei oder mehr Gruppen hinsichtlich einer Variable.", "c": false, "fb": "Das ist die Unterschiedshypothese. Zusammenhangshypothesen beziehen zwei oder mehr Variablen aufeinander."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.2 Theorien & Hypothesen",
+  "stem": "Welche Aussagen zu Variablen und zur Prüfung von Hypothesen treffen zu?",
+  "opts": [
+    {"t": "Variablen repräsentieren in der psychologischen Forschung das operationalisierte Merkmal einer Person, etwa die Körpergröße oder die Anzahl der Geschwister.", "c": true, "fb": "Diese Definition steht in der (prüfungsrelevanten) Fußnote 8 zu den Unterschiedshypothesen."},
+    {"t": "Je nach Art der Hypothese kommen unterschiedliche statistische Verfahren zu ihrer Überprüfung zum Einsatz.", "c": true, "fb": "Genau deshalb lohnt die Unterscheidung von Unterschieds-, Zusammenhangs- und Veränderungshypothesen."},
+    {"t": "Eine ungerichtete Unterschiedshypothese spezifiziert, welche der beiden Gruppen die höhere Ausprägung aufweist.", "c": false, "fb": "Sie vermutet nur, dass ein Unterschied besteht. Die Richtung wird erst bei der gerichteten Variante festgelegt."},
+    {"t": "Wissenschaftliche Hypothesen lassen sich vollständig in Unterschieds- und Zusammenhangshypothesen einteilen.", "c": false, "fb": "Es fehlen die Veränderungshypothesen als dritte im Skript genannte Art."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.2 Theorien & Hypothesen",
+  "stem": "Welche Aussagen über den Zusammenhang von Theorie, Hypothese und Forschung treffen zu?",
+  "opts": [
+    {"t": "Der wissenschaftliche Forschungsprozess beginnt meist mit der Beobachtung eines Phänomens, das die Frage nach dessen Ursache aufwirft.", "c": true, "fb": "Aus dieser Frage heraus wird eine Theorie zur Erklärung entwickelt."},
+    {"t": "Eine Theorie ist eine geordnete Menge von Begriffen und Aussagen, die ein Phänomen oder eine Gruppe von Phänomenen zu erklären versucht.", "c": true, "fb": "Sie besteht aus mehreren miteinander verbundenen Ideen und Konzepten."},
+    {"t": "Stützen die Ergebnisse die Hypothese, kann die Theorie auf Grundlage neuer Hypothesen und Studien weiterentwickelt werden.", "c": true, "fb": "Beim Objektpermanenz-Beispiel schließt sich dann etwa die Frage an, warum die Kinder keine Reaktion mehr zeigen."},
+    {"t": "Die Entwicklung von Theorien und die Ableitung sowie Überprüfung von Hypothesen bilden einen zyklischen Prozess.", "c": true, "fb": "Im Idealfall wird die Theorie dadurch über die Zeit immer weiter zu einem genaueren Erklärungsmodell verfeinert."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.3 Operationalisierung & Untersuchungsplanung",
+  "stem": "Welche Aussagen zur Messung und zu Messinstrumenten treffen zu?",
+  "opts": [
+    {"t": "Eine Messung ordnet Zahlen den Merkmalsausprägungen von Objekten zu, wobei die Zuordnung einer Zuordnungsregel folgen muss.", "c": true, "fb": "Die Regel muss sicherstellen, dass bestimmte Beziehungen zwischen den Ausprägungen in der Messung abgebildet werden."},
+    {"t": "Die gewonnenen Messungen werden als Daten bezeichnet.", "c": true, "fb": "Tabelle 3.1 zeigt solche Daten: Sportverein, Nationalität, Bildungsabschluss und Körpergröße als Zahlen pro Fall."},
+    {"t": "Personen mit gleicher Augenfarbe sollten im Rahmen der Messung unterschiedliche Zahlen zugeordnet bekommen.", "c": false, "fb": "Genau umgekehrt: Gleiche Ausprägungen erhalten gleiche Zahlen, verschiedene Ausprägungen verschiedene."},
+    {"t": "Psychologische Tests erfassen Ausprägungen latenter Merkmale, indem Aufgaben bearbeitet werden, die den Einsatz dieser Merkmale erfordern.", "c": true, "fb": "Beispiel: Tests zur Kapazität des Kurzzeitgedächtnisses stellen Aufgaben, die den Einsatz des Kurzzeitgedächtnisses verlangen."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.3 Operationalisierung & Untersuchungsplanung",
+  "stem": "Welche Aussagen zu Population und Stichprobe treffen zu?",
+  "opts": [
+    {"t": "In der psychologischen Forschung ist die Vollerhebung der Regelfall, weil Stichproben zu ungenaue Schätzungen liefern.", "c": false, "fb": "Eine Vollerhebung, bei der alle Angehörigen der Population untersucht werden, ist annähernd nie möglich — deshalb wird mit Stichproben gearbeitet."},
+    {"t": "Die Gesamtheit der Fälle, über die in einer Studie etwas ausgesagt werden soll, wird als Population oder Grundgesamtheit bezeichnet.", "c": true, "fb": "Die Population kann eng definiert sein, etwa alle in Österreich lebenden Frauen zwischen 18 und 25 Jahren."},
+    {"t": "Bei einer Zufallsstichprobe hat jede Person, die der Population angehört, die gleiche Chance, in die Stichprobe aufgenommen zu werden.", "c": true, "fb": "In der Praxis ist diese Forderung meist schwer umzusetzen — etwa weil nicht alle Angeschriebenen antworten."},
+    {"t": "Repräsentiert die Stichprobe die Population, stellt sie hinsichtlich der untersuchten Merkmale eine Art Miniaturabbild der Population dar.", "c": true, "fb": "Nur dann lassen sich die Ergebnisse auf die Population übertragen — Voraussetzung für die externe Validität."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.3 Operationalisierung & Untersuchungsplanung",
+  "stem": "Welche Aussage zur Nominalskala trifft zu?",
+  "opts": [
+    {"t": "Die Nominalskala gilt als Skala mit dem höchsten Skalenniveau, weil sie die meisten Informationen enthält.", "c": false, "fb": "Umgekehrt: Sie hat das niedrigste Skalenniveau, weil sich aus den Daten nur Gleichheit oder Verschiedenheit ablesen lässt."},
+    {"t": "Bei nominalskalierten Daten lassen sich Größer-Kleiner-Gleich-Relationen abbilden.", "c": false, "fb": "Das leistet erst die Ordinalskala. Auf Nominalniveau existiert keine Rangordnung zwischen den Kategorien."},
+    {"t": "Dichotome Variablen sind ein Spezialfall ordinalskalierter Variablen mit genau zwei Ausprägungen.", "c": false, "fb": "Die Zahl der Ausprägungen stimmt, die Skala nicht: Dichotome Variablen sind ein Spezialfall der Nominalskala, etwa Erkrankung vorhanden/nicht vorhanden."},
+    {"t": "Bei einer Nominalskala könnte man den Kategorien auch völlig andere Zahlen zuordnen, ohne dass sich an der Interpretation etwas ändert.", "c": true, "fb": "Ob Österreich = 1 und Deutschland = 2 oder umgekehrt, ist beliebig — die Zahlen drücken nur Gleichheit bzw. Verschiedenheit aus."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.3 Operationalisierung & Untersuchungsplanung",
+  "stem": "Welche Aussagen zur Unterscheidung kategorialer und kontinuierlicher Variablen treffen zu?",
+  "opts": [
+    {"t": "Bei kategorialen Variablen können beliebige Ausprägungen auf einem Kontinuum angenommen werden.", "c": false, "fb": "Das beschreibt kontinuierliche Variablen. Bei kategorialen Variablen ist nur eine abzählbare Menge von Ausprägungen möglich."},
+    {"t": "Variablen mit Intervall- oder Verhältnisskalenniveau zählen zu den kontinuierlichen Variablen.", "c": true, "fb": "Nominale und ordinale Variablen zählen dagegen zu den kategorialen."},
+    {"t": "Fragt man mit vier vorgegebenen Antwortkategorien nach der Putzhäufigkeit, entsteht eine kategoriale Variable — auch wenn das latente Merkmal „Reinlichkeit“ als quantitativ gilt.", "c": true, "fb": "Genau das zeigt Abbildung 3.6: Das Antwortformat entscheidet mit darüber, welche Art von Variable herauskommt."},
+    {"t": "Quantitative Merkmale werden im Zuge der Operationalisierung stets in kontinuierliche Variablen überführt.", "c": false, "fb": "Das ist zwar der gewöhnliche Fall, aber kein Muss — bei vorgegebenen Kategorien entsteht auch aus einem quantitativen Merkmal eine kategoriale Variable."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.3 Operationalisierung & Untersuchungsplanung",
+  "stem": "Welche Aussagen über die Aussagekraft der verschiedenen Skalenniveaus treffen zu?",
+  "opts": [
+    {"t": "Intervallskalierte Daten erlauben Aussagen über die Gleichheit bzw. Verschiedenheit von Intervallen, aber keine Verhältnisaussagen.", "c": true, "fb": "Der Abstand zwischen 2 °C und 4 °C entspricht dem zwischen 6 °C und 8 °C — aber 8 °C ist nicht doppelt so warm wie 4 °C."},
+    {"t": "Ordinalskalierte Werte geben Aufschluss über die Rangordnung, nicht aber darüber, wie groß der Unterschied zwischen zwei Objekten ist.", "c": true, "fb": "Zwischen Pflichtschul- und Bachelorabschluss ist ein Rangunterschied feststellbar, der Abstand jedoch unbekannt."},
+    {"t": "Bei ordinalskalierten Merkmalen lässt sich kein sinnvolles arithmetisches Mittel bilden.", "c": true, "fb": "Das folgt direkt aus den unbekannten Abständen; das arithmetische Mittel setzt mindestens Intervallskalenniveau voraus."},
+    {"t": "Psychische Merkmale wie Intelligenz oder Gewissenhaftigkeit werden meist als verhältnisskalierte Variablen behandelt.", "c": false, "fb": "Sie werden meist als intervallskaliert behandelt, weil ein natürlicher Nullpunkt im Sinne von „keine Intelligenz“ fehlt."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.3 Operationalisierung & Untersuchungsplanung",
+  "stem": "Welche Aussage zum Studiendesign trifft zu?",
+  "opts": [
+    {"t": "Das Studiendesign ist von der Hypothese unabhängig und wird erst nach der Datenerhebung festgelegt.", "c": false, "fb": "Das Design ist maßgeblich von der Hypothese vorbestimmt und muss vor der Erhebung feststehen."},
+    {"t": "Liegt eine Unterschiedshypothese vor, genügt die Untersuchung einer einzigen Gruppe zu zwei Zeitpunkten.", "c": false, "fb": "Zwei Zeitpunkte braucht die Veränderungshypothese. Für eine Unterschiedshypothese müssen mehrere Gruppen gebildet werden."},
+    {"t": "Um die Effektivität einer Therapie zu untersuchen, sind mindestens zwei Messungen nötig: eine vor und eine nach der Therapie.", "c": true, "fb": "Nur so lässt sich feststellen, ob sich das Merkmal über die Zeit tatsächlich verändert hat."},
+    {"t": "Zum Studiendesign zählen zwar die Auswahl der Versuchspersonen und der zeitliche Horizont, nicht jedoch die Methoden der Datenerhebung.", "c": false, "fb": "Die Methoden der Datenerhebung gehören ausdrücklich mit dazu, ebenso die Wahl der Vergleichsgruppen."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.4 Experimentelle Methode",
+  "stem": "Welche Aussagen zur Herstellung der Bedingungen im Experiment treffen zu?",
+  "opts": [
+    {"t": "Dass die Versuchsleitung die verschiedenen Ausprägungen der unabhängigen Variable herstellt, wird auch als Manipulation der unabhängigen Variable bezeichnet.", "c": true, "fb": "Realisiert wird das etwa dadurch, dass zwei Gruppen gebildet und die Versuchspersonen per Zufall zugeordnet werden."},
+    {"t": "Im Schlafdeprivationsbeispiel ist die Schlafdeprivation die unabhängige und die Reaktionszeit die abhängige Variable.", "c": true, "fb": "Die UV hat hier die Ausprägungen ja und nein; die Reaktionszeit hängt von ihr ab."},
+    {"t": "Ist die unabhängige Variable in einer Bedingung gegeben und in der anderen nicht, spricht man von Experimental- und Kontrollbedingung.", "c": true, "fb": "Die zugehörigen Personengruppen heißen entsprechend Experimental- und Kontrollgruppe."},
+    {"t": "Trotz Manipulation der unabhängigen Variable bleibt offen, ob die Kausalität nicht in die entgegengesetzte Richtung verläuft.", "c": false, "fb": "Gerade das schließt die Manipulation aus: Weil die Versuchsleitung die Schlafdauer vorgibt, kann die Reaktionszeit sie nicht verursacht haben."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.4 Experimentelle Methode",
+  "stem": "Welche Aussage zu den Voraussetzungen eines Kausalschlusses im Experiment trifft zu?",
+  "opts": [
+    {"t": "Ein Experiment liegt bereits dann vor, wenn zwischen zwei Variablen eine Kovariation nachgewiesen wurde.", "c": false, "fb": "Kovariation ist nur eine der Voraussetzungen. Ein Experiment verlangt zusätzlich die systematische Variation einer Variable und die Kontrolle von Störvariablen."},
+    {"t": "Der Ausschluss aller anderen Variablen als Ursache gilt als die am leichtesten zu erfüllende Voraussetzung eines Experiments.", "c": false, "fb": "Umgekehrt: Das ist ausdrücklich die schwierigste zu erfüllende Voraussetzung."},
+    {"t": "Die zeitliche Abfolge wird sichergestellt, indem die abhängige Variable vor der unabhängigen Variable erhoben wird.", "c": false, "fb": "Die Reihenfolge ist vertauscht — die vermutete Ursache muss der Wirkung vorausgehen, nicht umgekehrt."},
+    {"t": "Die zeitliche Abfolge wird dadurch sichergestellt, dass die vermutete Ursachenvariable systematisch variiert und ihr Effekt auf andere Variablen beobachtet wird.", "c": true, "fb": "Deshalb gelten Experimente als die aussagekräftigste Methode zur Prüfung von Ursache-Wirkungs-Hypothesen."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.4 Experimentelle Methode",
+  "stem": "Welche Aussagen zur Reaktivität und ihrer Kontrolle treffen zu?",
+  "opts": [
+    {"t": "Eine Coverstory über den Untersuchungszweck kann die Reaktivität verringern, wirft aber ethische Fragen auf.", "c": true, "fb": "Versuchspersonen müssen grundsätzlich vor der Teilnahme über das Experiment aufgeklärt werden — daher der Konflikt."},
+    {"t": "Reaktive Verhaltensweisen gefährden in erster Linie die externe Validität.", "c": false, "fb": "Gefährdet ist die interne Validität, weil die Erwartung der Versuchspersonen einen konfundierenden Einfluss hat."},
+    {"t": "Schwer verfälschbare Maße wie bildgebende Verfahren oder Hormonspiegelmessungen können die Reaktivität verringern.", "c": true, "fb": "Sie entziehen sich der bewussten Steuerung durch die Versuchsperson."},
+    {"t": "Implizite Messverfahren wie der Implizite Assoziationstest erhöhen die Reaktivität, weil die Versuchspersonen ihre Antworten dabei bewusst steuern können.", "c": false, "fb": "Genau umgekehrt: Implizite Verfahren werden als Option genannt, um die Reaktivität zu verringern."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.4 Experimentelle Methode",
+  "stem": "Welche Aussage zum Placebo-Effekt trifft zu?",
+  "opts": [
+    {"t": "Als Placebo bezeichnet man ein Medikament mit stark reduzierter Wirkstoffmenge.", "c": false, "fb": "Ein Placebo sieht aus wie ein Medikament, enthält aber keinerlei relevanten Wirkstoff."},
+    {"t": "Der Placebo-Effekt beschreibt eine positive Veränderung des Gesundheitszustands, die auf den psychosozialen Kontext der Behandlung zurückzuführen ist.", "c": true, "fb": "Dazu zählt insbesondere die Erwartung der Versuchsperson, das Medikament werde im erwünschten Sinn wirken."},
+    {"t": "Placebo-Effekte treten ausschließlich in der Medikamentenforschung auf.", "c": false, "fb": "Sie können in allen Forschungsbereichen auftreten, sobald jemand glaubt, eine wirksame Behandlung zu erfahren."},
+    {"t": "Beim Placebo-Effekt spielt die Erwartung der Versuchsperson keine Rolle, weil die Wirkung rein körperlich vermittelt ist.", "c": false, "fb": "Die Erwartung ist der Kern des Effekts — er wirkt wie eine selbsterfüllende Prophezeiung."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.4 Experimentelle Methode",
+  "stem": "Welche Aussagen zu Konfundierung und Störvariablenkontrolle treffen zu?",
+  "opts": [
+    {"t": "Eine Störvariable kommt als Alternativerklärung infrage, wenn zwischen ihr und der abhängigen Variable eine Kovariation besteht; man spricht dann von einer Konfundierung.", "c": true, "fb": "Beispiel: Ist eine Gruppe im Schnitt motivierter, kovariiert die Motivation sowohl mit der UV-Zuordnung als auch mit der Reaktionszeit."},
+    {"t": "Personengebundene Störvariablen wie Alter oder Motivation lassen sich besonders gut konstant halten.", "c": false, "fb": "Gerade bei Personenmerkmalen ist Konstanthaltung kaum möglich — deshalb versucht man sie zu balancieren."},
+    {"t": "Eine Variable gilt als balanciert, wenn sie in den verschiedenen Bedingungen des Experiments im Schnitt die gleiche Ausprägung aufweist.", "c": true, "fb": "Dann übt sie in allen Bedingungen einen ähnlichen Einfluss auf die AV aus und scheidet als konfundierende Variable aus."},
+    {"t": "In der Praxis lassen sich alle Merkmale der Untersuchungssituation durch Konstanthaltung kontrollieren.", "c": false, "fb": "Das ist kaum möglich. Man beschränkt sich auf Variablen, bei denen ein konfundierender Einfluss vermutet wird — etwa Tageszeit oder Anzahl der Personen im Raum."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.5 Deskriptive Statistik",
+  "stem": "Welche Aussagen zu Histogrammen und zur Gruppierung von Messwerten treffen zu?",
+  "opts": [
+    {"t": "Bei Histogrammen sind auf der x-Achse die Ausprägungen der Variable und auf der y-Achse die jeweiligen Häufigkeiten aufgetragen.", "c": true, "fb": "So entsteht die grafische Veranschaulichung einer Häufigkeitsverteilung."},
+    {"t": "In Histogrammen dürfen ausschließlich absolute Häufigkeiten dargestellt werden.", "c": false, "fb": "Es können ebenso die relativen Anteile der Ausprägungen angegeben werden."},
+    {"t": "Die Breite der Intervalle wird unabhängig von der Stichprobengröße und der Variationsbreite der Messwerte festgelegt.", "c": false, "fb": "Beides fließt ausdrücklich ein: Enge bzw. Breite der Intervalle und damit die Anzahl der Kategorien werden davon abhängig gemacht."},
+    {"t": "Bei der Gruppierung kontinuierlicher Variablen sollten die Intervalle — mit Ausnahme der Randkategorien — möglichst gleich groß sein.", "c": true, "fb": "Die Gruppierung ist im Grunde willkürlich, folgt aber solchen Kriterien; typisch ist das bei der Variable Alter."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.5 Deskriptive Statistik",
+  "stem": "In einer Studie wurden folgende Reaktionszeiten aufgezeichnet: 200, 200, 230, 280, 290 Millisekunden. Welche Aussagen treffen zu?",
+  "opts": [
+    {"t": "Der Modalwert beträgt 200 ms.", "c": true, "fb": "Nur dieser Wert tritt mehr als einmal auf — er hat damit die größte absolute Häufigkeit."},
+    {"t": "Das arithmetische Mittel beträgt 240 ms.", "c": true, "fb": "(200 + 200 + 230 + 280 + 290) / 5 = 240."},
+    {"t": "Der Median beträgt 240 ms.", "c": false, "fb": "240 ist das arithmetische Mittel. Bei fünf sortierten Werten ist der Median der dritte Wert, also 230 ms."},
+    {"t": "Bei einer geraden Anzahl von Werten wird als Median stets der größere der beiden mittleren Werte herangezogen.", "c": false, "fb": "In der Regel wird das arithmetische Mittel der beiden mittleren Werte gebildet und als Median verwendet."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.5 Deskriptive Statistik",
+  "stem": "Welche Aussagen zu Varianz, Standardabweichung und Quartilen treffen zu?",
+  "opts": [
+    {"t": "Die Varianz ist die Summe der quadrierten Abweichungen aller Werte vom arithmetischen Mittel, dividiert durch die Gesamtanzahl der Werte.", "c": true, "fb": "Im Skript wird durchgehend die unkorrigierte Formel verwendet, also die Division durch N und nicht durch N − 1."},
+    {"t": "Für die Reaktionszeiten mit einer Varianz von 1480 beträgt die Standardabweichung etwa 384,7 ms.", "c": false, "fb": "Die Zahl ist um den Faktor 10 zu groß: √1480 ≈ 38,47 ms."},
+    {"t": "Das untere Quartil Q1 ist vereinfacht gesagt der Median jener Werte, die unter dem Median liegen.", "c": true, "fb": "Analog ist Q3 der Median der Werte oberhalb des Medians; der Interquartilsabstand ist die Differenz Q3 − Q1."},
+    {"t": "Varianz und Standardabweichung setzen mindestens Intervallskalenniveau voraus.", "c": true, "fb": "Für ordinalskalierte Daten bleibt als Streuungsmaß nur der Interquartilsabstand, für nominalskalierte gar keines."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.5 Deskriptive Statistik",
+  "stem": "Welche Aussagen zu Streudiagramm und Kovarianz treffen zu?",
+  "opts": [
+    {"t": "Im Streudiagramm werden auf der einen Achse die Ausprägungen der einen und auf der anderen Achse die der anderen Variable aufgetragen.", "c": true, "fb": "Es vermittelt einen ersten Eindruck vom Zusammenhang zweier Variablen, etwa von Lerndauer und Testpunkten."},
+    {"t": "Jeder Punkt eines Streudiagramms repräsentiert eine Versuchseinheit — in der Psychologie in der Regel eine Person.", "c": true, "fb": "Bei zehn Versuchspersonen enthält das Diagramm entsprechend zehn Punkte."},
+    {"t": "Zur Berechnung der Kovarianz werden für jede Versuchseinheit die Abstände zu den beiden Variablenmittelwerten multipliziert, über alle Einheiten aufsummiert und durch deren Anzahl dividiert.", "c": true, "fb": "Im Rechenbeispiel ergibt das 128,5 / 10 = 12,85."},
+    {"t": "Werden positive Abstände häufig mit negativen Abständen multipliziert, ergibt sich eine negative Kovarianz.", "c": true, "fb": "Bei einer Mischung aus positiven und negativen Produkten heben sich die Werte dagegen weitgehend auf und die Kovarianz liegt nahe null."}
+  ]
+},
+{
+  "kap": 3,
+  "sec": "3.5 Deskriptive Statistik",
+  "stem": "Welche Aussage zur Höhe und Interpretation einer Korrelation trifft zu?",
+  "opts": [
+    {"t": "Je näher r bei 0 liegt, desto genauere Vorhersagen lassen sich auf Basis der einen Variable über die andere treffen.", "c": false, "fb": "Umgekehrt: Je höher die Korrelation, desto genauer die Vorhersagen."},
+    {"t": "Ähnelt die eingekreiste Punktwolke eines Streudiagramms eher einem Kreis als einer schmalen Ellipse, spricht das für eine hohe Korrelation.", "c": false, "fb": "Die Kreisform steht für eine geringe Korrelation; je schmaler die Ellipse, desto höher der Zusammenhang."},
+    {"t": "Ein r von −0,9 zeigt einen schwächeren Zusammenhang an als ein r von 0,3.", "c": false, "fb": "Das Vorzeichen gibt nur die Richtung an. Maßgeblich ist der Abstand von 0 — −0,9 steht für einen deutlich stärkeren Zusammenhang."},
+    {"t": "Bei einer perfekten Korrelation liegen die Datenpunkte auf einer Linie.", "c": true, "fb": "Das entspricht r = 1 bzw. r = −1, den beiden Extremwerten des Korrelationskoeffizienten."}
+  ]
+}
+]

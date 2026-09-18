@@ -1,0 +1,534 @@
+[
+{
+  "kap": 8,
+  "sec": "8.1 Grundlagen",
+  "stem": "Welche Aussagen zur Fragestellung der Differentiellen und Persönlichkeitspsychologie treffen zu?",
+  "opts": [
+    {"t": "Untersucht werden sowohl Unterschiede zwischen Personen oder Gruppen als auch Unterschiede innerhalb derselben Person, die sich im Verlauf des Lebens ergeben können.", "c": true, "fb": "Genau diese beiden Zugänge heißen interindividuelle bzw. intraindividuelle Unterschiede."},
+    {"t": "Die sozialpsychologische Perspektive erklärt Verhalten über spezifische soziale Situationen und Interaktionen statt über innewohnende Persönlichkeitsunterschiede.", "c": true, "fb": "Sie bildet die zweite der beiden im Skript gegenübergestellten Perspektiven."},
+    {"t": "Als intraindividuelle Unterschiede bezeichnet man Unterschiede zwischen verschiedenen Personen oder Personengruppen.", "c": false, "fb": "Begriffe vertauscht: Das sind die interindividuellen Unterschiede. Intraindividuell meint Unterschiede innerhalb derselben Person."},
+    {"t": "Die persönlichkeits- und die sozialpsychologische Perspektive schließen einander aus, weshalb eine Untersuchung stets nur einer von beiden zuzuordnen ist.", "c": false, "fb": "Die beiden Perspektiven schließen sich ausdrücklich nicht gegenseitig aus; sie haben sich lediglich als praktikable Ordnungskategorien bewährt."}
+  ],
+  "concept": {
+    "title": "Zwei Perspektiven auf Verhaltensunterschiede",
+    "points": [
+      "<b>Leitfrage</b>: Wie lässt sich das unterschiedliche Verhalten und Erleben von Menschen erklären?",
+      "<b>Interindividuelle Unterschiede</b>: zwischen Personen oder Gruppen.",
+      "<b>Intraindividuelle Unterschiede</b>: innerhalb derselben Person, über den Lebensverlauf hinweg.",
+      "<b>Perspektive 1</b> (Differentielle/Persönlichkeitspsychologie): Verhaltensunterschiede folgen aus Persönlichkeitsunterschieden.",
+      "<b>Perspektive 2</b> (Sozialpsychologie): Verhalten folgt aus sozialen Gegebenheiten, Rahmenbedingungen und Interaktionen.",
+      "Beide schließen sich nicht aus — sie sind Ordnungskategorien für Studien, Theorien und Forschungsthemen."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.2.1 Trait-Theorien",
+  "stem": "Welche Aussagen zur Unterscheidung von Furcht und Ängstlichkeit treffen zu?",
+  "opts": [
+    {"t": "Furcht bezieht sich auf keine eindeutig bestimmbare Gefahr und enthält deshalb vergleichsweise viele irrationale Aspekte.", "c": false, "fb": "Vertauscht: Das kennzeichnet die Ängstlichkeit. Furcht bezieht sich gerade auf ein konkretes Objekt bzw. eine reale Gefahr."},
+    {"t": "Ängstlichkeit wird nur so lange erlebt, wie die konkrete Gefahr besteht, und klingt danach rasch ab.", "c": false, "fb": "Auch hier sind die Begriffe getauscht: Die Furcht besteht nur so lange wie die konkrete Gefahr. Ängstlichkeit kann gerade länger anhalten."},
+    {"t": "Furcht ist in der Regel eine rationale, gesunde Reaktion des Organismus und führt zu einer Flucht- oder Angriffsreaktion.", "c": true, "fb": "Beispiel aus dem Skript: von einer Gruppe im Bus angepöbelt zu werden — konkrete Situation, reale Gefahr, normale Furchtreaktion."},
+    {"t": "Ein typisches Beispiel für Ängstlichkeit ist, im Bus von einer Gruppe Personen angepöbelt zu werden.", "c": false, "fb": "Beispiel falsch zugeordnet: Das ist die Furchtsituation. Für Ängstlichkeit steht die Fahrt spät abends allein mit der U-Bahn — Unwohlsein ohne konkreten Anlass."}
+  ],
+  "concept": {
+    "title": "Furcht vs. Ängstlichkeit",
+    "points": [
+      "<b>Furcht</b>: konkretes Objekt bzw. reale Gefahr in einer konkreten Situation.",
+      "<b>Furcht</b>: in der Regel rational und gesund; führt zu Flucht- oder Angriffsreaktion; besteht nur so lange wie die Gefahr.",
+      "<b>Ängstlichkeit</b>: kein konkreter Bezug bzw. Gefahr oft nicht eindeutig bestimmbar.",
+      "<b>Ängstlichkeit</b>: dadurch mehr irrationale Aspekte; kann länger anhalten als die Furcht.",
+      "<b>Merkbeispiele</b>: Anpöbeln im Bus → Furcht. Nachts allein in der U-Bahn-Station → Ängstlichkeit."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.2.1 Trait-Theorien",
+  "stem": "Welche Zuordnungen aus der Übersicht der fünf Big-Five-Faktoren treffen zu?",
+  "opts": [
+    {"t": "Sehr gewissenhafte Personen präferieren spontanes Verhalten gegenüber geplantem und arbeiten eher schnell und oberflächlich als genau und langsam.", "c": false, "fb": "Richtung umgedreht: Gewissenhafte Personen präferieren geplantes Verhalten gegenüber Spontaneität und arbeiten eher genau und langsam."},
+    {"t": "Verträglichkeit beschreibt mitfühlendes und kooperatives Verhalten im Sinne der allgemeinen Harmonie; solche Personen sind meist rücksichtsvoll, hilfsbereit und großzügig.", "c": true, "fb": "Beispiel-Item des NEO-FFI-30: Man versuche, stets rücksichtsvoll und sensibel zu handeln."},
+    {"t": "Personen mit hohen Neurotizismuswerten beurteilen ganz normale, also ungefährliche Situationen schneller als bedrohlich oder frustrierend.", "c": true, "fb": "Oft geht das mit Schwierigkeiten in der Stressbewältigung sowie beim Treffen von Entscheidungen einher."},
+    {"t": "Offenheit für Erfahrungen umfasst ein generelles Gefallen an Kunst, Abenteuer, Emotionen und Neugier sowie an einer Vielzahl neuer Erfahrungen.", "c": true, "fb": "Verhaltensbeispiele: origineller Einrichtungsstil, individueller Musikgeschmack, eine Vielzahl verschiedenster Bücher."}
+  ],
+  "concept": {
+    "title": "Die fünf Faktoren mit Verhaltensbeispielen",
+    "points": [
+      "<b>Offenheit für Erfahrungen</b>: Kunst, Abenteuer, Emotionen, Neugier → origineller Einrichtungsstil, individueller Musikgeschmack, viele Bücher.",
+      "<b>Gewissenhaftigkeit</b>: Selbstdisziplin, verantwortungsvolles Verhalten, Zielstrebigkeit → geplantes statt spontanes Verhalten, genau und langsam statt schnell und oberflächlich.",
+      "<b>Extraversion</b>: Suche nach positiven Emotionen, Geselligkeit, Optimismus → führen in Gruppen oft Gespräche an, stehen gern im Zentrum der Aufmerksamkeit.",
+      "<b>Verträglichkeit</b>: mitfühlend, kooperativ, reflektiert und gerecht → rücksichtsvoll, hilfsbereit, freundlich, großzügig.",
+      "<b>Neurotizismus</b>: gehäuft negative Emotionen, Neigung zu depressiven Verstimmungen → normale Situationen wirken bedrohlich, Schwierigkeiten in der Stressbewältigung."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.2.4 Sozial-kognitive Theorien",
+  "stem": "Welche Merkmale zählen nach Cervone und Pervin zu den charakteristischen Merkmalen der sozial-kognitiven Lerntheorien?",
+  "opts": [
+    {"t": "Betonung des sozialen Umfelds als Verhaltensdeterminante, etwa durch Beobachtung des Verhaltens anderer Menschen und der Umwelt, in der es auftritt.", "c": true, "fb": "Eines der vier im Skript genannten Merkmale."},
+    {"t": "Betonung des Lernens komplexer Verhaltensmuster unabhängig von ihrer Verstärkungswirkung.", "c": true, "fb": "Ebenfalls Teil des Katalogs — und die deutlichste Abgrenzung zum klassischen Behaviorismus."},
+    {"t": "Betonung der Triebspannung als Motor jeder Verhaltensänderung.", "c": false, "fb": "Gehört nicht zum Katalog. Triebe sind ein psychodynamisches Konzept, kein sozial-kognitives."},
+    {"t": "Betonung des passiven Reagierens gegenüber aktivem Handeln.", "c": false, "fb": "Richtung umgedreht: Betont wird gerade das aktive Handeln gegenüber rein passivem Reagieren."}
+  ],
+  "concept": {
+    "title": "Sozial-kognitive Lerntheorien (Cervone & Pervin, 2013)",
+    "points": [
+      "<b>Merkmal 1</b>: Betonung des aktiven Handelns gegenüber rein passivem Reagieren.",
+      "<b>Merkmal 2</b>: Betonung des sozialen Umfelds als Verhaltensdeterminante.",
+      "<b>Merkmal 3</b>: Betonung kognitiver Prozesse — wie eine Situation vom Individuum beurteilt wird.",
+      "<b>Merkmal 4</b>: Betonung des Lernens komplexer Verhaltensmuster unabhängig von ihrer Verstärkungswirkung.",
+      "<b>Abgrenzung</b>: Kognitive Theorien betonen mentale Prozesse (Denken, Beobachten, Kategorisieren); soziale Lerntheorien betonen die Umwelt und Vorbilder."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.3.5 Projektive Tests",
+  "stem": "Welche Aussagen zum Rorschach-Form-Deute-Verfahren treffen zu?",
+  "opts": [
+    {"t": "Bewertet wird unter anderem, ob die Deutung von der Gesamtstruktur oder von Details ausgeht.", "c": true, "fb": "Ein zentrales Auswertungskriterium des Verfahrens."},
+    {"t": "Auch die bei einigen Figuren verwendete Farbe und die Originalität der Deutung fließen in die Bewertung ein.", "c": true, "fb": "Die Farbe kann etwa beeinflussen, ob eine Mensch- oder eine Tierdeutung erfolgt."},
+    {"t": "Der konkrete diagnostische Wert der Ergebnisse gilt als fraglich, weshalb das Verfahren heute kritisch betrachtet und in der Forschung kaum noch verwendet wird.", "c": true, "fb": "In manchen Praxisfeldern kommt es hinsichtlich klinischer Fragestellungen aber weiterhin zum Einsatz."},
+    {"t": "Die Anwendung erfordert eine aufwändige Einschulung und ein gewisses Maß an Übung, bevor man mit dem Verfahren arbeiten kann.", "c": true, "fb": "Anders als die meisten Persönlichkeitsfragebögen, die nach dem Studium über die beiliegenden Testmanuale umgehend einsetzbar sind."}
+  ],
+  "concept": {
+    "title": "Rorschach-Test (1921)",
+    "points": [
+      "<b>Entwickler</b>: Hermann Rorschach (1884–1922), Schweizer Psychoanalytiker; Veröffentlichung 1921.",
+      "<b>Material</b>: symmetrische Klecksfiguren — bekanntestes Form-Deute-Verfahren.",
+      "<b>Annahme</b>: Zufällige Reizmuster werden in Abhängigkeit der individuellen Persönlichkeit unterschiedlich gedeutet.",
+      "<b>Bewertungskriterien</b>: Gesamtstruktur vs. Detail, Einfluss der Farbe (z. B. Mensch- vs. Tierdeutung), Originalität der Deutung.",
+      "<b>Stellenwert</b>: diagnostischer Wert fraglich, in der Forschung kaum noch verwendet, in Teilen der klinischen Praxis noch präsent; Anwendung setzt aufwändige Einschulung und Übung voraus."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.3.1 Fragebögen",
+  "stem": "Welche Aussagen zum Geltungsbereich eines Fragebogens bzw. Tests treffen zu?",
+  "opts": [
+    {"t": "Der Geltungsbereich ist bereits bei der Konstruktion zu überlegen: für welche Personen, Personengruppen und Ausprägungsgrade der Eigenschaft das Messinstrument geeignet sein soll.", "c": true, "fb": "Und das Instrument muss entsprechend konstruiert werden — die Überlegung steht am Anfang, nicht am Ende."},
+    {"t": "Soll ein IQ-Test auch klinische Ausprägungen differenzieren, baut man vorwiegend sehr schwere Items ein.", "c": false, "fb": "Richtung umgedreht: Für die Differenzierung klinischer Ausprägungen braucht es zahlreiche sehr einfache Items."},
+    {"t": "Wer auf überdurchschnittliche Intelligenz prüfen möchte, sollte den Test vorwiegend aus sehr einfachen Items aufbauen.", "c": false, "fb": "Ebenfalls umgekehrt: Für den überdurchschnittlichen Bereich braucht es eher auch (sehr) schwere Items."},
+    {"t": "Der Geltungsbereich ergibt sich nachträglich aus der Normstichprobe und spielt für die Testkonstruktion selbst keine Rolle.", "c": false, "fb": "Verwechslung zweier Ebenen: Die Referenzgruppe liefert Vergleichswerte, der Geltungsbereich ist dagegen eine Konstruktionsentscheidung von Beginn an."}
+  ],
+  "concept": {
+    "title": "Geltungsbereich eines Messinstruments",
+    "points": [
+      "<b>Definition</b>: Für welche Personen, Personengruppen und Ausprägungsgrade der Eigenschaft soll das Instrument geeignet sein?",
+      "<b>Zeitpunkt</b>: von Beginn an bei der Konstruktion festzulegen — und entsprechend umzusetzen.",
+      "<b>Zentrale Frage</b>: Soll der Test auch klinische Ausprägungen erheben und differenzieren können?",
+      "<b>Klinische Differenzierung</b> → zahlreiche sehr einfache Items einbauen.",
+      "<b>Überdurchschnittliche Ausprägungen</b> → eher auch (sehr) schwere Items einbauen."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.2.2 Psychodynamik",
+  "stem": "Welche Aussagen zum Über-Ich und zu Sigmund Freud treffen zu?",
+  "opts": [
+    {"t": "Der Anspruch des Über-Ichs ist Perfektion; gelingt es nicht, diesem zu entsprechen, kommt es zu Gewissensbissen.", "c": true, "fb": "Man könnte das Über-Ich mit einer Art „Gewissen“ gleichsetzen."},
+    {"t": "Freud war ein Schweizer Psychoanalytiker, der die Psychoanalyse gemeinsam mit Hermann Rorschach begründete.", "c": false, "fb": "Personen verwechselt: Freud (1856–1939) war österreichischer Arzt und Neurologe und Begründer der Psychoanalyse. Schweizer Psychoanalytiker war Rorschach."},
+    {"t": "Das Über-Ich bewertet die Wünsche des Es allein anhand angeborener Normen; gesellschaftlich vermittelte Gebote und Verbote spielen dabei keine Rolle.", "c": false, "fb": "Fachlich verzerrt: Das Über-Ich beachtet gerade eigene Ideale sowie verinnerlichte, von der Gesellschaft anerkannte soziale Normen, Gebote und Verbote."},
+    {"t": "Das Über-Ich verlangt immerzu nach schnellstmöglicher Befriedigung grundlegender Bedürfnisse und Triebe.", "c": false, "fb": "Instanz vertauscht: Das ist das Es, das nach dem Lustprinzip agiert."}
+  ],
+  "concept": {
+    "title": "Das Über-Ich",
+    "points": [
+      "<b>Prinzip</b>: Moralitätsprinzip — repräsentiert den Sinn für Moral, Werte- und Normvorstellungen.",
+      "<b>Funktion</b>: bewertet die Wünsche des Es; beachtet eigene Ideale und verinnerlichte, gesellschaftlich anerkannte Normen, Gebote und Verbote.",
+      "<b>Anspruch</b>: Perfektion — bei Verfehlung folgen Gewissensbisse; vergleichbar mit einem „Gewissen“.",
+      "<b>Bewusstseinsgrad</b>: ähnlich wie das Es zum überwiegenden Teil unbewusst, kann aber ins Bewusstsein gebracht werden.",
+      "<b>Urheber</b>: Sigmund Freud (1856–1939), österreichischer Arzt und Neurologe, Begründer der Psychoanalyse."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.3.3 Verhaltensbeobachtung",
+  "stem": "Welche Aussagen zur Anlage und zum Gegenstand einer Verhaltensbeobachtung treffen zu?",
+  "opts": [
+    {"t": "Eine Verhaltensbeobachtung richtet sich ausschließlich auf visuell wahrnehmbare Aktivitäten und Zustandsveränderungen einer Person.", "c": false, "fb": "Zu eng gefasst: Sie richtet sich auf alle visuell und akustisch wahrnehmbaren Aktivitäten und Veränderungen des Zustands einer Person."},
+    {"t": "Die freie bzw. unsystematische Beobachtung erfolgt ohne vorher festgelegte Kriterien und entspricht im Wesentlichen einer Alltagsbeobachtung.", "c": true, "fb": "Die systematische Beobachtung arbeitet dagegen mit festgelegten Kriterien, etwa zu Ort, Zeit und Auswertung."},
+    {"t": "Bei der Fremdbeobachtung ist die Person angehalten, das eigene Verhalten und Erleben durch Selbstreflexion zu beobachten und festzuhalten.", "c": false, "fb": "Begriffe vertauscht: Das ist die Selbstbeobachtung. Fremdbeobachtung meint die Beobachtung einer anderen Person durch geschulte Diagnostiker:innen."},
+    {"t": "Eine Verhaltensbeobachtung kann einen zentralen diagnostischen Stellenwert einnehmen, etwa wenn andere Informationsquellen nicht verfügbar sind.", "c": true, "fb": "Alternativ dient sie als ergänzende, relativierende Informationsquelle — etwa während eines Einstellungsinterviews oder der Bearbeitung eines Tests."}
+  ],
+  "concept": {
+    "title": "Verhaltensbeobachtung: Gegenstand und Stellenwert",
+    "points": [
+      "<b>Gegenstand</b>: alle visuell und akustisch wahrnehmbaren Aktivitäten und Zustandsveränderungen einer Person (Renner, 2005).",
+      "<b>Ziel</b>: über beobachtbare Indikatoren auf nicht direkt beobachtbare Merkmale schließen.",
+      "<b>Stellenwert</b>: zentral (wenn andere Quellen fehlen) oder ergänzend und relativierend.",
+      "<b>Unsystematisch</b>: ohne festgelegte Kriterien, im Wesentlichen Alltagsbeobachtung. <b>Systematisch</b>: nach festgelegten Kriterien zu Ort, Zeit, Auswertung.",
+      "<b>Selbstbeobachtung</b>: eigenes Verhalten per Selbstreflexion. <b>Fremdbeobachtung</b>: durch geschulte Diagnostiker:innen.",
+      "<b>Anschluss</b>: Auf die Beobachtung folgt die Verhaltensbeurteilung (Höft & Kersting, 2018)."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.2.3 Humanistische Theorien",
+  "stem": "Welche Aussagen zu den Kernannahmen humanistisch orientierter Persönlichkeitstheorien treffen zu?",
+  "opts": [
+    {"t": "Phänomenologie: Jedes Individuum nimmt die Realität auf seine ganz persönliche Art und Weise wahr.", "c": true, "fb": "Die erste der im Skript aufgeführten Kernannahmen."},
+    {"t": "Erleben und Verhalten einer Person lassen sich am besten von außen verstehen, aus einer möglichst neutralen Beobachterposition heraus.", "c": false, "fb": "Richtung umgedreht: Man kann sie nur dann wirklich verstehen, wenn man die Welt aus ihrer Perspektive sieht."},
+    {"t": "Die subjektive Wahrnehmung und Interpretation der Realität beeinflusst das Denken und Handeln des Individuums.", "c": true, "fb": "Deshalb rückt die humanistische Schule die Innensicht der Person ins Zentrum."},
+    {"t": "Das eigene Selbstkonzept stellt ein wichtiges Merkmal der Persönlichkeit dar.", "c": true, "fb": "Gemeint ist das Bild, das eine Person über sich selbst hat — geprägt durch frühe Erfahrungen und soziale Interaktionen (Calhoun & Morse, 1977)."}
+  ],
+  "concept": {
+    "title": "Kernannahmen der humanistischen Persönlichkeitstheorien",
+    "points": [
+      "<b>Phänomenologie</b>: Jedes Individuum nimmt die Realität auf seine ganz persönliche Art wahr.",
+      "<b>Wirkung der Subjektivität</b>: Die subjektive Wahrnehmung und Interpretation beeinflusst Denken und Handeln.",
+      "<b>Verstehensbedingung</b>: Erleben und Verhalten einer Person versteht man nur aus ihrer Perspektive.",
+      "<b>Selbstkonzept</b>: das Bild über sich selbst — Überzeugungen zu eigenen Merkmalen, Werten und Fähigkeiten sowie Ideen darüber, wer man ist und sein kann (Calhoun & Morse, 1977).",
+      "<b>Selbstverwirklichung</b>: Jeder Mensch strebt danach, sein volles Potenzial auszuschöpfen; die Form variiert von Mensch zu Mensch."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.3.1 Fragebögen",
+  "stem": "Welche Aussagen zum Begriff der Facette in der Persönlichkeitsdiagnostik treffen zu?",
+  "opts": [
+    {"t": "Facetten sind übergeordnete Skalen, die mehrere Hauptskalen zu einem Globalwert zusammenfassen.", "c": false, "fb": "Hierarchie umgedreht: Facetten sind Subskalen, die einer übergeordneten Skala zugeordnet sind bzw. diese konstituieren."},
+    {"t": "Im NEO-PI-R wird die Hauptskala Verträglichkeit über sechs Facetten mit jeweils acht Items erhoben.", "c": true, "fb": "Sechs Facetten × acht Items ergeben die 48 Items dieser Hauptskala."},
+    {"t": "Zu den Facetten der Verträglichkeit zählen Vertrauen, Freimütigkeit, Altruismus, Entgegenkommen, Bescheidenheit und Erregbarkeit.", "c": false, "fb": "Fünf stimmen, eine ist eingeschmuggelt: Die sechste Facette ist Gutherzigkeit. Erregbarkeit ist eine Standardskala des FPI-R."},
+    {"t": "Facetten dienen dazu, eine übergeordnete Skala auf ein einziges besonders trennscharfes Kernitem zu reduzieren.", "c": false, "fb": "Der Zweck ist das Gegenteil: Facetten sollen die Teilaspekte der übergeordneten Skala vollständig und transparent erfassen."}
+  ],
+  "concept": {
+    "title": "Facetten als Subskalen",
+    "points": [
+      "<b>Definition</b>: Subskalen, die einer übergeordneten Skala zugeordnet sind bzw. diese konstituieren.",
+      "<b>Zweck</b>: die Teilaspekte der übergeordneten Skala vollständig und transparent erfassen.",
+      "<b>Beispiel NEO-PI-R</b>: Verträglichkeit → Vertrauen, Freimütigkeit, Altruismus, Entgegenkommen, Bescheidenheit, Gutherzigkeit.",
+      "<b>Umfang</b>: je Facette acht Items; insgesamt 30 Facetten, je sechs pro Hauptskala, 240 Items.",
+      "<b>Nicht verwechseln</b>: Erregbarkeit, Aggressivität, Lebenszufriedenheit u. a. sind Standardskalen des FPI-R, keine NEO-Facetten."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.2.4 Sozial-kognitive Theorien",
+  "stem": "Welche Aussagen zum Neobehaviorismus und zu seinen Vertretern treffen zu?",
+  "opts": [
+    {"t": "Der Ansatz wird auch als „sozialer Behaviorismus“ bezeichnet und würdigt insbesondere die Wechselwirkung zwischen Person und Situation.", "c": true, "fb": "In dieser Generation entstanden die heute als wichtig angesehenen verhaltenstheoretischen Persönlichkeitskonstrukte."},
+    {"t": "Er gilt als erste Generation verhaltenstheoretischer Ansätze und ging den klassischen behavioristischen Arbeiten voraus.", "c": false, "fb": "Reihenfolge umgedreht: Der Neobehaviorismus ist die zweite Generation."},
+    {"t": "Zu den maßgebenden Vertretern zählen unter anderem Julian Rotter, Albert Bandura, Walter Mischel und George Kelly.", "c": true, "fb": "Diese vier werden im Skript als die maßgebenden Vertreter des Ansatzes genannt."},
+    {"t": "Kognitive Theorien betonen im Gegensatz zu den sozialen Lerntheorien vor allem den Einfluss von Vorbildern aus dem sozialen Umfeld.", "c": false, "fb": "Vertauscht: Kognitive Theorien betonen mentale Prozesse wie Denken, Beobachten und Kategorisieren; die Umwelt und Vorbilder betonen die sozialen Lerntheorien."}
+  ],
+  "concept": {
+    "title": "Neobehaviorismus und seine Vertreter",
+    "points": [
+      "<b>Einordnung</b>: zweite Generation verhaltenstheoretischer Ansätze, auch „sozialer Behaviorismus“.",
+      "<b>Kennzeichen</b>: würdigt insbesondere die Wechselwirkung zwischen Person und Situation.",
+      "<b>Vertreter</b>: Julian Rotter (1916–2014), Albert Bandura (1925–2021), Walter Mischel (1930–2018), George Kelly (1905–1967).",
+      "<b>Kognitive Theorien</b>: betonen mentale Prozesse — Denken, Beobachten, Kategorisieren.",
+      "<b>Soziale Lerntheorien</b>: betonen die Umwelt — Einfluss des sozialen Umfelds und von Vorbildern."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.3.2 Interview",
+  "stem": "Wodurch hebt sich ein psychologisch-diagnostisches Interview von einer alltäglichen Unterhaltung ab?",
+  "opts": [
+    {"t": "Die Rollen der teilnehmenden Personen sind festgelegt: Es gibt eine befragende und eine befragte Person.", "c": true, "fb": "Das erste der drei im Skript genannten Abgrenzungsmerkmale."},
+    {"t": "Es wird bewusst ergebnisoffen geführt, damit an das Ergebnis keine Entscheidungen geknüpft werden müssen.", "c": false, "fb": "Genau umgekehrt: An das Ergebnis werden Entscheidungen geknüpft — etwa Auswahlentscheidungen oder weitere Behandlungsschritte."},
+    {"t": "Es kommt vor allem in der Grundlagenforschung zum Einsatz und spielt in der Personalauswahl kaum eine Rolle.", "c": false, "fb": "Einsatzbereiche umgedreht: Meist wird es im eignungsdiagnostischen Bereich — etwa bei der Personalauswahl — und im klinischen Bereich eingesetzt."},
+    {"t": "Es ist zielgerichtet und soll Aufschluss über vorab definierte Merkmale der befragten Person geben.", "c": true, "fb": "Systematische Informationsgewinnung über die Gesprächspartnerin bzw. den Gesprächspartner ist der Zweck des Formats."}
+  ],
+  "concept": {
+    "title": "Das psychologisch-diagnostische Interview",
+    "points": [
+      "<b>Merkmal 1</b>: festgelegte Rollen — eine befragende und eine befragte Person.",
+      "<b>Merkmal 2</b>: zielgerichtet — Aufschluss über vorab definierte (Persönlichkeits-)Merkmale.",
+      "<b>Merkmal 3</b>: An das Ergebnis werden Entscheidungen geknüpft (Auswahlentscheidung, weitere Behandlungsschritte).",
+      "<b>Einsatzbereiche</b>: überwiegend eignungsdiagnostisch (z. B. Personalauswahl) und klinisch.",
+      "<b>Zuordnung</b>: Interviews gehören wie Persönlichkeitsfragebögen zur Gruppe der Q-Daten."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.2.3 Humanistische Theorien",
+  "stem": "Welche Aussagen zu Maslows Beobachtungen an selbstverwirklichten Menschen treffen zu?",
+  "opts": [
+    {"t": "Diese Personen tendierten dazu, eher viele oberflächliche Freundschaften zu pflegen als wenige gute.", "c": false, "fb": "Richtung umgedreht: Sie tendierten eher dazu, wenige gute Freundschaften zu pflegen als viele oberflächliche."},
+    {"t": "Maslow schrieb ihnen hohe Ausprägungen an Kreativität, Spontaneität und Liebe zu sich selbst wie zu anderen Menschen zu.", "c": true, "fb": "Er stützte sich dabei auf das Leben erfolgreicher Menschen wie Einstein, Gandhi, Martin Luther King oder Lincoln."},
+    {"t": "Sie bräuchten keine Bestätigung von außen, sondern agierten selbstsicher mit einer tiefen Wertschätzung für das Leben selbst.", "c": true, "fb": "Auch dann, wenn sie für abweichende Meinungen einstünden."},
+    {"t": "Nach Maslow resultieren psychische Störungen daraus, dass individuelle Selbstverwirklichung durch gesellschaftliche Restriktionen gehemmt wird.", "c": true, "fb": "Daraus leitet er ab, es sei Aufgabe der Gesellschaftspolitik, diese Hindernisse zu beseitigen."}
+  ],
+  "concept": {
+    "title": "Maslows Bild der Selbstverwirklichung",
+    "points": [
+      "<b>Grundannahme</b>: Jedes Individuum besitzt ein positives Wachstumspotential.",
+      "<b>Störungsmodell</b>: Psychische Störungen resultieren aus gesellschaftlich gehemmter Selbstverwirklichung; die Gesellschaftspolitik soll diese Hindernisse beseitigen.",
+      "<b>Untersuchte Personen</b>: Albert Einstein, Mahatma Gandhi, Martin Luther King, Abraham Lincoln.",
+      "<b>Zugeschriebene Merkmale</b>: hohe Kreativität, Spontaneität, Liebe zu sich selbst und anderen; eher wenige gute statt vieler oberflächlicher Freundschaften.",
+      "<b>Haltung</b>: keine Bestätigung von außen nötig, selbstsicher, tiefe Wertschätzung für das Leben — auch bei abweichenden Meinungen."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.2.1 Trait-Theorien",
+  "stem": "Welche Aussagen zu Zwillingsstudien treffen zu?",
+  "opts": [
+    {"t": "Untersucht werden ausschließlich eineiige Zwillinge, die getrennt voneinander aufgewachsen sind.", "c": false, "fb": "Zu eng: Untersucht werden eineiige und zweieiige Zwillinge — getrennt oder miteinander aufwachsend."},
+    {"t": "Es handelt sich um ein Auswertungsverfahren, mit dem die Reliabilität von Persönlichkeitsfragebögen bestimmt wird.", "c": false, "fb": "Konzeptuell verfehlt: Zwillingsstudien sind eine Forschungsmethode zur Anlage-Umwelt-Frage, kein psychometrisches Auswertungsverfahren."},
+    {"t": "Zwillingsstudien lieferten die Datengrundlage für das Big-Five-Modell, das Goldberg daraus ableitete.", "c": false, "fb": "Zuordnung falsch: Das Big-Five-Modell beruht auf einem lexikalischen Ansatz. Auf Zwillingsstudien stützte sich Eysenck."},
+    {"t": "Es handelt sich um eine Forschungsmethode der Psychologie, die der Frage nach Einflüssen durch Veranlagung (Gene) und Umwelt nachgeht.", "c": true, "fb": "Eine mögliche Forschungsfrage: Entstehen (Persönlichkeits-)Unterschiede zwischen Menschen aufgrund genetischer oder umweltbedingter Einflüsse?"}
+  ],
+  "concept": {
+    "title": "Zwillingsstudien",
+    "points": [
+      "<b>Stichprobe</b>: eineiige und zweieiige Zwillinge — getrennt oder miteinander aufwachsend.",
+      "<b>Art</b>: Forschungsmethode der Psychologie, kein Testverfahren und kein Auswertungsschema.",
+      "<b>Leitfrage</b>: Anlage oder Umwelt — entstehen Unterschiede zwischen Menschen genetisch oder umweltbedingt?",
+      "<b>Anwendung im Kapitel</b>: Eysenck postulierte auf dieser Basis sein Zwei-Dimensionen-Modell (Extraversion vs. Introversion, Stabilität vs. Labilität).",
+      "<b>Nicht verwechseln</b>: Das Big-Five-Modell entstand aus dem lexikalischen Ansatz, nicht aus Zwillingsstudien."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.3.4 Objektive Tests",
+  "stem": "Welche Aussagen zu den Varianten und zur Entwicklung Objektiver Persönlichkeitstests treffen zu?",
+  "opts": [
+    {"t": "Diese Verfahren haben ihren Ursprung in der ersten Hälfte des 19. Jahrhunderts.", "c": false, "fb": "Zeitraum falsch: Ihr Ursprung liegt in der zweiten Hälfte des letzten Jahrhunderts."},
+    {"t": "Die als Leistungstest „getarnten“ OPTs erwecken den Anschein, dass eine Leistungsaufgabe möglichst rasch und fehlerfrei bearbeitet werden soll.", "c": true, "fb": "Tatsächlich interessiert nicht die Leistung selbst, sondern was das Bearbeitungsverhalten über die Person verrät."},
+    {"t": "Eine andere Kategorie zielt darauf ab, „echte“ Lebenssituationen zu simulieren, in denen mehr oder weniger komplexe Aufgaben bearbeitet werden.", "c": true, "fb": "So beschrieben bei Ortner und van de Vijver (2015)."},
+    {"t": "Die zweite Generation profitierte vor allem davon, dass erstmals umfangreiche Normstichproben verfügbar wurden.", "c": false, "fb": "Fachlich daneben: Die zweite Generation profitierte davon, dass Computer für die Durchführung genutzt werden konnten und komplexe, flexible Testungen ermöglichten."}
+  ],
+  "concept": {
+    "title": "Objektive Persönlichkeitstests: Generationen und Spielarten",
+    "points": [
+      "<b>Ursprung</b>: zweite Hälfte des letzten Jahrhunderts; die Verfahren unterscheiden sich in Testkonzept, Testmaterial und Bewertungsschema.",
+      "<b>Erste Generation</b>: geht auf Raymond Cattell zurück.",
+      "<b>Zweite Generation</b>: profitiert vom Computereinsatz — komplexe, flexible Testungen werden möglich.",
+      "<b>Variante 1</b>: als Leistungstest „getarnte“ OPTs — scheinbar geht es um rasches, fehlerfreies Arbeiten.",
+      "<b>Variante 2</b>: Simulation „echter“ Lebenssituationen mit mehr oder weniger komplexen Aufgaben (Ortner & van de Vijver, 2015).",
+      "<b>Beispiel für ein indirektes Verfahren</b>: implizite Tests, etwa der IAT."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.1 Grundlagen",
+  "stem": "Welche Aussagen zu den im Skript angeführten Definitionen von Persönlichkeit treffen zu?",
+  "opts": [
+    {"t": "Für den Begriff „Persönlichkeit“ existiert nicht die eine richtige Definition; es gibt viele Ansatzpunkte, das Konstrukt greifbarer zu machen.", "c": true, "fb": "Deshalb führt das Skript mehrere bekannte Definitionen nebeneinander an."},
+    {"t": "Gordon Allport betont in seiner Definition besonders die dynamische Anpassung eines Individuums an die Umwelt.", "c": true, "fb": "Er spricht von der dynamischen Organisation psychophysischer Systeme, die die einzigartige Anpassung an die Umwelt bestimmen (Allport, 1937)."},
+    {"t": "Herzberg und Roth stellen die zeitliche Stabilität der Persönlichkeitseigenschaften in den Vordergrund.", "c": true, "fb": "Sie verstehen unter Persönlichkeit die Gesamtheit aller Merkmale, die eine Person zeitstabil kennzeichnen und unverwechselbar machen (2014)."},
+    {"t": "Larsen und Buss fassen Persönlichkeit als eine Menge psychologischer Traits und Mechanismen, die organisiert und relativ überdauernd sind.", "c": true, "fb": "Diese beeinflussen laut ihrer Definition die Interaktionen mit und Anpassungen an intrapsychische, physische und soziale Umwelten (2014)."}
+  ],
+  "concept": {
+    "title": "Definitionen von Persönlichkeit",
+    "points": [
+      "<b>Grundlage</b>: Es gibt nicht die eine richtige Definition — der Begriff lässt sich je nach Fokus unterschiedlich beschreiben.",
+      "<b>Allport (1937)</b>: dynamische Organisation psychophysischer Systeme; Fokus auf der Anpassung an die Umwelt.",
+      "<b>Herzberg & Roth (2014)</b>: Gesamtheit aller Merkmale, die eine Person zeitstabil kennzeichnen und unverwechselbar machen; Fokus auf zeitlicher Stabilität.",
+      "<b>Larsen & Buss (2014)</b>: organisierte, relativ überdauernde psychologische Traits und Mechanismen, die Interaktion und Anpassung beeinflussen.",
+      "<b>Gemeinsamer Kern</b>: nicht pathologische Unterschiede, Stabilität (zeitlich und transsituativ), Referenzialität zu einer Vergleichspopulation."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.2.4 Sozial-kognitive Theorien",
+  "stem": "Welche Aussagen zu Banduras theoretischen Kernannahmen treffen zu?",
+  "opts": [
+    {"t": "Bandura war ein US-amerikanischer Psychologe, der die Bobo-Doll-Experimente gemeinsam mit Julian Rotter durchführte.", "c": false, "fb": "Zwei Fehler: Bandura war kanadischer Psychologe, und die Bobo-Doll-Experimente werden im Skript ihm allein zugeschrieben."},
+    {"t": "Menschliches Verhalten ist größtenteils kognitiv bedingt, im Sinne interner Prozesse der Selbstregulation.", "c": true, "fb": "Die erste seiner drei Kernannahmen."},
+    {"t": "Lernen besteht nach Bandura vor allem in der unmittelbaren Verstärkung tatsächlich ausgeführter Handlungen.", "c": false, "fb": "Fachlich verzerrt: Lernen besteht vor allem in der Wahrnehmung von Handlungskonsequenzen — die Handlung muss nicht selbst ausgeführt und verstärkt worden sein."},
+    {"t": "Er sieht menschliches Verhalten als Ergebnis eines Wechselspiels von primär kognitiven Personenfaktoren und Umwelteinflüssen.", "c": true, "fb": "Dabei beeinflusst die Wahrnehmung wahrscheinlicher Handlungsfolgen das Verhalten."}
+  ],
+  "concept": {
+    "title": "Banduras Theorie des sozial-kognitiven Lernens",
+    "points": [
+      "<b>Person</b>: Albert Bandura (1925–2021), kanadischer Psychologe.",
+      "<b>Grundmodell</b>: Verhalten als Wechselspiel von primär kognitiven Personenfaktoren und Umwelteinflüssen; die Wahrnehmung wahrscheinlicher Handlungsfolgen steuert das Verhalten.",
+      "<b>Kernannahme 1</b>: Verhalten ist größtenteils kognitiv bedingt (interne Prozesse der Selbstregulation).",
+      "<b>Kernannahme 2</b>: Lernen besteht vor allem in der Wahrnehmung von Handlungskonsequenzen.",
+      "<b>Kernannahme 3</b>: Lernen am Modell — Lernen erfolgt durch die Beobachtung anderer; geprüft in den Bobo-Doll-Experimenten.",
+      "<b>Zentraler Begriff</b>: Selbstwirksamkeitserwartung (self-efficacy)."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.3.2 Interview",
+  "stem": "Welche Punkte zählen zur Qualitätssicherung einer Interviewsituation?",
+  "opts": [
+    {"t": "Interviewprotokoll: Gesprächsverlauf und Antworten sollten in geeigneter Form festgehalten werden, etwa schriftlich oder durch Video- bzw. Tonbandaufzeichnungen.", "c": true, "fb": "Einer der im Skript genannten Punkte der Vor- und Nachbereitung."},
+    {"t": "Eignungsmerkmale: Die erfragten Merkmale sollten vorab durch konkrete Verhaltensweisen sowie Ausprägungsgrade beschrieben werden.", "c": true, "fb": "Ohne diese Vorabdefinition bleibt die Beurteilung beliebig."},
+    {"t": "Rotationsprinzip: Jede befragte Person sollte nacheinander von mindestens drei verschiedenen interviewenden Personen befragt werden.", "c": false, "fb": "Gehört nicht zum Katalog. Genannt werden stattdessen Schulungen der interviewenden Personen."},
+    {"t": "Auswertung: Es sollte genau ein Auswertungsschema geben, das auf alle Interviews angewendet wird.", "c": true, "fb": "Geregelt wird darin etwa, welche Antworten die volle Punktzahl erhalten und wofür es Punkteabzug gibt."}
+  ],
+  "concept": {
+    "title": "Qualitätssicherung im diagnostischen Interview",
+    "points": [
+      "<b>Schulungen</b>: Interviews sollten von qualifizierten und eigens eingeschulten Personen durchgeführt werden.",
+      "<b>Interviewleitfäden & Strukturierung</b>: unvoreingenommenes Auftreten und Gleichbehandlung aller Befragten sicherstellen.",
+      "<b>Eignungsmerkmale</b>: vorab durch konkrete Verhaltensweisen und Ausprägungsgrade beschreiben.",
+      "<b>Interviewprotokoll</b>: Verlauf und Antworten festhalten — schriftlich, per Video oder Tonband.",
+      "<b>Auswertung</b>: regelgeleitet, mit genau einem Schema für alle Interviews (volle Punktzahl, Punkteabzug)."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.2.4 Sozial-kognitive Theorien",
+  "stem": "Eva studiert im vierten Semester. Langfristig Wissen aufzubauen und bei Prüfungen gut abzuschneiden ist ihr besonders wichtig. Als erfahrene Studentin weiß sie, dass frühe Vorbereitung und regelmäßiger Besuch der Lehrveranstaltungen zu besseren Noten führen. Welche Aussagen zu diesem Beispiel treffen zu?",
+  "opts": [
+    {"t": "Dass nachhaltiges Wissen und gute Noten für Eva besonders wichtig sind, entspricht dem Verstärkungswert.", "c": true, "fb": "Der Verstärkungswert (VW) ist die individuelle Einschätzung, wie attraktiv der Verstärker in dieser Situation ist."},
+    {"t": "Ihr Wissen, dass frühe Vorbereitung zu besseren Noten führt, entspricht dem Verhaltenspotential.", "c": false, "fb": "Begriff verwechselt: Das ist die Erwartung (E). Das Verhaltenspotential ist das Ergebnis, nicht eine der beiden Eingangsgrößen."},
+    {"t": "Da beide Komponenten hoch ausgeprägt sind, sinkt die Wahrscheinlichkeit, dass Eva die Lehrveranstaltungen regelmäßig besucht.", "c": false, "fb": "Richtung umgedreht: Bei hoher Erwartung und hohem Verstärkungswert ist das Verhaltenspotential entsprechend hoch."},
+    {"t": "Führt Eva einen Prüfungserfolg auf besonders leicht gestellte Fragen zurück, spricht das für eine hohe internale Kontrollüberzeugung.", "c": false, "fb": "Vertauscht: Die Zuschreibung an äußere Umstände kennzeichnet eine externale Kontrollüberzeugung."}
+  ],
+  "concept": {
+    "title": "Rotters Verhaltensgleichung an einem Beispiel",
+    "points": [
+      "<b>Formel</b>: VP = f(E × VW) — Verhaltenspotential als Funktion von Erwartung und Verstärkungswert.",
+      "<b>Verstärkungswert (VW)</b>: Wie attraktiv ist der Verstärker für die Person? → Eva ist Wissen und eine gute Note viel wert.",
+      "<b>Erwartung (E)</b>: Wie wahrscheinlich führt das Verhalten in dieser Situation zum Verstärker? → Eva weiß aus Erfahrung, dass frühe Vorbereitung wirkt.",
+      "<b>Verhaltenspotential (VP)</b>: das Ergebnis — die Wahrscheinlichkeit, dass Eva regelmäßig hingeht und sich nicht ablenken lässt, ist hoch.",
+      "<b>Kontrollüberzeugungen</b>: internal = Ergebnis als Folge des eigenen Verhaltens; external = Ergebnis als Folge anderer, des Schicksals oder des Zufalls."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.3.5 Projektive Tests",
+  "stem": "Welche Aussagen zu verbal-thematischen sowie zeichnerischen und Gestaltungsverfahren treffen zu?",
+  "opts": [
+    {"t": "Beim Thematischen Apperzeptionstest wird die Testperson mit symmetrischen Klecksfiguren konfrontiert, zu denen sie Geschichten erfinden soll.", "c": false, "fb": "Material vertauscht: Klecksfiguren gehören zum Rorschach-Test. Der TAT arbeitet mit mehrdeutigen Bildern, auf denen soziale Situationen dargestellt sind."},
+    {"t": "Beim Baum-Test lassen Wurzel, Stamm und Krone der Zeichnung ausschließlich Rückschlüsse auf die kognitive Leistungsfähigkeit zu.", "c": false, "fb": "Zu eng und falsch akzentuiert: Aus ihnen sollen Schlussfolgerungen über Gefühle, Reaktionen und den Entwicklungsstand der Testperson gezogen werden."},
+    {"t": "Der TAT wurde ursprünglich als Hilfsmittel zur Exploration im klinischen Kontext entwickelt; offenbart werden sollten Motive und Zukunftserwartungen.", "c": true, "fb": "Unterstützt wird die Testperson durch Fragen wie „Wie ist es zu der Situation gekommen?“ oder „Wie wird die Geschichte weitergehen?“."},
+    {"t": "Auf ähnlichen theoretischen Überlegungen bauen Satzergänzungsverfahren auf, bei denen die Testpersonen angefangene Sätze vervollständigen müssen.", "c": true, "fb": "Auch hier soll die Ergänzung Rückschlüsse auf Wünsche, Motive und Einstellungen erlauben."}
+  ],
+  "concept": {
+    "title": "Verbal-thematische, zeichnerische und Gestaltungsverfahren",
+    "points": [
+      "<b>Gemeinsame Annahme</b>: Bei der Deutung mehrdeutiger Items projizieren Menschen Einstellungen, Wünsche und Motive in die Deutung.",
+      "<b>TAT (1943, Henry Murray, 1893–1988)</b>: mehrdeutige Bilder sozialer Situationen; „dramatische“ Geschichten sollen erfunden werden.",
+      "<b>TAT — Zweck</b>: ursprünglich Hilfsmittel zur Exploration im klinischen Kontext; offengelegt werden sollten Motive (Bedürfnisse) und Zukunftserwartungen.",
+      "<b>Satzergänzungsverfahren</b>: angefangene Sätze werden vervollständigt — theoretisch verwandt mit dem TAT.",
+      "<b>Baum-Test (K. Koch)</b>: Wurzel, Stamm und Krone erlauben Schlüsse auf Gefühle, Reaktionen und Entwicklungsstand; methodisch plausibel wirkend, erfüllt aber die Gütekriterien nicht.",
+      "<b>Fazit</b>: Im klinischen Bereich eher Technik dialogischer Gesprächsführung als Test im diagnostischen Sinn (Allesch, 1991)."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.3.1 Fragebögen",
+  "stem": "Was kennzeichnet Selbstberichtsverfahren in der Persönlichkeitsdiagnostik?",
+  "opts": [
+    {"t": "Untersuchungsgegenstand von Selbstberichten können unter anderem Gedanken, Erinnerungen, Einstellungen, Erwartungen, Gefühle, Ziele oder Verhaltensweisen sein.", "c": true, "fb": "Die Bandbreite ist bewusst weit gefasst — daher die große Verbreitung des Formats."},
+    {"t": "Mehrdimensionale Persönlichkeitstestsysteme beschränken sich bewusst auf ein einzelnes, besonders trennscharfes Merkmal.", "c": false, "fb": "Genau umgekehrt: Sie erheben den Anspruch, die individuelle Persönlichkeitsstruktur mehrdimensional zu erfassen — hinsichtlich aller bzw. vieler relevanter Aspekte."},
+    {"t": "Die Testpersonen werden instruiert, vorgegebene Aussagen über die eigene Person wahrheitsgemäß zu beantworten, etwa wie sehr etwas auf sie zutrifft oder typisch ist.", "c": true, "fb": "Das ist die Kerninstruktion eines Selbstberichtsverfahrens."},
+    {"t": "Zu den bekanntesten deutschsprachigen Verfahren für das Erwachsenenalter zählen das MMPI-2, das NEO-PI-R und das FPI-R.", "c": true, "fb": "Genau diese drei greift das Skript exemplarisch heraus."}
+  ],
+  "concept": {
+    "title": "Selbstberichtsverfahren und mehrdimensionale Testsysteme",
+    "points": [
+      "<b>Prinzip</b>: Testpersonen beantworten vorgegebene Aussagen über sich selbst wahrheitsgemäß — wie sehr etwas zutrifft oder typisch ist.",
+      "<b>Gegenstand</b>: Merkmale, Gedanken, Erinnerungen, Einstellungen, Erwartungen, Gefühle, Ziele, Verhaltensweisen.",
+      "<b>Mehrdimensionale Testsysteme</b>: erheben den Anspruch, die Persönlichkeitsstruktur hinsichtlich aller bzw. vieler relevanter Aspekte zu erfassen.",
+      "<b>Beispiele</b>: MMPI-2 (Hathaway & McKinley), NEO-PI-R (Ostendorf & Angleitner nach Costa & McCrae), FPI-R (Fahrenberg, Hampel & Selg).",
+      "<b>Einordnung</b>: Selbstberichtsverfahren gehören zu den Q-Daten nach Cattell."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.2.2 Psychodynamik",
+  "stem": "Welche Aussagen zum Eisbergmodell und zur heutigen Einordnung der psychodynamischen Theorie treffen zu?",
+  "opts": [
+    {"t": "Das Eisbergbild veranschaulicht, dass beim Menschen der größere Teil der Prozesse bewusst und nur ein kleiner Teil unbewusst abläuft.", "c": false, "fb": "Verhältnis umgedreht: Wie beim Eisberg ist nur der kleinere Teil sichtbar bzw. bewusst; der größere Teil läuft unbewusst ab."},
+    {"t": "In der aktuellen wissenschaftlichen Forschung spielt dieses psychodynamische Konzept zur Erklärung der Persönlichkeit keine Rolle mehr und ist eher im historischen Zusammenhang zu sehen.", "c": true, "fb": "Seine historische Bedeutung liegt darin, den Blick der damaligen Forschung auf die dem Menschen innewohnenden Instanzen und Prozesse gelenkt zu haben."},
+    {"t": "Der wesentliche Grund dafür ist, dass Freuds Modell den Einfluss der Umwelt vollständig ausklammert.", "c": false, "fb": "Falscher Grund: Ausschlaggebend ist, dass die für die aktuelle Forschung zentrale Voraussetzung der Messbarkeit der Persönlichkeit in diesem Modell nicht gegeben ist."},
+    {"t": "Das Ich liegt im Eisbergmodell vollständig unterhalb der Wasseroberfläche.", "c": false, "fb": "Instanz falsch verortet: Das Ich ist größtenteils bewusst und liegt daher überwiegend oberhalb der Wasserlinie, hat aber auch unbewusste Elemente."}
+  ],
+  "concept": {
+    "title": "Eisbergmodell und heutiger Stellenwert",
+    "points": [
+      "<b>Bild</b>: Nur ein kleiner Teil des Eisbergs ragt über die Wasseroberfläche — analog ist beim Menschen der geringere Anteil der Prozesse bewusst.",
+      "<b>Verortung</b>: Ich überwiegend oberhalb (größtenteils bewusst); Über-Ich an der Grenze, überwiegend unbewusst; Es tief unterhalb (unbewusst).",
+      "<b>Prinzipien im Bild</b>: Realitätsprinzip (Ich), Moralitätsprinzip (Über-Ich), Lustprinzip (Es).",
+      "<b>Heutiger Stellenwert</b>: in der aktuellen Forschung ohne Rolle, eher historisch zu sehen.",
+      "<b>Grund</b>: Die Messbarkeit der Persönlichkeit — zentrale Voraussetzung heutiger Forschung — ist in diesem Modell nicht gegeben.",
+      "<b>Verdienst</b>: Es lenkte den Blick auf die dem Menschen innewohnenden Instanzen bzw. Prozesse und lieferte Erklärungsmuster für Persönlichkeit."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.3 Diagnostik allgemein",
+  "stem": "Welche Aussagen zur Persönlichkeitsdiagnostik treffen zu?",
+  "opts": [
+    {"t": "Im Fokus steht, wie die Persönlichkeitsmerkmale einer Person im Vergleich zu einer Referenzpopulation individuell ausgeprägt sind.", "c": true, "fb": "Die Persönlichkeitsdiagnostik ist von der Persönlichkeitspsychologie nicht zu trennen."},
+    {"t": "Ausprägungen lassen sich im Sinne von durchschnittlich, überdurchschnittlich und unterdurchschnittlich klassifizieren.", "c": true, "fb": "Genau dafür wird die Referenzpopulation herangezogen."},
+    {"t": "Von Interesse ist zudem, wie sich die Ausprägung einer Persönlichkeitseigenschaft zwischen zwei Messpunkten intraindividuell verändert.", "c": true, "fb": "Damit rückt neben dem Vergleich zwischen Personen auch die Veränderung innerhalb einer Person in den Blick."},
+    {"t": "Die Modell- und Theorieentwicklung geht meist Hand in Hand mit der Entwicklung der entsprechenden Messinstrumente.", "c": true, "fb": "Die Frage, welche und wie viele Dimensionen Persönlichkeit abbilden, ist direkt mit deren Erhebung verknüpft."}
+  ],
+  "concept": {
+    "title": "Aufgaben der Persönlichkeitsdiagnostik",
+    "points": [
+      "<b>Fokus</b>: das Individuum — wie sind seine Merkmale im Vergleich zur Referenzpopulation ausgeprägt?",
+      "<b>Klassifikation</b>: durchschnittlich, überdurchschnittlich, unterdurchschnittlich.",
+      "<b>Zweite Fragestellung</b>: intraindividuelle Veränderung einer Eigenschaft zwischen zwei Messpunkten.",
+      "<b>Kopplung</b>: Modell- und Theorieentwicklung verlaufen parallel zur Entwicklung der Messinstrumente.",
+      "<b>Datenquellen</b>: L-Daten, Q-Daten und T-Daten nach Cattell (1946).",
+      "<b>Hauptgütekriterien</b>: Objektivität, Reliabilität, Validität."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.2.1 Trait-Theorien",
+  "stem": "Welche Aussagen zur Erhebung der Big-Five-Ausprägungen und zur Selbst- bzw. Fremdbewertung treffen zu?",
+  "opts": [
+    {"t": "Bei der Fremdbewertung schätzt die Zielperson, für die die Merkmalsausprägung erhoben werden soll, die vorgegebenen Items selbst ein.", "c": false, "fb": "Vertauscht: Das ist die Selbstbewertung. Bei der Fremdbewertung nimmt eine andere Person die Einschätzung vor."},
+    {"t": "Das NEO-FFI-30 ist die englischsprachige Langfassung des NEO-Persönlichkeitsinventars.", "c": false, "fb": "Doppelt falsch: Das NEO-FFI-30 (Körner et al., 2008) ist eine deutschsprachige Kurzversion."},
+    {"t": "In der Selbsteinschätzung werden einzelne Aussagen — sogenannte Items — auf einer mehrstufigen Skala danach bewertet, wie sehr sie auf einen selbst zutreffen.", "c": true, "fb": "Fragebogenverfahren sind das erste Mittel der Wahl, um die Ausprägungen auf den fünf großen Faktoren zu bestimmen."},
+    {"t": "Die Aussagekraft einer Fremdbewertung hängt unter anderem von der Einschulung der Beurteilenden und der Menge der über die Person vorliegenden Informationen ab.", "c": true, "fb": "Deshalb ist sie meist deutlich aufwändiger in der Umsetzung als eine Selbstbewertung."}
+  ],
+  "concept": {
+    "title": "Selbst- und Fremdbewertung",
+    "points": [
+      "<b>Selbstbewertung</b>: Die Zielperson schätzt die vorgegebenen Items selbst ein — Items werden auf einer mehrstufigen Skala danach bewertet, wie sehr sie zutreffen.",
+      "<b>Selbstbewertung — Bilanz</b>: bewusst oder unbewusst zum eigenen Vorteil manipulierbar, aber niemand kennt die Person so gut wie sie sich selbst; sehr ökonomisch, etwa als Gruppentestung.",
+      "<b>Fremdbewertung</b>: Eine andere Person nimmt die Einschätzung vor.",
+      "<b>Fremdbewertung — Bilanz</b>: liefert meist ein zutreffenderes Bild von außen, ist aber aufwändiger und hängt von Einschulung der Beurteilenden und Informationsmenge ab.",
+      "<b>Instrumente</b>: NEO-PI von Costa & McCrae (1985); deutschsprachige Kurzversion NEO-FFI-30 (Körner et al., 2008); NEO-PI-R mit Form S (Selbstbericht) und Form F (Fremdbeurteilung)."
+    ]
+  }
+},
+{
+  "kap": 8,
+  "sec": "8.2.2 Psychodynamik",
+  "stem": "Beim Mittagessen sehnt sich eine Person nach einem Burger mit Pommes, erinnert sich dann an gesündere und umweltbewusstere Alternativen und wählt schließlich einen Veggieburger mit Salat. Welche Aussagen zu diesem Beispiel treffen zu?",
+  "opts": [
+    {"t": "Der Wunsch nach dem Burger mit Pommes lässt sich dem Es zuordnen, das Hunger und vor allem Appetit möglichst rasch stillen möchte.", "c": true, "fb": "Das Es agiert nach dem Lustprinzip: sofortige Befriedigung, ohne auf Konsequenzen zu achten."},
+    {"t": "Der Hinweis auf gesündere Ernährung und umweltbewusste Aspekte entspricht dem Über-Ich.", "c": true, "fb": "Es handelt nach dem Moralitätsprinzip und bringt Werte- und Normvorstellungen ein."},
+    {"t": "Der schließlich gewählte Veggieburger mit Salat ist das Ergebnis der Vermittlungsleistung des Ich.", "c": true, "fb": "Das Ich sucht nach dem Realitätsprinzip einen vernünftigen Kompromiss zwischen Trieb und Ideal."},
+    {"t": "Das Ergebnis zeigt, dass sich in Konfliktsituationen regelmäßig das Es durchsetzt, weil das Lustprinzip dem Realitätsprinzip übergeordnet ist.", "c": false, "fb": "Fachlich verfehlt: Die drei Instanzen stehen in Wechselwirkung; es gibt keine feste Rangordnung, und im Beispiel setzt sich gerade der Kompromiss des Ich durch."}
+  ],
+  "concept": {
+    "title": "Zusammenspiel der drei Instanzen",
+    "points": [
+      "<b>Es</b> (Lustprinzip): sofortige Befriedigung — hier der Burger mit Pommes.",
+      "<b>Über-Ich</b> (Moralitätsprinzip): Werte und Normen — hier gesunde Ernährung und Umweltbewusstsein.",
+      "<b>Ich</b> (Realitätsprinzip): vermittelt zwischen beidem — hier der Veggieburger eines Bio-Restaurants mit Salat.",
+      "<b>Ergebnis der Vermittlung</b>: rationale Lösungen, etwa auch der Aufschub bestimmter Bedürfnisse in unpassenden Situationen.",
+      "<b>Grundsatz</b>: Die Interaktion der Instanzen und die Konflikte zwischen ihnen bedingen die Persönlichkeit (Freud, 1923) — keine feste Rangordnung."
+    ]
+  }
+}
+]

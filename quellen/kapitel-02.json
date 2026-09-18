@@ -1,0 +1,552 @@
+[
+{
+  "kap": 2,
+  "sec": "2.2.3 Naturwissenschaftliche Neubegründung",
+  "stem": "Welche Aussagen über Hermann von Helmholtz und seine Forschung treffen zu?",
+  "opts": [
+    {"t": "In seinem Handbuch der physiologischen Optik behandelte er den anatomischen Aufbau des Auges, die Netzhautzellen, die reizübertragenden Sehnerven und die Farbwahrnehmung.", "c": true, "fb": "Er beschrieb darin bis hin zum Zusammenspiel des gesamten optischen Systems (siehe auch Kapitel 5.2.4)."},
+    {"t": "Seine Arbeiten ermöglichten erstmals die Unterteilung in verschiedene Sinne, die über verschiedene Sinnessysteme Reize aufnehmen.", "c": true, "fb": "Das stand im Widerspruch zur damals verbreiteten Theorie eines menschlichen „Gesamtsinns“."},
+    {"t": "Er war überzeugt, dass sowohl physiologische als auch anorganische Parameter beobachtbar und damit messbar seien.", "c": true, "fb": "Diese Überzeugung war die Grundlage seiner apparativ gestützten Messungen."},
+    {"t": "Er gelangte zu der Erkenntnis, dass jede Beobachtung – selbst durch exakte Messung gestützt – mögliche Einflüsse der beobachtenden Person enthält.", "c": true, "fb": "Frühere Erfahrungen, Erwartungen und Vorurteile können die Beobachtung beeinflussen; diese Erkenntnis ist bis heute von großer Bedeutung."}
+  ],
+  "concept": {
+    "title": "Hermann von Helmholtz (1821–1894): sinnesphysiologische Forschung",
+    "points": [
+      "<b>Person</b>: Neurophysiologe und Mediziner; trug wesentlich dazu bei, dass Denken und Wahrnehmung ab dem 19. Jahrhundert empiristisch-naturwissenschaftlich betrachtet wurden.",
+      "<b>Handbuch der physiologischen Optik</b>: anatomischer Aufbau des Auges, Netzhautzellen, reizübertragende Sehnerven, Zusammenspiel des optischen Systems, Farbwahrnehmung.",
+      "<b>Folge</b>: erstmals Unterteilung in verschiedene Sinne mit eigenen Sinnessystemen – im Widerspruch zur Theorie eines „Gesamtsinns“.",
+      "<b>Nervenleitgeschwindigkeit</b>: Pionierarbeit auf Basis physiologischer Messungen mit Apparaten, nicht auf Basis von Schätzungen aus einem theoretischen Modell.",
+      "<b>Messbarkeit</b>: physiologische wie anorganische Parameter galten ihm als beobachtbar und messbar.",
+      "<b>Beobachtereinfluss</b>: In jeder Beobachtung stecken mögliche Einflüsse der beobachtenden Person – frühere Erfahrungen, Erwartungen und Vorurteile."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.1.1 Ursprünge des Seelenbegriffs",
+  "stem": "Welche Aussagen zur Vier-Säfte-Lehre und zu den Temperamenttypen treffen zu?",
+  "opts": [
+    {"t": "Hippokrates war Begründer und Namensgeber des hippokratischen Eids, der grundlegenden ärztlichen Ethik.", "c": true, "fb": "Mit der Vier-Säfte-Lehre suchte er zugleich medizinische Erklärungen für Krankheiten."},
+    {"t": "Sanguiniker werden als freudvolle, schnell und stark erregbare Menschen beschrieben; ihr vorherrschender Körpersaft ist das Blut.", "c": true, "fb": "Blut steht damit für den lebhaftesten der vier Typen."},
+    {"t": "Phlegmatiker zeichnen sich durch schnelle und starke Reaktionen aus und sind leicht zu verärgern; ihr vorherrschender Körpersaft ist die gelbe Galle.", "c": false, "fb": "Beschrieben ist hier der Choleriker. Phlegmatiker haben den Schleim als dominanten Saft und reagieren langsam und schwach, dabei jedoch freundlich."},
+    {"t": "Mit der Temperamentenlehre postulierte Galen einen funktionellen Zusammenhang von physischen und psychischen Phänomenen (Eckardt, 2017).", "c": true, "fb": "Damit verband er menschliche Verhaltensweisen erstmals systematisch mit den Körpersäften."}
+  ],
+  "concept": {
+    "title": "Die vier Temperamenttypen und ihre Körpersäfte",
+    "points": [
+      "<b>Sanguiniker</b>: Blut – freudvoll, schnell und stark erregbar.",
+      "<b>Phlegmatiker</b>: Schleim – langsame und schwache Reaktionen, dabei freundlich.",
+      "<b>Choleriker</b>: gelbe Galle – temperamentvoll, sehr schnell und stark erregbar, leicht zu verärgern.",
+      "<b>Melancholiker</b>: schwarze Galle – starke Gefühle von Traurigkeit, Neigung zu Schwermut und Trübsinn.",
+      "<b>Herkunft</b>: Hippokrates (ca. 460–370 v. Chr.), Namensgeber des hippokratischen Eids, suchte mit der Vier-Säfte-Lehre medizinische Krankheitserklärungen; Galen (ca. 129–199 n. Chr.) leitete daraus rund 600 Jahre später die Temperamentenlehre ab.",
+      "<b>Nachwirkung</b>: Galens Persönlichkeitstypologie blieb bis ins 20. Jahrhundert bedeutsam (siehe Kapitel 8.2)."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.4.2 Gestaltpsychologie",
+  "stem": "Welche Aussagen zur Reichweite von Lewins Feldtheorie treffen zu?",
+  "opts": [
+    {"t": "Lewin engte die Gestalttheorie auf reine Wahrnehmungsphänomene ein und schloss soziale Kräfte ausdrücklich aus.", "c": false, "fb": "Er erweiterte sie im Gegenteil zu einer „sozialen“ Feldtheorie."},
+    {"t": "Er erweiterte die Gestalttheorie zu einer „sozialen“ Feldtheorie, bei der die Persönlichkeit in einem Feld sozialer Kräfte und Spannungen steht.", "c": true, "fb": "In der Umgebung einer Person existieren Gebilde und Ereignisse physikalischer wie sozialer Natur."},
+    {"t": "Die Feldtheorie bietet einen theoretischen Rahmen für Anwendungsfelder wie pädagogische Fragestellungen, die klinische Psychologie und die Organisationsberatung.", "c": true, "fb": "Belegt wird das mit Schulze (2002), Stemberger (2016) sowie Bachmann und Möller (2020)."},
+    {"t": "Die Eigenschaften der Dinge in ihrer Umgebung erfahren Kinder nach Lewin erst im Jugendalter, weshalb Aufforderungscharaktere davor wirkungslos bleiben.", "c": false, "fb": "Kinder erfahren diese Eigenschaften bereits in der frühen Kindheit – manche Dinge reizen zum Essen, andere zum Klettern."}
+  ],
+  "concept": {
+    "title": "Der Lebensraum als soziales Feld",
+    "points": [
+      "<b>Ausgangspunkt</b>: In der Umgebung einer Person existieren viele Gebilde und Ereignisse physikalischer (Tische, Stühle) und sozialer Natur (Freunde).",
+      "<b>Frühe Kindheit</b>: Dort erfahren Kinder die Eigenschaften dieser Dinge – manche reizen zum Essen, andere zum Klettern.",
+      "<b>Aufforderungscharakter bzw. Valenz</b>: die fordernden Umwelttendenzen selbst; ihre Art und Stärke richten sich nach den momentanen Bedürfnissen der Person.",
+      "<b>Soziale Feldtheorie</b>: Erweiterung der Gestalttheorie – die Persönlichkeit steht in einem Feld sozialer Kräfte und Spannungen; der Lebensraum ist in stetiger Veränderung.",
+      "<b>Beispiel</b>: Positive Regionen wie das Bestehen einer Prüfung sind nur zu erreichen, wenn negative Valenzen – etwa der Verzicht auf Freizeitaktivitäten – durchschritten werden.",
+      "<b>Anwendungsfelder</b>: Pädagogik (Schulze, 2002), klinische Psychologie (Stemberger, 2016), Organisationsberatung (Bachmann & Möller, 2020)."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.1.2 Römische Antike und Mittelalter",
+  "stem": "Welche Aussage zur Wissenschaft im Mittelalter trifft zu?",
+  "opts": [
+    {"t": "Mit dem Einzug des Christentums ins römische Reich trat das Streben nach Erkenntnis an die Stelle des Ziels, möglichst fromm und rechtgläubig zu leben.", "c": false, "fb": "Die Richtung ist umgekehrt: Das Streben nach Erkenntnis und die Erforschung von Psyche und Geist wurden vom Ziel eines frommen, rechtgläubigen Lebens abgelöst."},
+    {"t": "Die Ordensgemeinschaften beschränkten sich auf die Treue zum Glauben und überließen Kunst und Wissenschaft den entstehenden Universitäten.", "c": false, "fb": "Sie behielten neben der Glaubenstreue auch die Beschäftigung mit Kunst und Wissenschaft bei; Forschung passierte vorwiegend durch Klöster- und Stiftsschulen."},
+    {"t": "An den damaligen Universitäten stand die Philosophie über allen anderen Fächern und teilte sich in Metaphysik, Natur- und Moralphilosophie auf.", "c": true, "fb": "Daneben wurden Medizin, Rechtswissenschaft und Theologie gelehrt – eine insgesamt überschaubare Menge an Fächern."},
+    {"t": "Gegen Ende des Mittelalters führte das Streben nach Wahrheit und Erkenntnis zum Niedergang der Klosterforschung und verhinderte zunächst die Gründung von Universitäten.", "c": false, "fb": "Es führte zu enormem wissenschaftlichen Aufschwung und gerade zur Gründung von Universitäten."}
+  ],
+  "concept": {
+    "title": "Forschung und Lehre im Mittelalter",
+    "points": [
+      "<b>Römische Antike</b>: keine eigenen Schulen wie bei den Griechen; römische Gelehrte trugen die griechischen Lehren weiter.",
+      "<b>Christianisierung</b>: Das Streben nach Erkenntnis wurde vom Ziel abgelöst, möglichst fromm und rechtgläubig zu leben; philosophische Lehren der Kirchenlehrer hatten stets einen auf Gott bezogenen Hintergrund.",
+      "<b>Ordensgemeinschaften</b>: z. B. Benediktinermönche – Glaubenstreue und zugleich Beschäftigung mit Kunst und Wissenschaft.",
+      "<b>Forschungsorte</b>: vorwiegend Klöster- und Stiftsschulen.",
+      "<b>Universitätsgründungen</b>: Das Streben nach Wahrheit und Erkenntnis führte gegen Ende des Mittelalters zu enormem wissenschaftlichen Aufschwung und zur Gründung von Universitäten.",
+      "<b>Fächerkanon</b>: Medizin, Rechtswissenschaft und Theologie; darüber die Philosophie mit den Teildisziplinen Metaphysik, Natur- und Moralphilosophie."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.4.3 Behaviorismus",
+  "stem": "Welche Aussagen zu den Grundlagen und zur Entwicklung des Behaviorismus treffen zu?",
+  "opts": [
+    {"t": "Der Begriff leitet sich vom englischen Wort „behavior“ ab; Hauptbegründer der behavioristischen Perspektive war John B. Watson.", "c": true, "fb": "Im Fokus steht das beobachtbare Verhalten als Reaktion auf äußere Reize sowie die Verhaltensanpassung an die jeweilige Situation."},
+    {"t": "Der Wundtsche Strukturalismus wurde von den Behavioristen abgelehnt, der Funktionalismus dagegen als hinreichend objektiv anerkannt.", "c": false, "fb": "Strukturalismus, Elementarismus und Funktionalismus wurden gleichermaßen abgelehnt, weil die Forschungsmethoden dieser Schulen als zu „subjektiv“ galten."},
+    {"t": "Als Impulse für den Paradigmenwechsel nennt Cox (2019) die Forderung nach einer gesellschaftlich nützlichen Psychologie, die Erfolge der europäischen Physiologie Mitte des 19. Jahrhunderts und die Forderungen des Positivismus.", "c": true, "fb": "Der Positivismus wirkte damit unmittelbar auf die Abkehr von der Bewusstseinsforschung hin."},
+    {"t": "Hulls allgemeine Verhaltenstheorie von 1952 beschrieb unter anderem, dass sich aus der Kombination von Reiz und Reaktion eine Gewohnheit ausbildet, die durch bekräftigende Wiederholung gefestigt wird.", "c": true, "fb": "Reiz und Reaktion gelten darin als elementare Komponenten von Verhalten."}
+  ],
+  "concept": {
+    "title": "Aufstieg und Ausklang der behavioristischen Perspektive",
+    "points": [
+      "<b>Begriff und Fokus</b>: von „behavior“ (Verhalten); beobachtbares Verhalten als Reaktion auf äußere Reize, dazu Verhaltensanpassungen an die Situation.",
+      "<b>Abgrenzung</b>: Strukturalismus, Elementarismus und Funktionalismus wurden abgelehnt, weil ihre Methoden als zu „subjektiv“ galten.",
+      "<b>Impulse (Cox, 2019)</b>: Forderung nach einer für die Gesellschaft nützlichen Psychologie, Erfolge der europäischen Physiologie Mitte des 19. Jahrhunderts, Forderungen des Positivismus.",
+      "<b>Erfolgsgründe</b>: Spannweite von der experimentellen Tierforschung bis zur Messung von Reflexen bei Kindern und Erwachsenen; dazu rasch wachsende Industriegesellschaften und ein wissenschaftliches Lebensverständnis (Shiraev, 2015).",
+      "<b>Hull (1952)</b>: Reiz und Reaktion als elementare Komponenten; ihre Kombination bildet eine Gewohnheit, die bekräftigende Wiederholung festigt. Triebstärke, Anreizwert der Belohnung und Reizintensität bestimmen die Häufigkeit.",
+      "<b>Ausklang</b>: Bis zum Ende der 1960er Jahre schlich sich – erkennbar etwa an sinkenden Publikationszahlen – ein langsames Ende der radikal behavioristischen Sichtweise ein."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.2.1 Vernunft als Schlüssel zur Wissenschaft",
+  "stem": "Welche Aussagen zu Kants Erkenntnisverständnis und zur Zeit nach der Aufklärung treffen zu?",
+  "opts": [
+    {"t": "Kant nahm an, dass die reine empirische Beobachtung nicht alle Informationen enthalten kann und Sinneseindrücke mit den Vorstellungen des Verstandes verknüpft werden müssen.", "c": true, "fb": "Damit ergänzte er den empiristischen Grundsatz um die Verbindung zum Denken."},
+    {"t": "Eindeutigkeit und Gewissheit wissenschaftlicher Ergebnisse hielt er für entbehrlich, solange deren Beständigkeit gewährleistet ist.", "c": false, "fb": "Er betonte alle drei Kriterien gemeinsam: Eindeutigkeit, Gewissheit und Beständigkeit."},
+    {"t": "Kant zählt zu den Vertretern des Rationalismus des 17. Jahrhunderts, die Erfahrung als Erkenntnisquelle vollständig ausschlossen.", "c": false, "fb": "Er wirkte im 18. Jahrhundert und griff den empiristischen Grundsatz gerade auf, statt Erfahrung auszuschließen."},
+    {"t": "Nach der Zeit der Aufklärung begann sich die Psychologie als eigenständige Wissenschaft zu etablieren – auch weil die Lehre über menschliches Verhalten in der Gesellschaft auf immer breiteres Interesse stieß.", "c": true, "fb": "Ein sichtbares Ergebnis war die Gründung erster psychologischer Zeitschriften."}
+  ],
+  "concept": {
+    "title": "Kants Beitrag auf dem Weg zur eigenständigen Wissenschaft",
+    "points": [
+      "<b>Person</b>: Immanuel Kant (1724–1804), wichtige Persönlichkeit auf dem Weg der Etablierung der Psychologie als Wissenschaft im 18. Jahrhundert.",
+      "<b>Anschluss an den Empirismus</b>: Erkenntnis entsteht durch sinnliche Erfahrung – ergänzt um die Verbindung zum Denken.",
+      "<b>Kernargument</b>: Reine empirische Beobachtung enthält nicht alle Informationen; Sinneseindrücke müssen mit den Vorstellungen des Verstandes verknüpft werden.",
+      "<b>Gütekriterien</b>: Eindeutigkeit, Gewissheit und Beständigkeit wissenschaftlicher Ergebnisse.",
+      "<b>Konsequenz</b>: Ohne Messung und mathematische Formulierung keine exakte Wissenschaft – daher für Kant nur beschreibende Wissenschaft mit geringerem Stellenwert (vgl. Fahrenberg, 2022).",
+      "<b>Danach</b>: Nach der Aufklärung wuchs das gesellschaftliche Interesse an der Lehre über menschliches Verhalten, und die Psychologie begann sich als eigenständige Wissenschaft zu etablieren."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.2.2 Entwicklungen im 18. und 19. Jahrhundert",
+  "stem": "Was gilt für Johann Caspar Lavater und seine Regeln zur Charakterdeutung?",
+  "opts": [
+    {"t": "Lavater deutete eine hohe Stirn als Hinweis auf ausgeprägtes Geltungsstreben und die Nasenform als Zeichen von Intelligenz.", "c": false, "fb": "Die Merkmale sind vertauscht: Die hohe Stirn stand für Intelligenz, die Nasenform für den Drang zur Selbstverwirklichung."},
+    {"t": "Mit der Verbindung von körperlichen Merkmalen und Charaktereigenschaften lieferte er ein einfach anwendbares Kategorisierungssystem für Persönlichkeitsausprägungen.", "c": true, "fb": "Ein Ausschnitt daraus findet sich in seinem Werk Physiognomische Fragmente von 1789."},
+    {"t": "Lavaters Regeln zur Diagnose von Charakterzügen sind in der akademischen Psychologie bis heute als diagnostisches Verfahren in Gebrauch.", "c": false, "fb": "Sie sind dort nur mehr von historischem Interesse."},
+    {"t": "Die Ausdruckspsychologie befasste sich ausschließlich mit dem Ausdruck von Emotionen im Gesicht und ließ den übrigen Körper unberücksichtigt.", "c": false, "fb": "Sie befasste sich allgemein mit der körperlichen Erscheinung; die Physiognomik schloss ausdrücklich von Gesicht und Körper auf Charaktereigenschaften."}
+  ],
+  "concept": {
+    "title": "Lavater und die physiognomische Deutung des Körpers",
+    "points": [
+      "<b>Ausdruckspsychologie</b>: erste – mittlerweile veraltete – psychologische Lehre über die körperliche Erscheinung und deren psychologische Bedeutung.",
+      "<b>Physiognomik</b>: schließt aus den Ausdrucksmerkmalen des Gesichts <i>und</i> des Körpers auf Charaktereigenschaften; Grundannahme ist, dass sich Seelisches im Körperlichen ausdrückt.",
+      "<b>Lavater (1741–1801)</b>: Hauptvertreter der Physiognomik, entwickelte Regeln zur Diagnose von Charakterzügen aus dem Gesichtsausdruck.",
+      "<b>Seine Beispiele</b>: hohe Stirn als Zeichen von Intelligenz, Nasenform im Zusammenhang mit dem Drang zur Selbstverwirklichung.",
+      "<b>Werk</b>: Physiognomische Fragmente (1789); das Kategorisierungssystem war einfach anwendbar, ist heute aber nur mehr von historischem Interesse.",
+      "<b>Abgrenzung</b>: Die Phrenologie (Gall) schloss nicht aus dem Gesichtsausdruck, sondern aus Form und Größe des Schädels auf die darunterliegenden Hirnareale."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.4.4 Tiefenpsychologie",
+  "stem": "Welche Aussagen zu tiefenpsychologischen Grundbegriffen treffen zu?",
+  "opts": [
+    {"t": "Unter dem Begriff Tiefenpsychologie werden Konzepte zusammengefasst, in denen unbewusste seelische Vorgänge den zentralen Aspekt für menschliches Erleben und Verhalten darstellen.", "c": true, "fb": "Der Begriff umfasst sowohl psychologische als auch psychotherapeutische Konzepte."},
+    {"t": "Die Verdrängung ist ein Abwehrmechanismus, der angsterregende Gefühle oder Gedanken aus dem Bewusstsein verbannt.", "c": true, "fb": "Das Ich bedient sich solcher Abwehrmechanismen, um Ängste abzuwehren."},
+    {"t": "Das kollektive Unbewusste stellt nach Jung ein Reservoir der eigenen Erfahrungen als Spezies Mensch dar – eine Art Wissen, mit dem alle Menschen geboren werden.", "c": true, "fb": "In dessen Rahmen nehmen für Jung die Traumsymbole eine zentrale Position ein."},
+    {"t": "Freuds Ideen gründeten auf der Arbeit mit psychisch kranken Patient:innen und beeinflussten neben der wissenschaftlichen Psychologie auch die damalige Behandlungspraxis.", "c": true, "fb": "Sein Einfluss reichte damit ausdrücklich über die Theorie hinaus."}
+  ],
+  "concept": {
+    "title": "Grundbegriffe der Tiefenpsychologie",
+    "points": [
+      "<b>Tiefenpsychologie</b>: Sammelbegriff für psychologische und psychotherapeutische Konzepte, in denen unbewusste seelische Vorgänge zentral sind.",
+      "<b>Psychoanalyse</b>: von Freud begründete eigene Schule innerhalb dieser Perspektive; emotionale Reaktionen auf Kindheitserfahrungen und unbewusste Denkprozesse stehen im Zentrum.",
+      "<b>Angst und Abwehr</b>: Ängste entstehen durch das Leben in der Zivilisation; viele psychische Probleme gehen auf die Verdrängung von Ängsten zurück. Die Verdrängung verbannt angsterregende Gefühle oder Gedanken aus dem Bewusstsein.",
+      "<b>Kollektives Unbewusstes (Jung)</b>: Reservoir der Erfahrungen als Spezies Mensch – ein Wissen, mit dem alle Menschen geboren werden; Traumsymbole nehmen darin eine zentrale Position ein.",
+      "<b>Archetypus (Jung)</b>: Vorstellungen und Urbilder, die in Märchen, Mythen und Träumen Ausdruck finden – etwa die Magna Mater als schützende und zugleich vereinnahmende Mutter (Jung, 1948).",
+      "<b>Weitere Vertreter:innen</b>: Alfred Adler (1870–1937), Anna Freud (1895–1982) und C. G. Jung (1875–1961)."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.1.1 Ursprünge des Seelenbegriffs",
+  "stem": "Welche Aussagen zu den griechischen Denkschulen und zur Herkunft des Begriffs Psychologie treffen zu?",
+  "opts": [
+    {"t": "In den Akademien ab etwa 300 v. Chr. wurden vor allem Anatomie, Medizin und Astronomie gelehrt.", "c": false, "fb": "Gelehrt wurden dort Naturkunde, Grammatik, Rhetorik, Dialektik und Ethik."},
+    {"t": "Psychologische Lehren fielen damals unter die Ethiklehren; der Begriff Psychologie entstand erst im Mittelalter an den Universitäten (Gundlach, 2004).", "c": true, "fb": "Eine eigenständige Disziplin war die Psychologie zu dieser Zeit also noch nicht."},
+    {"t": "Die Denkschulen bestanden über mehrere Generationen hinweg: Schüler wurden später selbst Lehrer, wodurch sich unterschiedliche Betrachtungsweisen zwischen den Schulen entwickelten.", "c": true, "fb": "Laut Fußnote 2 handelte es sich dabei ausschließlich um männliche Lehrer und Schüler."},
+    {"t": "Die Systematik dieser Akademien war bereits den Zeitgenossen als psychologische Fachsystematik bewusst.", "c": false, "fb": "Das Skript spricht ausdrücklich von einer erst retrospektiv erkennbaren Systematik."}
+  ],
+  "concept": {
+    "title": "Die griechischen Denkschulen ab ca. 300 v. Chr.",
+    "points": [
+      "<b>Entstehung</b>: Mit der Begründung unterschiedlicher Akademien bzw. Denkschulen bekam die Psychologie eine erste – erst retrospektiv erkennbare – Systematik.",
+      "<b>Lehrinhalte</b>: Naturkunde, Grammatik, Rhetorik, Dialektik und Ethik.",
+      "<b>Einordnung der Psychologie</b>: Psychologische Lehren fielen unter die Ethiklehren.",
+      "<b>Weitergabe</b>: Die Gemeinschaften bestanden über mehrere Generationen; Schüler wurden zu Lehrern der nächsten Generation, wodurch sich Betrachtungsweisen ausdifferenzierten. Fußnote 2 hält fest, dass es sich ausschließlich um männliche Lehrer und Schüler handelte.",
+      "<b>Begriffsgeschichte</b>: Der Begriff Psychologie entstand erst im Mittelalter an den Universitäten (Gundlach, 2004).",
+      "<b>Fußnote 1</b>: Die Überrepräsentation männlicher Forschender im Kapitel spiegelt die historische Quellenlage wider – Beiträge von Frauen wurden seltener dokumentiert oder veröffentlicht."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.2.3 Naturwissenschaftliche Neubegründung",
+  "stem": "Welche Aussagen zu psychologischen Fachzeitschriften und Fachgesellschaften treffen zu?",
+  "opts": [
+    {"t": "Psychologische Forschungsarbeiten wurden als wissenschaftliche Artikel ab 1881 in der Zeitschrift Philosophische Studien veröffentlicht.", "c": true, "fb": "Spezifisch psychologische Fachzeitschriften folgten erst danach."},
+    {"t": "Das American Journal of Psychology erschien ab 1887, die Zeitschrift für Psychologie ab 1890 und das Psychological Review ab 1894.", "c": true, "fb": "Alle drei zählen bis heute zu den wichtigen Fachzeitschriften der Psychologie."},
+    {"t": "Zwischen 1901 und 1910 kam es in Europa zu keinen weiteren Gründungen psychologischer Fachgesellschaften.", "c": false, "fb": "In diesem Zeitraum folgten ausdrücklich diverse weitere europäische Fachgesellschaften."},
+    {"t": "Die APA gilt als weltweit einflussreichste Fachgesellschaft für die wissenschaftliche Psychologie, unter anderem durch ihre international verbreiteten Publikations- und Zitierstandards.", "c": true, "fb": "Beide großen Gesellschaften verfolgen bis heute das Ziel, die Verbreitung der wissenschaftlichen Psychologie zu fördern."}
+  ],
+  "concept": {
+    "title": "Publikationsorgane und Fachgesellschaften der jungen Psychologie",
+    "points": [
+      "<b>Philosophische Studien</b>: ab 1881 erste Veröffentlichung psychologischer Forschungsarbeiten als wissenschaftliche Artikel.",
+      "<b>Spezifische Fachzeitschriften</b>: American Journal of Psychology (1887), Zeitschrift für Psychologie (1890), Psychological Review (1894) – bis heute bedeutsam.",
+      "<b>APA</b>: 1892 durch Granville Stanley Hall in den USA gegründet; weltweit einflussreichste Fachgesellschaft, unter anderem durch ihre Publikations- und Zitierstandards.",
+      "<b>Deutsche Gesellschaft für Psychologie</b>: 1904 gegründet; zwischen 1901 und 1910 folgten diverse weitere europäische Fachgesellschaften.",
+      "<b>Funktion</b>: Fachgesellschaften und Fachzeitschriften waren ein zentraler Schritt der Etablierung der Psychologie als eigenständige Wissenschaft.",
+      "<b>Vorläufer</b>: Das Magazin für Erfahrungsseelenkunde von Karl Philipp Moritz gilt als Vorreiter psychologischer Fachzeitschriften."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.1.3 Rationalismus und Empirismus",
+  "stem": "Welche Aussagen zum Rationalismus und zu Descartes’ Menschenbild treffen zu?",
+  "opts": [
+    {"t": "Im Rationalismus dominierte die Vorstellung, dass Wissen nicht durch Körperliches erfahrbar ist, weil Empfindungen nicht als vertrauenswürdige Quelle gelten.", "c": true, "fb": "Erkenntnis ist demnach ausschließlich durch die Nutzung des Verstandes möglich; Vernunft führt zu logischer Ordnung und Vollkommenheit."},
+    {"t": "Das Zeitalter der Aufklärung wird im Kapitel auf etwa 1750 bis 1900 datiert.", "c": false, "fb": "Angegeben ist der Zeitraum von ca. 1650 bis 1800."},
+    {"t": "Descartes war ein Verfechter davon, den menschlichen Körper als „Maschine“ zu betrachten – ein mechanistisches Menschenbild.", "c": true, "fb": "Dazu passt seine Vorstellung von Animalgeistern, die über die Zirbeldrüse auf Nervenenden wirken."},
+    {"t": "Der von ihm geprägte Ausspruch „cogito ergo sum“ bedeutet „Ich fühle, also bin ich“.", "c": false, "fb": "Er bedeutet „Ich denke, also bin ich“ – für Descartes galt einzig die Vernunft als Basis des Erkenntnisgewinns."}
+  ],
+  "concept": {
+    "title": "Der Rationalismus im Zeitalter der Aufklärung",
+    "points": [
+      "<b>Zeitraum</b>: Aufklärung ca. 1650–1800 mit zwei vorherrschenden Strömungen – dem auf logischem Denken basierenden Rationalismus und dem auf Erfahrung basierenden Empirismus.",
+      "<b>Kernannahme</b>: Neben der körperlichen Welt gibt es eine Welt des Verstandes, in der die Vernunft regiert; Vernunft führt zu logischer Ordnung und Vollkommenheit.",
+      "<b>Erkenntnisquelle</b>: Wissen ist nicht durch Körperliches erfahrbar, weil Empfindungen nicht vertrauenswürdig sind – erkennbar ist es nur über den Verstand.",
+      "<b>Descartes (1596–1650)</b>: französischer Philosoph, wichtigster Vertreter des Rationalismus im 17. Jahrhundert; „cogito ergo sum“ – Ich denke, also bin ich.",
+      "<b>Mechanistisches Menschenbild</b>: der menschliche Körper als „Maschine“; Animalgeister in der Zirbeldrüse übermitteln Bilder an die Seele.",
+      "<b>Nachwirkung</b>: Das dualistische Menschenbild hat bis heute Bestand – etwa in der Unterscheidung zwischen „physischen“ und „psychischen“ Krankheitsursachen."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.3 Psychologie im Nationalsozialismus",
+  "stem": "Welche Aussagen zur inhaltlichen Neuausrichtung und zur Nachkriegsentwicklung treffen zu?",
+  "opts": [
+    {"t": "Psychologische Eigenschaften wie Intelligenz verschiedenen Bevölkerungsgruppen zuzuordnen, war eine Neuerung der Rassenpsychologie im Nationalsozialismus.", "c": false, "fb": "Diese Zuordnung war keine Neuheit der wissenschaftlichen Psychologie; neu hinzu kam in dieser Zeit die Bewertung der Untersuchungen."},
+    {"t": "Ziel der neuen Diplomordnung war einerseits eine stärkere Praxisorientierung des Curriculums, andererseits der Wechsel von einer akademischen in eine staatliche Steuerung.", "c": true, "fb": "Zuvor standen freigestaltete theoretische und experimentelle Studien im Vordergrund."},
+    {"t": "Die Österreichische Gesellschaft für Psychologie wurde bereits 1947 gemeinsam mit der Deutschen Gesellschaft für Psychologie wiedergegründet.", "c": false, "fb": "Die ÖGP wurde erst 1993 gegründet; zuvor waren österreichische Wissenschaftler:innen in der Deutschen Gesellschaft für Psychologie organisiert."},
+    {"t": "Bereits im Zuge des Ersten Weltkriegs kam es in den USA zu einer massiven Stärkung des Stellenwerts der psychologischen Diagnostik (Bandalos, 2018).", "c": true, "fb": "Fußnote 5 hält fest, dass diese Entwicklung nicht auf Deutschland beschränkt war."}
+  ],
+  "concept": {
+    "title": "Rassenpsychologie, Diplomordnung und Wiederaufbau",
+    "points": [
+      "<b>Rassenpsychologie</b>: verortete geistig-seelische Unterschiede in der Rassenzugehörigkeit; neu war nicht die Zuordnung psychologischer Eigenschaften zu Bevölkerungsgruppen, sondern deren Bewertung – nicht arische Gruppen galten als „minderwertig“, propagiert wurde die Überlegenheit der „nordischen“ und „westischen“ Rasse (Geuter, 1985).",
+      "<b>Diagnostik</b>: Aufschwung vor und während des Zweiten Weltkriegs durch Leistungstests der Wehrmacht; Fußnote 5 verweist auf die USA, wo schon der Erste Weltkrieg die Diagnostik massiv stärkte (Bandalos, 2018).",
+      "<b>Diplomordnung</b>: Wechsel von freigestalteten theoretischen und experimentellen Studien zu stärkerer Praxisorientierung und von akademischer zu staatlicher Steuerung; in Fächern wie Charakterologie oder Genetischer Psychologie wurden nationalistische und antisemitische Ansichten bevorzugt behandelt.",
+      "<b>Fachgesellschaft im NS</b>: Austritte wegen politischer Meinungsverschiedenheiten, Ausschluss jüdischer Mitglieder von Kongressen (Schönpflug, 2017).",
+      "<b>Nach Kriegsende</b>: Auflösung der Deutschen Gesellschaft für Psychologie durch die Besatzungsmächte; die emigrierten Professor:innen blieben vielfach in ihren Zielländern.",
+      "<b>Wiederaufbau</b>: 1946 Berufsverband deutscher Psychologen für praktisch Tätige, ab 1947 Wiedergründung der DGP in den Besatzungszonen, 1993 Gründung der ÖGP, weil nationale Verbände für die jeweiligen gesetzlichen und gesellschaftlichen Erfordernisse nötig wurden."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.2.2 Entwicklungen im 18. und 19. Jahrhundert",
+  "stem": "Welche Aussagen zum Fortschritt in Medizin und Physiologie im 19. Jahrhundert treffen zu?",
+  "opts": [
+    {"t": "Die Zelltheorie wurde in dieser Zeit von der wiederentdeckten Theorie der Körpersäfte abgelöst.", "c": false, "fb": "Die Ablösung verlief in die andere Richtung: Die Theorie der Körpersäfte wurde von der Zelltheorie abgelöst."},
+    {"t": "Die Evolutionstheorie verstärkte das Interesse an vergleichender Anatomie und Physiologie.", "c": true, "fb": "Zeitgleich kam es zu ersten Erkenntnissen der Humangenetik."},
+    {"t": "Durch Fortschritte der Physik und Chemie wurden Erkenntnisse über Nervensystem, Herz-Kreislauf-System, Hormonsystem und weitere Stoffwechselfunktionen möglich.", "c": true, "fb": "Die Physiologie profitierte damit unmittelbar von den Nachbarwissenschaften."},
+    {"t": "Die Entdeckung von Röntgenstrahlung und Radioaktivität führte bald zu diagnostischen und therapeutischen Anwendungen.", "c": true, "fb": "Daraus ergaben sich wiederum weitere Erkenntnisse."}
+  ],
+  "concept": {
+    "title": "Fortschritt in Medizin und Physiologie im 19. Jahrhundert",
+    "points": [
+      "<b>Ablösung der Säftelehre</b>: Die Theorie der Körpersäfte (Kapitel 2.1.1) wurde von der Zelltheorie abgelöst.",
+      "<b>Evolutionstheorie</b>: verstärkte das Interesse an vergleichender Anatomie und Physiologie.",
+      "<b>Humangenetik</b>: erste Erkenntnisse in diesem Zeitraum.",
+      "<b>Physik und Chemie</b>: ermöglichten Erkenntnisse über Nervensystem, Herz-Kreislauf-System, Hormonsystem und weitere Stoffwechselfunktionen.",
+      "<b>Neue Verfahren</b>: Röntgenstrahlung und Radioaktivität führten bald zu diagnostischen und therapeutischen Anwendungen.",
+      "<b>Bedeutung</b>: Dieser Fortschritt bildete die Grundlage, auf der die Psychologie ihre naturwissenschaftliche Neubegründung vollziehen konnte."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.2.3 Naturwissenschaftliche Neubegründung",
+  "stem": "Welche Aussage zu Hermann Ebbinghaus trifft zu?",
+  "opts": [
+    {"t": "Angelehnt an die psychophysischen Experimente Fechners formulierte er die logarithmischen Kurven des Lernens und Vergessens.", "c": true, "fb": "Sein Interesse galt vor allem den Lern- und Vergessensvorgängen des Gedächtnisses."},
+    {"t": "Ebbinghaus war ein Schüler Wundts und übernahm dessen Labor in Leipzig.", "c": false, "fb": "Er war ein Zeitgenosse Wundts und selbst in Berlin tätig."},
+    {"t": "Sein Interesse galt vor allem der Farbwahrnehmung und der Sinnesphysiologie.", "c": false, "fb": "Diese Themen bearbeitete Helmholtz; Ebbinghaus widmete sich der Erforschung des Gedächtnisses."},
+    {"t": "Sein methodisches Vorgehen galt als überholt, weil andere Forschende zu dieser Zeit bereits präziser arbeiteten.", "c": false, "fb": "Er war gerade für sein präzises methodisches Vorgehen bekannt, das damals ein Novum darstellte."}
+  ],
+  "concept": {
+    "title": "Hermann Ebbinghaus (1850–1909)",
+    "points": [
+      "<b>Rolle</b>: einflussreicher Psychologe und Mitbegründer der experimentellen Psychologie, Zeitgenosse Wundts, tätig in Berlin.",
+      "<b>Forschungsgebiet</b>: Erforschung des Gedächtnisses, insbesondere Lern- und Vergessensvorgänge.",
+      "<b>Kurven des Lernens und Vergessens</b>: logarithmisch formuliert, angelehnt an die psychophysischen Experimente Fechners.",
+      "<b>Methodik</b>: sinnlose Silben, um Fehlerquellen aus Erfahrung, Wissen und Inhalten zu minimieren (siehe auch Kapitel 5.4.5); sein präzises Vorgehen war damals ein Novum.",
+      "<b>Kontroverse</b>: Er verteidigte 1896 mit „Über erklärende und beschreibende Psychologie“ den experimentellen Ansatz gegen Diltheys Ideen von 1894.",
+      "<b>Zitat zum Kapitel</b>: Von ihm stammt der Satz, die Psychologie habe eine lange Vergangenheit, aber nur eine kurze Geschichte (1908)."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.4.2 Gestaltpsychologie",
+  "stem": "Welche Aussage zu den Grundannahmen der Gestaltpsychologie trifft zu?",
+  "opts": [
+    {"t": "Das Gesetz der Geschlossenheit beschreibt, dass zwei sich kreuzende gepunktete Linien als durchgehende Linien wahrgenommen werden.", "c": false, "fb": "Das ist das Gesetz der guten Fortsetzung; beim Gesetz der Geschlossenheit werden zwei sich überlappende, geschlossene Kreise wahrgenommen."},
+    {"t": "Für Wertheimer beruhte die Anwendung der Gestaltgesetze auf bewussten Denkprozessen der wahrnehmenden Person.", "c": false, "fb": "Gerade nicht: Weil es sich um keine bewussten Denkprozesse handelt, galten ihm die Gestaltgesetze als sich selbst erfüllendes Naturprinzip."},
+    {"t": "Die Gestaltpsychologie beschränkte sich auf Wahrnehmungsexperimente; Gedächtnis, Motivation und Lernen blieben ausgeklammert.", "c": false, "fb": "Zusätzlich zu den Wahrnehmungsexperimenten wurden Studien zum Gedächtnis, zum Problemlöseverhalten, zur Motivation und zum Lernen durchgeführt."},
+    {"t": "Präziser als „Das Ganze ist mehr als die Summe seiner Teile“ ist die Formulierung, dass das Ganze etwas Anderes als die Summe seiner Teile ist.", "c": true, "fb": "Damit kommt zum Ausdruck, dass die Gesamtheit andere, zusätzliche Eigenschaften hervorbringt und sich qualitativ von den Einzelteilen unterscheidet."}
+  ],
+  "concept": {
+    "title": "Wahrnehmung als strukturierte Gestalt",
+    "points": [
+      "<b>Selbstverständnis</b>: vorherrschend eine Wahrnehmungslehre bzw. Gestalttheorie – wie erleben und nehmen Menschen Gestalten wahr?",
+      "<b>Grundannahme</b>: Die mentale Repräsentation von Objekten erfolgt strukturiert; Objekte werden tendenziell anders wahrgenommen, als sie in der Wirklichkeit repräsentiert sind (objektiv gleiche Reize wirken je nach Kontext anders).",
+      "<b>Wertheimers Formel</b>: „Das Ganze ist etwas Anderes als die Summe seiner Teile“ – die Gesamtheit bringt andere, zusätzliche Eigenschaften hervor.",
+      "<b>Status der Gestaltgesetze</b>: Sie werden nicht bewusst angewendet und galten Wertheimer daher als sich selbst erfüllendes Naturprinzip; jedes Element ist in Bezug auf alle anderen zu interpretieren.",
+      "<b>Die vier dargestellten Gesetze</b>: Nähe, Ähnlichkeit, gute Fortsetzung (durchgehende statt geknickter Linien) und Geschlossenheit (zwei überlappende geschlossene Kreise).",
+      "<b>Themenbreite</b>: neben Wahrnehmungsexperimenten auch Studien zu Gedächtnis, Problemlöseverhalten, Motivation und Lernen; als Frankfurter bzw. Berliner Schule bezeichnet."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.1.3 Rationalismus und Empirismus",
+  "stem": "Welche Aussagen zum empiristischen Zugang zur Wirklichkeit treffen zu?",
+  "opts": [
+    {"t": "Charakteristisch für den Empirismus ist der Zweifel an der Existenz einer objektiven Welt.", "c": true, "fb": "Der Ursprung des Wissens liegt für ihn allein in dem, was wahrgenommen werden kann."},
+    {"t": "Der Zugang zur Wirklichkeit kann einerseits über die Beobachtung, andererseits über das Experiment erfolgen (Liesen, 2010).", "c": true, "fb": "Beide Wege bleiben an Erfahrung gebunden."},
+    {"t": "John Locke war ein englischer Philosoph und Naturwissenschafter und verfasste die erste empiristische Erkenntnistheorie.", "c": true, "fb": "Er zählt zu den wichtigsten Empiristen (Schönpflug, 2013)."},
+    {"t": "Ein Erkenntnisprozess kann nach empiristischer Auffassung nur durch das Studium subjektiver Eindrücke erfolgen und nicht allein durch Vernunft.", "c": true, "fb": "Damit steht der Empirismus dem rationalistischen Vertrauen in den bloßen Verstand entgegen."}
+  ],
+  "concept": {
+    "title": "Wie Erkenntnis im Empirismus zustande kommt",
+    "points": [
+      "<b>Ausgangszweifel</b>: Zweifel an der Existenz einer objektiven Welt; der Ursprung des Wissens liegt allein im Wahrnehmbaren.",
+      "<b>Erkenntnisprozess</b>: nur über das Studium subjektiver Eindrücke durch (Sinnes-)Erfahrung, nicht allein durch Vernunft.",
+      "<b>Zwei Wege</b>: Beobachtung und Experiment (Liesen, 2010).",
+      "<b>Ausgangslage des Geistes</b>: bei der Geburt ein unbeschriebenes Blatt; Erkenntnis wird nur durch sinnliche Erfahrung der stofflichen Welt möglich.",
+      "<b>John Locke (1632–1704)</b>: englischer Philosoph und Naturwissenschafter, einer der wichtigsten Empiristen, verfasste die erste empiristische Erkenntnistheorie (Schönpflug, 2013).",
+      "<b>Gegenpol</b>: Im Rationalismus gilt einzig die Vernunft als bewährte Methode des Erkenntnisgewinns – beide Strömungen prägten gemeinsam das Menschenbild der Aufklärung."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.2.3 Naturwissenschaftliche Neubegründung",
+  "stem": "Welche Aussagen zur Introspektion und zu Wundts wissenschaftlichem Selbstverständnis treffen zu?",
+  "opts": [
+    {"t": "Introspektion bedeutet „Innenschau“ und dient dazu, Wissen über die eigenen gegenwärtigen Zustände zu erlangen, ohne sich auf externe Quellen wie andere Personen stützen zu müssen.", "c": true, "fb": "Der Vorgang wird mitunter auch als Selbstbeobachtung beschrieben (Barz, 2019)."},
+    {"t": "Gegenstand der Introspektion sind ausschließlich Emotionen; körperliche Empfindungen und Sinneserfahrungen zählen nicht dazu.", "c": false, "fb": "Es kann sich ebenso um körperliche Empfindungen (z. B. Schmerzen), Sinneserfahrungen (z. B. visuelle Eindrücke) oder Einstellungen (z. B. Überzeugungen) handeln."},
+    {"t": "Wundt legte Wert darauf, die Psychologie als empirische Geisteswissenschaft zu betrachten, die in der Philosophie verankert bleibt.", "c": true, "fb": "Gleichzeitig war er ein Verfechter unterschiedlichster experimenteller Methoden."},
+    {"t": "Die „schöpferische Synthese“ beschreibt bei Wundt den Zerfall komplexer Bewusstseinsinhalte in ihre elementaren Bestandteile.", "c": false, "fb": "Umgekehrt: Durch Verbindung, Verschmelzung und Verdichtung entstehen qualitativ neue Gebilde, die durch willentliche Funktion in den Fokus des Bewusstseins kommen."}
+  ],
+  "concept": {
+    "title": "Introspektion als Methode (Infobox 2.3)",
+    "points": [
+      "<b>Begriff</b>: „Innenschau“, mitunter auch als Selbstbeobachtung beschrieben.",
+      "<b>Zweck</b>: Wissen über die eigenen gegenwärtigen (geistigen) Zustände erlangen, ohne sich auf externe Quellen wie andere Personen stützen zu müssen.",
+      "<b>Gegenstände</b>: körperliche Empfindungen (z. B. Schmerzen), Sinneserfahrungen (z. B. visuelle Eindrücke), Einstellungen (z. B. Überzeugungen) und Emotionen (z. B. Trauer) (Barz, 2019).",
+      "<b>Bei Wundt</b>: experimentelle Strategie zur kontrollierten Selbstbeobachtung, ergänzt um die Inhaltsanalyse geistiger Objektivationen.",
+      "<b>Wundts Selbstverständnis</b>: Psychologie als empirische Geisteswissenschaft, in der Philosophie verankert – bei gleichzeitigem Eintreten für unterschiedlichste experimentelle Methoden.",
+      "<b>Schöpferische Synthese</b>: Durch Verbindung, Verschmelzung und Verdichtung entstehen qualitativ neue Gebilde, die willentlich in den Fokus des Bewusstseins gelangen (vgl. Fahrenberg, 2012)."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.1.1 Ursprünge des Seelenbegriffs",
+  "stem": "Welche Aussage zu Aristoteles’ Seelenbegriff und zu Theophrast trifft zu?",
+  "opts": [
+    {"t": "Theophrast entstammte der platonischen Akademie und formulierte zwölf Charakterskizzen.", "c": false, "fb": "Er entstammte der aristotelischen Schule und formulierte 30 Charakterskizzen, darunter „der Geizige“, „der Mitteilungsbedürftige“ und „der Taktlose“."},
+    {"t": "Für Aristoteles stellte die Seele die Vervollständigung des Körpers dar, die diesen erst zum Lebewesen macht.", "c": true, "fb": "Deshalb ließ sich die Seele für ihn auch nicht ohne den Körper betrachten – beide sind untrennbar verbunden."},
+    {"t": "Nach Aristoteles gibt der Körper der Seele Form und Gestalt und bestimmt damit deren Zweckmäßigkeit.", "c": false, "fb": "Die Richtung ist umgekehrt: Die Seele gibt den Organen Form und Gestalt und damit ihre Zweckmäßigkeit – die Seele formt das Auge, und das Auge ist zur visuellen Wahrnehmung bestimmt."},
+    {"t": "Er blieb Zeit seines Lebens Mitglied der platonischen Akademie und gründete keine eigene Schule.", "c": false, "fb": "Aristoteles war zwar Schüler Platons, gründete später aber seine eigene Schule."}
+  ],
+  "concept": {
+    "title": "Aristoteles’ Seelenbegriff und Theophrasts Charakterskizzen",
+    "points": [
+      "<b>Biografisches</b>: Aristoteles (384–322 v. Chr.) war Schüler Platons und gründete später eine eigene Schule.",
+      "<b>Abkehr vom Dualismus</b>: Zunächst der dualistischen Sicht zugewandt, kam er zu der Auffassung, dass Seele und Körper untrennbar verbunden sind.",
+      "<b>Seele als Vervollständigung</b>: Sie macht den Körper erst zum Lebewesen.",
+      "<b>Form und Zweckmäßigkeit</b>: Die Seele gibt den Organen Form und Gestalt und damit ihre Zweckmäßigkeit – sie formt das Auge, das zur visuellen Wahrnehmung der Umwelt bestimmt ist.",
+      "<b>Theophrast</b>: entstammte der aristotelischen Schule und formulierte 30 Charakterskizzen, darunter „der Geizige“, „der Mitteilungsbedürftige“ und „der Taktlose“.",
+      "<b>Methodische Grundlage</b>: Solche Charakterisierungen beruhten meist auf konkreten Verhaltensweisen, die sich in Klassen zusammenfassen ließen."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.2.2 Entwicklungen im 18. und 19. Jahrhundert",
+  "stem": "Welche Aussagen zum Aufschwung der Universitäten im 19. Jahrhundert treffen zu?",
+  "opts": [
+    {"t": "Die meisten Universitäten wurden privatisiert, wodurch die Berufung von Professoren unabhängig vom Staat erfolgte.", "c": false, "fb": "Die meisten Universitäten wurden verstaatlicht; damit oblag auch die Berufung von Professoren dem Staat."},
+    {"t": "Mit der zunehmenden Ausdifferenzierung der Disziplinen traten Universalgelehrte an die Stelle von Spezialisten.", "c": false, "fb": "Die Entwicklung verlief umgekehrt: An die Stelle von Universalgelehrten traten Spezialisten."},
+    {"t": "Das liberale deutsche Universitätsmodell nach Wilhelm von Humboldt stand für eine ganzheitliche Ausbildung aus Forschung und Lehre im Kontext akademischer Freiheit (Tenorth, 2017).", "c": true, "fb": "Sie sollte unabhängig von wirtschaftlichen und staatlichen Interessen stattfinden und erlaubte es den Hochschulen, Forschungsgegenstände selbst zu bestimmen."},
+    {"t": "Der fakultative Aufbau blieb bestehen: Während Theologie, Rechtswissenschaft und Medizin ein klares Berufsbild hatten, differenzierten sich an den philosophischen Fakultäten zahlreiche Einzeldisziplinen aus.", "c": true, "fb": "Die Philosophie reichte inhaltlich von der Mathematik über die Sprachwissenschaft bis zu Geisteswissenschaften und Pädagogik."}
+  ],
+  "concept": {
+    "title": "Der Aufschwung der Universitäten und Humboldts Modell",
+    "points": [
+      "<b>Rahmenbedingungen</b>: wirtschaftlicher und technischer Fortschritt des 19. Jahrhunderts; die meisten Universitäten wurden verstaatlicht, die Berufung von Professoren oblag dem Staat.",
+      "<b>Humboldt (1767–1835)</b>: Auf seinen Schriften beruht das liberale Universitätsmodell, das vor allem in Europa, aber auch an amerikanischen Universitäten umgesetzt wurde.",
+      "<b>Inhalt des Modells</b>: ganzheitliche Ausbildung aus Forschung und Lehre im Kontext akademischer Freiheit, unabhängig von wirtschaftlichen und staatlichen Interessen (Tenorth, 2017).",
+      "<b>Folgen</b>: Hochschulen bestimmten Forschungsgegenstände und theoretische Auffassungen selbst; das führte zu unterschiedlichen Ausbildungsschwerpunkten und förderte den internationalen Austausch.",
+      "<b>Fakultativer Aufbau</b>: Theologie, Rechtswissenschaft und Medizin mit klarem Berufsbild; an den philosophischen Fakultäten differenzierten sich Einzeldisziplinen von der Mathematik über die Sprachwissenschaft bis zu Geisteswissenschaften und Pädagogik aus.",
+      "<b>Konsequenz</b>: Aus einer Wissenschaft entwickelten sich viele Einzeldisziplinen – an die Stelle von Universalgelehrten traten Spezialisten."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.3 Psychologie im Nationalsozialismus",
+  "stem": "Welche Aussagen zu den Folgen des Gesetzes zur Wiederherstellung des Berufsbeamtentums treffen zu?",
+  "opts": [
+    {"t": "Zu den Psycholog:innen, die ihre Professur an deutschen Universitäten verloren, zählten Charlotte Bühler, Max Wertheimer und William Stern.", "c": true, "fb": "Charlotte Bühler war eine bedeutende Entwicklungspsychologin an der Universität Wien."},
+    {"t": "Kurt Lewin legte bereits vor dem Gesetzesbeschluss sein Amt nieder und emigrierte in die USA.", "c": true, "fb": "Manche Betroffene kamen der Entlassung damit zuvor."},
+    {"t": "Jüdischen Studierenden beziehungsweise Studierenden mit jüdischen Eltern oder Großeltern wurde die Inskription verwehrt, was mit einem Abfall der Doktoratsabschlüsse einherging.", "c": true, "fb": "Auch Zulassungen aufgrund der politischen Ausrichtung wurden verweigert (Lück & Guski-Leinwand, 2014)."},
+    {"t": "Viktor Frankl und Heinrich Düker wurden ermordet, während Otto Selz und Kurt Huber inhaftiert wurden.", "c": false, "fb": "Die Zuordnung ist vertauscht: Frankl und Düker wurden inhaftiert, Selz und Huber ermordet (Graumann, 1985)."}
+  ],
+  "concept": {
+    "title": "Entlassungen, Verfolgung und Emigration ab 1933",
+    "points": [
+      "<b>Ausgangspunkt</b>: Mit dem Machtantritt der Nationalsozialisten 1933 veränderte sich die Situation der akademischen Psychologie an deutschen und österreichischen Universitäten drastisch (Lück & Guski-Leinwand, 2014).",
+      "<b>Studierende</b>: politisch und rassistisch diskriminierende Regelungen; jüdischen Studierenden bzw. solchen mit jüdischen Eltern oder Großeltern wurde die Inskription verwehrt – die Doktoratsabschlüsse gingen zurück.",
+      "<b>Der Gesetzeserlass</b>: ermöglichte die Entlassung von Staatsbeamten jüdischer Abstammung und politisch unerwünschter Personen; betroffen waren u. a. Charlotte Bühler, Max Wertheimer und William Stern.",
+      "<b>Vorzeitige Amtsniederlegung</b>: Kurt Lewin legte bereits vor dem Gesetzesbeschluss sein Amt nieder und emigrierte in die USA.",
+      "<b>Verfolgung</b>: Viele wurden inhaftiert (z. B. Viktor Frankl, Heinrich Düker) oder ermordet (z. B. Otto Selz, Kurt Huber) (Graumann, 1985).",
+      "<b>Wissensverlust</b>: Die Emigration bedeutete beachtliche Einbußen für die damalige universitäre, deutschsprachige Psychologie (Schönpflug, 2017)."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.2.3 Naturwissenschaftliche Neubegründung",
+  "stem": "Welche Aussagen zu William James und Mary Whiton Calkins treffen zu?",
+  "opts": [
+    {"t": "James etablierte das Fach Psychologie an britischen Universitäten und gilt als Begründer der europäischen Psychologie als Wissenschaft.", "c": false, "fb": "Er etablierte das Fach an US-amerikanischen Universitäten und gilt als Begründer der amerikanischen Psychologie als Wissenschaft."},
+    {"t": "James beschäftigte sich unter anderem mit der Funktion des menschlichen Bewusstseins, mit Emotionen sowie mit der Wahrnehmung und emotionalen Interpretation von Reizen.", "c": true, "fb": "Dazu kommt seine Theorie des „Selbst“, die er in Bewusstsein und reflektierte Identität unterteilte."},
+    {"t": "Calkins wurde die Graduierung in Harvard verweigert, weil sie die Anforderungen für den Doktortitel nicht vollständig erfüllte.", "c": false, "fb": "Sie erfüllte als erste Frau sämtliche Anforderungen und wurde von ihren Professoren empfohlen – Harvard vergab diese Graduierung damals nicht an Frauen."},
+    {"t": "Calkins begründete 1891 als erste Frau ein eigenes Labor am Wellesley College und wurde 1905 zur ersten weiblichen Präsidentin der APA gewählt.", "c": true, "fb": "Sie gilt als eine der ersten bedeutenden Frauen in der amerikanischen Psychologie."}
+  ],
+  "concept": {
+    "title": "Die amerikanische Psychologie: James und Calkins",
+    "points": [
+      "<b>William James (1842–1910)</b>: zentrale Rolle für die Anfänge der Psychologie in den USA; etablierte das Fach an US-amerikanischen Universitäten und gilt als Begründer der amerikanischen Psychologie als Wissenschaft.",
+      "<b>Seine Themen</b>: Funktion des menschlichen Bewusstseins, Emotionen sowie Wahrnehmung und emotionale Interpretation von Reizen.",
+      "<b>Theorie des „Selbst“</b>: Unterteilung in Bewusstsein („I“) und reflektierte Identität („Me“); James gilt als wichtiger Vertreter des Funktionalismus.",
+      "<b>Mary Whiton Calkins (1863–1930)</b>: Schülerin von James, eine der ersten bedeutenden Frauen in der amerikanischen Psychologie.",
+      "<b>Widerstände</b>: Ihre an der Harvard University eingereichte experimentelle Doktorarbeit wurde nicht akzeptiert, weil Harvard diese Graduierung damals nicht an Frauen vergab – obwohl sie als erste Frau sämtliche Anforderungen erfüllte und von ihren Professoren empfohlen wurde.",
+      "<b>Ihre Erfolge</b>: 1891 als erste Frau ein eigenes Labor am Wellesley College, 1905 erste weibliche Präsidentin der APA."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.2.1 Vernunft als Schlüssel zur Wissenschaft",
+  "stem": "Was kennzeichnet die von Karl Philipp Moritz begründete psychologische Zeitschrift?",
+  "opts": [
+    {"t": "Das Magazin erschien zehn Jahre lang regelmäßig und war ein wichtiger Wegbereiter für die Populärpsychologie ebenso wie für die wissenschaftliche Psychologie.", "c": true, "fb": "Es gilt zudem als Vorreiter psychologischer Fachzeitschriften (Schönpflug, 2013)."},
+    {"t": "Karl Philipp Moritz begründete es Mitte des 17. Jahrhunderts als erste englischsprachige psychologische Zeitschrift.", "c": false, "fb": "Er begründete es Ende des 18. Jahrhunderts, und es war die erste deutschsprachige psychologische Zeitschrift."},
+    {"t": "Die Beiträge stammten ausschließlich von akademisch ausgebildeten Psychologen.", "c": false, "fb": "Neben Moritz verfassten auch Ärzte, Philosophen, Pastoren und andere Gelehrte Beiträge."},
+    {"t": "Moritz verstand sein Magazin als Sammlung von Anekdoten, mit denen die Gesellschaft unterhalten werden sollte.", "c": false, "fb": "Er wollte die Gesellschaft ausdrücklich mit Fakten anstatt mit „Anekdoten und Tratsch“ versorgen."}
+  ],
+  "concept": {
+    "title": "Die erste deutschsprachige psychologische Zeitschrift",
+    "points": [
+      "<b>Gründer</b>: Karl Philipp Moritz (1756–1793), Ende des 18. Jahrhunderts (Meier, 1997).",
+      "<b>Rang</b>: erste deutschsprachige psychologische Zeitschrift und Vorreiter psychologischer Fachzeitschriften.",
+      "<b>Anspruch</b>: empirische Erkenntnisse über Seelengesundheit und -krankheit bündeln – die Gesellschaft mit Fakten statt mit „Anekdoten und Tratsch“ versorgen.",
+      "<b>Erscheinen</b>: zehn Jahre lang regelmäßig; Wegbereiter für die Populärpsychologie wie für die wissenschaftliche Psychologie (Schönpflug, 2013).",
+      "<b>Beitragende</b>: neben Moritz auch Ärzte, Philosophen, Pastoren und andere Gelehrte.",
+      "<b>Vier Rubriken</b>: Seelennaturkunde, Seelenzeichenkunde, Seelenkrankheitskunde und Seelenheilkunde."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.2.3 Naturwissenschaftliche Neubegründung",
+  "stem": "Welche Aussagen zu Gustav Theodor Fechner treffen zu?",
+  "opts": [
+    {"t": "Er gehörte zu den Ersten, die eine unbewusste Wahrnehmung nicht nur postulierten, sondern die Reizstärke eines nicht bewussten Stimulus auf Basis physiologischer Experimente mathematisch quantifizieren konnten.", "c": true, "fb": "Der Zugang ergab sich aus seiner Auseinandersetzung mit dem Schwellenbegriff."},
+    {"t": "Für Fechner war die Psychophysik das Mittel, um Psychologie und Philosophie endgültig voneinander zu trennen.", "c": false, "fb": "Eine Trennung von Psychologie und Philosophie lag ihm fern; die Psychophysik war für ihn die notwendige „materielle“ Untermauerung einer philosophischen Theorie der Seele."},
+    {"t": "Der psychologische Schwellenbegriff betrifft die Frage, wie stark ein Reiz sein muss, damit er noch wahrgenommen wird.", "c": true, "fb": "Untersucht wurde das etwa durch den Vergleich von Gewichtsmaßen."},
+    {"t": "Er betrieb als erster Forscher die psychologische Theorieentwicklung konsequent vom Experiment her und gilt deshalb vielfach als Begründer einer eigenständigen, naturwissenschaftlich orientierten Psychologie.", "c": true, "fb": "Die Gründung dieser Disziplin als eigenständiges Fach intendierte er allerdings nicht."}
+  ],
+  "concept": {
+    "title": "Fechners Psychophysik und der Schwellenbegriff",
+    "points": [
+      "<b>Gustav Theodor Fechner (1801–1887)</b>: begründete die Psychophysik als Schritt zur Messung von Wahrnehmung und psychischem Erleben.",
+      "<b>Zwei Zweige</b>: äußere Psychophysik – Beziehung zwischen Sinnesreiz (Physik) und Sinnesempfindung; innere Psychophysik – Beziehung zwischen Körpererregung (Physiologie) und Sinnesempfindung.",
+      "<b>Leitfragen</b>: Wie nehmen Menschen physiologische Veränderungen subjektiv wahr (innen)? Wie wird ein physikalischer Reiz subjektiv wahrgenommen (außen)?",
+      "<b>Experimente</b>: Vergleich physikalischer Größen, etwa welches von zwei Gewichten als schwerer empfunden wird – Methode der ebenmerklichen Unterschiede, heute Grenzmethode.",
+      "<b>Schwellenbegriff und Unbewusstes</b>: Wie stark muss ein Reiz sein, damit er noch wahrgenommen wird? Fechner quantifizierte als einer der Ersten die Reizstärke eines nicht bewussten Stimulus mathematisch.",
+      "<b>Selbstverständnis</b>: erster Forscher, der Theorieentwicklung konsequent vom Experiment her betrieb; die Psychophysik blieb für ihn jedoch materielle Untermauerung einer philosophischen Theorie der Seele."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.1.2 Römische Antike und Mittelalter",
+  "stem": "Wie beschrieben Augustinus und Thomas von Aquin das Verhältnis von Mensch, Seele und Gott?",
+  "opts": [
+    {"t": "Für Augustinus lag in der philosophischen Vernunft die höchste Form der Erfahrung, hinter die der Glaube zurücktrat.", "c": false, "fb": "Für ihn lag die höchste Form der Erfahrung im christlichen Glauben, was sich auch in seiner Erkenntnistheorie widerspiegelte."},
+    {"t": "Augustinus verstand den Körper als Materie und damit als „äußeren Menschen“, die Seele als etwas Immaterielles und damit als „inneren Menschen“.", "c": true, "fb": "Beide sind gegensätzliche Substanzen, die von Natur aus zusammengehören."},
+    {"t": "Nach Aquin erschafft Gott die menschliche Seele aus dem Nichts, indem er dem Embryo im Schöpfungsakt an Stelle der sensitiven Form eine intellektive Form – die Geistseele – einflößt.", "c": true, "fb": "Diese Geistseele ist nicht an die tragende Materie gebunden (Peitz, 2013)."},
+    {"t": "Augustinus lehnte platonische Vorstellungen über das Verhältnis von Körper und Seele ab und ersetzte sie durch eine rein aristotelische Sicht.", "c": false, "fb": "Er trug platonische Vorstellungen – auch die hierarchische Anordnung von Seelenteilen – weiter und führte sie im christlichen Sinne aus."}
+  ],
+  "concept": {
+    "title": "Seele, Glaube und Schöpfung bei Augustinus und Aquin",
+    "points": [
+      "<b>Augustinus (354–430 n. Chr.)</b>: christlicher Kirchenvater und Philosoph; im christlichen Glauben lag für ihn die höchste Form der Erfahrung, was sich in seiner Erkenntnistheorie widerspiegelte.",
+      "<b>Natur des Menschen</b>: Einigkeit von Körper, Geist und Seele, wobei Geist und Seele ineinandergreifende Begriffe sind.",
+      "<b>Äußerer und innerer Mensch</b>: Körper als Materie = äußerer Mensch, Seele als Immaterielles = innerer Mensch; die seelische Substanz steht über dem Körper, weil sie dem Göttlichen geöffnet ist (Schwarz, 1955).",
+      "<b>Platonisches Erbe</b>: Augustinus trug platonische Vorstellungen über Körper und Seele sowie die hierarchische Anordnung von Seelenteilen weiter und führte sie im christlichen Sinne aus.",
+      "<b>Aquins drei Naturen</b>: Vegetation (unbeweglich, nicht schmerzempfindlich), Tiere (sensitiv, beweglich, schmerzempfindlich), Menschen (intellektiv, mit Denkvermögen, strukturiert Sinneswahrnehmungen).",
+      "<b>Schöpfung der Geistseele</b>: Gott erschafft sie aus dem Nichts, indem er dem Embryo an Stelle der sensitiven eine intellektive Form einflößt; der Tod beendet nur ihr Dasein in dieser Welt (Peitz, 2013)."
+    ]
+  }
+},
+{
+  "kap": 2,
+  "sec": "2.4.5 Kognitive Wende",
+  "stem": "Welche Aussage zur Informationsverarbeitung und zum Konnektionismus trifft zu?",
+  "opts": [
+    {"t": "Donald E. Broadbent postulierte, dass die Verarbeitungskapazität des Menschen von Faktoren wie Müdigkeit unbeeinflusst bleibt.", "c": false, "fb": "Er betonte gerade, dass sich Faktoren wie Müdigkeit auf die Verarbeitungskapazität auswirken und die Wahrnehmung zudem von Filterprozessen wie der selektiven Aufmerksamkeit beeinflusst wird."},
+    {"t": "Der Konnektionismus wurde 1986 von George A. Miller und Noam Chomsky mit dem Band Parallel distributed processing postuliert.", "c": false, "fb": "Der Band stammt von David E. Rumelhart und James L. McClelland."},
+    {"t": "Mit dem Konnektionismus vollzog sich in der kognitiven Psychologie der von seinen Vertretern erwartete Paradigmenwechsel.", "c": false, "fb": "Ein Paradigmenwechsel in Richtung Konnektionismus hat sich letztlich nicht erfüllt, wenngleich konnektionistische Methoden zur Modellbildung weit verbreitet sind."},
+    {"t": "Eine Kernannahme des Konnektionismus besteht darin, dass kognitive Phänomene durch wenige allgemeingültige Informationsverarbeitungsprinzipien erklärt werden können.", "c": true, "fb": "Konnektionistische Modelle sind unter anderem in der kognitiven Neuropsychologie bedeutsam, etwa zur Erklärung von Beeinträchtigungen bei Hirnschäden."}
+  ],
+  "concept": {
+    "title": "Von der Informationsverarbeitung zum Konnektionismus",
+    "points": [
+      "<b>Broadbent (1926–1993)</b>: setzte kognitive Vorgänge in Relation zur damaligen Computertechnik – Menschen empfangen, senden, verarbeiten und speichern Reize.",
+      "<b>Seine Ergänzungen</b>: Faktoren wie Müdigkeit wirken auf die Verarbeitungskapazität; die Wahrnehmung wird von Filterprozessen wie der selektiven Aufmerksamkeit beeinflusst.",
+      "<b>Konnektionismus 1986</b>: von David E. Rumelhart und James L. McClelland mit dem Band Parallel distributed processing als neues Modell der Informationsverarbeitung postuliert.",
+      "<b>Kernannahme</b>: Kognitive Phänomene lassen sich durch wenige allgemeingültige Informationsverarbeitungsprinzipien erklären.",
+      "<b>Aufbau</b>: Einheiten (units, analog zu Neuronen) und Verbindungen (connections, analog zu Synapsen) in mehreren Schichten – parallele Verarbeitung durch Tausende Verknüpfungen innerhalb Hunderter Einheiten.",
+      "<b>Stellenwert</b>: bedeutsam in der kognitiven Neuropsychologie (z. B. Beeinträchtigungen bei Hirnschäden); ein Paradigmenwechsel blieb aus, konnektionistische Methoden zur Modellbildung sind aber weit verbreitet."
+    ]
+  }
+}
+]
