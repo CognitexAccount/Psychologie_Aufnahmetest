@@ -1,552 +1,937 @@
 [
-{
-  "kap": 6,
-  "sec": "6.3.1 Piaget – Stadien",
-  "stem": "Welche Zuordnungen zu Piagets Entwicklungsstadien treffen zu?",
-  "opts": [
-    {"t": "Im präoperatorischen Stadium gelingt es dem Kind erstmals, logische Schlussfolgerungen rein auf gedanklicher Basis abzuleiten – etwa den eigenen Heimweg in eine Karte einzuzeichnen.", "c": false, "fb": "Die beschriebene Leistung gehört zum konkret-operatorischen Stadium (ca. 7–11 Jahre). Das präoperatorische Stadium ist durch den rasanten Spracherwerb und einfache mentale Operationen gekennzeichnet."},
-    {"t": "Das sensumotorische Stadium reicht von der Geburt bis etwa zum zweiten Lebensjahr; Intelligenz zeigt sich hier vor allem über sensorische und motorische Fähigkeiten.", "c": true, "fb": "Fühlen, Greifen, Schmecken, Riechen und Sehen stehen im Zentrum, das Kind ist stark im Hier und Jetzt verankert."},
-    {"t": "Als Errungenschaft des konkret-operatorischen Stadiums gilt der Spracherwerb.", "c": false, "fb": "Der Spracherwerb ist die Errungenschaft des präoperatorischen Stadiums; konkret-operatorisch sind die Prinzipien der Erhaltung von Zahlen, Masse und Gewicht."},
-    {"t": "Im formal-operatorischen Stadium wenden Jugendliche zunehmend fortgeschrittene deduktive Logik an, etwa Schlüsse der Form „Wenn A, dann B“ und „nicht B“ → „nicht A“.", "c": true, "fb": "Ab etwa 11 Jahren kommen abstraktes Denken und hypothetisches Schlussfolgern hinzu; die eigene Wirklichkeit wird als eine von mehreren möglichen begriffen."}
-  ],
-  "concept": {
-    "title": "Die vier Entwicklungsstadien nach Piaget (Tabelle 6.3)",
-    "points": [
-      "<b>Sensumotorisch (Geburt–2 J.)</b>: Welt über basale Sinneswahrnehmung und Motorik, Zirkulärreaktionen, erste Schemata. Errungenschaft: <b>Objektpermanenz</b>.",
-      "<b>Präoperatorisch (2–7 J.)</b>: rasante Sprachentwicklung, simple mentale Operationen, Animismus und Realismus. Errungenschaft: <b>Spracherwerb</b>.",
-      "<b>Konkret-operatorisch (7–11 J.)</b>: logisches Denken auf Basis gedanklicher Vorgänge, Reversibilität. Errungenschaft: <b>Gesetz der Erhaltung / Invarianzprinzip</b>.",
-      "<b>Formal-operatorisch (ab 11 J. bis Erwachsenenalter)</b>: abstrakte, hypothetische Konzepte, deduktive Logik, ethische und wissenschaftliche Fragestellungen. Errungenschaft: <b>abstrakte Logik</b>.",
-      "<b>Stadienlogik</b>: diskontinuierlicher Sprung von einer kohärenten Art des Verstehens zur nächsthöheren; Reihenfolge bei allen Menschen gleich, Übergangszeiten kurz, jede Stufe qualitativ neu und kontextübergreifend sichtbar.",
-      "<b>Merkregel</b>: Das Stadium bestimmt sich nicht nur über das Erreichte, sondern auch darüber, dass die Errungenschaft des Folgestadiums noch fehlt."
-    ]
-  }
-},
-{
-  "kap": 6,
-  "sec": "6.4.1 Bindung",
-  "stem": "Welche Aussage über die vier Bindungstypen aus der Fremde-Situation ist korrekt?",
-  "opts": [
-    {"t": "Bindungstyp A (unsicher-vermeidend) zeigt sich darin, dass das Kind nach der Rückkehr der Bezugsperson Trost sucht, diesen aber nicht annehmen kann.", "c": false, "fb": "Das beschreibt Typ C (unsicher-ambivalent). Typ-A-Kinder holen sich gerade keinen Trost und vermeiden es, Gefühle zu zeigen."},
-    {"t": "Als sichere Bindung gelten die Typen A und B, während C und D als unsicher eingestuft werden.", "c": false, "fb": "Nur Typ B gilt als sichere Bindung; A, C und D werden als unsichere Bindungen bezeichnet."},
-    {"t": "Kinder des Typs A wirken nach außen ruhig, weisen über das Speichel-Cortisol gemessen aber ein sehr hohes Stressniveau auf.", "c": true, "fb": "Die Speichelentnahmen zeigten die Diskrepanz zwischen äußerlicher Ruhe und tatsächlicher Stressbelastung – ein zentrales Argument dafür, dass Typ A nicht das gesunde Muster ist."},
-    {"t": "Bindungstyp D wurde 1978 von Ainsworth, Blehar, Waters und Wall als vierter Typ ergänzt.", "c": false, "fb": "Der desorganisierte Typ wurde erst 1990 von Mary Main und Judit Solomon hinzugefügt; 1978 stammt die Typologie A–C."}
-  ],
-  "concept": {
-    "title": "Bindungstypen nach Ainsworth (Ainsworth, Blehar, Waters & Wall, 1978; Typ D: Main & Solomon, 1990)",
-    "points": [
-      "<b>Typ A – unsicher-vermeidend</b>: äußerlich ruhig, sucht keinen Trost, vermeidet Gefühlsausdruck. Erfahrung: Bezugsperson reagiert nicht zuverlässig, Trostsuche „lohnt nicht“.",
-      "<b>Typ B – sicher gebunden</b>: weint beim Verlassen, sucht sofort Kontakt bei Rückkehr, lässt sich beruhigen. Eltern agieren vorrangig autonom und haben sich aus der eigenen Elternbeziehung gelöst.",
-      "<b>Typ C – unsicher-ambivalent</b>: kann nach der Rückkehr nicht entspannen, sucht Trost, nimmt ihn aber nicht an. Vorerfahrung: ambivalente, von liebevoll bis abweisend schwankende Reaktionen; Eltern oft noch in der Beziehung zu den eigenen Eltern verhaftet.",
-      "<b>Typ D – unsicher-desorganisiert</b>: konfuses Verhalten, Schreien am Boden, „Einfrieren“, mitunter Aggression. Annahme: Traumatisierungen in den ersten Lebensmonaten, unvorhersagbares Elternverhalten.",
-      "<b>Sicher vs. unsicher</b>: nur B ist sicher; A, C und D sind unsicher. Die Buchstabenfolge ist historisch – A wirkte nach außen ruhiger als das weinende B.",
-      "<b>Befundlage</b>: Gültigkeit über Kulturen hinweg gezeigt; Sensitivität der Bindungsperson als zentraler Umweltfaktor; die Bindungsperson muss nicht die Mutter sein."
-    ]
-  }
-},
-{
-  "kap": 6,
-  "sec": "6.2.1 Pränatale Entwicklung",
-  "stem": "Welche Aussagen über Teratogene und sensible Phasen treffen zu?",
-  "opts": [
-    {"t": "Teratogene können biologischer, physikalischer oder chemischer Natur sein; dazu zählen unter anderem Erkrankungen der Mutter, ionisierende Strahlung und Luftverschmutzung.", "c": true, "fb": "Teratogene sind Umwelteinflüsse, die die gesunde Entwicklung des Fötus beeinträchtigen und Schädigungen des Organismus verursachen können; Suchtmittelkonsum der Mutter gehört ebenfalls dazu."},
-    {"t": "Wie schwer die Folgen ausfallen, hängt allein vom Zeitpunkt der Einwirkung ab.", "c": false, "fb": "Neben dem Zeitpunkt bestimmen auch Menge und Dauer des schädlichen Einflusses mit, wie schwerwiegend die Folgen für das Kind sind."},
-    {"t": "Als sensible Phasen gelten meist Zeiträume starken Wachstums, in denen das Ungeborene besonders empfindlich reagiert.", "c": true, "fb": "Das Kind ist zu verschiedenen Zeitpunkten im Mutterleib unterschiedlich anfällig; Wachstumsphasen sind besonders verletzlich."},
-    {"t": "Ein niedriger sozioökonomischer Status kann über Mangelernährung der Mutter zu einer Unterversorgung des Kindes führen.", "c": true, "fb": "Finanzielle Not oder Obdachlosigkeit wirken über die Ernährung der Mutter auf das Ungeborene; auch chronischer Stress und Missbrauch sind nachweislich schädlich."}
-  ],
-  "concept": {
-    "title": "Teratogene und ihre Wirkbedingungen",
-    "points": [
-      "<b>Definition</b>: Umwelteinflüsse, die die gesunde Entwicklung des Fötus beeinträchtigen und Schädigungen des Organismus verursachen können – biologisch, physikalisch oder chemisch.",
-      "<b>Beispiele</b>: Erkrankungen der Mutter, Luftverschmutzung, ionisierende Strahlung, Suchtmittelkonsum der Mutter.",
-      "<b>Sensible Phasen</b>: Zeitfenster besonders negativer Auswirkungen, meist Phasen starken Wachstums.",
-      "<b>Dosis und Dauer</b>: Menge und Dauer der Einwirkung bestimmen die Schwere der Folgen mit.",
-      "<b>Fehlbildungen</b>: kleinere morphologische Defekte sind kosmetischer Natur (z. B. zusätzliche Brustwarze, kurze Finger); große Defekte beeinträchtigen Lebensfähigkeit oder Funktionalität und sind teils interventionsbedürftig (z. B. Herzinsuffizienz, Gliedmaßenfehlbildungen). In Deutschland jährlich circa 49.000 Kinder mit großen Fehlbildungen.",
-      "<b>Psychosoziale Belastung</b>: pränataler Stress wurde mit Angstzuständen, Depressionen und Aufmerksamkeitsdefiziten bei Kindern in Zusammenhang gebracht (Weinstock, 2007)."
-    ]
-  }
-},
-{
-  "kap": 6,
-  "sec": "6.2.4 Erwachsenenalter (körperlich)",
-  "stem": "Welche Aussagen zur Menopause und den zugrunde liegenden Prozessen treffen zu?",
-  "opts": [
-    {"t": "Die Menopause ist definiert als der Zeitpunkt 12 Monate nach der letzten Regelblutung.", "c": true, "fb": "Sie tritt meist im mittleren Erwachsenenalter, durchschnittlich um das 50. Lebensjahr, ein; davor wird die Periode in der Perimenopause bereits seltener."},
-    {"t": "Bei der Geburt sind etwa 1 bis 2 Milliarden Eizellen angelegt.", "c": false, "fb": "Angelegt sind etwa 1 bis 2 Millionen Eizellen – die Größenordnung ist um den Faktor tausend zu hoch."},
-    {"t": "Als Atresie bezeichnet man den monatlichen Verlust von etwa 1000 Eizellen, der unabhängig vom Menstruationszyklus abläuft.", "c": true, "fb": "Sinkt die Zahl so weit, dass kein Eisprung mehr möglich ist, kommt es zur Menopause."},
-    {"t": "Für die Produktion von Östradiol und Progesteron sind die Eizellen selbst zuständig, weshalb die Hormonproduktion langsam und gleichmäßig ausläuft.", "c": false, "fb": "Zuständig sind die Follikel, welche die Eizellen umgeben; der Hormonabfall erfolgt – je nachdem, wie abrupt die Periode ausbleibt – eher abrupt."}
-  ],
-  "concept": {
-    "title": "Hormonelle Umstellung im Erwachsenenalter",
-    "points": [
-      "<b>Menopause</b>: Zeitpunkt 12 Monate nach der letzten Regelblutung, durchschnittlich um das 50. Lebensjahr; vorgeschaltet die <b>Perimenopause</b> mit seltener werdender Periode.",
-      "<b>Ursache</b>: Reduktion der Keimzellen. Eizellen sind vollständig vor der Geburt angelegt (etwa 1–2 Millionen), monatlich gehen rund 1000 verloren (<b>Atresie</b>).",
-      "<b>Hormonproduktion</b>: die <b>Follikel</b> um die Eizellen produzieren Östradiol und Progesteron – mit der Menopause fällt die Produktion eher abrupt ab.",
-      "<b>Andropause</b>: Testosteronabfall ab etwa dem 30. bis 40. Lebensjahr, bei 20–30 % der Männer mit körperlichen und psychischen Symptomen; Spermien werden lebenslang produziert.",
-      "<b>Beschwerden beider Geschlechter</b>: Antriebsschwäche, Hitzewallungen, Schlafstörungen, depressive Verstimmungen, geringere sexuelle Lust, Erektionsstörungen (Penis wie Klitoris).",
-      "<b>Merkregel</b>: Die Menopause hat erkennbaren Start, kürzere Dauer und einen Abschluss – die Andropause nicht, weshalb ihre Beschwerden oft als Altersschwächen gedeutet werden."
-    ]
-  }
-},
-{
-  "kap": 6,
-  "sec": "6.2.4 Erwachsenenalter (körperlich)",
-  "stem": "Welche Aussagen zum Inflammaging treffen zu?",
-  "opts": [
-    {"t": "Inflammaging bezeichnet chronische, unterschwellige Entzündungen, die mit zunehmendem Alter auftreten können.", "c": true, "fb": "Das menschliche Immunsystem verändert sich mit dem Alter; unterschwellige Dauerentzündung ist die Folge."},
-    {"t": "Der Begriff ist aus den englischen Wörtern für Entzündung und Altern zusammengesetzt.", "c": true, "fb": "Inflammation und Aging ergeben Inflammaging – die Wortbildung ist selbst prüfbarer Stoff."},
-    {"t": "Vermutet wird ein Zusammenhang mit altersbedingten Erkrankungen wie Arteriosklerose, Morbus Alzheimer und Diabetes mellitus 2.", "c": true, "fb": "Ginsburg, Vennos und Koren (2008) bringen Inflammaging mit einer Vielzahl altersbedingter Krankheiten in Verbindung bzw. sehen es als begünstigenden Faktor."},
-    {"t": "Im Verlauf des Alterungsprozesses werden zunehmend entzündungsfördernde Botenstoffe freigesetzt.", "c": true, "fb": "Genau diese altersbedingte Veränderung des Immunsystems beschreibt Franceschi (2007) mit dem Begriff."}
-  ],
-  "concept": {
-    "title": "Inflammaging (Franceschi, 2007; Ginsburg, Vennos & Koren, 2008)",
-    "points": [
-      "<b>Wortbildung</b>: inflammation (Entzündung) + aging (Altern) → Inflammaging.",
-      "<b>Mechanismus</b>: altersbedingte Veränderung des Immunsystems, zunehmende Freisetzung entzündungsfördernder Botenstoffe.",
-      "<b>Charakter</b>: chronische, unterschwellige Entzündung – nicht ein akuter Entzündungsschub.",
-      "<b>Assoziierte Krankheiten</b>: Arteriosklerose, Morbus Alzheimer, Diabetes mellitus 2.",
-      "<b>Einordnung</b>: gehört zu den physiologischen Rückbildungsprozessen des Erwachsenenalters, neben dem langsamen Abbau von Reaktionszeit und Muskelkraft.",
-      "<b>Körpererleben</b>: Personen über 60 Jahren berichten stärkere Unsicherheit und Besorgnis gegenüber dem eigenen Körper als Personen unter 60 (Gunzelmann et al., 1999)."
-    ]
-  }
-},
-{
-  "kap": 6,
-  "sec": "6.3.1 Piaget – Lernprinzipien",
-  "stem": "Welche Aussage zu Assimilation, Akkommodation und Schemata ist korrekt?",
-  "opts": [
-    {"t": "Assimilation bezeichnet die Veränderung bereits vorhandener Schemata, damit sie zu einer neuen Information passen.", "c": false, "fb": "Das ist die Definition der Akkommodation. Bei der Assimilation wird die neue Information in ein bestehendes Schema eingeordnet."},
-    {"t": "Schemata sind angeborene Denkstrukturen, die über die Entwicklung hinweg stabil bleiben.", "c": false, "fb": "Schemata entwickelt ein Mensch aufgrund seiner Erfahrungen; im Laufe der Entwicklung werden diese Denkmuster immer komplexer."},
-    {"t": "Ordnet ein Kind eine unbekannte Katze seinem bestehenden Schema „Hund“ zu, spricht Piaget von Akkommodation.", "c": false, "fb": "Das Einordnen in ein vorhandenes Schema ist Assimilation – die Bezeichnung ist hier mit dem Gegenbegriff etikettiert."},
-    {"t": "Erklärt jemand dem Kind, dass auch Katzen vier Beine und Fell haben, und passt das Kind daraufhin sein Schema an, handelt es sich um Akkommodation.", "c": true, "fb": "Das neue Schema besagt nicht mehr, dass alle Tiere mit vier Beinen und Fell Hunde sind – das vorhandene Schema wurde an die Umwelt angepasst."}
-  ],
-  "concept": {
-    "title": "Piagets konstruktivistisches Lernmodell",
-    "points": [
-      "<b>Schemata</b>: mentale Strukturen oder Muster, die aufgrund von Erfahrungen entwickelt werden und auf deren Basis Informationen organisiert und interpretiert werden; sie werden zunehmend komplexer.",
-      "<b>Assimilation</b>: neue Information wird in bereits existente Schemata integriert – das Schema bleibt, die Information wird eingepasst.",
-      "<b>Akkommodation</b>: neue Information führt zur Anpassung existenter Schemata – die Information bleibt, das Schema verändert sich.",
-      "<b>Konstruktivismus</b>: Kinder sind denkende und erkennende Wesen, die eigenes Wissen und ihre eigene Wirklichkeit konstruieren; sie sind eigenständig und von sich aus motiviert zu lernen.",
-      "<b>„Kinder als Wissenschafter“</b>: Sie bilden Hypothesen über ihre Umgebung und experimentieren („Was passiert, wenn ich den Brei auf den Boden werfe?“).",
-      "<b>Merkregel</b>: Assimilation – die Welt passt sich dem Kopf an; Akkommodation – der Kopf passt sich der Welt an."
-    ]
-  }
-},
-{
-  "kap": 6,
-  "sec": "6.3.2 Theory of Mind",
-  "stem": "Welche Aussagen zur Theory of Mind und zur False-Belief-Aufgabe treffen zu?",
-  "opts": [
-    {"t": "Die False-Belief-Aufgabe („Maxi-Aufgabe“) wurde von den österreichischen Psychologen Heinz Wimmer und Josef Perner entwickelt.", "c": true, "fb": "Sie ist das typische Verfahren, um die Zuschreibung mentaler Zustände zu prüfen."},
-    {"t": "Kinder ohne Theory of Mind nennen in der Maxi-Aufgabe den grünen Schrank.", "c": false, "fb": "Richtungsumkehr: Wer noch keine mentalen Zustände zuschreiben kann, antwortet auf Basis des eigenen Weltwissens mit dem blauen Schrank. Der grüne Schrank ist die Antwort der Kinder, die Maxis falsche Überzeugung verstehen."},
-    {"t": "Die Fähigkeit, sich selbst und anderen mentale Zustände zuzuschreiben, entsteht in der Regel erst mit etwa sieben Jahren.", "c": false, "fb": "Kinder sind dazu ab ungefähr 4 Jahren in der Lage; sechs Jahre ist das Alter, ab dem in der Studie fast alle Kinder die Aufgabe lösten."},
-    {"t": "In der Studie von Wimmer und Perner (1983) lösten fast alle Kinder ab sechs Jahren die Aufgabe korrekt, während der Großteil der 3- bis 4-Jährigen daran scheiterte.", "c": true, "fb": "Dieser Alterseffekt ist der Ausgangspunkt der gezielten Variationen der Aufgabe, mit denen seither untersucht wird, worauf der Unterschied genau beruht."}
-  ],
-  "concept": {
-    "title": "Theory of Mind und die False-Belief-Aufgabe (Wimmer & Perner, 1983)",
-    "points": [
-      "<b>Theory of Mind</b>: Fähigkeit, sich selbst und anderen mentale Zustände wie Wünsche und Überzeugungen zuzuschreiben – und zu verstehen, dass sich diese von den eigenen unterscheiden können. Ab ungefähr 4 Jahren.",
-      "<b>Aufbau der Aufgabe</b>: Maxi verstaut Schokolade im grünen Küchenschrank und geht auf den Spielplatz. Die Mutter verlegt sie in den blauen Schrank. Frage: Wo wird Maxi suchen?",
-      "<b>Lösung mit Theory of Mind</b>: grüner Schrank – das Kind trennt Maxis (falsche) Überzeugung von der eigenen Kenntnis der Lage.",
-      "<b>Lösung ohne Theory of Mind</b>: blauer Schrank – das Kind projiziert das eigene Wissen über die Welt auf Maxi.",
-      "<b>Befund</b>: fast alle Kinder ab sechs Jahren lösen die Aufgabe, der Großteil der 3- bis 4-Jährigen nicht.",
-      "<b>Abgrenzung</b>: Die Aufgabe stammt nicht von Piaget – dort gehören Objektpermanenz, Animismus und Realismus zum Repertoire."
-    ]
-  }
-},
-{
-  "kap": 6,
-  "sec": "6.3.3 Kohlberg – Moral",
-  "stem": "Welche Aussagen entsprechen Kohlbergs Regeln zur moralischen Entwicklung?",
-  "opts": [
-    {"t": "Eine Person kann je nach Situation gleichzeitig auf mehreren der sechs Stufen argumentieren.", "c": false, "fb": "Kohlbergs erste Regel besagt ausdrücklich, dass eine Person zu einem bestimmten Zeitpunkt nur auf einer der sechs Stufen steht."},
-    {"t": "Die Abfolge der Stufen verläuft für jede Person gleich.", "c": true, "fb": "Diese Annahme übernimmt Kohlberg von Piagets Stadienlogik, die ihn zu seinem Modell inspirierte."},
-    {"t": "Jede Stufe stellt eine neue Denkweise dar: Die Begründung des moralischen Handelns wird immer komplexer.", "c": true, "fb": "Deshalb war für Kohlberg bei den meisten Niveaus nicht die Entscheidung selbst relevant, sondern deren Begründung."},
-    {"t": "Die Stufen sollen für Menschen aus allen Kulturen gleich sein.", "c": true, "fb": "Genau an dieser Universalitätsannahme setzt die spätere Kritik an, Kohlberg habe seine Theorie auf westlichen Moralkonzepten aufgebaut."}
-  ],
-  "concept": {
-    "title": "Kohlbergs Theorie der moralischen Entwicklung (1969, 1996)",
-    "points": [
-      "<b>Ausgangsmaterial</b>: das <b>Heinz-Dilemma</b> – Medikament stehlen oder die Frau sterben lassen. Die Niveaus leitete Kohlberg aus den Begründungen von Schülern ab.",
-      "<b>Regel 1</b>: Eine Person steht zu einem Zeitpunkt nur auf einer der sechs Stufen.",
-      "<b>Regel 2</b>: Die Abfolge der Stufen ist für jede Person gleich.",
-      "<b>Regel 3</b>: Jede Stufe ist eine neue Denkweise; die Begründung wird zunehmend komplexer.",
-      "<b>Regel 4</b>: Die Stufen sind für alle Menschen aus allen Kulturen gleich.",
-      "<b>Kritik</b>: Gilligan (1982) – Vernachlässigung der weiblichen Perspektive (Moral der Fürsorge vs. Moral der Gerechtigkeit); Jaffee & Hyde (2000) – Unterschiede vorhanden, aber klein; Snell (1996) – Instrumente zielen auf westliche Zeichen moralischen Handelns."
-    ]
-  }
-},
-{
-  "kap": 6,
-  "sec": "6.2.3 Adoleszenz (körperlich)",
-  "stem": "Welche Aussage zu primären und sekundären Geschlechtsmerkmalen ist korrekt?",
-  "opts": [
-    {"t": "Sekundäre Geschlechtsmerkmale sind genetisch determinierte Merkmale, die für die Fortpflanzung notwendig sind.", "c": false, "fb": "Diese Definition gehört zu den primären Geschlechtsmerkmalen; sekundäre Merkmale symbolisieren die Geschlechtsreife nach außen."},
-    {"t": "Primäre Geschlechtsmerkmale sind die inneren und äußeren Geschlechtsorgane, etwa Vulva, Vagina, Gebärmutter und Eierstöcke beziehungsweise Penis und Hoden.", "c": true, "fb": "Sie sind genetisch determiniert und für die Fortpflanzung notwendig – eine Definition, die bewusst absolut formuliert ist."},
-    {"t": "Die sekundären Geschlechtsmerkmale sind bei der Geburt bereits vollständig ausgebildet und werden in der Pubertät lediglich sichtbar.", "c": false, "fb": "Sie bilden sich erst in der Pubertät heran – Brustentwicklung, Bartwuchs, Tieferwerden der Stimme, Intimbehaarung."},
-    {"t": "Sekundäre Geschlechtsmerkmale entstehen unabhängig von den Geschlechtshormonen.", "c": false, "fb": "Gerade die Geschlechtshormone führen zu ihrer Ausbildung: Testosteron bei Buben, Östrogen und Progesteron bei Mädchen."}
-  ],
-  "concept": {
-    "title": "Primäre und sekundäre Geschlechtsmerkmale (Infobox 6.2)",
-    "points": [
-      "<b>Primär</b>: innere und äußere Geschlechtsorgane – Vulva, Vagina, Gebärmutter, Eierstöcke bzw. Penis und Hoden. Genetisch determiniert, für die Fortpflanzung notwendig.",
-      "<b>Sekundär</b>: nach außen hin erkennbare Veränderungen, die die Geschlechtsreife symbolisieren – Brustentwicklung, Bartwuchs, Tieferwerden der Stimme, Intimbehaarung.",
-      "<b>Auslöser</b>: Geschlechtshormone führen zur Ausbildung der sekundären Merkmale – bei Buben Testosteron, bei Mädchen Östrogen und Progesteron.",
-      "<b>Pubertätsbeginn</b>: Buben zwischen dem 10. und 17., Mädchen zwischen dem 9. und 14. Lebensjahr; der Zeitpunkt variiert individuell stark.",
-      "<b>Marksteine</b>: <b>Menarche</b> (erste Menstruation, im Durchschnitt mit ca. 12 Jahren) und <b>Spermarche</b> (Beginn der Spermienproduktion).",
-      "<b>Merkregel</b>: primär = zur Fortpflanzung nötig; sekundär = von außen sichtbares Signal der Reife."
-    ]
-  }
-},
-{
-  "kap": 6,
-  "sec": "6.2.1 Pränatale Entwicklung",
-  "stem": "Welche Aussagen zu den drei Phasen der pränatalen Entwicklung treffen zu?",
-  "opts": [
-    {"t": "Das germinale Stadium reicht von der Befruchtung bis zur achten Schwangerschaftswoche.", "c": false, "fb": "Es reicht bis zur 2. Schwangerschaftswoche und umfasst die ersten etwa 10 bis 14 Tage nach Bildung der Zygote; bis zur 8. Woche dauert das embryonale Stadium."},
-    {"t": "Im embryonalen Stadium beginnen sich die zuvor neutralen, untereinander austauschbaren Stammzellen zu spezialisieren und Organe auszubilden.", "c": true, "fb": "In dieser Phase wird auch der erste Herzschlag messbar – mit 120 bis 160 Schlägen pro Minute fast doppelt so schnell wie bei einer erwachsenen Person."},
-    {"t": "Sobald die Einnistung in der Gebärmutter abgeschlossen ist, wird aus der Zygote ein Embryo.", "c": true, "fb": "Die Einnistung beginnt ungefähr eine Woche nach der Befruchtung; der Übergang zum Fötus folgt erst ab der 9. Schwangerschaftswoche."},
-    {"t": "Das fötale Stadium ist vor allem durch die beginnende Zellspezialisierung gekennzeichnet, während das Wachstum erst nach der Geburt in den Vordergrund tritt.", "c": false, "fb": "Die Zuordnung ist vertauscht: Im fötalen Stadium liegt der Fokus auf Wachstum und Ausreifung, die Spezialisierung kennzeichnet das embryonale Stadium."}
-  ],
-  "concept": {
-    "title": "Phasen der pränatalen Entwicklung (Tabelle 6.2)",
-    "points": [
-      "<b>Germinales Stadium</b> (Befruchtung bis 2. SSW): Entstehung der Zygote, Wanderung durch den Eileiter, Einnistung in der Gebärmutter, schnelle Zellteilung – Verdopplung der Zellzahl ca. zweimal pro Tag.",
-      "<b>Embryonales Stadium</b> (3. bis 8. SSW): weitere Zellteilung, Spezialisierung der Stammzellen, Organbildung, erster Herzschlag messbar (120–160/min), erste spontane Bewegungen ab ca. der 7. SSW.",
-      "<b>Fötales Stadium</b> (9. SSW bis Geburt): Wachstum und Ausreifung; Gewicht von unter 15 Gramm auf durchschnittlich 3,3 Kilogramm, Größe bei Geburt ca. 50 Zentimeter.",
-      "<b>Zygote</b>: befruchtete Eizelle mit dem gesamten Genmaterial – 46 Chromosomen, je 23 von Mutter und Vater.",
-      "<b>Hirnreifung</b>: Wachstum von Axonen und Dendriten beginnt vorgeburtlich, bis zu 250.000 Nervenzellen pro Minute; in den ersten beiden Lebensjahren Überproduktion und paralleler Abbau durch Zelltod und <b>synaptic pruning</b>.",
-      "<b>Merkregel</b>: Zygote → Embryo (nach abgeschlossener Einnistung) → Fötus (ab der 9. SSW)."
-    ]
-  }
-},
-{
+ {
   "kap": 6,
   "sec": "6.4.2 Erikson",
-  "stem": "Welche Aussagen zu Eriksons Stufenmodell der psychosozialen Entwicklung treffen zu?",
+  "stem": "Welche Zuordnungen von Lebensphase und Krise in Eriksons Stufenmodell treffen zu?",
   "opts": [
-    {"t": "Im frühen Erwachsenenalter steht die Krise „Intimität vs. Isolation“ im Vordergrund.", "c": true, "fb": "Beziehungen einzugehen und Bindungen aufzubauen ist dabei genauso wichtig wie Zeit für sich zu haben."},
-    {"t": "Die Adoleszenz ist von der Krise „Identität vs. Rollenkonfusion“ geprägt – der Entwicklung eines kohärenten Selbstbildes.", "c": true, "fb": "Gerade diese Phase hatte große Bedeutung für die sozialwissenschaftliche Forschung und diente als Grundlage vieler Untersuchungen im Jugendalter."},
-    {"t": "Mit erfolgreicher Bewältigung einer Krise verschwindet der zugehörige Konflikt vollständig.", "c": false, "fb": "Die Bewältigung ermöglicht den Aufstieg in die nächste Phase, allerdings verschwindet keiner dieser Konflikte vollständig."},
-    {"t": "Im mittleren Erwachsenenalter geht es um „Generativität vs. Stagnation“, unter anderem um Fürsorge für zukünftige Generationen.", "c": true, "fb": "Sinnfindung und Integration in die Gemeinschaft gehören zu dieser Herausforderung; im hohen Erwachsenenalter folgt „Ich-Integrität vs. Verzweiflung“."}
+   {
+    "t": "Zwischen dem sechsten Lebensjahr und der Pubertät geht es um „Kompetenz vs. Minderwertigkeit“, also um die Aneignung grundlegender Fähigkeiten.",
+    "c": true,
+    "fb": "Die vierte Stufe. Sie schließt an „Initiative vs. Schuldgefühl“ an und endet mit dem Beginn der Adoleszenz."
+   },
+   {
+    "t": "Im Alter von einem bis drei Jahren steht die Krise „Initiative vs. Schuldgefühl“ im Vordergrund.",
+    "c": false,
+    "fb": "Das ist die Krise der Phase von drei bis sechs Jahren. Von eins bis drei geht es um „Autonomie vs. Selbstzweifel“."
+   },
+   {
+    "t": "Im hohen Erwachsenenalter steht „Autonomie vs. Selbstzweifel“ an, weil die eigene Handlungsfähigkeit nun neu behauptet werden muss.",
+    "c": false,
+    "fb": "Im hohen Erwachsenenalter geht es um „Ich-Integrität vs. Verzweiflung“ — Frieden mit sich und anderen zu schließen. „Autonomie vs. Selbstzweifel“ gehört an den Anfang, ins Alter von eins bis drei."
+   },
+   {
+    "t": "Das erste Lebensjahr ist von „Urvertrauen vs. Misstrauen“ geprägt: Das hilflose Kind lernt, dass es seinen Bezugspersonen vertrauen kann.",
+    "c": true,
+    "fb": "Die erste Stufe des Modells — ohne dieses Vertrauen fehlt die Grundlage für alle folgenden Krisen."
+   }
   ],
   "concept": {
-    "title": "Stufenmodell der psychosozialen Entwicklung nach Erikson (Tabelle 6.5)",
-    "points": [
-      "<b>0–1 Jahr</b> Urvertrauen vs. Misstrauen · <b>1–3 Jahre</b> Autonomie vs. Selbstzweifel · <b>3–6 Jahre</b> Initiative vs. Schuldgefühl.",
-      "<b>6 Jahre bis Pubertät</b> Kompetenz vs. Minderwertigkeit · <b>Adoleszenz</b> Identität vs. Rollenkonfusion.",
-      "<b>Frühes Erwachsenenalter</b> Intimität vs. Isolation · <b>Mittleres</b> Generativität vs. Stagnation · <b>Hohes</b> Ich-Integrität vs. Verzweiflung.",
-      "<b>Mechanismus</b>: Jede Phase hat eine Thematik, die sich zu einer Krise steigert; erfolgreiche Bewältigung ist Voraussetzung für die Bewältigung der folgenden Krisen.",
-      "<b>Wichtige Einschränkung</b>: Kein Konflikt verschwindet vollständig.",
-      "<b>Bewertung</b>: In der ursprünglichen Form kaum empirisch überprüfbar, da teils zu ungenau formuliert; modifizierte Konzepte wurden zuletzt wieder aufgegriffen."
-    ]
+   "title": "Eriksons acht psychosoziale Krisen",
+   "points": [
+    "<b>0–1 Jahr</b>: Urvertrauen vs. Misstrauen — das hilflose Kind lernt, Bezugspersonen zu vertrauen.",
+    "<b>1–3 Jahre</b>: Autonomie vs. Selbstzweifel — Wahrnehmung des eigenen Selbst als entscheidungs- und handlungsfähige Person.",
+    "<b>3–6 Jahre</b>: Initiative vs. Schuldgefühl — auf Basis elterlicher Vorbilder entstehen eigene Ziele und Pläne.",
+    "<b>6 Jahre bis Pubertät</b>: Kompetenz vs. Minderwertigkeit — Aneignung grundlegender Fähigkeiten.",
+    "<b>Adoleszenz bis hohes Alter</b>: Identität vs. Rollenkonfusion, Intimität vs. Isolation, Generativität vs. Stagnation, Ich-Integrität vs. Verzweiflung.",
+    "<b>Logik des Modells</b>: Erfolgreiches Lösen einer Krise ist Voraussetzung für die nächste — vollständig verschwindet aber keiner der Konflikte."
+   ]
   }
-},
-{
-  "kap": 6,
-  "sec": "6.2.2 Frühe Kindheit",
-  "stem": "Welche Aussage zum Experiment der visuellen Klippe ist korrekt?",
-  "opts": [
-    {"t": "Gibson und Walk (1960) untersuchten damit die Tiefenwahrnehmung von Kindern im Alter von sechs bis 14 Monaten.", "c": true, "fb": "Sie schlossen daraus, dass bereits in der frühen Kindheit ein grundlegendes Verständnis von Tiefenwahrnehmung vorhanden ist."},
-    {"t": "Der Versuchsaufbau geht auf Mary Ainsworth zurück, die damit erstmals frühe Wahrnehmungsleistungen systematisch erfasste.", "c": false, "fb": "Personenverwechslung: Ainsworth entwickelte die Fremde-Situation zur Erfassung der Bindungsqualität, nicht die visuelle Klippe."},
-    {"t": "Kinder, die bereits krabbeln konnten, überquerten den tief erscheinenden Teil, sobald die Mutter sie von der anderen Seite lockte.", "c": false, "fb": "Richtungsumkehr: Sie weigerten sich zu krabbeln – selbst wenn die eigene Mutter versuchte, sie hinüberzulocken."},
-    {"t": "Weil unter der Glasplatte tatsächlich ein Absturz drohte, war die Zurückhaltung der Kinder auch objektiv begründet.", "c": false, "fb": "Die Klippe war durch die Glasplatte abgesichert und in keiner Weise wirklich gefährlich – nur die optische Illusion eines Abgrundes bestand."}
-  ],
-  "concept": {
-    "title": "Die visuelle Klippe (Gibson & Walk, 1960)",
-    "points": [
-      "<b>Aufbau</b>: Glasplatte, auf einer Seite direkt auf rot-weiß kariertem Untergrund, auf der anderen Seite etwa einen halben Meter darüber – die optische Illusion einer Klippe.",
-      "<b>Sicherheit</b>: Durch die Glasplatte war der Abgrund abgesichert; eine reale Gefahr bestand nicht.",
-      "<b>Stichprobe</b>: Kinder im Alter von sechs bis 14 Monaten.",
-      "<b>Befund</b>: Krabbelnde Kinder weigerten sich, über den tiefen Teil zu krabbeln – selbst wenn die Mutter sie lockte.",
-      "<b>Schluss</b>: Bereits in der frühen Kindheit besteht ein grundlegendes Verständnis von Tiefenwahrnehmung.",
-      "<b>Methodenkritik zur Säuglingsforschung</b>: Aussagen auf Basis präsprachlicher Verhaltensindikatoren – Blickdauer, Reaktionszeiten, Fokussierung des Blicks – sind in vielen Fällen Interpretationen und werden zum Teil divers gedeutet."
-    ]
-  }
-},
-{
-  "kap": 6,
-  "sec": "6.1 Grundlagen",
-  "stem": "Welche Aussagen zum Gegenstand der Entwicklungspsychologie und zur Einteilung der Lebensspanne treffen zu?",
-  "opts": [
-    {"t": "Das Fach untersucht Veränderungsprozesse über die gesamte Lebensspanne – von der Empfängnis bis ins hohe Erwachsenenalter.", "c": true, "fb": "Forschungsthemen sind nicht auf das Kindes- und Jugendalter beschränkt, sondern gehen weit darüber hinaus."},
-    {"t": "Das mittlere Erwachsenenalter wird mit ungefähr 30 bis 55 Jahren angesetzt.", "c": false, "fb": "Angegeben sind ca. 40 bis 65 Jahre; 20 bis 40 Jahre umfasst das frühe Erwachsenenalter, ab 65 beginnt das hohe."},
-    {"t": "Im Zentrum stehen ausschließlich körperliche Reifungsprozesse; kognitive, sprachliche und soziale Veränderungen sind Gegenstand anderer Teildisziplinen.", "c": false, "fb": "Kognitive, sprachliche und soziale Veränderungen sind ausdrücklich wichtige Forschungsbereiche der Entwicklungspsychologie."},
-    {"t": "Dass Kindheit und Jugend besonders intensiv beforscht werden, liegt unter anderem daran, dass dort relativ zur verstrichenen Zeit mehr Veränderung stattfindet.", "c": true, "fb": "Die Schwerpunktsetzung ist also eine Frage der Veränderungsdichte, nicht der fachlichen Zuständigkeit."}
-  ],
-  "concept": {
-    "title": "Entwicklungsphasen über die Lebensspanne (Tabelle 6.1)",
-    "points": [
-      "<b>Pränatal</b> von der Empfängnis bis zur Geburt · <b>Säuglingsalter</b> Geburt bis Ende des ersten Lebensjahres.",
-      "<b>Kleinkindalter / frühe Kindheit</b> ca. 1–3 Jahre · <b>Mittlere und späte Kindheit</b> ca. 3–11 Jahre.",
-      "<b>Pubertät / Adoleszenz</b> ca. 11–20 Jahre · <b>Frühes Erwachsenenalter</b> ca. 20–40 Jahre.",
-      "<b>Mittleres Erwachsenenalter</b> ca. 40–65 Jahre · <b>Hohes Erwachsenenalter</b> 65 Jahre und älter.",
-      "<b>Gegenstand</b>: Veränderungsprozesse auf körperlicher, kognitiver, sprachlicher und sozialer Ebene über die gesamte Lebensspanne.",
-      "<b>Leitfragen des Kapitels</b>: Anlage, Umwelt oder beides? Und verläuft Entwicklung in Stufen oder kontinuierlich?"
-    ]
-  }
-},
-{
-  "kap": 6,
-  "sec": "6.4.1 Bindung",
-  "stem": "Welche Aussagen zur Bindungsforschung und zum Fremde-Situation-Szenario treffen zu?",
-  "opts": [
-    {"t": "Bindung wird definiert als emotionale Verbindung, die mit nahestehenden Personen, besonders der Mutter oder anderen frühen Bezugspersonen, aufgebaut wird.", "c": true, "fb": "Diese Definition geht auf Cassidy und Shaver (1999) zurück."},
-    {"t": "John Bowlby führte ab den 1930er Jahren Studien an Kindern durch, die in Kinderheimen aufwuchsen.", "c": true, "fb": "Im Fokus standen die negativen Auswirkungen einer fehlenden Bezugsperson in der frühen Kindheit, etwa auf körperliche und emotionale Gesundheit."},
-    {"t": "Das Szenario wurde mit Kindern zwischen 12 und 24 Monaten durchgeführt und gilt bis heute als verbreitete, anerkannte Forschungsmethode.", "c": true, "fb": "Mary Ainsworth entwickelte es selbst; auf seiner Basis ließ sich Bindungsqualität erfassen und verschiedenen Bindungstypen zuordnen."},
-    {"t": "Zentrales Untersuchungselement war die Reaktion des Kindes, wenn die Mutter in den Raum zurückkam.", "c": true, "fb": "Die Trennung selbst löste bei allen Kindern Stress aus – aussagekräftig ist erst das Verhalten beim Wiedersehen."}
-  ],
-  "concept": {
-    "title": "Die Fremde-Situation (Ainsworth) und ihre Vorgeschichte",
-    "points": [
-      "<b>Bindung</b>: emotionale Verbindung zu nahestehenden Personen, besonders zu frühen Bezugspersonen (Cassidy & Shaver, 1999).",
-      "<b>Bowlby (1907–1990)</b>: früher Bindungsforscher, ab den 1930er Jahren Studien an Heimkindern; beschrieb die Folgen einer fehlenden Bezugsperson (Bowlby, 1953).",
-      "<b>Ainsworth (1913–1999)</b>: Entwicklungspsychologin, entwickelte in Zusammenarbeit mit Bowlby die Bindungstheorien und das Szenario der Fremde-Situation.",
-      "<b>Ablauf</b>: Kind (12–24 Monate) mit der Mutter im Spielzimmer, fremde Person kommt hinzu, Mutter verlässt den Raum und kehrt nach wenigen Minuten zurück.",
-      "<b>Auswertung</b>: Die Trennung stresst alle Kinder – bewertet wird die Reaktion auf die Rückkehr, daraus folgt die Zuordnung zu einem der vier Bindungstypen.",
-      "<b>Bindungsperson</b>: muss nicht die Mutter sein – Vater, Großeltern oder Bezugsbetreuer:innen im Heim können diese Rolle ebenfalls erfolgreich übernehmen (Shirvanian & Michael, 2017)."
-    ]
-  }
-},
-{
-  "kap": 6,
-  "sec": "6.3.4 Kognition im Erwachsenenalter",
-  "stem": "Welche Aussagen zur kognitiven Entwicklung im Erwachsenenalter treffen zu?",
-  "opts": [
-    {"t": "Als postformales Denken bezeichnet man reflektiertes Denken, bei dem Problemstellungen identifiziert und benannt sowie mögliche Folgen von Entscheidungen antizipiert und abgewogen werden.", "c": true, "fb": "Es entwickelt sich im frühen bis mittleren Erwachsenenalter."},
-    {"t": "Blouin und McKelvie (2012) fanden einen Zusammenhang zwischen postformalem Denken und der Fähigkeit, sprachliche Metaphern und Ironie zu identifizieren und zu verstehen.", "c": true, "fb": "Die Autoren interpretierten dies so, dass Menschen mit höherem Maß an postformalem Denken die volle Bedeutung von Metaphern und Ironie zugänglich ist; auch ein Zusammenhang mit Kreativität zeigte sich."},
-    {"t": "Der Rückgang der kognitiven Fähigkeiten im Alter wird in der Regel unterschätzt und setzt früher ein als angenommen.", "c": false, "fb": "Richtungsumkehr: Er wird häufig überschätzt und als zu früh einsetzend angenommen."},
-    {"t": "Postformales Denken bildet sich nach heutigem Verständnis bereits mit dem formal-operatorischen Stadium in der Pubertät aus.", "c": false, "fb": "Es entwickelt sich erst im frühen bis mittleren Erwachsenenalter; das aufstrebende Erwachsenenalter entspricht der Pubertät und ist von der weiteren Reifung des präfrontalen Kortex geprägt."}
-  ],
-  "concept": {
-    "title": "Kognitive Veränderungen im Erwachsenenalter",
-    "points": [
-      "<b>Altersgliederung</b>: aufstrebendes (entspricht der Pubertät), frühes (20–40), mittleres (40–65) und hohes Erwachsenenalter (ab 65).",
-      "<b>Präfrontaler Kortex</b>: reift im aufstrebenden Erwachsenenalter weiter heran; zuständig vor allem für Planung, Aufmerksamkeit und exekutive Funktionen, gern „Sitz der Persönlichkeit“ genannt.",
-      "<b>Postformales Denken</b>: reflektiertes Denken im frühen bis mittleren Erwachsenenalter – Probleme benennen, Folgen antizipieren und abwägen. Zusammenhang mit Kreativität, Metaphern- und Ironieverständnis (Blouin & McKelvie, 2012).",
-      "<b>Hohes Erwachsenenalter</b>: Veränderung der Intelligenzstruktur – die Leistungsniveaus verschiedener kognitiver Fähigkeiten korrelieren stärker miteinander als bei Jüngeren und nehmen generell ab (de Frias et al., 2007).",
-      "<b>Neurokognitive Störungen</b>: Alzheimer-Demenz und Parkinson-Krankheit häufen sich; sie haben oft eine biologische Basis und können kognitive wie motorische Fähigkeiten stark einschränken.",
-      "<b>Gestaltbarkeit</b>: Ernährung sowie körperliche und geistige Aktivität spielen eine große Rolle; gesunde Personen zeigen meist nur leichte bis gar keine Einbußen, gezieltes Training wirkt dem Abbau entgegen."
-    ]
-  }
-},
-{
+ },
+ {
   "kap": 6,
   "sec": "6.2.1 Pränatale Entwicklung",
-  "stem": "Welche Aussagen zu schädigenden Substanzen in der Schwangerschaft treffen zu?",
+  "stem": "Welche Aussagen zur Reifung des Gehirns vor und nach der Geburt treffen zu?",
   "opts": [
-    {"t": "Das Fetale Alkoholsyndrom (FAS) stellt die ausgeprägteste Form der Fetalen Alkoholspektrumsstörungen (FASD) dar.", "c": true, "fb": "FASD bezeichnet die Reihe an Schädigungen, die vorgeburtlich durch Alkoholkonsum entstehen können; FAS ist deren Extremform."},
-    {"t": "Zu den möglichen Folgen zählen unter anderem Wachstumsstörungen, Herzfehler und kognitive Beeinträchtigungen wie Konzentrationsstörungen und Lernschwächen.", "c": true, "fb": "Auch Gesichtsfehlbildungen und Bewegungsstörungen gehören dazu; die Schwere der einzelnen Schädigungen kann unterschiedlich ausfallen."},
-    {"t": "Bei Thalidomid (Contergan) zeigten sich unabhängig vom Zeitraum der Einnahme stets dieselben Fehlbildungen.", "c": false, "fb": "Je nachdem, in welchem Zeitraum der Schwangerschaft das Medikament eingenommen wurde, traten unterschiedliche Missbildungen auf – ein Lehrbeispiel für sensible Phasen."},
-    {"t": "Schätzungen gehen davon aus, dass weltweit etwa 9,8 % der Frauen während der Schwangerschaft Alkohol konsumieren.", "c": true, "fb": "Jährlich werden weltweit um die 119.000 Kinder mit FAS geboren (Popova et al., 2017)."}
+   {
+    "t": "Die Ausreifung der Nervenzellen und ihrer Verbindungen beginnt vorgeburtlich, dauert aber bis lange nach der Geburt an.",
+    "c": true,
+    "fb": "Das Wachstum von Axonen und Dendriten setzt in der fötalen Phase ein und ist zur Geburt keineswegs abgeschlossen."
+   },
+   {
+    "t": "In den ersten beiden Lebensjahren werden nur so viele Nervenzellen und Verbindungen gebildet, wie später auch tatsächlich gebraucht werden.",
+    "c": false,
+    "fb": "Genau umgekehrt: Es findet eine Überproduktion statt. Das Bild im Skript ist der Holzblock, aus dem erst durch Wegnehmen eine Figur wird."
+   },
+   {
+    "t": "Nervenzellen können zeitweise mit bis zu 250.000 pro Minute produziert werden.",
+    "c": true,
+    "fb": "Diese Spitzenrate berichten Kolb und Gibb (2011)."
+   },
+   {
+    "t": "Als synaptic pruning bezeichnet man das Entfernen nicht benötigter Zellen und Verbindungen, das parallel zur Überproduktion abläuft.",
+    "c": true,
+    "fb": "Zelltod und synaptische Beschneidung laufen gleichzeitig mit dem Aufbau — nicht danach."
+   }
   ],
   "concept": {
-    "title": "Alkohol, Medikamente und pränatale Diagnostik",
-    "points": [
-      "<b>FASD</b>: Reihe an Schädigungen, die vorgeburtlich durch Alkoholkonsum entstehen können. <b>FAS</b> ist die ausgeprägteste Form.",
-      "<b>Mögliche Folgen</b>: Wachstumsstörungen, Gesichtsfehlbildungen, Herzfehler, Bewegungsstörungen, kognitive Beeinträchtigungen (Konzentrationsstörungen, Lernschwächen).",
-      "<b>Zahlen</b>: etwa 9,8 % der Frauen konsumieren weltweit während der Schwangerschaft Alkohol; jährlich rund 119.000 Kinder mit FAS (Popova et al., 2017).",
-      "<b>Thalidomid / Contergan</b>: in den 1950er Jahren beliebtes Beruhigungs- und Schlafmittel für Schwangere; Anfang der 1960er Jahre wurde der Zusammenhang mit Fehlbildungen bis zum völligen Fehlen von Organen oder Gliedmaßen erkannt. Art der Missbildung abhängig vom Einnahmezeitpunkt.",
-      "<b>Weitere Risiken</b>: niedriger sozioökonomischer Status, Mangelernährung, chronischer Stress, psychische Belastungen, sexueller oder körperlicher Missbrauch.",
-      "<b>Pränatale Diagnostik</b>: Bluttests und Ultraschall bei der Mutter, zusätzlich Nackenfaltenmessung, Organscreening, Fruchtwasserbiopsie – Ziel ist die frühzeitige Erkennung von Krankheiten und Fehlentwicklungen."
-    ]
+   "title": "Hirnentwicklung: Überproduktion und Beschneidung",
+   "points": [
+    "<b>Beginn</b>: Ausreifung der Nervenzellen, Wachstum von Axonen und Dendriten setzt vorgeburtlich ein.",
+    "<b>Spitzenrate</b>: bis zu 250.000 Nervenzellen pro Minute (Kolb & Gibb, 2011).",
+    "<b>Erste zwei Lebensjahre</b>: Überproduktion an Nervenzellen und Verbindungen.",
+    "<b>Gegenprozess</b>: Zelltod und synaptische Beschneidung („synaptic pruning“) entfernen parallel das nicht Benötigte.",
+    "<b>Bild dafür</b>: Die „Rohmasse“ entsteht, ein zweiter Prozess beschneidet sie, bis die Figur Gestalt annimmt."
+   ]
   }
-},
-{
+ },
+ {
   "kap": 6,
   "sec": "6.3.3 Kohlberg – Moral",
-  "stem": "Welche Aussage zur Zuordnung von Niveaus und Stufen bei Kohlberg ist korrekt?",
+  "stem": "Welche Aussage zu den oberen Stufen in Kohlbergs Modell ist korrekt?",
   "opts": [
-    {"t": "Zum konventionellen Niveau gehört die Stufe „sozialer Kontrakt und individuelle Rechte“.", "c": false, "fb": "Diese Stufe 5 gehört zum postkonventionellen Niveau. Konventionell sind Stufe 3 (wechselseitige Erwartungen) und Stufe 4 (soziales System und Gewissen)."},
-    {"t": "Auf dem präkonventionellen Niveau steht die Stufe der heteronomen Moral, bei der sich Verhalten an der Vermeidung negativer Konsequenzen orientiert.", "c": true, "fb": "Stufe 1 orientiert sich an Gehorsam und Bestrafung; die Furcht vor Strafe leitet das moralische Handeln."},
-    {"t": "Dem postkonventionellen Niveau ist die Stufe „autonome Reziprozität und Vertragstreue“ zugeordnet.", "c": false, "fb": "Eine Stufe dieses Namens gibt es bei Kohlberg nicht – postkonventionell sind „sozialer Kontrakt und individuelle Rechte“ sowie „universelle ethische Prinzipien“."},
-    {"t": "Auf der Stufe „soziales System und Gewissen“ bleibt eine strafende Instanz notwendig, damit Normen eingehalten werden.", "c": false, "fb": "Auf Stufe 4 ist eine strafende Instanz gerade nicht mehr notwendig: Das Handeln ist von internalisierten Werten geprägt."}
+   {
+    "t": "Auf Stufe sechs gelten Gesetze unabhängig davon, ob sie ethischen Grundprinzipien entsprechen.",
+    "c": false,
+    "fb": "Umgekehrt: Gesetze sind auf dieser Stufe nur gültig, weil sie auf ethischen Grundprinzipien beruhen. Verstoßen sie dagegen, wird nach den Prinzipien gehandelt."
+   },
+   {
+    "t": "Nach Kohlberg leiten die meisten Erwachsenen ihre moralischen Beweggründe von Stufe fünf ab.",
+    "c": false,
+    "fb": "Die meisten argumentieren auf Basis der Stufe vier; Stufe fünf erreichen nur wenige (Siegler et al., 2016)."
+   },
+   {
+    "t": "Kohlberg nahm an, dass die sechste Stufe von niemandem erreicht werden könne, und sah sie als rein hypothetische Stufe an.",
+    "c": true,
+    "fb": "Er vermutete sogar, dass nur wenige Erwachsene überhaupt bis Stufe fünf gelangen."
+   },
+   {
+    "t": "Stufe fünf ist dadurch gekennzeichnet, dass ausschließlich selbst gewählte ethische Prinzipien gelten, denen Gesetze untergeordnet werden.",
+    "c": false,
+    "fb": "Das beschreibt Stufe sechs. Stufe fünf orientiert sich am sozialen Kontrakt: Normen werden befolgt, weil sie dem Schutz aller dienen — einzelne absolute Werte wie das Recht auf Leben stehen darüber."
+   }
   ],
   "concept": {
-    "title": "Moralische Niveaus und Stufen nach Kohlberg (Tabelle 6.4)",
-    "points": [
-      "<b>Präkonventionell</b> – Normen werden noch nicht als gesellschaftliche Vereinbarungen erkannt. Stufe 1: heteronome Moral (Gehorsam, Strafvermeidung). Stufe 2: Individualismus und Austausch („Wie du mir, so ich dir“).",
-      "<b>Konventionell</b> – die Perspektive eines Gesellschaftsmitglieds wird eingenommen. Stufe 3: wechselseitige Erwartungen und interpersonelle Konformität. Stufe 4: soziales System und Gewissen, strafende Instanz nicht mehr nötig.",
-      "<b>Postkonventionell</b> – universelle ethische Prinzipien stehen über gesellschaftlichen Normen. Stufe 5: sozialer Kontrakt und individuelle Rechte. Stufe 6: universelle ethische Prinzipien.",
-      "<b>Benennungslogik</b>: Die Niveaus sind danach benannt, inwieweit ein Individuum die Konventionen einer Gesellschaft anerkennt.",
-      "<b>Heinz-Dilemma auf Stufe 5</b>: Das Medikament soll gestohlen werden, weil das Recht auf Leben höher wiegt als Gesetzestreue oder Eigentumsrecht.",
-      "<b>Kohlbergs Einschränkung</b>: Stufe 6 hielt er für rein hypothetisch und von niemandem erreichbar; nur wenige Erwachsene gelangen bis Stufe 5, die meisten argumentieren auf Basis von Stufe 4."
-    ]
+   "title": "Das postkonventionelle Niveau bei Kohlberg",
+   "points": [
+    "<b>Stufe 5 — sozialer Kontrakt und individuelle Rechte</b>: Normen sind gruppenspezifisch und dienen dem Schutz aller; absolute Werte wie das Recht auf Leben gelten unabhängig von der Mehrheitsmeinung.",
+    "<b>Stufe 6 — universelle ethische Prinzipien</b>: selbst gewählte Prinzipien; Gesetze sind nur gültig, soweit sie darauf beruhen.",
+    "<b>Heinz-Dilemma</b>: Auf postkonventionellem Niveau soll das Medikament gestohlen werden — das Recht auf Leben wiegt schwerer als Eigentum und Gesetz.",
+    "<b>Erreichbarkeit</b>: Stufe 6 hielt Kohlberg für rein hypothetisch; nur wenige Erwachsene erreichen Stufe 5, die meisten argumentieren auf Stufe 4.",
+    "<b>Altersbezug</b>: Je älter eine Person, desto höher sollte die Begründungsebene einzustufen sein — zwingend ist das nicht."
+   ]
   }
-},
-{
-  "kap": 6,
-  "sec": "6.4.3 Identität (Marcia)",
-  "stem": "Welche Aussagen zu James Marcias Modell des Identitätsstatus treffen zu?",
-  "opts": [
-    {"t": "Die vier Identitätskategorien sind – wie Eriksons Phasen – als aufeinanderfolgende Stufen zu verstehen.", "c": false, "fb": "Gerade das ist der Unterschied zu Erikson: Sie sind als Ergebnis der Bewältigung psychosozialer Aufgaben zu verstehen, nicht als Stufenfolge."},
-    {"t": "Bei der übernommenen Identität („Foreclosure“) wurde keine erkennbare Identitätskrise durchlaufen; Werte und Überzeugungen von Eltern und Rollenvorbildern werden unhinterfragt übernommen.", "c": true, "fb": "Dieser Status ist von autoritären Werten wie Gehorsam, Führung und Respekt vor hierarchisch höhergestellten Personen gekennzeichnet; das Selbstwertgefühl ist anfällig für negative Information."},
-    {"t": "Als fünften Status beschreibt Marcia die konsolidierte Identität („Identity Consolidation“), in der ein erarbeitetes Selbstbild im Erwachsenenalter stabilisiert wird.", "c": false, "fb": "Marcias Katalog ist mit vier Kategorien abgeschlossen; ein fünfter Status dieses Namens existiert nicht."},
-    {"t": "Die kritische Identität („Moratorium“) verbindet einen hohen Grad an Exploration mit einem niedrigen Grad an Verbindlichkeit.", "c": true, "fb": "Jugendliche in diesem Status erleben eine Identitätskrise und lassen sich alle Möglichkeiten offen, ohne sich festzulegen."}
-  ],
-  "concept": {
-    "title": "Identitätsstatus nach Marcia (1966)",
-    "points": [
-      "<b>Diffuse Identität („Identity Diffusion“)</b>: weder kohärentes Selbstkonzept noch Auseinandersetzung mit der eigenen Identitätsfindung.",
-      "<b>Übernommene Identität („Foreclosure“)</b>: keine erkennbare Krise, unhinterfragte Übernahme von Werten der Eltern und Rollenvorbilder, autoritäre Werte, Selbstwert anfällig für negative Information.",
-      "<b>Kritische Identität („Moratorium“)</b>: Identitätskrise wird erlebt, hohe Exploration bei niedriger Verbindlichkeit, alle Möglichkeiten bleiben offen.",
-      "<b>Erarbeitete Identität („Identity Achievement“)</b>: Krise durchlaufen, neues Selbstbild erfolgreich erarbeitet, weniger autoritäre Werte, Selbstwert robuster gegenüber negativer Information.",
-      "<b>Verhältnis zu Erikson</b>: Marcias Forschung gilt als Weiterentwicklung von Eriksons Theorie – die vier Status sind aber keine Stufenfolge, sondern Ergebnisse der Aufgabenbewältigung mit dem Ziel einer „Ich-Identität“.",
-      "<b>Entwicklungsaufgabe</b>: Die Bildung eines kohärenten Selbstbildes ist eine der zentralen Aufgaben der Adoleszenz."
-    ]
-  }
-},
-{
-  "kap": 6,
-  "sec": "6.2.3 Adoleszenz (körperlich)",
-  "stem": "Welche Aussagen zur Pubertät treffen zu?",
-  "opts": [
-    {"t": "Bei Mädchen sind vor allem Östrogen und Progesteron ausschlaggebend, bei Buben vermehrt gebildetes Testosteron.", "c": true, "fb": "Hormonelle Veränderungen liefern die Grundlage der körperlichen Veränderungen; die Geschlechtshormone führen zur Ausbildung der sekundären Geschlechtsmerkmale."},
-    {"t": "Bei Mädchen liegt der Beginn der Pubertät in der Regel zwischen dem 11. und 16. Lebensjahr.", "c": false, "fb": "Angegeben ist der Bereich vom 9. bis zum 14. Lebensjahr; der Bereich vom 10. bis 17. Lebensjahr gilt für Buben."},
-    {"t": "Die Menarche tritt im Durchschnitt mit ungefähr 12 Jahren auf, der Zeitpunkt schwankt jedoch stark.", "c": true, "fb": "Er hängt von der genetischen Grundlage sowie von körperlichen Faktoren wie dem Gewicht ab."},
-    {"t": "Als Spermarche bezeichnet man den Beginn der Spermienproduktion.", "c": true, "fb": "Bei Buben beginnt die Pubertät mit dem Wachstum der Hoden, der Schambehaarung und des Penis; die Spermarche fällt in diese Phase."}
-  ],
-  "concept": {
-    "title": "Sexuelle Reifung in der Adoleszenz",
-    "points": [
-      "<b>Adoleszenz</b>: Übergang von der Kindheit ins Erwachsenenalter, Phase der sexuellen Reifung; hormonelle Veränderungen liefern die Grundlage.",
-      "<b>Leithormone</b>: Testosteron bei Buben, Östrogen und Progesteron bei Mädchen.",
-      "<b>Zeitfenster</b>: Pubertätsbeginn bei Buben zwischen dem 10. und 17., bei Mädchen zwischen dem 9. und 14. Lebensjahr – individuell stark variabel.",
-      "<b>Menarche</b>: erste Menstruation, im Durchschnitt mit ca. 12 Jahren; abhängig von genetischer Grundlage und körperlichen Faktoren wie dem Gewicht.",
-      "<b>Spermarche</b>: Beginn der Spermienproduktion; bei Buben setzt die Pubertät mit Wachstum von Hoden, Schambehaarung und Penis ein.",
-      "<b>Psychische Seite</b>: Starke körperliche Veränderungen und hormonelle Schwankungen können das Wohlbefinden beeinträchtigen und zu geringem Selbstwert und psychischem Stress führen (Duchesne et al., 2017)."
-    ]
-  }
-},
-{
-  "kap": 6,
-  "sec": "6.2.2 Frühe Kindheit",
-  "stem": "Welche Aussage zu Reflexen im Säuglingsalter und zum Kniesehnenreflex ist korrekt?",
-  "opts": [
-    {"t": "Der Kniesehnenreflex wird über das Großhirn vermittelt und lässt sich daher durch Übung beeinflussen.", "c": false, "fb": "Die Verschaltung läuft als „Abkürzung“ über das Rückenmark – müsste der Körper auf eine Antwort des Großhirns warten, wäre es für die schnellen motorischen Prozesse meist zu spät. Der Reflex ist nicht trainierbar."},
-    {"t": "Wie Such- und Saugreflex verschwindet der Kniesehnenreflex in den ersten Lebensmonaten wieder.", "c": false, "fb": "Der Kniesehnenreflex besteht ein Leben lang und bleibt im Wesentlichen gleich – er ist im Skript gerade das Gegenbeispiel zu den frühkindlichen Reflexen."},
-    {"t": "Beim Kniesehnenreflex erfolgt über das Rückenmark die reflexartige Kontraktion der kniestreckenden Muskulatur – eine Schutzreaktion.", "c": true, "fb": "Betroffen ist der Muskel Quadriceps Femoris; die Abkürzung über das Rückenmark verhindert Verletzungen des Gewebes bei schneller, starker Dehnung."},
-    {"t": "Der Suchreflex wird beim Neugeborenen anfangs durch Berührung der Fußsohle ausgelöst.", "c": false, "fb": "Ausgelöst wird er beispielsweise durch Berührung der Wangen; er hilft dem Kind, eine Nahrungsquelle zu finden."}
-  ],
-  "concept": {
-    "title": "Reflexe: frühkindlich vs. lebenslang (Infobox 6.1)",
-    "points": [
-      "<b>Reflex</b>: rasches, unwillkürliches Reaktionsmuster, das der Organismus auf einen Reiz zeigt.",
-      "<b>Suchreflex</b>: anfangs etwa durch Berührung der Wangen ausgelöst, hilft beim Finden einer Nahrungsquelle (z. B. Brust).",
-      "<b>Saugreflex</b>: ermöglicht die Nahrungsaufnahme an der gefundenen Quelle. Beide Reflexe dienen der Ernährung und verschwinden in den ersten Lebensmonaten.",
-      "<b>Kniesehnenreflex (Patellarsehnenreflex)</b>: Schlag auf die Patellarsehne erhöht ruckartig die Dehnung, über das Rückenmark folgt die Kontraktion des Quadriceps Femoris.",
-      "<b>Funktion</b>: Schutzreaktion – die Abkürzung über das Rückenmark spart die Zeit, die eine Antwort des Großhirns kosten würde.",
-      "<b>Abgrenzung</b>: Der Kniesehnenreflex ist nicht trainierbar, bleibt im Wesentlichen gleich und besteht ein Leben lang."
-    ]
-  }
-},
-{
-  "kap": 6,
-  "sec": "6.3.1 Piaget – Kritik",
-  "stem": "Welche Aussagen zur heutigen Bewertung von Piagets Theorie treffen zu?",
-  "opts": [
-    {"t": "Baillargeon (1987) zeigte, dass erste Formen des Verständnisses von Objektpermanenz bereits mit etwa 3,5 Monaten erkennbar sind.", "c": true, "fb": "Piaget hatte diese Errungenschaft erst mit ungefähr 8 Monaten angesetzt."},
-    {"t": "Aus heutiger Sicht hat Piaget das Erwerbsalter mancher Errungenschaften systematisch zu niedrig eingeschätzt.", "c": false, "fb": "Richtungsumkehr: Er schätzte es eher zu hoch ein und unterschätzte damit die Fähigkeiten der Kinder."},
-    {"t": "Nicht alle kognitiven Veränderungen lassen sich in klar abtrennbare Stadien unterteilen; manche verlaufen stadienübergreifend.", "c": true, "fb": "Diese Einschränkung betrifft den Kern der Stadienannahme, ohne den Wert der Theorie insgesamt aufzuheben."},
-    {"t": "Als Ursache der Fehleinschätzung gilt vor allem, dass Piagets Testaufgaben zu einfach waren, um die Fähigkeiten der Kinder auszureizen.", "c": false, "fb": "Umgekehrt: Manche Aufgabenstellungen waren aufgrund zu hoher Komplexität des Testmaterials bzw. der Testsituation nicht geeignet, die tatsächlichen Fähigkeiten abzubilden."}
-  ],
-  "concept": {
-    "title": "Piagets Theorien aus heutiger Sicht",
-    "points": [
-      "<b>Fortbestehender Einfluss</b>: bis heute wichtige Grundlage für das Verständnis kognitiver Veränderungen, mit theoretischen und praktischen Anwendungen (Barrouillet, 2015; DeVries, 2000).",
-      "<b>Revision der Altersangaben</b>: Objektpermanenz bereits ab ca. 3,5 Monaten statt erst mit 8 Monaten (Baillargeon, 1987).",
-      "<b>Unterschätzte Kinder</b>: Erwerbsalter tendenziell zu hoch eingeschätzt; Aufgaben teils zu komplex, sodass zusätzliche Voraussetzungen fehlten und sich das Zielverhalten nicht zeigen konnte.",
-      "<b>Stadienannahme aufgeweicht</b>: nicht alle kognitiven Veränderungen sind klar abtrennbar, manche verlaufen stadienübergreifend.",
-      "<b>Objektpermanenz neu gelesen</b>: Möglicherweise fehlt kleinen Kindern nicht das Wissen um das verdeckte Objekt, sondern die Handlungsfähigkeit, es selbst wieder sichtbar zu machen – die fehlende Reaktion ist dann kein Beleg für fehlendes Wissen.",
-      "<b>Merkregel</b>: Kritik trifft die Altersgrenzen und die Trennschärfe der Stadien, nicht die Grundidee der aktiven Wissenskonstruktion."
-    ]
-  }
-},
-{
-  "kap": 6,
-  "sec": "6.2.2 Frühe Kindheit",
-  "stem": "Welche Aussagen zur Wahrnehmung von Neugeborenen und Säuglingen treffen zu?",
-  "opts": [
-    {"t": "Neugeborene bevorzugen die Stimme der eigenen Mutter, was sich unter anderem an einem beschleunigten Herzschlag zeigt.", "c": true, "fb": "Diese Präferenz besteht durch die Zeit im Mutterleib bereits von Geburt an (Kisilevsky et al., 2009)."},
-    {"t": "Säuglinge ziehen den Geruch der eigenen Mutter dem fremder Personen vor.", "c": true, "fb": "Cernoch und Porter (1985); zudem beruhigt der Geruch der eigenen Muttermilch in schmerzlichen Situationen schneller als der anderer Mütter (Nishitani et al., 2009)."},
-    {"t": "Im Vergleich zu Erwachsenen ist das Sehvermögen Neugeborener in Schärfe, Kontrast- und Farbempfindlichkeit eingeschränkt.", "c": true, "fb": "Menschen werden dennoch mit weitgehend funktionierendem Sehvermögen geboren und reagieren auf visuelle Muster mit Kopf- und Augenbewegungen."},
-    {"t": "Neugeborene zeigen Präferenzen etwa für gemusterte gegenüber ungemusterten Reizen und für menschliche Gesichter gegenüber gesichtsunähnlichen Reizen.", "c": true, "fb": "Ebenso bevorzugt werden Bewegung gegenüber statischen Mustern, Dreidimensionales gegenüber Zweidimensionalem und Neues gegenüber Bekanntem (S. P. Johnson, 2011)."}
-  ],
-  "concept": {
-    "title": "Sinne und Präferenzen im Säuglingsalter",
-    "points": [
-      "<b>Ausgangslage</b>: Alle Sinne sind nach der Geburt vorhanden, aber unterschiedlich gut ausgebildet.",
-      "<b>Präferenz für die Mutter</b>: Stimme (beschleunigter Herzschlag; Kisilevsky et al., 2009), Gesicht (Bushnell, 2001), Geruch (Cernoch & Porter, 1985), beruhigende Wirkung der eigenen Muttermilch (Nishitani et al., 2009).",
-      "<b>Sehvermögen</b>: weitgehend funktionsfähig, aber in Schärfe, Kontrast- und Farbempfindlichkeit eingeschränkt.",
-      "<b>Visuelle Präferenzen</b>: gemustert vor ungemustert, Bewegung vor Statik, dreidimensional vor zweidimensional, neu vor bekannt, Gesichter vor gesichtsunähnlichen Reizen (S. P. Johnson, 2011).",
-      "<b>Umwelt und Deprivation</b>: Das Kind gestaltet seine Lernerfahrungen aktiv mit; extreme Deprivation veränderte das Wachstum des Gehirns und zog unter anderem verringerte Intelligenz nach sich (Mackes et al., 2020).",
-      "<b>Forschungsmethodik</b>: Fortschritte durch ausdifferenzierte experimentelle Bedingungen und präsprachliche Verhaltensindikatoren – Blickdauer, Reaktionszeiten, Blickfokussierung."
-    ]
-  }
-},
-{
-  "kap": 6,
-  "sec": "6.3.1 Piaget – Stadien",
-  "stem": "Welche Aussagen zu Animismus und Realismus treffen zu?",
-  "opts": [
-    {"t": "Als Animismus bezeichnet man es, wenn Kinder nicht lebenden Objekten menschliche Gefühle und Vorhaben zuschreiben.", "c": true, "fb": "Typische Aussage: „Mein Teddybär ist heute ganz traurig, weil er die Omi vermisst!“"},
-    {"t": "Der kindliche Realismus meint, dass Kinder nicht zwischen Vorstellungen und der Realität unterscheiden können, sodass mentale Vorgänge wie Denken oder Träumen für sie extern real sind.", "c": true, "fb": "Nach Piaget müssten Kinder daher bejahen, dass sie einen bloß vorgestellten Keks verschenken können."},
-    {"t": "Untersuchungen zeigten, dass der Realismus deutlich seltener auftritt als von Piaget ursprünglich postuliert.", "c": true, "fb": "Kinder können früh zwischen Realität und Vorstellung unterscheiden – ein Beispiel für die Revision einzelner Annahmen Piagets."},
-    {"t": "Beide Phänomene ordnet Piaget dem konkret-operatorischen Stadium zu, in dem sich das logische Denken ausbildet.", "c": false, "fb": "Sie gehören zum präoperatorischen Stadium (ca. 2–7 Jahre). Im konkret-operatorischen Stadium sind viele dieser Entwicklungsaufgaben bereits gelöst."}
-  ],
-  "concept": {
-    "title": "Das präoperatorische Stadium (ca. 2–7 Jahre)",
-    "points": [
-      "<b>Sprache</b>: rasante Weiterentwicklung – neue Wörter und Bezeichnungen für Objekte, erste simple mentale Operationen in der bloßen Vorstellung.",
-      "<b>Animismus</b>: nicht lebende Objekte oder Phänomene werden als lebendig angesehen; Feuer oder Wolken werden Eigenschaften von Lebewesen wie atmen, fühlen oder sterben zugeschrieben – begründet etwa damit, dass sie sich „bewegen“.",
-      "<b>Realismus</b>: Nicht Existierendes wird als real verstanden; Kinder unterscheiden nicht zwischen Vorstellung und Realität, mentale Vorgänge gelten als extern real.",
-      "<b>Empirische Relativierung</b>: Der Realismus tritt deutlich seltener auf als postuliert, da Kinder früh zwischen Realität und Vorstellung trennen können.",
-      "<b>Abgrenzung nach unten</b>: Im sensumotorischen Stadium steht die Objektpermanenz im Zentrum.",
-      "<b>Abgrenzung nach oben</b>: Erst im konkret-operatorischen Stadium gelingen logische Schlüsse rein auf gedanklicher Basis, Reversibilität und Invarianz."
-    ]
-  }
-},
-{
+ },
+ {
   "kap": 6,
   "sec": "6.2.4 Erwachsenenalter (körperlich)",
-  "stem": "Welche Aussage zur Andropause und zur Fruchtbarkeit im Alter ist korrekt?",
+  "stem": "Welche Aussagen zur hormonellen Umstellung beim Mann treffen zu?",
   "opts": [
-    {"t": "Die Testosteronproduktion beginnt bei Männern etwa ab dem 50. bis 60. Lebensjahr abzunehmen.", "c": false, "fb": "Sie nimmt bereits ab etwa dem 30. bis 40. Lebensjahr kontinuierlich ab; Beginn und Tempo sind individuell sehr verschieden."},
-    {"t": "Wie Eizellen sind auch Spermien bereits bei der Geburt vollständig angelegt und werden im Laufe des Lebens verbraucht.", "c": false, "fb": "Spermien werden – anders als Eizellen – ein Leben lang produziert, weshalb Männer bis ins hohe Alter Kinder zeugen könnten."},
-    {"t": "Wechselbedingte Beschwerden fallen Männern in der Regel stärker auf als Frauen, weil die Andropause deutlicher einsetzt.", "c": false, "fb": "Umgekehrt: Sie fallen Frauen eher auf, weil die Menopause erkennbarer startet, kürzer dauert und einen Abschluss hat."},
-    {"t": "Die Andropause verläuft in der Regel ohne wahrnehmbaren Startpunkt und ohne fixiertes Ende, weshalb Beschwerden oft als Altersschwächen gedeutet werden.", "c": true, "fb": "Der Prozess ist deutlich langsamer als die Menopause; die Beschwerden werden dann nicht dem Wechsel im Hormonsystem zugeordnet."}
+   {
+    "t": "Bei etwa 20 bis 30 % der Männer macht sich der Testosteronabfall in körperlichen und psychischen Symptomen bemerkbar.",
+    "c": true,
+    "fb": "Erst dann spricht man — parallel zur Menopause — von einer Andropause."
+   },
+   {
+    "t": "Die Testosteronproduktion beginnt etwa ab dem 30. bis 40. Lebensjahr kontinuierlich abzunehmen.",
+    "c": true,
+    "fb": "Ab welchem Alter und wie rasch, ist individuell sehr verschieden."
+   },
+   {
+    "t": "Der Abfall der Spermienqualität und der Testosteronabfall verlaufen stets streng gekoppelt.",
+    "c": false,
+    "fb": "Beide Prozesse können teilweise unabhängig voneinander ablaufen."
+   },
+   {
+    "t": "Wechselbedingte Erektionsstörungen können ausschließlich beim Mann auftreten, weil die Klitoris hormonell nicht beteiligt ist.",
+    "c": false,
+    "fb": "Erektionsstörungen als wechselbedingte Beschwerde können sowohl den Penis als auch die Klitoris betreffen."
+   }
   ],
   "concept": {
-    "title": "Andropause: der männliche Wechsel",
-    "points": [
-      "<b>Beginn</b>: Testosteronproduktion nimmt ab etwa dem 30. bis 40. Lebensjahr kontinuierlich ab; Alter und Tempo individuell sehr verschieden.",
-      "<b>Symptomatik</b>: Bei etwa 20 bis 30 % der Männer macht sich der Abfall körperlich und psychisch bemerkbar – erst dann spricht man von Andropause.",
-      "<b>Spermien</b>: Qualität und Anzahl sinken langsam ab; die Prozesse können teilweise unabhängig vom Hormonabfall verlaufen.",
-      "<b>Lebenslange Produktion</b>: Spermien werden – anders als Eizellen – ein Leben lang gebildet; Zeugungsfähigkeit bleibt möglich, die Befruchtungswahrscheinlichkeit sinkt jedoch.",
-      "<b>Beschwerden beider Geschlechter</b>: Antriebsschwäche, Hitzewallungen, Schlafstörungen, depressive Verstimmungen, geringere sexuelle Lust, Erektionsstörungen (Penis wie Klitoris).",
-      "<b>Wahrnehmungsunterschied</b>: Die Menopause hat erkennbaren Beginn, kürzere Dauer und einen Abschluss – die Andropause nicht, weshalb ihre Beschwerden oft als Altersschwächen gelten."
-    ]
+   "title": "Andropause",
+   "points": [
+    "<b>Verlauf</b>: Die Testosteronproduktion nimmt ab etwa dem 30. bis 40. Lebensjahr kontinuierlich ab; Tempo und Beginn sind individuell sehr verschieden.",
+    "<b>Häufigkeit spürbarer Symptome</b>: bei etwa 20 bis 30 % der Männer.",
+    "<b>Spermien</b>: werden anders als Eizellen ein Leben lang produziert — Zeugungsfähigkeit bleibt grundsätzlich bestehen, Zahl und Qualität sinken aber.",
+    "<b>Entkopplung</b>: Testosteronabfall und sinkende Spermienqualität können teilweise unabhängig voneinander verlaufen.",
+    "<b>Beschwerden</b>: Antriebsschwäche, Hitzewallungen, Schlafstörungen, depressive Verstimmungen, geringere sexuelle Lust, Erektionsstörungen (Penis wie Klitoris).",
+    "<b>Wahrnehmung</b>: Ohne erkennbaren Start und ohne fixiertes Ende werden die Beschwerden oft als Altersschwäche gedeutet."
+   ]
   }
-},
-{
+ },
+ {
   "kap": 6,
   "sec": "6.3.1 Piaget – Stadien",
-  "stem": "Welche Aussagen zum konkret-operatorischen Stadium und zum Invarianzprinzip treffen zu?",
+  "stem": "Welche Aussagen entsprechen Piagets Annahmen über den Charakter seiner Entwicklungsstadien?",
   "opts": [
-    {"t": "Kinder vor diesem Stadium achten beim Umschütten vor allem auf die Breite des Glases und vernachlässigen die Höhe.", "c": false, "fb": "Richtungsumkehr: Sie scheinen die Breite zu vernachlässigen und nur auf die Höhe zu achten."},
-    {"t": "Reversibilität zeigt sich etwa daran, dass ein Mädchen, das auf die Frage nach einer Schwester mit „Ja, die Anne“ antwortet, auch bejaht, dass Anne eine Schwester hat.", "c": true, "fb": "Formal entspricht das dem Schluss: wenn X + X = Y, dann gilt Y − X = X."},
-    {"t": "Das Gesetz der Erhaltung – auch Invarianzprinzip – wird in diesem Stadium im Regelfall ohne Probleme nachvollzogen.", "c": true, "fb": "Das Verständnis der Reversibilität ist die Voraussetzung dafür; vorher bleibt die Umschüttaufgabe ungelöst."},
-    {"t": "Bevor Kinder dieses Stadium erreichen, lösen sie die Umschüttaufgabe zuverlässig, sobald die Flüssigkeit mehrmals zwischen den Gläsern hin- und hergeschüttet wird.", "c": false, "fb": "Der Fehler tritt selbst dann auf, wenn die Flüssigkeit abwechselnd hin- und hergeschüttet wird."}
+   {
+    "t": "Den Übergang von einem Stadium ins nächste beschreibt Piaget als diskontinuierlichen intellektuellen Sprung von einer kohärenten Art des Verstehens zur nächsthöheren.",
+    "c": true,
+    "fb": "Genau diese Diskontinuität unterscheidet Stadienmodelle von Modellen kontinuierlicher Entwicklung."
+   },
+   {
+    "t": "Die Reihenfolge der Stadien ist bei jedem Menschen gleich, und die Übergangszeiten zwischen ihnen sind kurz.",
+    "c": true,
+    "fb": "Beides gehört zu Piagets Kernannahmen — die Reihenfolge ist fix, die Übergänge sind es nicht, was sie kurz macht."
+   },
+   {
+    "t": "Für die Einordnung eines Kindes zählt nicht nur, was es bereits kann, sondern auch, dass es die Errungenschaft des nächsten Stadiums noch nicht erreicht hat.",
+    "c": true,
+    "fb": "Die Abgrenzung nach oben gehört zur Bestimmung dazu."
+   },
+   {
+    "t": "Jedes Stadium geht mit einer qualitativen Veränderung einher, die über verschiedene Kontexte und Lebensbereiche hinweg sichtbar wird.",
+    "c": true,
+    "fb": "Ein Stadienwechsel zeigt sich also nicht nur in einer einzelnen Aufgabe, sondern breit."
+   }
   ],
   "concept": {
-    "title": "Konkret-operatorisches Stadium (ca. 7–11 Jahre)",
-    "points": [
-      "<b>Kern</b>: Das logische Denken steht im Vordergrund; die Phase erstreckt sich etwa über die Grundschulzeit.",
-      "<b>Gedankliche Schlüsse</b>: Logische Schlussfolgerungen werden ausschließlich auf Basis gedanklicher Vorgänge abgeleitet – etwa den Heimweg in eine Karte einzeichnen oder Informationen aus einem Text kombinieren.",
-      "<b>Reversibilität</b>: Umkehrbarkeit von Beziehungen und Operationen – „Anne ist meine Schwester“ ⇔ „Ich bin Annes Schwester“; formal: X + X = Y, also Y − X = X.",
-      "<b>Gesetz der Erhaltung / Invarianzprinzip</b>: Die Menge bleibt gleich, auch wenn sich die Form des Behälters ändert.",
-      "<b>Klassische Prüfaufgabe</b>: Flüssigkeit wird in ein höheres, schmaleres Glas umgefüllt. Vor dem Stadium achten Kinder nur auf die Höhe und vernachlässigen die Breite – auch bei mehrfachem Hin- und Herschütten.",
-      "<b>Anschluss</b>: Im formal-operatorischen Stadium kommen abstraktes Denken, hypothetisches Schlussfolgern und deduktive Logik hinzu."
-    ]
+   "title": "Was ein Stadium bei Piaget ausmacht",
+   "points": [
+    "<b>Diskontinuität</b>: „diskontinuierlicher intellektueller Sprung von einer kohärenten Art des Verstehens zur nächsthöheren“.",
+    "<b>Abgrenzbarkeit</b>: Jedes Stadium ist klar vom nächsten zu unterscheiden und tritt zu einem bestimmten Zeitpunkt ein.",
+    "<b>Universelle Reihenfolge</b>: Die Abfolge ist bei jedem Menschen gleich, die Übergangszeiten sind kurz.",
+    "<b>Qualität statt Menge</b>: Die Veränderung ist qualitativ und über verschiedene Kontexte und Lebensbereiche hinweg sichtbar.",
+    "<b>Doppelte Bestimmung</b>: Das Stadium ergibt sich aus dem, was das Kind kann — und daraus, dass es die nächste Errungenschaft noch nicht erreicht hat.",
+    "<b>Die vier Stadien</b>: sensumotorisch (Objektpermanenz), präoperatorisch (Spracherwerb), konkret-operatorisch (Erhaltung), formal-operatorisch (abstrakte Logik)."
+   ]
   }
-}
+ },
+ {
+  "kap": 6,
+  "sec": "6.4.1 Bindung",
+  "stem": "Welche Aussagen zum unsicher-desorganisierten Bindungstyp (Typ D) treffen zu?",
+  "opts": [
+   {
+    "t": "Kinder dieses Typs reagieren konfus: Sie werfen sich etwa schreiend auf den Boden oder „frieren ein“ und sind mitunter aggressiv gegenüber der Bezugsperson.",
+    "c": true,
+    "fb": "Das widersprüchliche, schwer einzuordnende Verhalten gibt dem Typ seinen Namen."
+   },
+   {
+    "t": "Er wurde erst 1990 von Mary Main und Judit Solomon als vierter Bindungstyp ergänzt.",
+    "c": true,
+    "fb": "Die ursprünglichen drei Typen stammen von Ainsworth, Blehar, Waters und Wall (1978)."
+   },
+   {
+    "t": "Als Ursache wird angenommen, dass die Bezugspersonen durchgehend vorhersehbar, aber emotional unterkühlt reagiert haben.",
+    "c": false,
+    "fb": "Umgekehrt: Man nimmt Traumatisierungen in den frühen Lebensmonaten an, und das Verhalten der Eltern ist für die Kinder gerade <i>nicht</i> vorhersagbar."
+   },
+   {
+    "t": "Kennzeichnend ist, dass das Kind Trost sucht, ihn aber nicht annehmen kann.",
+    "c": false,
+    "fb": "Das beschreibt Typ C, den unsicher-ambivalenten Bindungstyp."
+   }
+  ],
+  "concept": {
+   "title": "Die vier Bindungstypen der Fremden Situation",
+   "points": [
+    "<b>Typ A, unsicher-vermeidend</b>: nach außen ruhig, holt sich keinen Trost — im Speichel-Cortisol zeigt sich dennoch hoher Stress.",
+    "<b>Typ B, sicher gebunden</b>: weint beim Weggehen, sucht sofort Kontakt bei der Rückkehr und lässt sich beruhigen.",
+    "<b>Typ C, unsicher-ambivalent</b>: sucht Trost, kann ihn aber nicht annehmen; erlebte ambivalente Reaktionen von liebevoll bis abweisend.",
+    "<b>Typ D, unsicher-desorganisiert</b>: konfuses, teils aggressives Verhalten; angenommen werden frühe Traumatisierungen und unvorhersagbares Elternverhalten.",
+    "<b>Herkunft</b>: A bis C von Ainsworth, Blehar, Waters und Wall (1978); D erst 1990 von Mary Main und Judit Solomon ergänzt.",
+    "<b>Einordnung</b>: Nur B gilt als sichere Bindung, A, C und D als unsicher."
+   ]
+  }
+ },
+ {
+  "kap": 6,
+  "sec": "6.1 Grundlagen",
+  "stem": "Welche Zuordnung von Entwicklungsphase und Alter entspricht der Einteilung der Lebensspanne im Skript?",
+  "opts": [
+   {
+    "t": "Die Pubertät schließt unmittelbar an das Kleinkindalter an und dauert etwa vom dritten bis zum elften Lebensjahr.",
+    "c": false,
+    "fb": "Dieser Zeitraum ist die mittlere und späte Kindheit. Die Pubertät folgt erst danach, mit ungefähr 11 bis 20 Jahren."
+   },
+   {
+    "t": "Das Säuglingsalter reicht von der Geburt bis zum Ende des zweiten Lebensjahres.",
+    "c": false,
+    "fb": "Bis zum Ende des <i>ersten</i> Lebensjahres. Danach beginnt das Kleinkindalter."
+   },
+   {
+    "t": "Das Kleinkindalter, auch frühe Kindheit genannt, umfasst ungefähr das erste bis dritte Lebensjahr.",
+    "c": true,
+    "fb": "Es schließt an das Säuglingsalter an, das mit dem Ende des ersten Lebensjahres endet."
+   },
+   {
+    "t": "Als hohes Erwachsenenalter gilt der Abschnitt ab dem Eintritt in die Pension, unabhängig vom Lebensalter.",
+    "c": false,
+    "fb": "Die Einteilung ist rein am Alter festgemacht: 65 Jahre und älter."
+   }
+  ],
+  "concept": {
+   "title": "Entwicklungsphasen über die Lebensspanne",
+   "points": [
+    "<b>Pränatal</b>: von der Empfängnis bis zur Geburt. <b>Säuglingsalter</b>: Geburt bis Ende des ersten Lebensjahres.",
+    "<b>Kleinkindalter (frühe Kindheit)</b>: ca. 1 bis 3 Jahre. <b>Mittlere und späte Kindheit</b>: ca. 3 bis 11 Jahre.",
+    "<b>Pubertät (Adoleszenz)</b>: ca. 11 bis 20 Jahre.",
+    "<b>Erwachsenenalter</b>: früh ca. 20–40, mittel ca. 40–65, hoch ab 65 Jahren.",
+    "<b>Reichweite des Fachs</b>: Die Entwicklungspsychologie deckt diese ganze Spanne ab — die Konzentration auf Kindheit und Jugend liegt daran, dass dort relativ zur Zeit mehr Veränderung stattfindet."
+   ]
+  }
+ },
+ {
+  "kap": 6,
+  "sec": "6.3.4 Kognition im Erwachsenenalter",
+  "stem": "Welche Aussagen zum aufstrebenden Erwachsenenalter und zum präfrontalen Kortex treffen zu?",
+  "opts": [
+   {
+    "t": "Der präfrontale Kortex ist mit dem Ende der Kindheit vollständig ausgereift und verändert sich danach nicht mehr.",
+    "c": false,
+    "fb": "Er reift im aufstrebenden Erwachsenenalter weiter heran — also gerade in der Phase, um die es hier geht."
+   },
+   {
+    "t": "Postformales Denken entwickelt sich typischerweise erst im hohen Erwachsenenalter.",
+    "c": false,
+    "fb": "Es entwickelt sich im frühen bis mittleren Erwachsenenalter."
+   },
+   {
+    "t": "Der präfrontale Kortex wird vor allem mit Planung, Aufmerksamkeit und exekutiven Funktionen in Verbindung gebracht und gern als „Sitz der Persönlichkeit“ bezeichnet.",
+    "c": true,
+    "fb": "„Exekutiv“ heißt hier ausführend — die Funktionen, die Handlungen steuern und koordinieren."
+   },
+   {
+    "t": "Das aufstrebende Erwachsenenalter entspricht der Pubertät.",
+    "c": true,
+    "fb": "Das Skript unterscheidet aufstrebendes, frühes (20–40), mittleres (40–65) und hohes Erwachsenenalter (ab 65)."
+   }
+  ],
+  "concept": {
+   "title": "Kognitive Entwicklung im (jungen) Erwachsenenalter",
+   "points": [
+    "<b>Vier Abschnitte</b>: aufstrebendes (= Pubertät), frühes (20–40), mittleres (40–65) und hohes Erwachsenenalter (ab 65).",
+    "<b>Präfrontaler Kortex</b>: reift im aufstrebenden Erwachsenenalter weiter; zuständig für Planung, Aufmerksamkeit und exekutive Funktionen, gern „Sitz der Persönlichkeit“ genannt.",
+    "<b>Postformales Denken</b>: entsteht im frühen bis mittleren Erwachsenenalter — Probleme werden identifiziert und benannt, Folgen von Entscheidungen antizipiert und abgewogen.",
+    "<b>Blouin und McKelvie (2012)</b>: postformales Denken hängt mit Kreativität sowie dem Erkennen sprachlicher Metaphern und Ironie zusammen.",
+    "<b>Verbreiteter Irrtum</b>: Der kognitive Rückgang im Alter wird häufig überschätzt und als zu früh einsetzend angenommen."
+   ]
+  }
+ },
+ {
+  "kap": 6,
+  "sec": "6.2.1 Pränatale Entwicklung",
+  "stem": "Welche Aussagen zur Befruchtung und zum germinalen Stadium treffen zu?",
+  "opts": [
+   {
+    "t": "Sobald ein Spermium die Eizelle befruchtet hat, blockt diese alle weiteren Spermien ab.",
+    "c": true,
+    "fb": "Die Blockade setzt unmittelbar mit der Verschmelzung der beiden Zellen ein."
+   },
+   {
+    "t": "Auf ihrem Weg in die Gebärmutter verdoppelt die Zygote die Zahl ihrer Zellen ungefähr zweimal pro Tag.",
+    "c": true,
+    "fb": "Diese schnelle Zellteilung ist das Kennzeichen des germinalen Stadiums."
+   },
+   {
+    "t": "Die Zygote verfügt bereits über das gesamte menschliche Genmaterial: 46 Chromosomen, je 23 von Mutter und Vater.",
+    "c": true,
+    "fb": "Das vollständige Erbgut steht damit vom ersten Moment an fest."
+   },
+   {
+    "t": "Das germinale Stadium umfasst die ersten 10 bis 14 Tage und endet damit, dass sich die ersten Organe auszubilden beginnen.",
+    "c": false,
+    "fb": "Die Zeitangabe stimmt, das Ende nicht: Das germinale Stadium endet mit der abgeschlossenen Einnistung, aus der Zygote wird dann ein Embryo. Die Organbildung gehört ins embryonale Stadium."
+   }
+  ],
+  "concept": {
+   "title": "Vom Spermium zum Embryo",
+   "points": [
+    "<b>Befruchtung</b>: Eizelle und Spermium verschmelzen, die Eizelle blockt danach alle weiteren Spermien ab.",
+    "<b>Zygote</b>: die befruchtete Eizelle mit 46 Chromosomen — 23 von der Mutter, 23 vom Vater.",
+    "<b>Germinales Stadium</b>: erste 10 bis 14 Tage bzw. Befruchtung bis 2. Schwangerschaftswoche; Wanderung durch den Eileiter, Zellzahl verdoppelt sich ca. zweimal täglich.",
+    "<b>Einnistung</b>: beginnt ungefähr eine Woche nach der Befruchtung; ist sie abgeschlossen, wird aus der Zygote ein Embryo.",
+    "<b>Danach</b>: embryonales Stadium (3.–8. SSW) mit Zellspezialisierung und Organbildung, ab der 9. SSW das fötale Stadium mit dem Schwerpunkt Wachstum."
+   ]
+  }
+ },
+ {
+  "kap": 6,
+  "sec": "6.3.3 Kohlberg – Moral",
+  "stem": "Welche Aussagen zur Kritik an Kohlbergs Moraltheorie treffen zu?",
+  "opts": [
+   {
+    "t": "Gilligan ordnete Männern eine Moral der Fürsorge und Frauen eine Moral der Gerechtigkeit zu.",
+    "c": false,
+    "fb": "Vertauscht: Die Moral der Verantwortung und Fürsorge schrieb sie Frauen zu, die Moral der Gerechtigkeit Männern."
+   },
+   {
+    "t": "Eine Metaanalyse von Jaffee und Hyde (2000) fand zwar unterschiedliche moralische Orientierungen bei Frauen und Männern, die Unterschiede waren aber nicht besonders groß.",
+    "c": true,
+    "fb": "Die Kritik von Gilligan wurde damit teilweise bestätigt, in ihrer Tragweite aber relativiert."
+   },
+   {
+    "t": "Gilligan (1982) warf Kohlberg vor, die weibliche Perspektive zu vernachlässigen, und verstand das moralische Konzept von Frauen als Moral der Verantwortung.",
+    "c": true,
+    "fb": "Gekennzeichnet sei diese durch Fürsorge — im Gegensatz zur Moral der Gerechtigkeit, die sie den Männern zuschrieb."
+   },
+   {
+    "t": "Snell (1996) kritisierte, dass Kohlbergs Instrumente in erster Linie auf westliche Zeichen moralischen Handelns abzielen.",
+    "c": true,
+    "fb": "Das trifft Kohlbergs Anspruch, seine Stufen gälten für Menschen aus allen Kulturen."
+   }
+  ],
+  "concept": {
+   "title": "Zwei Einwände gegen Kohlberg",
+   "points": [
+    "<b>Geschlechterkritik (Gilligan, 1982)</b>: Kohlberg vernachlässige die weibliche Perspektive — Moral der Verantwortung und Fürsorge (Frauen) vs. Moral der Gerechtigkeit (Männer).",
+    "<b>Befundlage dazu (Jaffee & Hyde, 2000)</b>: Unterschiede in der moralischen Orientierung gibt es, sie sind aber nicht besonders groß.",
+    "<b>Kulturkritik (Snell, 1996)</b>: Kohlbergs Instrumente und Verfahren zielen auf westliche Zeichen moralischen Handelns.",
+    "<b>Was das trifft</b>: Kohlbergs eigene Regel, die Stufen seien für alle Menschen aus allen Kulturen gleich.",
+    "<b>Herkunft der Theorie</b>: abgeleitet aus Antworten von Schülern auf das Heinz-Dilemma, entwickelt auf Basis westlicher Moralkonzepte."
+   ]
+  }
+ },
+ {
+  "kap": 6,
+  "sec": "6.2.2 Frühe Kindheit",
+  "stem": "Welche Aussagen zur Säuglingsforschung und zu ihren Grenzen treffen zu?",
+  "opts": [
+   {
+    "t": "Zu den präsprachlichen Verhaltensindikatoren zählen unter anderem Blickdauer, Reaktionszeiten und die Fokussierung des Blicks auf ein Objekt im Unterschied zu einem anderen.",
+    "c": true,
+    "fb": "Weil Säuglinge nicht sprechen, müssen solche Indikatoren die Auskunft ersetzen."
+   },
+   {
+    "t": "Dass Säuglingen früher wenig zugetraut wurde, lag daran, dass sich die Fähigkeiten der Kinder dieses Alters im Laufe der Jahrzehnte tatsächlich verändert haben.",
+    "c": false,
+    "fb": "Verändert haben sich die Methoden, nicht die Kinder: Erst ausdifferenzierte experimentelle Bedingungen und geeignete Verhaltensindikatoren machten die Fähigkeiten sichtbar."
+   },
+   {
+    "t": "In der Studie von Mackes und Kolleg:innen (2020) zeigte sich, dass extreme Deprivation zwar das Gehirnwachstum verändert, die Intelligenz davon aber unberührt bleibt.",
+    "c": false,
+    "fb": "Die veränderte Entwicklung des Gehirnwachstums zog unter anderem eine verringerte Intelligenz nach sich."
+   },
+   {
+    "t": "Aussagen auf Basis solcher Indikatoren sind in vielen Fällen Interpretationen und werden von Forscher:innen zum Teil unterschiedlich gedeutet.",
+    "c": true,
+    "fb": "Diese Einschränkung nennt das Skript ausdrücklich."
+   }
+  ],
+  "concept": {
+   "title": "Wie man erforscht, was Säuglinge können",
+   "points": [
+    "<b>Problem</b>: Säuglinge können nicht berichten; ihre Fähigkeiten fallen im Alltag kaum auf und wirken unsystematisch.",
+    "<b>Lösung</b>: ausdifferenzierte experimentelle Bedingungen plus präsprachliche Verhaltensindikatoren — Blickdauer, Reaktionszeiten, Blickfokussierung auf ein Objekt statt ein anderes.",
+    "<b>Einschränkung</b>: Die daraus abgeleiteten Aussagen sind oft Interpretationen und werden unterschiedlich gedeutet.",
+    "<b>Umwelt zählt</b>: Kinder gestalten ihre Lernerfahrungen aktiv mit; Eltern fördern durch aktivierenden Umgang und neue Erlebnisse.",
+    "<b>Deprivation (Mackes et al., 2020)</b>: Vernachlässigung und Reizmangel verändern das Gehirnwachstum und ziehen unter anderem eine verringerte Intelligenz nach sich."
+   ]
+  }
+ },
+ {
+  "kap": 6,
+  "sec": "6.4.3 Identität (Marcia)",
+  "stem": "Welche Aussagen zu den Identitätsstatus „diffuse Identität“ und „erarbeitete Identität“ treffen zu?",
+  "opts": [
+   {
+    "t": "Die erarbeitete Identität entsteht definitionsgemäß ohne vorangegangene Identitätskrise.",
+    "c": false,
+    "fb": "Umgekehrt: Die Krise wurde durchlaufen und ein neues Selbstbild erfolgreich erarbeitet. Ohne erkennbare Krise verläuft die übernommene Identität („Foreclosure“)."
+   },
+   {
+    "t": "Jugendliche mit erarbeiteter Identität verschreiben sich weniger als andere autoritären Werten, und ihr Selbstwertgefühl ist weniger anfällig für negative Information.",
+    "c": true,
+    "fb": "Das ist der Gegenpol zur übernommenen Identität, die gerade von autoritären Werten geprägt und im Selbstwert anfällig ist."
+   },
+   {
+    "t": "Bei der diffusen Identität wurde weder ein kohärentes Selbstkonzept entwickelt noch überhaupt eine Auseinandersetzung mit der eigenen Identitätsfindung begonnen.",
+    "c": true,
+    "fb": "Marcia beschreibt die Betroffenen als sehr heterogen — vom „Playboy-Typ“ bis zum schizoiden Persönlichkeitstyp."
+   },
+   {
+    "t": "Die diffuse Identität ist durch einen hohen Grad an Exploration bei niedrigem Grad an Verbindlichkeit gekennzeichnet.",
+    "c": false,
+    "fb": "Das beschreibt die kritische Identität („Moratorium“). Bei der diffusen Identität findet gar keine Auseinandersetzung statt."
+   }
+  ],
+  "concept": {
+   "title": "Marcias vier Identitätsstatus",
+   "points": [
+    "<b>Diffuse Identität</b>: kein kohärentes Selbstkonzept, keine Auseinandersetzung mit der eigenen Identität.",
+    "<b>Übernommene Identität (Foreclosure)</b>: keine erkennbare Krise; Werte der Eltern und Vorbilder werden unhinterfragt übernommen; autoritäre Werte, anfälliges Selbstwertgefühl.",
+    "<b>Kritische Identität (Moratorium)</b>: Krise wird erlebt; hohe Exploration bei niedriger Verbindlichkeit, alles bleibt offen.",
+    "<b>Erarbeitete Identität (Identity Achievement)</b>: Krise durchlaufen, Selbstbild erarbeitet; weniger autoritäre Werte, stabileres Selbstwertgefühl.",
+    "<b>Verhältnis zu Erikson</b>: Weiterentwicklung seiner Theorie — aber keine aufeinanderfolgenden Stufen, sondern Ergebnisse der Bewältigung psychosozialer Aufgaben."
+   ]
+  }
+ },
+ {
+  "kap": 6,
+  "sec": "6.2.1 Pränatale Entwicklung",
+  "stem": "Welche Aussage zu Fehlbildungen durch schädigende Einflüsse ist korrekt?",
+  "opts": [
+   {
+    "t": "Von kleineren morphologischen Defekten spricht man, wenn die Fehlbildungen nur kosmetischer Natur sind, etwa eine zusätzliche Brustwarze oder kurze Finger.",
+    "c": true,
+    "fb": "Das Abgrenzungskriterium ist also die Funktion, nicht die Größe der Abweichung."
+   },
+   {
+    "t": "Eine Herzinsuffizienz zählt zu den kleineren morphologischen Defekten, weil sie medikamentös gut behandelbar ist.",
+    "c": false,
+    "fb": "Sie ist ein Beispiel für einen großen morphologischen Defekt — sie beeinträchtigt die Funktionalität."
+   },
+   {
+    "t": "Allein in Deutschland kommen jährlich etwa 4.900 Kinder mit großen Fehlbildungen zur Welt.",
+    "c": false,
+    "fb": "Es sind circa 49.000 pro Jahr (Queißer-Luft & Spranger, 2006)."
+   },
+   {
+    "t": "Große morphologische Defekte sind definitionsgemäß solche, die mehr als ein Organsystem betreffen.",
+    "c": false,
+    "fb": "Entscheidend ist, dass sie die Lebensfähigkeit oder Funktionalität des Kindes beeinträchtigen und zum Teil interventionsbedürftig sind — nicht, wie viele Organsysteme betroffen sind."
+   }
+  ],
+  "concept": {
+   "title": "Teratogene und ihre Folgen",
+   "points": [
+    "<b>Teratogene</b>: Umwelteinflüsse biologischer, physikalischer oder chemischer Natur, die die gesunde Entwicklung beeinträchtigen — etwa Erkrankungen der Mutter, Luftverschmutzung, ionisierende Strahlung, Suchtmittelkonsum.",
+    "<b>Was den Schaden bestimmt</b>: der Zeitpunkt (sensible Phasen starken Wachstums) <i>sowie</i> Menge und Dauer der Einwirkung.",
+    "<b>Kleinere morphologische Defekte</b>: rein kosmetisch, z. B. zusätzliche Brustwarze, kurze Finger.",
+    "<b>Große morphologische Defekte</b>: beeinträchtigen Lebensfähigkeit oder Funktionalität, zum Teil interventionsbedürftig, z. B. Herzinsuffizienz, Gliedmaßenfehlbildungen.",
+    "<b>Größenordnung</b>: allein in Deutschland jährlich circa 49.000 Kinder mit großen Fehlbildungen (Queißer-Luft & Spranger, 2006)."
+   ]
+  }
+ },
+ {
+  "kap": 6,
+  "sec": "6.3.1 Piaget – Kritik",
+  "stem": "Welche Aussage zur Objektpermanenz und ihrer heutigen Deutung ist korrekt?",
+  "opts": [
+   {
+    "t": "Die klassische Interpretation stützte sich darauf, dass Kinder ein verdecktes Objekt sofort und gezielt suchen.",
+    "c": false,
+    "fb": "Umgekehrt: Sie zeigten <i>keinerlei</i> Reaktion mehr, selbst wenn das Objekt vor ihren Augen verdeckt wurde — daraus wurde geschlossen, es existiere für sie nicht mehr."
+   },
+   {
+    "t": "Piaget nahm an, dass sich erste Formen der Objektpermanenz mit etwa 3,5 Monaten zeigen.",
+    "c": false,
+    "fb": "Das ist der Befund von Baillargeon (1987). Piaget selbst ging von etwa 8 Monaten aus."
+   },
+   {
+    "t": "Die Objektpermanenz gilt als Errungenschaft des präoperatorischen Stadiums.",
+    "c": false,
+    "fb": "Sie ist die Errungenschaft des sensumotorischen Stadiums. Dem präoperatorischen Stadium ist der Spracherwerb zugeordnet."
+   },
+   {
+    "t": "Neuere Überlegungen gehen davon aus, dass kleine Kinder durchaus wissen können, dass ein verdecktes Objekt weiter existiert, ihnen aber die Handlungsfähigkeit fehlt, es wieder sichtbar zu machen.",
+    "c": true,
+    "fb": "Sie zeigen dann keine Reaktion, weil ihnen dieses Wissen nichts nützt — nicht, weil das Objekt für sie verschwunden wäre."
+   }
+  ],
+  "concept": {
+   "title": "Objektpermanenz — klassische und heutige Lesart",
+   "points": [
+    "<b>Begriff</b>: das Wissen, dass ein Objekt weiter existiert, auch wenn es nicht mehr zu sehen ist; Errungenschaft des sensumotorischen Stadiums.",
+    "<b>Klassische Ableitung</b>: Kinder zeigen keinerlei Reaktion auf ein verdecktes Objekt — also, so der Schluss, existiert es für sie nicht mehr.",
+    "<b>Neuere Deutung</b>: Sie wissen es vielleicht, haben aber nicht die Handlungsfähigkeit, das Objekt selbst wieder sichtbar zu machen — und reagieren deshalb nicht.",
+    "<b>Baillargeon (1987)</b>: erste Formen des Verständnisses bereits mit etwa 3,5 Monaten statt der von Piaget angenommenen 8 Monate.",
+    "<b>Allgemeine Kritik</b>: Zu komplexes Testmaterial setzte zu viele weitere Voraussetzungen, sodass das Zielverhalten sich nicht zeigen konnte — die Fähigkeiten der Kinder wurden unterschätzt."
+   ]
+  }
+ },
+ {
+  "kap": 6,
+  "sec": "6.4.1 Bindung",
+  "stem": "Welche Aussagen über die Bezugspersonen bei den Bindungstypen B und C treffen zu?",
+  "opts": [
+   {
+    "t": "Eltern sicher gebundener Kinder agieren vorrangig autonom: Sie haben sich erfolgreich aus der eigenen Elternbeziehung gelöst und können sich auf ihre Rolle als Eltern fokussieren.",
+    "c": true,
+    "fb": "Diese Ablösung gilt als eine Voraussetzung dafür, verlässlich auf die Bedürfnisse des Kindes zu reagieren."
+   },
+   {
+    "t": "Der unsicher-ambivalente Typ wird auch als Typ A geführt, weil diese Kinder nach außen hin besonders ruhig wirken.",
+    "c": false,
+    "fb": "Der unsicher-ambivalente Typ ist Typ C. Nach außen ruhig wirken die Kinder des Typs A, des unsicher-vermeidenden."
+   },
+   {
+    "t": "Eltern unsicher-ambivalent gebundener Kinder sind oft noch in der Beziehung zu den eigenen Eltern verhaftet.",
+    "c": true,
+    "fb": "Das ist der Gegenpol zur autonomen Haltung der Eltern sicher gebundener Kinder."
+   },
+   {
+    "t": "Sicher gebundene Kinder zeigen beim Weggehen der Bezugsperson keine Reaktion, weil sie auf deren Rückkehr vertrauen.",
+    "c": false,
+    "fb": "Sie weinen, wenn die Bezugsperson geht, und suchen bei der Rückkehr sofort Kontakt. Gerade das unterscheidet sie von Typ A."
+   }
+  ],
+  "concept": {
+   "title": "Was hinter den Bindungsmustern vermutet wird",
+   "points": [
+    "<b>Typ B, sicher</b>: Kind weint beim Weggehen, sucht sofort Trost und lässt sich beruhigen; Eltern agieren vorrangig autonom und haben sich aus der eigenen Elternbeziehung gelöst.",
+    "<b>Typ A, unsicher-vermeidend</b>: Kind wirkt ruhig und sucht keinen Trost — es hat gelernt, dass die Bezugsperson nicht zuverlässig reagiert; im Cortisol zeigt sich hoher Stress.",
+    "<b>Typ C, unsicher-ambivalent</b>: Kind sucht Trost, kann ihn nicht annehmen; erlebte ambivalente Reaktionen von liebevoll bis abweisend.",
+    "<b>Warum der Trost nicht ankommt</b>: Manche Eltern erhöhen über die Traurigkeit des Kindes den eigenen Selbstwert; das Kind spürt diese Funktionalität und nimmt das Trösten als nicht ehrlich wahr.",
+    "<b>Reihenfolge der Typen</b>: A steht vor B, weil Typ-A-Kinder nach außen ruhiger reagieren — erst die weitere Forschung zeigte, dass B das eigentlich sichere Muster ist."
+   ]
+  }
+ },
+ {
+  "kap": 6,
+  "sec": "6.2.4 Erwachsenenalter (körperlich)",
+  "stem": "Welche Aussagen zur Menopause und zum körperlichen Altern treffen zu?",
+  "opts": [
+   {
+    "t": "Die Menopause tritt meist im mittleren Erwachsenenalter ein, durchschnittlich um das 50. Lebensjahr.",
+    "c": true,
+    "fb": "Definiert ist sie als der Zeitpunkt 12 Monate nach der letzten Regelblutung."
+   },
+   {
+    "t": "Als Perimenopause bezeichnet man die Zeit davor, in der die Periode bereits seltener auftritt, bis sie schließlich ganz ausbleibt.",
+    "c": true,
+    "fb": "Die Menopause selbst ist ein Zeitpunkt, die Perimenopause der Übergang dorthin."
+   },
+   {
+    "t": "Der Abbau von Reaktionszeit und Muskelkraft setzt bei den meisten Menschen bereits im frühen Erwachsenenalter ein.",
+    "c": false,
+    "fb": "Er beginnt bei den meisten erst im mittleren bis hohen Erwachsenenalter."
+   },
+   {
+    "t": "Gunzelmann und Kolleg:innen (1999) fanden, dass Personen über 60 Jahren stärkere Unsicherheit und Besorgnis gegenüber dem eigenen Körper berichten als Personen unter 60.",
+    "c": true,
+    "fb": "Das Körperempfinden hängt also mit real auftretenden körperlichen Veränderungen zusammen."
+   }
+  ],
+  "concept": {
+   "title": "Körperliche Veränderungen im Erwachsenenalter",
+   "points": [
+    "<b>Grundmuster</b>: Die Veränderungen verlaufen langsamer als in Kindheit und Adoleszenz und sind von Rückbildung statt Aufbau geprägt.",
+    "<b>Beginn des Abbaus</b>: Reaktionszeit und Muskelkraft nehmen bei den meisten erst im mittleren bis hohen Erwachsenenalter ab.",
+    "<b>Menopause</b>: Zeitpunkt 12 Monate nach der letzten Regelblutung, durchschnittlich um das 50. Lebensjahr; davor die Perimenopause mit seltener werdender Periode.",
+    "<b>Ursache</b>: Die Zahl der vor der Geburt angelegten Eizellen (1–2 Millionen) sinkt durch Atresie um etwa 1000 pro Monat, bis kein Eisprung mehr stattfindet.",
+    "<b>Hormonabfall</b>: Die Follikel produzieren Östradiol und Progesteron — mit der Menopause bricht diese Produktion eher abrupt ein.",
+    "<b>Körpererleben (Gunzelmann et al., 1999)</b>: Über 60-Jährige berichten mehr Unsicherheit und Besorgnis gegenüber dem eigenen Körper als Jüngere."
+   ]
+  }
+ },
+ {
+  "kap": 6,
+  "sec": "6.3.1 Piaget – Lernprinzipien",
+  "stem": "Welche Aussagen zu Piagets Position in der Anlage-Umwelt-Debatte und zu seinem Bild vom Kind treffen zu?",
+  "opts": [
+   {
+    "t": "Schemata sind nach Piaget mentale Strukturen, die im Laufe der Entwicklung zunehmend einfacher werden, weil überflüssige Unterscheidungen wegfallen.",
+    "c": false,
+    "fb": "Umgekehrt: Die Denkmuster werden im Laufe der Entwicklung immer komplexer."
+   },
+   {
+    "t": "Piaget sah „Kinder als Wissenschafter“, die eigene Hypothesen über ihre Umgebung bilden und experimentieren.",
+    "c": true,
+    "fb": "„Was passiert, wenn ich den Brei auf den Boden werfe?“ — aus solchen Versuchen entstehen Schemata."
+   },
+   {
+    "t": "Die biologische Perspektive erklärte die kognitive Reifung ausschließlich über die Erbanlagen, die Lernperspektive ausschließlich über äußere Umweltfaktoren.",
+    "c": true,
+    "fb": "Diese beiden Lager standen sich zu Piagets Zeit gegenüber — die klassische Anlage-Umwelt-Debatte."
+   },
+   {
+    "t": "Piaget betonte demgegenüber die Wechselwirkungen zwischen den Fähigkeiten des Kindes und seiner Umgebung.",
+    "c": true,
+    "fb": "Er kombinierte damit beide Ansätze, statt sich für einen zu entscheiden."
+   }
+  ],
+  "concept": {
+   "title": "Piagets Ausgangspunkt",
+   "points": [
+    "<b>Zwei Lager</b>: biologische Perspektive (nur Erbanlagen) gegen Lernperspektive (nur Umwelt) — die Anlage-Umwelt-Debatte.",
+    "<b>Piagets Antwort</b>: Wechselwirkung zwischen den Fähigkeiten des Kindes und seiner Umgebung; beide Ansätze kombiniert.",
+    "<b>Menschenbild</b>: „Kinder als Wissenschafter“, die Hypothesen bilden, experimentieren und daraus schließen — eine konstruktivistische Sichtweise.",
+    "<b>Schemata</b>: mentale Strukturen oder Muster aus Erfahrung, auf deren Basis Informationen organisiert und interpretiert werden; sie werden immer komplexer.",
+    "<b>Zwei Lernwege</b>: Assimilation ordnet Neues in vorhandene Schemata ein, Akkommodation passt die Schemata an das Neue an."
+   ]
+  }
+ },
+ {
+  "kap": 6,
+  "sec": "6.2.1 Pränatale Entwicklung",
+  "stem": "Welche Aussagen zum embryonalen und zum fötalen Stadium treffen zu?",
+  "opts": [
+   {
+    "t": "Ungefähr ab der 16. Schwangerschaftswoche kann die Mutter die Bewegungen des Fötus wahrnehmen.",
+    "c": true,
+    "fb": "So berichtet es die im Skript zitierte Arbeit von Kisilevsky und Low (1998)."
+   },
+   {
+    "t": "Der erste messbare Herzschlag des Embryos ist mit 120 bis 160 Schlägen pro Minute fast doppelt so schnell wie der einer erwachsenen Person.",
+    "c": true,
+    "fb": "Er lässt sich im embryonalen Stadium erfassen, also zwischen der dritten und achten Schwangerschaftswoche."
+   },
+   {
+    "t": "Erste spontane Bewegungen zeigen sich erst im fötalen Stadium, also frühestens ab der neunten Schwangerschaftswoche.",
+    "c": false,
+    "fb": "Schon ungefähr ab der siebten Schwangerschaftswoche, also noch im embryonalen Stadium."
+   },
+   {
+    "t": "Im fötalen Stadium vervielfacht sich das Gewicht von nicht einmal 15 Gramm auf durchschnittlich 1,5 Kilogramm.",
+    "c": false,
+    "fb": "Auf durchschnittlich 3,3 Kilogramm; die Geburtsgröße liegt bei ungefähr 50 Zentimetern."
+   }
+  ],
+  "concept": {
+   "title": "Embryonales und fötales Stadium",
+   "points": [
+    "<b>Embryonal (3.–8. SSW)</b>: Zellspezialisierung aus zuvor neutralen Stammzellen, Beginn der Organbildung.",
+    "<b>Herzschlag</b>: erstmals messbar mit 120 bis 160 Schlägen pro Minute — fast doppelt so schnell wie bei Erwachsenen.",
+    "<b>Erste Bewegungen</b>: spontane Bewegungen ungefähr ab der siebten Schwangerschaftswoche.",
+    "<b>Fötal (ab 9. SSW)</b>: Schwerpunkt Wachstum; Gewicht steigt in sechs Monaten von unter 15 Gramm auf durchschnittlich 3,3 Kilogramm, Geburtsgröße rund 50 Zentimeter.",
+    "<b>Verhalten</b>: mehr Bewegung, erste Atemformen, Schlaf-Wach-Rhythmus; ab ca. der 16. SSW für die Mutter spürbar (Kisilevsky & Low, 1998)."
+   ]
+  }
+ },
+ {
+  "kap": 6,
+  "sec": "6.3.3 Kohlberg – Moral",
+  "stem": "Welche Aussage zu Kohlbergs Niveaus und ihrer Systematik ist korrekt?",
+  "opts": [
+   {
+    "t": "Stufe zwei folgt dem Grundsatz „Wie du mir, so ich dir“, weil Bedürfnisse anderer nur instrumentell befriedigt werden — Kohlberg ordnet sie dem konventionellen Niveau zu.",
+    "c": false,
+    "fb": "Die Beschreibung der Stufe stimmt, die Einordnung nicht: Stufe zwei gehört zum präkonventionellen Niveau."
+   },
+   {
+    "t": "Jedes der drei Niveaus umfasst drei Stufen, sodass sich insgesamt neun Stufen ergeben.",
+    "c": false,
+    "fb": "Jedes Niveau umfasst zwei Stufen — insgesamt also sechs."
+   },
+   {
+    "t": "Die Niveaus sind danach benannt, inwieweit eine Person die Konventionen einer Gesellschaft anerkennt; auf dem präkonventionellen Niveau wird noch nicht verstanden, dass Normen Vereinbarungen sind.",
+    "c": true,
+    "fb": "Auf dem konventionellen Niveau wird die Perspektive eines Gesellschaftsmitglieds eingenommen, auf dem postkonventionellen gelten universelle Prinzipien als übergeordnet."
+   },
+   {
+    "t": "Für Kohlberg war bei den meisten Niveaus entscheidend, wie sich eine Person im Dilemma entscheidet, nicht, wie sie diese Entscheidung begründet.",
+    "c": false,
+    "fb": "Genau umgekehrt: Nicht die Entscheidung (stehlen vs. nicht stehlen), sondern die Begründung war für ihn maßgeblich."
+   }
+  ],
+  "concept": {
+   "title": "Kohlbergs drei Niveaus mit je zwei Stufen",
+   "points": [
+    "<b>Benennungslogik</b>: danach, inwieweit die Konventionen einer Gesellschaft (an)erkannt werden.",
+    "<b>Präkonventionell</b>: Normen werden noch nicht als Vereinbarungen verstanden. Stufe 1 heteronome Moral (Strafvermeidung), Stufe 2 Individualismus und Austausch („Wie du mir, so ich dir“).",
+    "<b>Konventionell</b>: Perspektive eines Gesellschaftsmitglieds. Stufe 3 wechselseitige Erwartungen und Konformität, Stufe 4 soziales System und Gewissen — eine strafende Instanz ist nicht mehr nötig.",
+    "<b>Postkonventionell</b>: universelle ethische Prinzipien stehen über den Normen. Stufe 5 sozialer Kontrakt, Stufe 6 universelle ethische Prinzipien.",
+    "<b>Bewertungsmaßstab</b>: Für die meisten Niveaus zählt nicht die Entscheidung, sondern ihre Begründung.",
+    "<b>Herkunft</b>: abgeleitet aus Schülerantworten zum Heinz-Dilemma, inspiriert von Piagets Stadienmodell."
+   ]
+  }
+ },
+ {
+  "kap": 6,
+  "sec": "6.2.3 Adoleszenz (körperlich)",
+  "stem": "Welche Aussagen zum Beginn und zum Erleben der Pubertät treffen zu?",
+  "opts": [
+   {
+    "t": "Der Zeitpunkt der Menarche hängt neben der genetischen Grundlage auch von körperlichen Faktoren wie dem Gewicht ab.",
+    "c": true,
+    "fb": "Im Durchschnitt tritt sie mit ungefähr 12 Jahren auf, schwankt aber stark."
+   },
+   {
+    "t": "Bei Buben liegt der Beginn der Pubertät zwischen dem 10. und 17., bei Mädchen zwischen dem 9. und 14. Lebensjahr.",
+    "c": true,
+    "fb": "Wann genau die Veränderungen einsetzen, variiert individuell stark."
+   },
+   {
+    "t": "Duchesne und Kolleg:innen (2017) zeigten, dass die körperlichen und hormonellen Veränderungen das Wohlbefinden Jugendlicher kaum berühren.",
+    "c": false,
+    "fb": "Im Gegenteil: Diese Phase kann das Wohlbefinden stark beeinflussen und zu geringem Selbstwert und psychischem Stress führen."
+   },
+   {
+    "t": "Bei Buben beginnt die Pubertät mit dem Stimmbruch, dem sichtbarsten sekundären Geschlechtsmerkmal.",
+    "c": false,
+    "fb": "Sie beginnt mit dem Wachstum der Hoden, der Schambehaarung und des Penis. Der Stimmbruch ist ein sekundäres Geschlechtsmerkmal, aber nicht der Anfangspunkt."
+   }
+  ],
+  "concept": {
+   "title": "Pubertät: Zeitfenster und Kennzeichen",
+   "points": [
+    "<b>Zeitfenster</b>: Buben zwischen dem 10. und 17., Mädchen zwischen dem 9. und 14. Lebensjahr — mit starker individueller Streuung.",
+    "<b>Hormone</b>: bei Buben vermehrt Testosteron, bei Mädchen Östrogen und Progesteron.",
+    "<b>Bei Buben</b>: Beginn mit Wachstum von Hoden, Schambehaarung und Penis; Spermarche als Beginn der Spermienproduktion.",
+    "<b>Bei Mädchen</b>: Menarche im Durchschnitt mit etwa 12 Jahren, abhängig von genetischer Grundlage und körperlichen Faktoren wie dem Gewicht.",
+    "<b>Sekundäre Geschlechtsmerkmale</b>: Brustentwicklung, Stimmbruch, Bartwuchs, Intimbehaarung — nach außen erkennbare Zeichen der Geschlechtsreife.",
+    "<b>Erleben</b>: Die Phase kann Wohlbefinden stark belasten und zu geringem Selbstwert und psychischem Stress führen (Duchesne et al., 2017)."
+   ]
+  }
+ },
+ {
+  "kap": 6,
+  "sec": "6.4.1 Bindung",
+  "stem": "Welche Aussagen zum heutigen Forschungsstand der Bindungstheorie treffen zu?",
+  "opts": [
+   {
+    "t": "Die Sensitivität der Bindungsperson gilt als zentraler Umweltfaktor, der zu Bindungsunterschieden in der frühen Kindheit führt.",
+    "c": true,
+    "fb": "Eine der klassischen Annahmen, die auch in neueren Studien bestätigt wurde (Fearon & Roisman, 2017)."
+   },
+   {
+    "t": "Bindung wird auch als generationenübergreifendes Phänomen beschrieben.",
+    "c": true,
+    "fb": "Das passt zu den Befunden über die Eltern der einzelnen Bindungstypen und deren eigene Elternbeziehung."
+   },
+   {
+    "t": "Verschiedene Studien konnten die Gültigkeit der Bindungstheorie über unterschiedliche Kulturen hinweg feststellen.",
+    "c": true,
+    "fb": "Das Skript nennt dazu Jin und Kolleg:innen (2012) sowie van Ijzendoorn und Kroonenberg (1990)."
+   },
+   {
+    "t": "Die tragende Bindungsrolle muss nicht die Mutter übernehmen — auch ein Vater, Großeltern oder Bezugsbetreuer:innen im Heim können das erfolgreich tun.",
+    "c": true,
+    "fb": "So Shirvanian und Michael (2017). Die Definition nennt die Mutter nur als besonders häufigen Fall."
+   }
+  ],
+  "concept": {
+   "title": "Bindungstheorie heute",
+   "points": [
+    "<b>Status</b>: Die Bindungstheorie zählt zu den anerkannten Theorien der Entwicklungspsychologie und wird stetig weiter beforscht.",
+    "<b>Kulturelle Reichweite</b>: Gültigkeit über verschiedene Kulturen hinweg belegt (Jin et al., 2012; van Ijzendoorn & Kroonenberg, 1990).",
+    "<b>Bestätigte Kernannahmen (Fearon & Roisman, 2017)</b>: Sensitivität der Bindungsperson als zentraler Umweltfaktor; Bindung als generationenübergreifendes Phänomen; frühe Bindungserfahrung als prägend für die soziale und emotionale Entwicklung.",
+    "<b>Wer Bindungsperson sein kann</b>: nicht zwingend die Mutter — Vater, Großeltern oder Bezugsbetreuer:innen im Heim ebenso (Shirvanian & Michael, 2017).",
+    "<b>Methode</b>: Die Fremde Situation nach Ainsworth ist bis heute eine verbreitete und anerkannte Forschungsmethode."
+   ]
+  }
+ },
+ {
+  "kap": 6,
+  "sec": "6.3.4 Kognition im Erwachsenenalter",
+  "stem": "Welche Aussagen zur kognitiven Leistungsfähigkeit im hohen Erwachsenenalter treffen zu?",
+  "opts": [
+   {
+    "t": "Der Rückgang der kognitiven Fähigkeiten wird in der Regel unterschätzt, und gezieltes Training kann ihn nicht aufhalten.",
+    "c": false,
+    "fb": "Gleich zwei Umkehrungen: Der Rückgang wird häufig <i>über</i>schätzt und als zu früh einsetzend angenommen, und dem kognitiven Abbau kann durch gezieltes Training entgegengewirkt werden."
+   },
+   {
+    "t": "Sind Personen im hohen Erwachsenenalter generell gesund, zeigen sich in den meisten Fällen nur leichte bis gar keine kognitiven Einbußen.",
+    "c": true,
+    "fb": "Umweltfaktoren wie Ernährung sowie körperliche und geistige Aktivität spielen dabei eine große Rolle."
+   },
+   {
+    "t": "Bei Personen über 65 Jahren korrelieren die Leistungsniveaus verschiedener kognitiver Fähigkeiten stärker miteinander als bei jüngeren Personen.",
+    "c": true,
+    "fb": "Wer etwa über eine überdurchschnittliche Gedächtnisleistung verfügt, hat eher auch eine überdurchschnittliche Wortflüssigkeit."
+   },
+   {
+    "t": "De Frias und Kolleg:innen (2007) fanden, dass geringere visuell-räumliche Fähigkeiten im hohen Erwachsenenalter mit einer geringeren Gedächtnisleistung einhergehen.",
+    "c": true,
+    "fb": "Ein Beispiel für genau diese engere Kopplung der Fähigkeiten im Alter."
+   }
+  ],
+  "concept": {
+   "title": "Kognition im hohen Erwachsenenalter",
+   "points": [
+    "<b>Verbreiteter Irrtum</b>: Der Rückgang wird häufig überschätzt und als zu früh einsetzend angenommen.",
+    "<b>Strukturveränderung</b>: Ab etwa 65 korrelieren visuell-räumliche Fähigkeiten, Gedächtnisleistung und Wortflüssigkeit stärker miteinander als bei Jüngeren — und nehmen insgesamt ab.",
+    "<b>Befund dazu (de Frias et al., 2007)</b>: geringere visuell-räumliche Fähigkeiten gehen mit geringerer Gedächtnisleistung einher.",
+    "<b>Neurokognitive Störungen</b>: Alzheimer-Demenz und Parkinson-Krankheit häufen sich; sie haben oft eine biologische Basis.",
+    "<b>Spielraum</b>: Bei generell gesunden Personen zeigen sich meist nur leichte bis gar keine Einbußen; Ernährung, körperliche und geistige Aktivität sowie gezieltes Training wirken entgegen."
+   ]
+  }
+ },
+ {
+  "kap": 6,
+  "sec": "6.2.1 Pränatale Entwicklung",
+  "stem": "Welche Aussage zu Belastungen in der Schwangerschaft und zur Pränataldiagnostik ist korrekt?",
+  "opts": [
+   {
+    "t": "Ein niedriger sozioökonomischer Status wirkt sich nachweislich nur dann auf das Ungeborene aus, wenn zusätzlich Suchtmittel konsumiert werden.",
+    "c": false,
+    "fb": "Auch ohne das: Finanzielle Not oder Obdachlosigkeit können über Mangelernährung der Mutter zu einer Unterversorgung des Kindes führen."
+   },
+   {
+    "t": "Ziel der pränatalen Diagnostik ist es ausschließlich, genetisch bedingte Erkrankungen frühzeitig zu erkennen.",
+    "c": false,
+    "fb": "Erfasst werden sollen Erkrankungen genetischen Ursprungs <i>und</i> solche, die durch Umweltfaktoren bedingt sind, ebenso Fehlbildungen und Fehlentwicklungen."
+   },
+   {
+    "t": "Zu den pränatal-diagnostischen Untersuchungen des Fötus zählen Nackenfaltenmessung, Organscreening und die Bestimmung der mütterlichen Blutgruppe.",
+    "c": false,
+    "fb": "Die ersten beiden stimmen, das dritte Glied nicht: Genannt wird die Fruchtwasserbiopsie. Bluttests gehören zu den herkömmlichen Untersuchungen bei der Mutter, nicht zur Diagnostik am Fötus."
+   },
+   {
+    "t": "Pränataler Stress wurde unter anderem mit Angstzuständen, Depressionen und Aufmerksamkeitsdefiziten bei Kindern in Zusammenhang gebracht.",
+    "c": true,
+    "fb": "So die im Skript zitierte Arbeit von Weinstock (2007)."
+   }
+  ],
+  "concept": {
+   "title": "Lebensumwelt der Mutter und vorgeburtliche Diagnostik",
+   "points": [
+    "<b>Sozioökonomische Lage</b>: niedriger Status, finanzielle Not oder Obdachlosigkeit können über Mangelernährung der Mutter zur Unterversorgung des Kindes führen.",
+    "<b>Psychische Belastung</b>: chronischer Stress, starke Belastungen sowie sexueller oder körperlicher Missbrauch wirken sich nachweislich negativ aus.",
+    "<b>Folgen pränatalen Stresses (Weinstock, 2007)</b>: Angstzustände, Depressionen und Aufmerksamkeitsdefizite bei den Kindern.",
+    "<b>Untersuchungen bei der Mutter</b>: herkömmlich etwa Bluttests und Ultraschall.",
+    "<b>Pränatal-diagnostische Untersuchungen des Fötus</b>: Nackenfaltenmessung, Organscreening, Fruchtwasserbiopsie.",
+    "<b>Ziel</b>: Krankheiten genetischen wie umweltbedingten Ursprungs sowie Fehlbildungen früh erkennen und Maßnahmen einleiten."
+   ]
+  }
+ },
+ {
+  "kap": 6,
+  "sec": "6.4.2 Erikson",
+  "stem": "Welche Aussage zur wissenschaftlichen Bewertung von Eriksons Stufenmodell ist korrekt?",
+  "opts": [
+   {
+    "t": "Erikson war in erster Linie Neurologe und leitete seine Phasen aus Daten zur Hirnreifung ab.",
+    "c": false,
+    "fb": "Er war Psychoanalytiker und Entwicklungspsychologe; sein Modell ist psychosozial, nicht neurobiologisch begründet."
+   },
+   {
+    "t": "Die Stufentheorie lässt sich in ihrer ursprünglichen Form kaum empirisch überprüfen, weil sie teilweise zu ungenau formuliert ist.",
+    "c": true,
+    "fb": "In den letzten Jahren wurden allerdings modifizierte Konzepte des Modells wieder in die Forschung aufgenommen."
+   },
+   {
+    "t": "Das Modell wurde wegen mangelnder Belege vollständig aus der psychologischen Forschung verabschiedet.",
+    "c": false,
+    "fb": "Modifizierte Konzepte des Stufenmodells sind in den letzten Jahren wieder aufgegriffen worden."
+   },
+   {
+    "t": "Besondere Bedeutung für die sozialwissenschaftliche Forschung hatte vor allem die Phase des hohen Erwachsenenalters mit der Krise „Ich-Integrität vs. Verzweiflung“.",
+    "c": false,
+    "fb": "Es war die Adoleszenz mit der Entwicklung einer Identität, die als Grundlage zahlreicher Untersuchungen im Jugendalter diente."
+   }
+  ],
+  "concept": {
+   "title": "Eriksons Modell in der Forschung",
+   "points": [
+    "<b>Person</b>: Erik Erikson (1902–1994), Psychoanalytiker und Entwicklungspsychologe.",
+    "<b>Aufbau</b>: Jede Phase ist von einer Thematik geprägt, die sich zu einer Krise steigert; deren Bewältigung ist Voraussetzung für die nächste Phase.",
+    "<b>Wichtige Einschränkung</b>: Kein Konflikt verschwindet mit seiner Bewältigung vollständig.",
+    "<b>Wirkung</b>: Vor allem die Adoleszenz mit der Identitätsentwicklung prägte die sozialwissenschaftliche Forschung zum Jugendalter.",
+    "<b>Kritik</b>: In der ursprünglichen Form kaum empirisch prüfbar, weil teilweise zu ungenau formuliert — modifizierte Konzepte wurden zuletzt wieder aufgenommen.",
+    "<b>Weiterentwicklung</b>: James Marcias Modell des Identitätsstatus knüpft hier an."
+   ]
+  }
+ },
+ {
+  "kap": 6,
+  "sec": "6.2.2 Frühe Kindheit",
+  "stem": "Welche Zuordnungen von Befund und Studie zur frühen Wahrnehmung treffen zu?",
+  "opts": [
+   {
+    "t": "Bushnell (2001): Der Säugling bevorzugt das Gesicht der eigenen Mutter.",
+    "c": true,
+    "fb": "Einer der Belege dafür, dass sich die Präferenz für die eigene Mutter in den ersten Lebenswochen rasch weiterentwickelt."
+   },
+   {
+    "t": "Cernoch und Porter (1985): Der Säugling zieht den Geruch der eigenen Mutter dem fremder Personen vor.",
+    "c": true,
+    "fb": "Die Präferenz zeigt sich also über mehrere Sinne hinweg."
+   },
+   {
+    "t": "Kisilevsky und Kolleg:innen (2009): Der Herzschlag des Kindes beschleunigt sich, wenn es die Stimme der eigenen Mutter im Vergleich zu anderen Stimmen hört.",
+    "c": true,
+    "fb": "Diese Präferenz bringt das Kind durch die Zeit im Mutterleib bereits mit auf die Welt."
+   },
+   {
+    "t": "Nishitani und Kolleg:innen (2009): In schmerzlichen Situationen beruhigt der Geruch der Muttermilch der eigenen Mutter schneller als der Muttermilch anderer Mütter.",
+    "c": true,
+    "fb": "Nicht der Geruch von Muttermilch an sich wirkt, sondern der der eigenen Mutter."
+   }
+  ],
+  "concept": {
+   "title": "Was Neugeborene wahrnehmen — und woher man es weiß",
+   "points": [
+    "<b>Ausstattung</b>: Nach der Geburt sind alle Sinne vorhanden, aber unterschiedlich gut ausgebildet.",
+    "<b>Stimme (Kisilevsky et al., 2009)</b>: beschleunigter Herzschlag bei der Stimme der eigenen Mutter.",
+    "<b>Gesicht (Bushnell, 2001)</b>: Bevorzugung des mütterlichen Gesichts.",
+    "<b>Geruch (Cernoch & Porter, 1985)</b>: Vorliebe für den Geruch der eigenen Mutter.",
+    "<b>Trost (Nishitani et al., 2009)</b>: schnellere Beruhigung in schmerzlichen Situationen durch den Geruch der eigenen Muttermilch.",
+    "<b>Sehen</b>: gegenüber Erwachsenen eingeschränkt in Schärfe, Kontrast- und Farbempfindlichkeit; dennoch Präferenzen für Muster, Bewegung, Dreidimensionalität, Neues und menschliche Gesichter."
+   ]
+  }
+ }
 ]

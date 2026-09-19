@@ -1,552 +1,952 @@
 [
-{
-  "kap": 5,
-  "sec": "5.3.3 Klassische Konditionierung",
-  "stem": "Welche Aussagen zu den Grundbegriffen der klassischen Konditionierung treffen zu?",
-  "opts": [
-    {"t": "Das Futter stellt einen unkonditionierten Reiz dar, der darauf folgende Speichelfluss eine unkonditionierte Reaktion.", "c": true, "fb": "UCS und UCR bezeichnen genau diese Verknüpfung, die beim Hund reflexhaft schon vor jeder Konditionierung vorliegt."},
-    {"t": "Von unkonditioniertem Reiz und unkonditionierter Reaktion spricht man, weil diese Verknüpfung bereits vor der Konditionierung besteht.", "c": true, "fb": "Darin liegt die Begründung der Vorsilbe: Die Verbindung ist nicht gelernt, sondern etwa durch einen Reflex vorgegeben."},
-    {"t": "Nach mehrmaliger gemeinsamer Darbietung mit dem Futter wird die Glocke vom neutralen zum konditionierten Reiz.", "c": true, "fb": "Die Paarung macht das Läuten zum Signal; die konditionierte Reaktion folgt danach auch ohne Darbietung des Futters."},
-    {"t": "Die klassische Konditionierung wird auch als Signallernen bezeichnet.", "c": true, "fb": "Der ursprünglich neutrale Reiz kündigt den zweiten Reiz an und wird damit zum Signal — daher die zweite Bezeichnung."}
-  ],
-  "concept": {
-    "title": "Klassische Konditionierung (Pawlow)",
-    "points": [
-      "<b>Ausgangsbeobachtung</b>: Pawlow (1849–1936) untersuchte Verdauungsdrüsen an Hunden; der Speichelfluss trat schon vor dem Fleischpulver auf — erst beim Anblick, später bei den Schritten des Versuchsleiters.",
-      "<b>UCS / UCR</b>: unkonditionierter Reiz (Futter) und unkonditionierte Reaktion (Speichelfluss); diese Verknüpfung besteht bereits vorher, z. B. reflexbedingt.",
-      "<b>Neutraler Reiz</b>: löst zunächst keine Reaktion aus, etwa das Läuten einer Glocke.",
-      "<b>CS / CR</b>: nach mehrmaliger gleichzeitiger Darbietung wird die Glocke zum konditionierten Reiz, der Speichelfluss zur konditionierten Reaktion — auch ohne Futter.",
-      "<b>Prinzip</b>: Durch gemeinsames Auftreten zweier Reize entsteht eine Assoziation; der neutrale Reiz wird zum <i>Signal</i> — daher auch <b>Signallernen</b>.",
-      "Randnotiz zur Person: Pawlow erhielt 1904 den Nobelpreis für Medizin — für die Verdauungsforschung, nicht für die Konditionierung."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.2.2 Theorien der Wahrnehmung",
-  "stem": "Welche Aussage zu den psychophysischen Schwellen und ihren Untersuchungsmethoden trifft zu?",
-  "opts": [
-    {"t": "Bei der Grenzmethode werden unterschiedlich starke Reize in zufälliger Reihenfolge dargeboten.", "c": false, "fb": "Das beschreibt die Konstanzmethode. Bei der Grenzmethode wird der Reiz gerade nicht zufällig, sondern in ab- oder zunehmender Intensität dargeboten."},
-    {"t": "Die Unterschiedsschwelle ist von der Intensität des Ausgangsreizes unabhängig.", "c": false, "fb": "Sie hängt sehr wohl vom Ausgangsreiz ab: Je stärker dieser ist, desto größer muss der absolute Unterschied zum zweiten Reiz ausfallen."},
-    {"t": "Als Absolutschwelle gilt jene Intensität, bei der ein Reiz in der Hälfte der Fälle erkannt wird.", "c": true, "fb": "Die empirische Schwellenkurve verläuft S-förmig; festgelegt wird die Schwelle am Punkt mit 50 % Erkennungsrate."},
-    {"t": "Reize oberhalb der ermittelten Absolutschwelle werden ausnahmslos wahrgenommen.", "c": false, "fb": "Oberhalb der Schwelle steigt lediglich die Wahrscheinlichkeit der Entdeckung; ein eindeutiger Grenzwert existiert nicht."}
-  ],
-  "concept": {
-    "title": "Psychophysik nach Fechner — Schwellen und Methoden",
-    "points": [
-      "<b>Absolutschwelle</b>: kleinste Reizintensität, die nötig ist, damit ein Reiz überhaupt wahrgenommen wird; empirisch dort angesetzt, wo er in 50 % der Fälle erkannt wird.",
-      "<b>Unterschiedsschwelle</b>: kleinste Differenz, um zwei Reize zu unterscheiden — abhängig vom Ausgangsreiz: je stärker dieser, desto größer der nötige absolute Unterschied.",
-      "<b>Grenzmethode</b>: Reize werden in ab- oder zunehmender Intensität dargeboten; nach jedem Reiz erfolgt das Urteil „wahrgenommen / nicht wahrgenommen“.",
-      "<b>Konstanzmethode</b>: gleiche Urteilsaufgabe, aber zufällige statt geordnete Abfolge der Intensitäten.",
-      "<b>Psychometrische Funktion</b>: Graph der Erkennungsrate; die reale Kurve steigt allmählich an, nicht sprunghaft von 0 % auf 100 %.",
-      "Beide Methoden lassen sich auch zur Bestimmung von Unterschiedsschwellen einsetzen (Kiesel & Koch, 2018)."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.4.4 Langzeitgedächtnis",
-  "stem": "Welche Aussagen zur Untergliederung des Langzeitgedächtnisses treffen zu?",
-  "opts": [
-    {"t": "Tulving (1972) unterschied innerhalb des expliziten Gedächtnisses das semantische und das episodische Gedächtnis.", "c": true, "fb": "Semantisch steht für Faktenwissen, episodisch für persönliche Erlebnisse — beide gehören zum bewusst abrufbaren Teil."},
-    {"t": "Das episodische Gedächtnis speichert persönliche Erlebnisse samt ihrer zeitlich-räumlichen Verknüpfungen.", "c": true, "fb": "Es hat stets Bezug zur eigenen Person und kann von Emotionen begleitet sein — anders als das semantische Faktenwissen."},
-    {"t": "Resultate klassischer und operanter Konditionierung zählen zum deklarativen Gedächtnis.", "c": false, "fb": "Sie gehören zum non-deklarativen, also impliziten Gedächtnis — ebenso wie nicht-assoziatives Lernen, Erwartungen und Priming."},
-    {"t": "Squire (1992) ordnete neben dem prozeduralen Gedächtnis auch Erwartungen und Priming dem non-deklarativen Gedächtnis zu.", "c": true, "fb": "Sein Beitrag bestand darin, das implizite Gedächtnis nicht mit dem prozeduralen gleichzusetzen, sondern weiter aufzufächern."}
-  ],
-  "concept": {
-    "title": "Untergliederung des Langzeitgedächtnisses (Becker-Carus & Wendt, 2017)",
-    "points": [
-      "<b>Eigenschaften</b>: sehr hohe Kapazität und lange, oft lebenslange Speicherdauer (Gazzaniga et al., 2017).",
-      "<b>Explizit / deklarativ</b>: bewusst abrufbare Inhalte. <b>Implizit / non-deklarativ</b>: nicht bewusst zugängliche Inhalte.",
-      "<b>Explizit → Tulving (1972)</b>: <b>semantisches Gedächtnis</b> (Faktenwissen ohne Personenbezug) und <b>episodisches Gedächtnis</b> (eigene Erlebnisse mit zeitlich-räumlichem Bezug, oft emotional gefärbt).",
-      "<b>Implizit → Squire (1992)</b>: prozedurales Gedächtnis (Radfahren, Zehnfingerschreiben) sowie klassische und operante Konditionierung, nicht-assoziatives Lernen und Erwartungen/Priming.",
-      "<b>Arbeitsteilung der Fächer</b>: implizite Prozesse behandelt vorrangig die Lernpsychologie, explizite die Gedächtnispsychologie.",
-      "<b>Empirische Basis</b>: Patient:innen mit Amnesie, die Faktenwissen verloren, motorische Aufgaben aber weiterhin beherrschten (Cohen & Squire, 1980)."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.1 Was ist Allgemeine Psychologie?",
-  "stem": "Welche Aussagen zum Selbstverständnis der Allgemeinen Psychologie treffen zu?",
-  "opts": [
-    {"t": "Die Bezeichnung verweist darauf, dass diese Teildisziplin die Gesamtheit der Psychologie umfasst.", "c": false, "fb": "Genau diese Deutung weist das Skript als naheliegenden Irrtum zurück; gemeint ist der universalistische Ansatz, kein Anspruch auf die ganze Disziplin."},
-    {"t": "Sie folgt einem universalistischen Ansatz: der Annahme, dass alle Menschen über die gleichen psychischen Funktionen verfügen.", "c": true, "fb": "Auf dieser Annahme beruht das Fach; aus ihr leitet es allgemein gültige Aussagen über psychische Funktionen ab."},
-    {"t": "Gegenüber der Differentiellen Psychologie verschiebt sich der Blick von Unterschieden auf Gemeinsamkeiten psychischer Vorgänge.", "c": true, "fb": "Die Differentielle Psychologie untersucht Unterschiede, die Allgemeine Psychologie das, was Menschen gemeinsam ist."},
-    {"t": "Sie beschreibt in erster Linie, wie sich psychische Prozesse über die Lebensspanne verändern.", "c": false, "fb": "Das ist Gegenstand der Entwicklungspsychologie; die Allgemeine Psychologie betrachtet gesunde erwachsene Personen."}
-  ],
-  "concept": {
-    "title": "Allgemeine Psychologie — Gegenstand und Abgrenzung",
-    "points": [
-      "<b>Universalistischer Ansatz</b>: Annahme, dass alle Menschen universell über die gleichen psychischen Funktionen verfügen (Becker-Carus & Wendt, 2017).",
-      "<b>Gegenstand</b>: grundlegende psychische Funktionen bei gesunden erwachsenen Menschen; daraus werden allgemein gültige Aussagen abgeleitet (Kiesel & Spada, 2018).",
-      "<b>Abgrenzung zur Differentiellen Psychologie</b>: dort Unterschiede, hier Gemeinsamkeiten.",
-      "<b>Abgrenzung zur Entwicklungspsychologie</b>: dort Veränderung im Laufe des Lebens, hier der gesunde Erwachsene.",
-      "<b>Abgrenzung zur Sozialpsychologie</b>: sozialpsychologische Aspekte bleiben außer Acht.",
-      "Merkhilfe: „Allgemein“ meint <i>universell</i>, nicht <i>umfassend</i>."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.4.3 Arbeitsgedächtnis",
-  "stem": "Welche Aussage zum Dual-Task-Paradigma und zur Studie von Robbins et al. (1996) trifft zu?",
-  "opts": [
-    {"t": "Die Qualität der Schachzüge litt vor allem bei jenen Personen, die immer wieder dasselbe Wort aussprechen mussten.", "c": false, "fb": "Diese Bedingung beanspruchte die phonologische Schleife, die beim Schach kaum benötigt wird — hier blieb die Leistung weitgehend erhalten."},
-    {"t": "Als Doppelaufgabenkosten bezeichnet man die Leistungsdifferenz zwischen gleichzeitiger und getrennter Bearbeitung zweier Aufgaben.", "c": true, "fb": "Liegt eine solche Differenz vor, spricht das für eine Beeinträchtigung durch das parallele Bearbeiten (Becker-Carus & Wendt, 2017)."},
-    {"t": "Das Generieren zufälliger Zahlen beanspruchte in der Studie den visuell-räumlichen Notizblock.", "c": false, "fb": "Zufallszahlen belasteten die zentrale Exekutive; den Notizblock beanspruchte das Tastendrücken im Uhrzeigersinn."},
-    {"t": "Als Kontrollbedingung diente das Drücken von Tasten im Uhrzeigersinn.", "c": false, "fb": "Die Kontrollbedingung bestand darin, im Sekundentakt immer dieselbe Taste zu drücken — ohne gezielte Beanspruchung einer Komponente."}
-  ],
-  "concept": {
-    "title": "Dual-Task-Paradigma und die Studie von Robbins et al. (1996)",
-    "points": [
-      "<b>Dual-Task</b>: Forschungsansatz, bei dem zwei Aufgaben zeitgleich bearbeitet werden; verglichen wird mit der Leistung bei getrennter Bearbeitung.",
-      "<b>Doppelaufgabenkosten (Dual-Task-Costs)</b>: die dabei entstehende Leistungsdifferenz (Becker-Carus & Wendt, 2017).",
-      "<b>Aufbau</b>: Schachprobleme lösen und parallel entweder dieselbe Taste im Sekundentakt drücken (Kontrolle), Zufallszahlen generieren (zentrale Exekutive), Tasten im Uhrzeigersinn drücken (visuell-räumlicher Notizblock) oder ein Wort wiederholen (phonologische Schleife).",
-      "<b>Ergebnis</b>: Die Schachleistung sank bei Zufallszahlen und beim Tastendrücken im Uhrzeigersinn — nicht beim Wortwiederholen.",
-      "<b>Schlussfolgerung</b>: Schach beansprucht vor allem zentrale Exekutive und visuell-räumlichen Notizblock; das stützt die Untergliederung des Arbeitsgedächtnisses.",
-      "<b>Logik des Paradigmas</b>: Zwei Aufgaben stören einander besonders dann, wenn sie dieselbe Komponente beanspruchen."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.2.4 Visuelle Wahrnehmung",
-  "stem": "Welche Aussagen zu den beiden Pfaden der visuellen Verarbeitung und zur doppelten Dissoziation treffen zu?",
-  "opts": [
-    {"t": "Schädigungen im ventralen Pfad zeigten sich darin, dass Objekte zwar benannt, aber nicht mehr gegriffen werden konnten.", "c": false, "fb": "Dieses Muster gehört zum dorsalen Pfad. Bei ventraler Schädigung war umgekehrt das Greifen möglich, das Benennen jedoch erschwert."},
-    {"t": "Der ventrale Pfad verläuft vom visuellen Cortex zum Temporallappen und trug ursprünglich die Bezeichnung „Was“-Pfad.", "c": true, "fb": "In der ursprünglichen Fassung stand er für die Objekterkennung (Mishkin, Ungerleider & Macko, 1983)."},
-    {"t": "Goodale und Milner (1992) schlugen für den dorsalen Pfad die Bezeichnung „Wie“-Pfad vor.", "c": true, "fb": "Sie stellten den Zweck der Information in den Vordergrund: Der dorsale Pfad steuert Handlungen wie Erreichen und Greifen."},
-    {"t": "Von einer doppelten Dissoziation spricht man, wenn sich zu beiden Aufgaben Personen mit jeweils umgekehrtem Ausfallmuster finden lassen.", "c": true, "fb": "Erst dieses Kreuzmuster entkräftet den Einwand, eine Aufgabe sei schlicht schwieriger als die andere."}
-  ],
-  "concept": {
-    "title": "Ventraler und dorsaler Pfad — und die doppelte Dissoziation",
-    "points": [
-      "<b>Ventraler Pfad</b>: visueller Cortex → Temporallappen; Objekterkennung, „Was“-Pfad (Mishkin, Ungerleider & Macko, 1983).",
-      "<b>Dorsaler Pfad</b>: visueller Cortex → Parietallappen; räumliche Verarbeitung, „Wo“-Pfad.",
-      "<b>Adaption von Goodale und Milner (1992)</b>: nicht die Qualität des Inputs, sondern der Zweck unterscheidet die Pfade — ventral <i>Vision for Perception</i>, dorsal <i>Vision for Action</i>, daher treffender „Wie“-Pfad.",
-      "<b>Befundlage</b>: dorsale Schädigung → benennen möglich, greifen schwierig; ventrale Schädigung → greifen möglich, benennen schwierig.",
-      "<b>Dissoziation</b>: Eine Person scheitert an Aufgabe A, löst aber Aufgabe B — das kann auch bloß an unterschiedlicher Schwierigkeit liegen.",
-      "<b>Doppelte Dissoziation</b>: Beide Ausfallmuster lassen sich finden. Auch sie bleibt ein indirekter Rückschluss, kein Beweis für zwei getrennte Prozesse (M. W. Eysenck & Keane, 2020)."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.3.3 Klassische Konditionierung",
-  "stem": "Was gilt für Löschung, Spontanremission, Reizgeneralisierung und Reizdiskrimination?",
-  "opts": [
-    {"t": "Die Spontanremission zeigt, dass die konditionierte Reaktion bei der Löschung nicht verlernt, sondern nur abgeschwächt wird.", "c": true, "fb": "Nach der Löschung löst der konditionierte Reiz erneut eine — wenn auch schwache — Reaktion aus; die Assoziation ist also noch vorhanden."},
-    {"t": "Von Reizdiskrimination spricht man, wenn auch dem konditionierten Reiz ähnliche Reize die Reaktion auslösen.", "c": false, "fb": "Das ist die Reizgeneralisierung. Die Diskrimination ist ihr Gegenstück: Auf ähnliche Reize werden unterschiedliche Reaktionen gelernt."},
-    {"t": "Beim Diskriminationstraining werden beide ähnlichen Reize gleichermaßen mit dem unkonditionierten Reiz gepaart.", "c": false, "fb": "Gepaart wird nur einer der beiden Reize; die Reaktion auf den anderen nimmt dadurch allmählich ab."},
-    {"t": "Watson und Rayner erzeugten bei Little Albert eine Furchtreaktion, die sich anschließend auf ähnliche Objekte ausweitete.", "c": true, "fb": "Albert reagierte danach auch auf weißen Hasen und Pelzmantel — ein klassisches Beispiel für Reizgeneralisierung (Watson & Rayner, 1920)."}
-  ],
-  "concept": {
-    "title": "Löschung, Spontanremission, Generalisierung, Diskrimination",
-    "points": [
-      "<b>Löschung (Extinktion)</b>: Bleibt der UCS aus, nimmt die konditionierte Reaktion ab, bis sie schließlich ausbleibt.",
-      "<b>Spontanremission</b>: Einige Zeit nach der Löschung löst der CS erneut eine Reaktion aus — schwach und rasch verschwindend; wird der CS wieder mit dem UCS gepaart, ist die CR schnell zurück.",
-      "<b>Deutung</b>: Löschung ist kein Vergessensprozess, sondern selbst eine Form des Lernens, die neben der alten Assoziation gespeichert wird und signalisiert, dass diese nicht mehr gilt.",
-      "<b>Reizgeneralisierung</b>: Auch dem CS ähnliche Reize lösen die CR aus — je ähnlicher, desto stärker. Sie ist ein Sicherheitsfaktor, da Reize in der Natur selten identisch auftreten.",
-      "<b>Reizdiskrimination</b>: Gegenstück dazu — auf ähnliche Reize werden unterschiedliche Reaktionen gelernt.",
-      "<b>Diskriminationstraining</b>: Nur einer der beiden ähnlichen Reize wird mit dem UCS gepaart; die Reaktion auf den anderen nimmt zunehmend ab (Gerrig et al., 2018)."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.4.3 Arbeitsgedächtnis",
-  "stem": "Welche Aussagen zur Millerschen Zahl und zum Chunking treffen zu?",
-  "opts": [
-    {"t": "Miller ging 1956 davon aus, dass sich im Arbeitsgedächtnis etwa sieben Einheiten behalten lassen.", "c": true, "fb": "Da diese Zahl ihm auch bei anderen Prozessen begegnete, nannte er sie die magische Zahl."},
-    {"t": "Die übliche Angabe 7 ± 2 macht deutlich, dass es sich um einen ungefähren Wert handelt.", "c": true, "fb": "Die Spannweite signalisiert, dass die Kapazität nicht exakt festgelegt ist."},
-    {"t": "Beim Chunking werden mehrere einzelne Informationen zu einer Informationseinheit gruppiert.", "c": true, "fb": "Aus 1, 9, 4, 5 wird so etwa eine einzige Jahreszahl statt vier separater Ziffern."},
-    {"t": "Ein Chunk beansprucht weniger Kapazität als die Einzelinformationen, aus denen er gebildet wurde.", "c": true, "fb": "Genau darin liegt der Nutzen: Insgesamt lässt sich mehr im Arbeitsgedächtnis unterbringen."}
-  ],
-  "concept": {
-    "title": "Millersche Zahl und Chunking",
-    "points": [
-      "<b>Magische Zahl</b>: George A. Miller (1956) — etwa sieben Einheiten im Arbeitsgedächtnis; auch <b>Millersche Zahl</b> genannt.",
-      "<b>7 ± 2</b>: die gängige Literaturangabe macht deutlich, dass es sich um eine Näherung handelt.",
-      "<b>Erklärungswert</b>: verständlich wird, warum lange Ziffern- oder Buchstabenfolgen wie Telefonnummern oder die IBAN schwer zu merken sind.",
-      "<b>Chunking</b>: Gruppieren mehrerer einzelner Informationen zu einer Informationseinheit, z. B. 1, 9, 4, 5 als Jahreszahl 1945.",
-      "<b>Effekt</b>: Ein Chunk verbraucht weniger Speicher als vier Einzelinformationen — insgesamt lässt sich mehr behalten.",
-      "Verwandter Mechanismus: Auch das Verknüpfen neuer Inhalte mit Wissen aus dem Langzeitspeicher entlastet das Arbeitsgedächtnis."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.1 Was ist Allgemeine Psychologie?",
-  "stem": "Welche Aussage zum kognitionspsychologischen Ansatz und zu den Themenbereichen der Allgemeinen Psychologie trifft zu?",
-  "opts": [
-    {"t": "Die Kognitive Psychologie entstand als Weiterentwicklung des Behaviorismus, den sie um beobachtbare Reiz-Reaktions-Ketten ergänzte.", "c": false, "fb": "Sie entwickelte sich als Gegenreaktion auf den behavioristischen Ansatz, der kognitive Prozesse zur Gänze außer Acht lässt."},
-    {"t": "Als eigener Themenbereich wird die Untersuchung interindividueller Unterschiede in Persönlichkeitsmerkmalen geführt.", "c": false, "fb": "Das ist Gegenstand der Differentiellen Psychologie und taucht in der Auflistung der Themenbereiche nicht auf."},
-    {"t": "Unter Volition fallen Prozesse, die mit dem Planen und Erreichen von Zielen zu tun haben.", "c": true, "fb": "So definiert es das Skript in der Fußnote zum Themenbereich Emotion, Motivation, Volition (Achtziger & Gollwitzer, 2021)."},
-    {"t": "Kognitiv bedeutet „das Wahrnehmen betreffend“ und bezieht sich auf die Aufnahme sensorischer Reize.", "c": false, "fb": "Kognitiv heißt „das Denken betreffend“; die Reizaufnahme ist nur ein Ausschnitt des kognitionspsychologischen Themenspektrums."}
-  ],
-  "concept": {
-    "title": "Kognitive Psychologie und die Themenbereiche des Fachs",
-    "points": [
-      "<b>Kognitive Psychologie</b>: seit der kognitiven Wende der vorherrschende Ansatz der Allgemeinen Psychologie; „kognitiv“ bedeutet „das Denken betreffend“.",
-      "<b>Entstehung</b>: als Gegenreaktion zum behavioristischen Ansatz, der kognitive Prozesse vollständig ausklammert. Ziel ist es, Methoden und Theorien zu entwickeln, die den Ablauf kognitiver Prozesse erklären.",
-      "<b>Fünf Themenbereiche</b>: Wahrnehmung/Aufmerksamkeit/Bewusstsein · Lernen/Gedächtnis/Wissen · Problemlösen/Denken/Entscheiden · Emotion/Motivation/Volition · Sprache.",
-      "<b>Volition</b>: Prozesse rund um das Planen und Erreichen von Zielen (Achtziger & Gollwitzer, 2021).",
-      "<b>Prozess der Inputverarbeitung</b>: sensorischer Reiz → Rezeptoren der Sinne → Filter der Aufmerksamkeit → Wahrnehmung → Klassifikation → Denken und Urteilen → Entscheidung → Handlung.",
-      "Vorwissen, Bewertungen, Emotion und Motivation greifen in diesen Ablauf laufend ein; Sprache erlaubt es, alle Inhalte mitzuteilen."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.4.5 Gedächtniseffekte",
-  "stem": "Welche Aussagen zum seriellen Positionseffekt und zu den Abrufmethoden treffen zu?",
-  "opts": [
-    {"t": "Der Primacy Effekt wird plausibel damit erklärt, dass frühe Wörter innerlich häufiger wiederholt werden können.", "c": true, "fb": "Dieses Rehearsal gilt als die naheliegende Erklärung für den besseren Abruf am Listenanfang."},
-    {"t": "Beim Serial Recall dürfen die gelernten Wörter in beliebiger Reihenfolge genannt werden.", "c": false, "fb": "Das kennzeichnet den Free Recall. Beim Serial Recall muss die Reihenfolge der Darbietung eingehalten werden."},
-    {"t": "Das Wiedererkennen erfordert in der Regel eine höhere Gedächtnisleistung als die eigenständige Wiedergabe.", "c": false, "fb": "Das Verhältnis ist umgekehrt: Recall verlangt in der Regel mehr, da beim Recognition-Test nur alte von neuen Wörtern getrennt werden müssen."},
-    {"t": "Der Recency Effekt wird unter anderem darauf zurückgeführt, dass die letzten Elemente noch im Kurzzeitgedächtnis präsent sind.", "c": true, "fb": "Daneben wird eine höhere zeitliche Diskriminierbarkeit der späten Elemente als Erklärung diskutiert (Gruber, 2018)."}
-  ],
-  "concept": {
-    "title": "Serieller Positionseffekt und Abrufmethoden",
-    "points": [
-      "<b>Serieller Positionseffekt</b>: Wörter am Anfang und am Ende einer Liste werden besser erinnert als solche aus der Mitte — bei kurzen wie bei längeren Listen (Jahnke, 1965).",
-      "<b>Primacy Effekt</b>: verbesserter Abruf der ersten Elemente; Erklärung ist das häufigere innere Wiederholen (Rehearsal).",
-      "<b>Recency Effekt</b>: verbesserter Abruf der letzten Elemente; erklärt über die Präsenz im Kurzzeitgedächtnis und über die höhere zeitliche Diskriminierbarkeit (Gruber, 2018).",
-      "<b>Anwendung</b>: Im Marketing werden die wichtigsten Botschaften bewusst an den Anfang und an das Ende einer Kampagne gesetzt.",
-      "<b>Recognition (Wiedererkennen)</b>: Alte Wörter müssen von neuen Distraktorwörtern getrennt werden — so funktioniert auch Teil A der Aufnahmeprüfung.",
-      "<b>Recall (Wiedergabe)</b>: in der Regel anspruchsvoller als Recognition; <b>Free Recall</b> in beliebiger, <b>Serial Recall</b> in vorgegebener Reihenfolge (Pastötter et al., 2018)."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.3.4 Operante Konditionierung",
-  "stem": "Welche Aussagen zu Verstärkung und Bestrafung treffen zu?",
-  "opts": [
-    {"t": "Bei der negativen Verstärkung wird ein als unangenehm empfundener Reiz weggenommen, wodurch das Verhalten wahrscheinlicher wird.", "c": true, "fb": "Beispiel aus dem Skript: die Befreiung von Haushaltsdiensten als Folge einer guten Note."},
-    {"t": "Primäre Verstärker befriedigen keine biologischen Bedürfnisse und entstehen durch klassische Konditionierung.", "c": false, "fb": "Das beschreibt sekundäre Verstärker wie Geld. Primäre Verstärker — Nahrung, Wasser — befriedigen biologische Bedürfnisse unmittelbar."},
-    {"t": "Ein Fernsehverbot nach einer schlechten Note ist ein Beispiel für negative Bestrafung.", "c": true, "fb": "Es wird ein als angenehm empfundener Reiz weggenommen, um die Auftretenswahrscheinlichkeit des Verhaltens zu senken."},
-    {"t": "Auch bei der operanten Konditionierung lassen sich Löschung und Spontanremission beobachten.", "c": true, "fb": "Bleibt die Verstärkung aus, geht das Verhalten auf das Ausgangsniveau zurück; danach kann es erneut spontan auftreten."}
-  ],
-  "concept": {
-    "title": "Verstärkung und Bestrafung nach Skinner",
-    "points": [
-      "<b>Verstärker</b>: Faktoren, die auf ein gezeigtes Verhalten folgen und sein Auftreten wahrscheinlicher machen.",
-      "<b>Primär vs. sekundär</b>: primäre Verstärker befriedigen biologische Bedürfnisse (Nahrung, Wasser); sekundäre — etwa Geld — tun das nicht und werden durch klassische Konditionierung geschaffen. Auch Personen können als Verstärker dienen.",
-      "<b>Positive Verstärkung</b>: angenehmer Reiz kommt hinzu (gute Note, Taschengeld). <b>Negative Verstärkung</b>: unangenehmer Reiz fällt weg (Befreiung vom Haushaltsdienst). Beide erhöhen die Auftretenswahrscheinlichkeit.",
-      "<b>Positive Bestrafung</b>: unangenehmer Reiz kommt hinzu (zusätzlicher Küchendienst). <b>Negative Bestrafung</b>: angenehmer Reiz fällt weg (Fernsehverbot, Hausarrest). Beide senken sie.",
-      "<b>Merkhilfe</b>: „positiv/negativ“ meint Hinzufügen oder Wegnehmen, „Verstärkung/Bestrafung“ die Richtung der Wahrscheinlichkeit.",
-      "Löschung bei ausbleibender Verstärkung, Spontanremission, Reizgeneralisierung und Reizdiskrimination treten auch hier auf (Gerrig et al., 2018)."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.2.1 Wahrnehmung",
-  "stem": "Welche Aussagen zu den drei Stufen der Wahrnehmung nach Becker-Carus und Wendt (2017) treffen zu?",
-  "opts": [
-    {"t": "Das Perzept, ein mentales Abbild des Wahrgenommenen, entsteht auf der Stufe der Klassifikation.", "c": false, "fb": "Das Perzept entsteht auf der zweiten Stufe, der Wahrnehmung im engeren Sinne; die Klassifikation ordnet dieses Abbild erst danach ein."},
-    {"t": "Die sensorische Empfindung wird eher der Biologischen Psychologie zugeordnet, die beiden folgenden Stufen der Allgemeinen Psychologie.", "c": true, "fb": "Diese Arbeitsteilung nennt das Skript ausdrücklich; die Stufen zwei und drei sind zudem oft schwer voneinander zu trennen."},
-    {"t": "Auf der dritten Stufe werden die Abbilder in bereits bekannte Kategorien eingeordnet.", "c": true, "fb": "Erst dadurch wird aus dem Abbild einer Person etwa eine Fremde, ein Freund oder eine Ärztin."},
-    {"t": "Bereits auf der ersten Stufe entsteht eine innere Repräsentation, die mit Vorerfahrungen abgeglichen wird.", "c": false, "fb": "Auf der ersten Stufe werden Reize lediglich aufgenommen und in neuronale Signale umgewandelt; der Abgleich folgt eine Stufe später."}
-  ],
-  "concept": {
-    "title": "Die drei Stufen der Wahrnehmung (Becker-Carus & Wendt, 2017)",
-    "points": [
-      "<b>Wahrnehmung allgemein</b>: Prozess der Aufnahme und Verarbeitung von Reizen aus der Umwelt; die Aufmerksamkeit bestimmt, was aufgenommen wird und trennt Wichtiges von Unwichtigem.",
-      "<b>Stufe 1 – Sensorische Empfindung</b>: Rezeptoren der Sinnesorgane nehmen Reize auf und wandeln sie in neuronale Signale um.",
-      "<b>Stufe 2 – Wahrnehmung im engeren Sinne</b>: Bildung einer inneren Repräsentation; im Zusammenspiel mit übergeordneten Prozessen entsteht das <b>Perzept</b>, ein mentales Abbild.",
-      "<b>Stufe 3 – Klassifikation</b>: Einordnung des Abbilds in bereits bekannte Kategorien.",
-      "<b>Zuordnung</b>: Stufe 1 eher Biologische Psychologie, Stufen 2 und 3 Allgemeine Psychologie — praktisch oft schwer trennbar.",
-      "Vorwissen, Vorerfahrungen, Bewertungen, Erwartungen und Emotionen beeinflussen, was zwei Personen in derselben Situation wahrnehmen (Kiesel & Koch, 2018)."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.4.4 Langzeitgedächtnis",
-  "stem": "Welche Aussage zur Amnesie und zum Fall H.M. trifft zu?",
-  "opts": [
-    {"t": "Bei einer retrograden Amnesie können keine neuen Gedächtnisinhalte mehr eingespeichert werden.", "c": false, "fb": "Das kennzeichnet die anterograde, vorwärts gerichtete Amnesie. Retrograd fehlen Ereignisse kurz vor der Schädigung."},
-    {"t": "Henry Molaison entwickelte nach der Entfernung von Teilen der Temporallappen und des Hippocampus eine ausgeprägte anterograde Amnesie.", "c": true, "fb": "Der Eingriff erfolgte wegen starker epileptischer Anfälle; neue Fakten und Ereignisse konnte er danach nicht mehr einspeichern."},
-    {"t": "In perzeptiv-motorischen Lernaufgaben schnitt H.M. durchgehend schlecht ab.", "c": false, "fb": "Gerade dort war er erfolgreich und behielt die erlernten Fähigkeiten sogar über ein Jahr hinaus."},
-    {"t": "Die bahnbrechenden Studien zu diesem Fall führte Brenda Milner gemeinsam mit Hermann Ebbinghaus durch.", "c": false, "fb": "Ihr Mitautor war der Neurochirurg William B. Scoville (Scoville & Milner, 1957); Ebbinghaus steht für die Vergessenskurve."}
-  ],
-  "concept": {
-    "title": "Amnesie und der Fall H.M.",
-    "points": [
-      "<b>Amnesie</b>: teilweiser Verlust der Erinnerungsfähigkeit infolge einer Schädigung des Gehirns — Ursachen sind Unfälle, aber auch Schlaganfall, Alkoholismus oder Gehirnentzündung.",
-      "<b>Retrograde Amnesie</b>: rückwärts gerichtet — Ereignisse kurz <i>vor</i> der Schädigung fehlen, alle übrigen kognitiven Funktionen bleiben intakt.",
-      "<b>Anterograde Amnesie</b>: vorwärts gerichtet — <i>neue</i> Inhalte lassen sich nicht mehr einspeichern; tritt häufig zusammen mit einer retrograden Amnesie auf.",
-      "<b>Henry Molaison (H.M.)</b>: Nach Entfernung von Teilen der Temporallappen und des Hippocampus wegen schwerer Epilepsie entwickelte er eine ausgeprägte anterograde Amnesie.",
-      "<b>Aufschlussreiche Dissoziation</b>: Neue Fakten und Ereignisse blieben ihm verschlossen, perzeptiv-motorische Lernaufgaben gelangen jedoch gut — ein Beleg für getrennte Gedächtnissysteme.",
-      "<b>Erforschung</b>: Brenda Milner, Neuropsychologin und Pionierin der kognitiven Neurowissenschaften, gemeinsam mit dem Neurochirurgen William B. Scoville in den 1950er Jahren (Scoville & Milner, 1957)."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.2.3 Aufmerksamkeit",
-  "stem": "Welche Aussagen zum Cueing-Paradigma und zu endogenen bzw. exogenen Hinweisreizen treffen zu?",
-  "opts": [
-    {"t": "In der validen Bedingung erschien der Zielreiz in 80 % der Durchläufe auf der Seite, in die der Pfeil zeigte.", "c": true, "fb": "In den übrigen 20 % tauchte er auf der Gegenseite auf — das ist die invalide Bedingung."},
-    {"t": "Die Reaktionszeiten waren in den neutralen Durchgängen am kürzesten und in den validen am längsten.", "c": false, "fb": "Die Reihenfolge lautet valide < neutral < invalide: Valide Durchgänge waren die schnellsten, invalide die langsamsten."},
-    {"t": "Endogene Hinweisreize wirken bereits ab einer SOA von etwa 50 Millisekunden, exogene erst ab etwa 200 Millisekunden.", "c": false, "fb": "Die Werte sind vertauscht: Exogene Reize wirken ab rund 50 ms, endogene brauchen mindestens etwa 200 ms."},
-    {"t": "Exogene Hinweisreize wirken früher, endogene dafür länger — bis zu etwa 500 Millisekunden.", "c": true, "fb": "Exogene Reize verlieren ihre Wirkung oft schon nach etwa 200 ms, endogene bleiben deutlich länger wirksam."}
-  ],
-  "concept": {
-    "title": "Cueing-Paradigma (Posner, 1980) und die beiden Aufmerksamkeitsarten",
-    "points": [
-      "<b>Aufbau</b>: Fixation der Bildschirmmitte, dann Hinweisreiz (Cue), dann Zielreiz; abhängige Variable ist die <b>Reaktionszeit</b> auf den Zielreiz.",
-      "<b>Drei Bedingungen</b>: neutral (neutrales Symbol, Zielreiz je 50 % links/rechts) · valide (Pfeil, 80 % korrekt) · invalide (20 % auf der Gegenseite).",
-      "<b>Ergebnis</b>: valide < neutral < invalide. Weil die Augen fixiert bleiben, scheiden Augenbewegungen als Ursache der kürzeren Reaktionszeit aus.",
-      "<b>Endogene Aufmerksamkeit</b>: von innen heraus gesteuert, beeinflusst von Erwartungen, Bewertungen, Vorwissen und Vorerfahrungen (Huestegge, 2022).",
-      "<b>Exogene Aufmerksamkeit</b>: wird von äußeren Reizen angezogen; der periphere Cue wirkt durch sein bloßes Erscheinen, ohne Bedeutungsverarbeitung.",
-      "<b>SOA (Stimulus-Onset-Asynchrony)</b>: endogen ab ca. 200 ms wirksam und bis ca. 500 ms anhaltend; exogen schon ab ca. 50 ms, aber oft nur bis ca. 200 ms."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.4.5 Gedächtniseffekte",
-  "stem": "Welche Aussagen zur Vergessenskurve von Ebbinghaus und zu Interferenzphänomenen treffen zu?",
-  "opts": [
-    {"t": "Ebbinghaus arbeitete mit Listen sinnloser Silben nach dem Muster Konsonant-Vokal-Konsonant.", "c": true, "fb": "Beispiele aus dem Skript sind FUB, KAH und BIK; er wiederholte solche Listen bis zum fehlerfreien Aufsagen."},
-    {"t": "Nach 24 Stunden ließen sich noch knapp 34 % der Arbeitsleistung einsparen.", "c": true, "fb": "Der Verlauf war 58 % nach 20 Minuten, 44 % nach einer Stunde, knapp 34 % nach 24 Stunden und gut 25 % nach sechs Tagen."},
-    {"t": "Von proaktiver Interferenz spricht man, wenn neu gelernte Inhalte das Erinnern älterer Inhalte beeinträchtigen.", "c": false, "fb": "Das beschreibt die retroaktive Interferenz. Proaktiv wirkt die ältere Information störend auf das Erinnern der neueren."},
-    {"t": "Die Gedächtnisleistung geht bereits in der ersten Stunde deutlich zurück und nimmt danach nur noch langsam ab.", "c": true, "fb": "Dieser steile Abfall mit anschließend flachem Verlauf ist die charakteristische Form der Vergessenskurve."}
-  ],
-  "concept": {
-    "title": "Vergessenskurve von Ebbinghaus und Interferenzphänomene",
-    "points": [
-      "<b>Ebbinghaus</b>: Begründer der experimentellen Gedächtnisforschung; „Über das Gedächtnis“ (1885), gewonnen in Selbstversuchen mit <b>sinnlosen Silben</b> (Konsonant-Vokal-Konsonant, z. B. FUB, KAH, BIK).",
-      "<b>Ersparnismethode</b>: Maß für die Gedächtnisleistung sind die beim Wiedererlernen eingesparten Wiederholungen bzw. die eingesparte Zeit — je weniger Zeit nötig, desto mehr wurde behalten.",
-      "<b>Verlauf</b>: nach 20 Minuten ca. 58 % Ersparnis, nach einer Stunde 44 %, nach 24 Stunden knapp 34 %, nach sechs Tagen gut 25 %.",
-      "<b>Interferenz</b>: Ein großer Teil des Vergessens entsteht dadurch, dass andere Informationen die gewünschten Inhalte verdrängen.",
-      "<b>Proaktive Interferenz</b>: <i>ältere</i> Inhalte erschweren das Erinnern <i>neuer</i> — früh gelerntes Spanisch stört das spätere Italienisch.",
-      "<b>Retroaktive Interferenz</b>: <i>neue</i> Inhalte erschweren das Erinnern <i>älterer</i> — nach dem Chemielernen fehlt der Physikstoff. Merkhilfe: Die Vorsilbe nennt die Richtung, in die gestört wird."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.3.1 Lernen",
-  "stem": "Welche Aussage zum psychologischen Lernbegriff und zum nicht-assoziativen Lernen trifft zu?",
-  "opts": [
-    {"t": "Bei der Sensitivierung führt die wiederholte Darbietung eines Reizes zu einer abnehmenden Reaktionsbereitschaft.", "c": false, "fb": "Abnehmend ist die Reaktion bei der Habituation. Die Sensitivierung erhöht Empfindlichkeit und Reaktionsbereitschaft, meist bei schmerzhaften Reizen."},
-    {"t": "Habituation und Sensitivierung gelten als nicht-assoziatives Lernen, weil keine Assoziationen zwischen Gegebenheiten gebildet werden müssen.", "c": true, "fb": "Damit grenzen sie sich von klassischer und operanter Konditionierung ab, bei denen genau solche Verknüpfungen entstehen."},
-    {"t": "Die Ausbildung der Theory of Mind wird als Lernprozess eingeordnet, da sie auf Erfahrung beruht.", "c": false, "fb": "Sie zählt zu den Entwicklungsprozessen; Lernen setzt eine durch Erfahrung bewirkte Änderung des Verhaltenspotenzials voraus."},
-    {"t": "Verhaltensänderungen infolge von Ermüdung oder Drogeneinfluss zählen zum Lernen, sofern sie beobachtbar sind.", "c": false, "fb": "Das Kriterium der überdauernden Veränderung schließt genau solche vorübergehenden Zustandsänderungen aus."}
-  ],
-  "concept": {
-    "title": "Lernen, Verhaltenspotenzial und nicht-assoziatives Lernen",
-    "points": [
-      "<b>Definition</b>: durch Erfahrung entstandene, relativ überdauernde Verhaltensänderungen (Gerrig et al., 2018) — nicht deterministisch, sondern als veränderte Auftretenswahrscheinlichkeit zu verstehen.",
-      "<b>Verhaltenspotenzial</b>: Gelerntes muss sich nicht sofort in Leistung zeigen; die Änderung kann erst viel später sichtbar werden.",
-      "<b>Abgrenzungen</b>: Reife- und Entwicklungsprozesse zählen nicht dazu — die Theory of Mind ist ein Entwicklungs-, kein Lernprozess. „Überdauernd“ schließt Ermüdung und Drogeneinfluss aus.",
-      "<b>Explizit vs. implizit</b>: bewusstes Aneignen (Schule, Prüfungsvorbereitung) gegenüber automatisch ablaufenden Prozessen ohne bewusste Verarbeitung (I. Koch & Stahl, 2017).",
-      "<b>Habituation</b>: Gewöhnung an einen zunächst auffälligen, aber ungefährlichen Reiz — die Orientierungsreaktion nimmt ab.",
-      "<b>Sensitivierung</b>: umgekehrter Fall — bei erschreckenden oder schmerzvollen Reizen steigen Empfindlichkeit und Reaktionsbereitschaft; beides zusammen bildet das <b>nicht-assoziative Lernen</b>."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.4.3 Arbeitsgedächtnis",
-  "stem": "Welche Aussagen zum Arbeitsgedächtnismodell nach Baddeley treffen zu?",
-  "opts": [
-    {"t": "Die phonologische Schleife verarbeitet sprachbasierte Informationen, auch still mitgesprochene geschriebene Wörter.", "c": true, "fb": "Beim Eintippen einer gelesenen Telefonnummer hält sie die Ziffern, bis sie im Handy stehen."},
-    {"t": "Der visuell-räumliche Notizblock kontrolliert die Aufmerksamkeit und koordiniert die übrigen Komponenten.", "c": false, "fb": "Diese Aufgabe übernimmt die zentrale Exekutive. Der Notizblock speichert visuelle und räumliche Informationen kurzfristig."},
-    {"t": "Der episodische Puffer wurde erst rund 25 Jahre nach dem ursprünglichen Modell ergänzt.", "c": true, "fb": "Baddeley (2000) fügte ihn als Schnitt- und Speicherstelle zwischen den Komponenten sowie zum Langzeitgedächtnis hinzu."},
-    {"t": "Baddeley und Hitch behielten den Begriff des Kurzzeitspeichers bei, weil dieser ausschließlich Gedächtnisaufgaben dient.", "c": false, "fb": "Sie ersetzten ihn durch das Arbeitsgedächtnis, gerade weil es auch andere komplexe Aufgaben wie Kopfrechnen trägt."}
-  ],
-  "concept": {
-    "title": "Das Arbeitsgedächtnismodell (Baddeley & Hitch, 1974; Baddeley, 2000)",
-    "points": [
-      "<b>Anlass</b>: Kritik am Modell von Atkinson & Shiffrin; der Begriff <i>Kurzzeitspeicher</i> wird durch <b>Arbeitsgedächtnis</b> ersetzt, weil dieses auch andere komplexe Aufgaben trägt.",
-      "<b>Zentrale Exekutive</b>: komplexeste Komponente; kontrolliert die Aufmerksamkeit und koordiniert die übrigen Bestandteile, die als Hilfssysteme gelten.",
-      "<b>Phonologische Schleife</b>: Verarbeitung und kurzfristige Speicherung sprachbasierter Information — gesprochene wie beim Lesen still mitgesprochene Wörter.",
-      "<b>Visuell-räumlicher Notizblock</b>: dasselbe für visuelle und räumliche Information, etwa einen beschriebenen Weg.",
-      "<b>Episodischer Puffer</b> (Baddeley, 2000): 25 Jahre später ergänzt; verbindet die Komponenten untereinander sowie mit Wahrnehmung und Langzeitgedächtnis.",
-      "Die drei Hilfssysteme haben begrenzte Kapazität und arbeiten weitgehend unabhängig; selektive Gedächtnisausfälle nach Hirnschädigungen lassen sich damit besser erklären als mit dem Drei-Speicher-Modell."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.2.4 Visuelle Wahrnehmung",
-  "stem": "Welche Aussagen zur Tiefen- und Größenwahrnehmung treffen zu?",
-  "opts": [
-    {"t": "Zur Linienperspektive zählt, dass parallel verlaufende Linien in der Entfernung aufeinander zulaufen.", "c": true, "fb": "Sie gehört zu den monokularen Hinweisen, für die die Information eines Auges genügt."},
-    {"t": "Weiter entfernte Objekte wirken bläulicher und weniger gesättigt — das nennt man atmosphärische Perspektive.", "c": true, "fb": "Diese Färbung dient als Hinweis darauf, dass ein Objekt weiter weg ist."},
-    {"t": "Konvergenz und Akkommodation werden als okulomotorische Tiefenhinweise bis zu einer Entfernung von drei Metern genutzt.", "c": true, "fb": "Die Augen bewegen sich nach innen und die Linse verdickt sich — beides sind binokulare, okulomotorische Hinweise."},
-    {"t": "Der Ames-Raum beruht auf einer gezielten Manipulation von Tiefenhinweisen wie der Linienperspektive.", "c": true, "fb": "Zwei unterschiedlich weit entfernte Ecken erscheinen gleich weit entfernt, wodurch die nähere Person deutlich größer wirkt."}
-  ],
-  "concept": {
-    "title": "Tiefen- und Größenwahrnehmung",
-    "points": [
-      "<b>Monokulare Hinweise</b> (ein Auge genügt): Linienperspektive · relative Größe (der kleinere von zwei gleichen Gegenständen wirkt ferner) · Verdeckung (der verdeckte Gegenstand wirkt ferner) · atmosphärische Perspektive (bläulich, weniger gesättigt = weiter weg).",
-      "<b>Binokulare Hinweise</b>: benötigen die Information beider Augen.",
-      "<b>Okulomotorische Tiefenhinweise</b>: Konvergenz (Augen bewegen sich nach innen) und Akkommodation (Linse verdickt sich) — nutzbar bis etwa 3 Meter.",
-      "<b>Querdisparation</b>: leicht unterschiedliche Netzhautbilder beider Augen; sie allein genügt für einen Tiefeneindruck — sichtbar an Autostereogrammen.",
-      "<b>Ames-Raum</b> (Adelbert Ames, 1935): manipulierte Tiefenhinweise lassen zwei unterschiedlich weit entfernte Ecken gleich weit erscheinen.",
-      "<b>Folge im Ames-Raum</b>: Da die kleinere Person nicht als „weiter weg“ interpretiert werden kann, erscheint die nähere Person schlicht viel größer (Gazzaniga et al., 2017)."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.2.3 Aufmerksamkeit",
-  "stem": "Welche Aussagen zu den klassischen Untersuchungen der Aufmerksamkeit treffen zu?",
-  "opts": [
-    {"t": "Broadbent (1954) leitete aus dem Split-Span-Paradigma ab, dass die Zahlen vor der Weiterverarbeitung nach ihrer Lokalisation selektiert werden.", "c": true, "fb": "Die Versuchspersonen gaben die Zahlen meist ohrweise statt paarweise wieder — die Lokalisation diente als Hinweisreiz zur Trennung."},
-    {"t": "Beim dichotischen Hören nach Cherry (1953) konnten die Versuchspersonen den Inhalt des unbeachteten Ohrs in der Regel wiedergeben.", "c": false, "fb": "Dazu konnten sie meist keine Angaben machen: Die Inhalte am anderen Ohr wurden zwar gehört, aber nicht wahrgenommen."},
-    {"t": "Als Experimentalparadigma bezeichnet man einen häufig verwendeten experimentellen Aufbau zur Untersuchung eines bestimmten Gegenstands.", "c": true, "fb": "Das Cueing-Paradigma und das Split-Span-Paradigma nennt das Skript als Beispiele dafür."},
-    {"t": "Im Experiment von Simons und Chabris (1999) entdeckte die Gruppe, die die Pässe des weißen Teams zählte, den Gorilla häufiger.", "c": false, "fb": "Es war umgekehrt: 83 % der Personen, die das schwarze Team zählten, sahen den Gorilla — beim weißen Team waren es nur 42 %."}
-  ],
-  "concept": {
-    "title": "Selektive Aufmerksamkeit und ihre Untersuchungsparadigmen",
-    "points": [
-      "<b>Aufmerksamkeit</b>: Filter, der vorsortiert, welche physikalischen Reize relevant sind; die <b>selektive Aufmerksamkeit</b> wählt aus vielen Sinneseindrücken eine Teilmenge aus.",
-      "<b>Unaufmerksamkeitsblindheit</b> (Simons & Chabris, 1999): 83 % der Personen, die die Pässe des <i>schwarzen</i> Teams zählten, entdeckten den Gorilla — beim weißen Team nur 42 %.",
-      "<b>Cocktailparty-Effekt</b>: Beispiel für selektives Hören; der eigene Name im Nebengespräch zieht die Aufmerksamkeit ab (Krummenacher & Müller, 2017).",
-      "<b>Dichotisches Hören</b> (Cherry, 1953): Das Wiedergeben des beachteten Textes gelingt leicht, der Inhalt am anderen Ohr wird gehört, aber nicht wahrgenommen.",
-      "<b>Split-Span-Paradigma</b> (Broadbent, 1954): Zahlenpaare werden meist ohrweise statt paarweise wiedergegeben → Selektion nach physikalischen Eigenschaften, hier der Lokalisation.",
-      "<b>Experimentalparadigma</b>: etablierter Versuchsaufbau für einen bestimmten Untersuchungsgegenstand — im Skript etwa das Cueing- und das Split-Span-Paradigma."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.3.5 Beobachtungslernen",
-  "stem": "Welche Aussage zum Beobachtungslernen und zu den Bobo-Doll-Experimenten trifft zu?",
-  "opts": [
-    {"t": "Das Beobachtungslernen wird dem Behaviorismus zugerechnet, weil es auf Reiz, Reaktion und Verstärkung beruht.", "c": false, "fb": "Es zählt zur kognitiven Psychologie und erklärt gerade jene Lernprozesse, die nicht auf Reiz, Reaktion und Verstärkung zurückgehen."},
-    {"t": "Im Experiment von 1965 zeigten jene Kinder die geringste Aggression, die ein Filmende mit Tadel gesehen hatten.", "c": true, "fb": "Belohntes Modell und Modell ohne Konsequenzen führten dagegen zu deutlich mehr physischer und verbaler Aggression."},
-    {"t": "Die Kinder der nicht-aggressiven Bedingung ahmten das Modell in abgeschwächter Form nach.", "c": false, "fb": "Sie zeigten so gut wie kein aggressives Verhalten; die Nachahmung trat nur in der aggressiven Bedingung auf."},
-    {"t": "Blieben Konsequenzen für die erwachsene Person aus, verhielten sich die Kinder ähnlich zurückhaltend wie nach der Tadelbedingung.", "c": false, "fb": "Die Gruppe ohne Konsequenzen lag auf ähnlich hohem Aggressionsniveau wie die Gruppe mit belohntem Modell."}
-  ],
-  "concept": {
-    "title": "Beobachtungslernen und die Bobo-Doll-Experimente (Bandura)",
-    "points": [
-      "<b>Bezeichnungen</b>: Modelllernen, Lernen am Modell, Imitationslernen, soziales Lernen, sozialkognitive Lerntheorie — zugeordnet der kognitiven Psychologie, nicht dem Behaviorismus.",
-      "<b>Prinzip</b>: Gelernt wird durch Beobachtung anderer Lebewesen, ohne eigene Erfahrung mit Reiz, Reaktion und Verstärkung.",
-      "<b>Bobo-Doll-Experiment</b> (Bandura, Ross & Ross, 1961): Vierjährige sahen ein Modell entweder aggressiv oder nicht-aggressiv gegenüber der Puppe; nur die aggressive Bedingung führte zu ähnlichem physischem und verbalem Verhalten.",
-      "<b>Stellvertretendes Lernen</b> (Bandura, 1965): Drei Filmenden — belohnt, getadelt, ohne Konsequenzen. Gruppe 1 und Gruppe 3 zeigten mehr Aggression als die Tadelgruppe; auch Konsequenzen werden also durch Beobachtung gelernt.",
-      "<b>Menschenbild</b>: aktiv Lernender; Lernen entsteht in Wechselwirkung von Person und Umwelt (soziale Komponente) sowie durch Planen, Reflektieren und Selbstmotivieren (kognitive Komponente).",
-      "Daraus entwickelten sich die sozial-kognitiven Persönlichkeitstheorien (Hobmair, 2012; vgl. Kapitel 8.2.4)."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.2.2 Theorien der Wahrnehmung",
-  "stem": "Welche Aussagen zur Signalentdeckungstheorie treffen zu?",
-  "opts": [
-    {"t": "Die zweite Komponente, der kognitive Entscheidungsprozess, variiert unmittelbar mit der Sensitivität der Person.", "c": false, "fb": "Der Entscheidungsprozess wird ausdrücklich als von der Sensitivität unabhängig beschrieben; er greift vor allem bei uneindeutigen Reizen."},
-    {"t": "Wird kein Reiz dargeboten und die Person meldet dennoch einen Reiz, liegt ein falscher Alarm vor.", "c": true, "fb": "Das Gegenstück ist die korrekte Zurückweisung: kein Reiz dargeboten und keiner berichtet."},
-    {"t": "Eine Nein-Sage-Tendenz äußert sich in einer vergleichsweise hohen Anzahl an Verpassern.", "c": true, "fb": "Bei Unsicherheit wird eher „kein Reiz“ angegeben — auch dann, wenn tatsächlich einer dargeboten wurde."},
-    {"t": "Eine Antworttendenz ist ein systematisches Muster im Antwortverhalten, das unabhängig vom Untersuchungsgegenstand auftritt.", "c": true, "fb": "Sie kann zugunsten oder zuungunsten einer bestimmten Antwortart ausfallen; die Ja-Sage-Tendenz ist ein Beispiel dafür."}
-  ],
-  "concept": {
-    "title": "Signalentdeckungstheorie",
-    "points": [
-      "<b>Grundannahme</b>: Das Entdecken eines Reizes ist kein objektiver, sondern ein subjektiver Prozess aus zwei Komponenten — motivationale Faktoren und konkurrierende Reize blieben in der Psychophysik unbeachtet.",
-      "<b>Sensitivität</b>: Empfindlichkeit gegenüber dem Reiz, stark beeinflusst von der Anwesenheit anderer Reize (voller Raum vs. geräuscharmer Raum).",
-      "<b>Kognitiver Entscheidungsprozess</b>: von der Sensitivität <b>unabhängig</b>; entscheidet vor allem bei uneindeutigen Reizen über „vorhanden / nicht vorhanden“.",
-      "<b>Vier mögliche Ausgänge</b>: Treffer (Reiz + Ja) · Verpasser (Reiz + Nein) · Falscher Alarm (kein Reiz + Ja) · Korrekte Zurückweisung (kein Reiz + Nein).",
-      "<b>Ja-Sage-Tendenz</b>: viele Treffer <i>und</i> auffällig viele falsche Alarme. <b>Nein-Sage-Tendenz</b>: auffällig viele Verpasser. Beides sind <b>Antworttendenzen</b>, also systematische Muster unabhängig vom Untersuchungsgegenstand.",
-      "Die gegebene Antwort ist damit nie Resultat des Reizes allein, sondern einer Kombination aus Reiz und kognitiven Prozessen (Becker-Carus & Wendt, 2017; Gazzaniga et al., 2017)."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.4.5 Gedächtniseffekte",
-  "stem": "Welche Aussagen zum Prinzip der Enkodierspezifität treffen zu?",
-  "opts": [
-    {"t": "Der Abruf gelingt besser, wenn die während der Enkodierung herrschenden Zustände denen beim Abruf ähneln.", "c": true, "fb": "Das ist die allgemeine Formulierung des Prinzips — sie gilt für Aufgabenformate ebenso wie für Kontexte."},
-    {"t": "Bei Godden und Baddeley (1975) war die Erinnerungsleistung am besten, wenn Lern- und Abfrageort auseinanderfielen.", "c": false, "fb": "Die Leistung war gerade dann am besten, wenn Lern- und Abfrageort übereinstimmten — obwohl der Ort für die Aufgabe irrelevant war."},
-    {"t": "Morris, Bransford und Franks (1977) zeigten, dass semantische Enkodierung dem Abruf unabhängig von der Abrufaufgabe überlegen ist.", "c": false, "fb": "Beim Reimtest kehrte sich der Effekt der Verarbeitungstiefe um: Phonemisch enkodierte Wörter wurden besser erkannt."},
-    {"t": "Passungseffekte betreffen nicht nur äußere Lernumgebungen, sondern auch innere Zustände wie die Stimmung.", "c": true, "fb": "In trauriger Stimmung Eingeprägtes lässt sich in trauriger Stimmung leichter abrufen."}
-  ],
-  "concept": {
-    "title": "Das Prinzip der Enkodierspezifität",
-    "points": [
-      "<b>Grundaussage</b>: Die Gedächtnisleistung beim Abruf ist besser, wenn die Zustände während der Enkodierung denen beim Abruf ähneln.",
-      "<b>Morris, Bransford und Franks (1977)</b>: Bei einem Reimtest wurden phonemisch enkodierte Wörter besser erkannt als semantisch enkodierte — der Effekt der Verarbeitungstiefe kehrte sich um. Entscheidend ist die <b>Passung</b> zwischen Einpräge- und Abrufaufgabe.",
-      "<b>Godden und Baddeley (1975)</b>: Taucher:innen lernten und erinnerten Wortlisten unter Wasser oder am Ufer; die Leistung war am besten, wenn Lern- und Abfrageort übereinstimmten.",
-      "<b>Reichweite</b>: Kontexteffekte betreffen äußere Lernumgebungen ebenso wie innere Zustände, etwa die emotionale Verfassung.",
-      "<b>Erklärung</b>: Mit dem Lernmaterial werden auch die Kontextbedingungen eingespeichert; beim Abruf wirken sie als Hinweisreize (Pastötter et al., 2018).",
-      "Bemerkenswert daran: Der Kontext wirkt selbst dann, wenn er für die eigentliche Aufgabe inhaltlich völlig irrelevant ist."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.3.4 Operante Konditionierung",
-  "stem": "Welche Aussage zu Thorndikes Problemkäfig und zur Skinner-Box trifft zu?",
-  "opts": [
-    {"t": "Bei Thorndikes Paradigma war eine Assoziation zwischen zwei Reizen beobachtbar, wie sie auch der klassischen Konditionierung zugrunde liegt.", "c": false, "fb": "Beobachtbar war eine Reiz-Reaktions-Verbindung: Der Mechanismus stellte den Reiz dar, sein Bedienen die Reaktion."},
-    {"t": "Skinner entwickelte seine operante Kammer rund fünfzehn Jahre vor Thorndikes Arbeiten am Problemkäfig.", "c": false, "fb": "Skinner baute den Problemkäfig etwa dreißig Jahre nach Thorndike weiter und setzte dabei auf dessen Gesetz des Effekts auf."},
-    {"t": "Als Operandum bezeichnete Skinner alles, was in der Versuchsanordnung einen Vorgang auslösen konnte, etwa einen Hebel oder eine Taste.", "c": true, "fb": "Weil der Käfig klein und reizarm war, betätigte das Tier früher oder später zwangsläufig ein vorhandenes Operandum."},
-    {"t": "Nach dem Gesetz des Effekts sinkt die Auftretenswahrscheinlichkeit einer Reaktion, wenn ihr eine befriedigende Konsequenz folgt.", "c": false, "fb": "Sie steigt in diesem Fall. Bleibt die befriedigende Konsequenz aus, vermindert sich die Wahrscheinlichkeit."}
-  ],
-  "concept": {
-    "title": "Von Thorndikes Problemkäfig zur Skinner-Box",
-    "points": [
-      "<b>Problemkäfig</b> (Thorndike, 1898): Katzen befreiten sich zunächst eher zufällig über einen Mechanismus; in weiteren Durchgängen gelang das immer schneller.",
-      "<b>S-R-Verbindung</b>: Anders als bei Pawlow verknüpft sich hier ein Reiz (Mechanismus) mit einer Reaktion (Bedienen) — gelernt über <b>Versuch und Irrtum</b>.",
-      "<b>Gesetz des Effekts</b>: Lernen wird durch seine Konsequenzen beeinflusst — folgt eine befriedigende Konsequenz, steigt die Auftretenswahrscheinlichkeit der Reaktion; bleibt sie aus, sinkt sie.",
-      "<b>Skinners Kritik</b>: „befriedigende Zustände“ seien nicht empirisch beobachtbar; rund dreißig Jahre nach Thorndike formalisierte er die Theorie stärker.",
-      "<b>Skinner-Box</b>: von Skinner selbst <i>operante Kammer</i> genannt; klein und reizarm, mit mindestens einem <b>Operandum</b> (Hebel, Taste), das zwangsläufig betätigt wird.",
-      "<b>Vorgehen</b>: erst die <b>Basisrate</b> ohne Verstärkung bestimmen, dann die Konditionierungsphase mit gezielter Verstärkung (Spada, Rummel & Ernst, 2018)."
-    ]
-  }
-},
-{
-  "kap": 5,
-  "sec": "5.2.4 Visuelle Wahrnehmung",
-  "stem": "Welche Aussagen zu den Theorien des Farbensehens und zu Komplementärfarben treffen zu?",
-  "opts": [
-    {"t": "Die Dreifarbentheorie geht auf Thomas Young zurück und wurde von Hermann von Helmholtz aufgegriffen und weiterentwickelt.", "c": true, "fb": "Young postulierte sie zu Beginn des 19. Jahrhunderts; heute bestätigen drei Zapfentypen in der Retina die Grundannahme."},
-    {"t": "Dass längeres Betrachten einer Farbe ein Nachbild in der Komplementärfarbe erzeugt, erklärt die Dreifarbentheorie.", "c": false, "fb": "Genau dieses Phänomen blieb der Dreifarbentheorie verschlossen; die Gegenfarbentheorie erklärt es über die Ermüdung einer Komponente."},
-    {"t": "Im RGB-Modell gelten Rot–Grün, Blau–Gelb sowie Schwarz–Weiß als Komplementärfarbenpaare.", "c": false, "fb": "Diese Paare stammen aus Herings Gegenfarbentheorie. Im RGB-Modell sind es Rot–Cyan, Grün–Magenta und Blau–Gelb."},
-    {"t": "Nach Hering reagiert die Rot-Grün-Einheit auf Rot mit einer Erhöhung und auf Grün mit einer Verminderung der Aktivität.", "c": true, "fb": "Da eine Einheit nicht gleichzeitig erhöht und vermindert reagieren kann, ist ein grünliches Rot nicht wahrnehmbar."}
-  ],
-  "concept": {
-    "title": "Zwei Theorien des Farbensehens und die Komplementärfarben",
-    "points": [
-      "<b>Physikalische Basis</b>: Das menschliche Auge nimmt Wellenlängen von etwa 400–700 nm wahr; 500–570 nm werden als Grün gesehen. Lichtintensität = <b>Helligkeit</b>, Reinheit = <b>Sättigung</b>.",
-      "<b>Dreifarbentheorie</b> (Young, weitergeführt von von Helmholtz): Jede Farbe ist eine Kombination von Licht in drei Wellenlängen; drei Rezeptorsysteme mit unterschiedlicher spektraler Empfindlichkeit — heute bestätigt durch drei Zapfentypen. Farbblindheit entsteht durch Ausfall oder Fehlen von Rezeptortypen.",
-      "<b>Gegenfarbentheorie</b> (Hering): drei gegensätzlich wirkende Einheiten — Rot–Grün, Blau–Gelb, Schwarz–Weiß. Die Rot-Grün-Einheit reagiert auf Rot mit erhöhter, auf Grün mit verminderter Aktivität.",
-      "<b>Konsequenz daraus</b>: kein grünliches Rot, wohl aber ein grünliches Blau — wenn beide Einheiten geringe Aktivität zeigen.",
-      "<b>Nachbilder</b>: erklärbar über die Gegenfarbentheorie — eine Komponente ermüdet, die andere ist bei neutraler Reizung aktiver.",
-      "<b>Komplementärfarben</b>: Farbpaare, die kombiniert Weiß oder Grau ergeben. Bei Hering Rot–Grün, Blau–Gelb, Schwarz–Weiß; im RGB-Modell dagegen Rot–Cyan, Grün–Magenta und Blau–Gelb (Pinel et al., 2019)."
-    ]
-  }
-},
-{
+ {
   "kap": 5,
   "sec": "5.4.2 Drei-Speicher-Modell",
-  "stem": "Welche Aussagen zum Drei-Speicher-Modell von Atkinson und Shiffrin (1968) treffen zu?",
+  "stem": "Welche Aussagen zu Kontrollprozessen und Informationsverlust im Drei-Speicher-Modell treffen zu?",
   "opts": [
-    {"t": "Ohne Kontrollprozesse stehen Informationen im Kurzzeitspeicher noch etwa fünf Minuten zur Verfügung.", "c": false, "fb": "Nach etwa 30 Sekunden zerfallen sie oder werden durch neue Informationen verdrängt."},
-    {"t": "Im ikonischen Register werden visuelle, im echoischen Register auditive Informationen gehalten.", "c": true, "fb": "Der sensorische Speicher besteht aus solchen modalitätsspezifischen Registern; auch für die übrigen Sinne werden sie angenommen."},
-    {"t": "Der sensorische Speicher verfügt über eine enorme Kapazität, hält seine Inhalte aber nur sehr kurz.", "c": true, "fb": "Nur die beachteten Informationen gelangen weiter — der Großteil zerfällt (Pastötter, Oberauer & Bäuml, 2018)."},
-    {"t": "Kritisiert wurde vor allem die zentrale Stellung des Kurzzeitspeichers, den nach dem Modell sämtliche neuen Informationen passieren müssen.", "c": true, "fb": "Personen mit stark reduzierter verbaler Kurzzeitspanne konnten dennoch Sprache verstehen und Neues lernen."}
+   {
+    "t": "Im sensorischen Speicher gehen Informationen vor allem durch Verdrängung verloren, im Kurzzeitspeicher durch Zerfall.",
+    "c": false,
+    "fb": "Die beiden Mechanismen sind vertauscht: Im sensorischen Speicher zerfallen die Inhalte, im Kurzzeitspeicher werden sie durch neue Informationen verdrängt."
+   },
+   {
+    "t": "Als Kontrollprozess nennt das Modell unter anderem die mehrfache aktive Wiederholung verbaler Informationen.",
+    "c": true,
+    "fb": "Daneben hilft auch das Verknüpfen der Inhalte untereinander oder mit Wissen aus dem Langzeitspeicher."
+   },
+   {
+    "t": "In den Kurzzeitspeicher gelangen Informationen sowohl aus dem sensorischen Speicher als auch aus dem Langzeitgedächtnis.",
+    "c": true,
+    "fb": "Der Kurzzeitspeicher steht damit zwischen beiden — genau diese Mittelstellung wurde später kritisiert."
+   },
+   {
+    "t": "Auch im Langzeitspeicher kann das Erinnern scheitern, wenn ähnliche Inhalte mit den gesuchten interferieren.",
+    "c": true,
+    "fb": "Neben der Interferenz nennt das Modell das Fehlschlagen des Wiederauffindens als zweite Ursache."
+   }
   ],
   "concept": {
-    "title": "Das Drei-Speicher-Modell (Atkinson & Shiffrin, 1968)",
-    "points": [
-      "<b>Sensorischer Speicher</b>: modalitätsspezifische Register — ikonisch für visuelle, echoisch für auditive Information; enorme Kapazität, sehr kurze Dauer. Nur Beachtetes gelangt weiter, der Rest zerfällt.",
-      "<b>Kurzzeitspeicher</b>: erhält Informationen aus dem sensorischen <i>und</i> aus dem Langzeitspeicher; ohne Kontrollprozesse zerfallen sie nach etwa <b>30 Sekunden</b> oder werden verdrängt.",
-      "<b>Kontrollprozesse</b>: aktives Wiederholen sowie Verknüpfen der Inhalte untereinander oder mit Langzeitwissen überführen Information in den Langzeitspeicher.",
-      "<b>Langzeitspeicher</b>: theoretisch zeitlich unbegrenzt; Erinnern kann dennoch am Wiederauffinden oder an <b>Interferenz</b> mit ähnlichen Inhalten scheitern.",
-      "<b>Verlustmechanismen im Modell</b>: Zerfall (sensorisch) · Verdrängung (Kurzzeitspeicher) · Interferenz (Langzeitspeicher).",
-      "<b>Kritik</b>: die Schlüsselstellung des Kurzzeitspeichers. Personen mit stark reduzierter verbaler Kurzzeitspanne lernten dennoch Neues, und Wortlisteneffekte belegen eine enge Wechselbeziehung zum Langzeitwissen (Pastötter et al., 2018)."
-    ]
+   "title": "Kontrollprozesse und Verlustmechanismen im Drei-Speicher-Modell",
+   "points": [
+    "<b>Weg der Information</b>: Reize → sensorischer Speicher → (Aufmerksamkeit) → Kurzzeitspeicher → (Transfer) → Langzeitspeicher; der Abruf führt zurück in den Kurzzeitspeicher.",
+    "<b>Kontrollprozesse</b>: mehrfache aktive Wiederholung verbaler Informationen sowie das Verknüpfen der Inhalte untereinander oder mit Langzeitwissen.",
+    "<b>Zerfall</b>: Verlustmechanismus des sensorischen Speichers — alles, worauf die Aufmerksamkeit nicht gerichtet wurde, verfällt.",
+    "<b>Verdrängung</b>: Verlustmechanismus des Kurzzeitspeichers — nach etwa 30 Sekunden oder durch nachrückende neue Informationen.",
+    "<b>Interferenz</b>: Verlustmechanismus des Langzeitspeichers — ähnliche Inhalte verhindern oder verfälschen den Abruf; auch ein Fehlschlagen des Wiederauffindens ist möglich.",
+    "<b>Zweiseitiger Zufluss</b>: Der Kurzzeitspeicher erhält Material aus dem sensorischen <i>und</i> aus dem Langzeitspeicher — das macht ihn im Modell zum Nadelöhr (Pastötter, Oberauer & Bäuml, 2018)."
+   ]
   }
-}
+ },
+ {
+  "kap": 5,
+  "sec": "5.3.3 Klassische Konditionierung",
+  "stem": "Welche Aussagen zu Iwan Pawlow und der Entdeckung dieses Lernprinzips treffen zu?",
+  "opts": [
+   {
+    "t": "Pawlow untersuchte ursprünglich die Funktion der an der Verdauung beteiligten Drüsen.",
+    "c": true,
+    "fb": "Die Konditionierung war ein Nebenbefund dieser Arbeiten: Der Speichelfluss trat früher auf als erwartet."
+   },
+   {
+    "t": "Der Speichelfluss trat mit der Zeit bereits auf, wenn die Hunde die Schritte des Versuchsleiters wahrnahmen.",
+    "c": true,
+    "fb": "Zunächst genügte der Anblick des Fleischpulvers, später schon dieses vorausgehende Geräusch."
+   },
+   {
+    "t": "Für den Nachweis der klassischen Konditionierung erhielt Pawlow 1904 den Nobelpreis für Medizin.",
+    "c": false,
+    "fb": "Den Nobelpreis erhielt er für seine Arbeiten zur Verdauung; dem Lernprinzip widmete er sich erst in den folgenden Arbeiten."
+   },
+   {
+    "t": "Ausschließlich jener Reiz, der zeitgleich mit dem Fleischpulver auftrat, löste später den Speichelfluss aus.",
+    "c": false,
+    "fb": "Jeder Reiz, der regelmäßig <i>vor</i> der Gabe des Fleischpulvers auftrat, löste dieselbe Reaktion aus."
+   }
+  ],
+  "concept": {
+   "title": "Pawlows Weg zur klassischen Konditionierung",
+   "points": [
+    "<b>Ausgangsforschung</b>: Iwan Pawlow (1849–1936) untersuchte die Funktion der an der Verdauung beteiligten Drüsen — dafür erhielt er 1904 den Nobelpreis für Medizin.",
+    "<b>Versuchsanordnung</b>: Hunden wurde Fleischpulver ins Maul gelegt, worauf Speichel abgesondert wurde.",
+    "<b>Überraschender Befund</b>: Nach mehrmaliger Durchführung trat der Speichelfluss schon <i>vor</i> dem Fleischpulver auf — erst beim Anblick, später beim Wahrnehmen der Schritte des Versuchsleiters.",
+    "<b>Verallgemeinerung</b>: Jeder Reiz, der regelmäßig vor der Futtergabe auftrat, löste dieselbe Reaktion aus wie das Futter selbst.",
+    "<b>Konsequenz</b>: Pawlow widmete seine folgenden Arbeiten diesem Lernprinzip, das als klassische Konditionierung oder Signallernen bekannt wurde.",
+    "<b>Kern des Prinzips</b>: Durch gemeinsames Auftreten zweier Reize entsteht eine Assoziation, sodass der neutrale Reiz das Verhalten schließlich selbst auslöst (Becker-Carus & Wendt, 2017)."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.2.4 Visuelle Wahrnehmung",
+  "stem": "Welche Aussagen zu den physikalischen Grundlagen der Farbwahrnehmung treffen zu?",
+  "opts": [
+   {
+    "t": "Das menschliche Auge kann Wellenlängen zwischen etwa 400 und 700 Nanometern wahrnehmen.",
+    "c": true,
+    "fb": "Außerhalb dieses Bereichs liegendes Licht bleibt für uns unsichtbar."
+   },
+   {
+    "t": "Licht mit Wellenlängen zwischen 500 und 570 Nanometern wird als grün wahrgenommen.",
+    "c": true,
+    "fb": "Trifft solches Licht auf die Retina, entsteht der Grüneindruck."
+   },
+   {
+    "t": "Die Lichtintensität wird als Helligkeit, die Reinheit als Sättigung der Farbe bezeichnet.",
+    "c": true,
+    "fb": "Mischen sich weitere Wellenlängen hinzu, nimmt die Sättigung ab."
+   },
+   {
+    "t": "Das Grün von Gras entsteht dadurch, dass ein Teil des Lichts absorbiert und ein anderer reflektiert wird.",
+    "c": true,
+    "fb": "Nur der reflektierte Anteil trifft auf die Netzhaut und bildet den Ausgangspunkt der Wahrnehmung (Müsseler, 2017)."
+   }
+  ],
+  "concept": {
+   "title": "Physikalische Grundlagen der Farbwahrnehmung",
+   "points": [
+    "<b>Sichtbarer Bereich</b>: Das menschliche Auge nimmt Wellenlängen von etwa 400 bis 700 Nanometern wahr.",
+    "<b>Zuordnung Grün</b>: Licht zwischen 500 und 570 Nanometern wird beim Auftreffen auf die Retina als grün erlebt.",
+    "<b>Helligkeit</b>: entspricht der Intensität des Lichts. <b>Sättigung</b>: entspricht seiner Reinheit — zusätzliche Wellenlängen senken sie.",
+    "<b>Absorption und Reflexion</b>: Gras absorbiert einen Teil des Lichts und reflektiert einen anderen; nur der reflektierte Anteil erreicht die Netzhaut.",
+    "<b>Konsequenz für die Theoriebildung</b>: Drei Zapfentypen mit unterschiedlicher spektraler Empfindlichkeit erzeugen durch ihre Aktivierungskombination den Farbeindruck.",
+    "<b>Farbblindheit</b>: Resultat des Ausfalls oder Fehlens eines oder mehrerer Rezeptortypen (Becker-Carus & Wendt, 2017)."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.4.4 Langzeitgedächtnis",
+  "stem": "Welche Aussage zu den Gedächtnissystemen und ihren Bezeichnungen trifft zu?",
+  "opts": [
+   {
+    "t": "Die Kapazität des Langzeitgedächtnisses ist zwar hoch, seine Speicherdauer aber auf wenige Jahre begrenzt.",
+    "c": false,
+    "fb": "Inhalte können sehr lang, oft sogar lebenslang gespeichert bleiben — hohe Kapazität <i>und</i> lange Speicherdauer kennzeichnen es."
+   },
+   {
+    "t": "Das prozedurale Gedächtnis umfasst automatisierte Fähigkeiten und Gewohnheiten wie Radfahren oder Zehnfingerschreiben.",
+    "c": true,
+    "fb": "Squire (1992) ordnete ihm zudem weitere non-deklarative Inhalte zur Seite, etwa Konditionierung und Priming."
+   },
+   {
+    "t": "Deklarativ ist eine andere Bezeichnung für das implizite Gedächtnis.",
+    "c": false,
+    "fb": "Deklarativ steht für das <i>explizite</i> Gedächtnis; das implizite heißt non-deklarativ."
+   },
+   {
+    "t": "Das Wissen, dass „apple“ die englische Bezeichnung für Apfel ist, gehört zum episodischen Gedächtnis.",
+    "c": false,
+    "fb": "Solches Faktenwissen liegt im semantischen Gedächtnis; episodisch sind persönliche Erlebnisse."
+   }
+  ],
+  "concept": {
+   "title": "Die Systeme des Langzeitgedächtnisses und ihre Bezeichnungen",
+   "points": [
+    "<b>Merkmale</b>: sehr hohe Kapazität und lange, oft lebenslange Speicherdauer — dort liegen Wissen, Fertigkeiten und Lernerfahrungen (Gazzaniga et al., 2017).",
+    "<b>Explizit = deklarativ</b>: bewusst abrufbare Inhalte. <b>Implizit = non-deklarativ</b>: nicht bewusst zugängliche Inhalte. Die Begriffspaare sind jeweils synonym.",
+    "<b>Semantisches Gedächtnis</b>: Faktenwissen ohne Personenbezug — „apple“ heißt Apfel, der Zweite Weltkrieg endete 1945.",
+    "<b>Episodisches Gedächtnis</b>: persönliche Erlebnisse mit zeitlich-räumlicher Verknüpfung, oft emotional gefärbt und zwischen zwei Personen verschieden.",
+    "<b>Prozedurales Gedächtnis</b>: automatisierte Fähigkeiten und Gewohnheiten wie Radfahren oder Zehnfingerschreiben; häufig synonym zu „implizit“ verwendet.",
+    "<b>Squires Erweiterung (1992)</b>: non-deklarativ ist mehr als prozedural — dazu zählen auch Resultate klassischer und operanter Konditionierung, nicht-assoziatives Lernen sowie Erwartungen und Priming."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.3.4 Operante Konditionierung",
+  "stem": "Welche Aussagen zum Prinzip der operanten Konditionierung und ihren Konsequenztypen treffen zu?",
+  "opts": [
+   {
+    "t": "Bei der positiven Bestrafung wird ein als angenehm empfundener Reiz weggenommen.",
+    "c": false,
+    "fb": "Das ist die negative Bestrafung. Positiv bestraft wird, indem ein unangenehmer Reiz hinzukommt — etwa ein zusätzlicher Küchendienst."
+   },
+   {
+    "t": "Die operante Konditionierung wird auch als Belohnungslernen bezeichnet.",
+    "c": true,
+    "fb": "Der Name verweist darauf, dass die Konsequenzen einer Handlung deren Wiederholungswahrscheinlichkeit bestimmen."
+   },
+   {
+    "t": "Anders als bei der eher passiven klassischen Konditionierung bildet das Lebewesen hier Assoziationen zwischen Ereignissen, die in seiner eigenen Kontrolle liegen.",
+    "c": true,
+    "fb": "Gelernt wird also, dass das <i>eigene Verhalten</i> zu einem bestimmten Ergebnis führt (Gazzaniga et al., 2017)."
+   },
+   {
+    "t": "Ein zusätzlicher Küchendienst nach einer schlechten Note ist ein Beispiel für negative Verstärkung.",
+    "c": false,
+    "fb": "Hier kommt ein unangenehmer Reiz hinzu und das Verhalten soll seltener werden — das ist positive Bestrafung."
+   }
+  ],
+  "concept": {
+   "title": "Operante Konditionierung — Prinzip und die vier Konsequenztypen",
+   "points": [
+    "<b>Grundgedanke</b>: Ein Großteil unserer Verhaltensweisen ist Mittel zum Zweck; die Konsequenzen einer Handlung bestimmen, ob sie wiederholt wird. Auch <b>Belohnungslernen</b> genannt.",
+    "<b>Abgrenzung zur klassischen Konditionierung</b>: Dort verknüpfen sich zwei Reize eher passiv; hier bildet das Lebewesen Assoziationen zwischen Ereignissen in der <i>eigenen</i> Kontrolle.",
+    "<b>Positive Verstärkung</b>: angenehmer Reiz kommt hinzu → Verhalten wird wahrscheinlicher (gute Note, Taschengeldbonus).",
+    "<b>Negative Verstärkung</b>: unangenehmer Reiz fällt weg → Verhalten wird wahrscheinlicher (Befreiung vom Haushaltsdienst).",
+    "<b>Positive Bestrafung</b>: unangenehmer Reiz kommt hinzu → Verhalten wird seltener (zusätzlicher Küchendienst). <b>Negative Bestrafung</b>: angenehmer Reiz fällt weg → Verhalten wird seltener (Fernsehverbot, Hausarrest).",
+    "<b>Merkhilfe</b>: Das Wort davor sagt, ob etwas <i>hinzukommt</i> oder <i>wegfällt</i>; das Wort danach, ob das Verhalten <i>häufiger</i> oder <i>seltener</i> wird."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.2.1 Wahrnehmung",
+  "stem": "Welche Aussagen zum Wahrnehmungsprozess und seinen Einflussfaktoren treffen zu?",
+  "opts": [
+   {
+    "t": "Wahrnehmung ist der Prozess der Aufnahme und Verarbeitung von Reizen aus der Umwelt.",
+    "c": true,
+    "fb": "Maßgeblich beteiligt ist die Aufmerksamkeit, die bestimmt, was von der Umwelt überhaupt aufgenommen wird."
+   },
+   {
+    "t": "Da die Reizverarbeitung physiologisch abläuft, nehmen zwei Personen ein und dieselbe Situation im Kern gleich wahr.",
+    "c": false,
+    "fb": "Das Wahrgenommene unterscheidet sich von Person zu Person — dieselbe Situation kann sehr verschieden wahrgenommen und interpretiert werden (Kiesel & Koch, 2018)."
+   },
+   {
+    "t": "Die Aufmerksamkeit unterscheidet dabei wichtige von unwichtigen Informationen.",
+    "c": true,
+    "fb": "Sie wirkt als Vorsortierung, bevor die Information überhaupt weiterverarbeitet wird."
+   },
+   {
+    "t": "Wissen über Materialien lässt uns einen Tisch nicht nur als braun, sondern als aus Holz wahrnehmen.",
+    "c": true,
+    "fb": "Vorwissen, Vorerfahrungen, Bewertungen und Erwartungen greifen also in die Wahrnehmung selbst ein."
+   }
+  ],
+  "concept": {
+   "title": "Wahrnehmung — Definition und Einflussfaktoren",
+   "points": [
+    "<b>Definition</b>: Prozess der Aufnahme und Verarbeitung von Reizen aus der Umwelt; die <b>Aufmerksamkeit</b> bestimmt, was wahrgenommen wird, und trennt Wichtiges von Unwichtigem.",
+    "<b>Interindividuelle Unterschiede</b>: Zwei Personen können denselben Gegenstand oder dieselbe Situation unterschiedlich wahrnehmen und interpretieren — die lichtempfindliche Person erlebt dasselbe Treffen in der Sonne anders.",
+    "<b>Vorwissen und Vorerfahrung</b>: Materialkenntnis macht aus „braun“ ein „aus Holz“; die Erinnerung an einen schmerzhaften Sonnenbrand verändert die Wahrnehmung eines sonnigen Tages.",
+    "<b>Emotionen</b>: Wer Angst vor Spinnen hat, lenkt die Aufmerksamkeit eher dorthin und nimmt Körper und Beine besonders deutlich wahr.",
+    "<b>Folge für das Verhalten</b>: Was wahrgenommen wird, beeinflusst das Handeln — die eine Person bleibt im Innenraum, die andere setzt sich in die Sonne.",
+    "<b>Einordnung</b>: Aufwändige Vorgänge der Sinnesrezeptoren und der Verarbeitung im Gehirn sind beteiligt, auch wenn der Vorgang mühelos und automatisch erscheint."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.4.5 Gedächtniseffekte",
+  "stem": "Welche Aussagen zu Hermann Ebbinghaus und seiner Ersparnismethode treffen zu?",
+  "opts": [
+   {
+    "t": "Ebbinghaus gilt als Begründer der experimentellen Gedächtnisforschung.",
+    "c": true,
+    "fb": "Seine im Selbstversuch gewonnenen Erkenntnisse sind bis heute relevant."
+   },
+   {
+    "t": "Seine Ergebnisse veröffentlichte er 1885 in dem Buch „Über das Gedächtnis“.",
+    "c": true,
+    "fb": "Darin dokumentierte er die Selbstversuche mit den sinnlosen Silben."
+   },
+   {
+    "t": "Er stellte fest, dass zum Wiedererlernen in der Regel weniger Wiederholungen nötig waren als beim ersten Lernen.",
+    "c": true,
+    "fb": "Zusätzlich stoppte er die Zeit, die er für das Lernen und Wiedererlernen benötigte."
+   },
+   {
+    "t": "Die eingesparten Wiederholungen beziehungsweise die eingesparte Zeit dienten ihm als Maß für die Gedächtnisleistung.",
+    "c": true,
+    "fb": "Je weniger Zeit für die Wiederholungen nötig war, desto mehr war im Gedächtnis behalten worden — daher der Name Ersparnismethode."
+   }
+  ],
+  "concept": {
+   "title": "Ebbinghaus und die Ersparnismethode",
+   "points": [
+    "<b>Person</b>: Hermann Ebbinghaus gilt als Begründer der experimentellen Gedächtnisforschung; sein Buch „Über das Gedächtnis“ erschien 1885.",
+    "<b>Material</b>: Listen sogenannter <b>sinnloser Silben</b> nach dem Muster Konsonant-Vokal-Konsonant (FUB, KAH, BIK) — bewusst bedeutungsfrei gewählt.",
+    "<b>Vorgehen</b>: Wiederholen bis zum fehlerfreien Aufsagen, Zeit verstreichen lassen, erneut bis zum fehlerfreien Aufsagen wiederholen.",
+    "<b>Befund</b>: Zum Wiedererlernen waren in der Regel weniger Wiederholungen nötig als beim ersten Mal.",
+    "<b>Ersparnismethode</b>: Die eingesparten Wiederholungen bzw. die eingesparte Zeit sind das Maß der Gedächtnisleistung — je weniger Aufwand, desto mehr wurde behalten.",
+    "<b>Ergebnis</b>: ca. 58 % Ersparnis nach 20 Minuten, 44 % nach einer Stunde, knapp 34 % nach 24 Stunden, gut 25 % nach sechs Tagen — die bekannte <b>Vergessenskurve</b>."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.2.3 Aufmerksamkeit",
+  "stem": "Welche Aussage zur Lenkung der Aufmerksamkeit und zum Versuchsaufbau trifft zu?",
+  "opts": [
+   {
+    "t": "Endogene Aufmerksamkeit wird von plötzlich auftretenden Reizen der Umwelt unwillentlich angezogen.",
+    "c": false,
+    "fb": "Das beschreibt die exogene Aufmerksamkeit. Endogene Aufmerksamkeit ist von innen heraus gesteuert und von kognitiven Prozessen beeinflusst."
+   },
+   {
+    "t": "Dass im blauen Dreieck das doppelte Wort überlesen wird, erklärt sich über Vorwissen und Erwartung.",
+    "c": true,
+    "fb": "Der tatsächliche Wortlaut ist „Paris in the the spring“ — endogene Prozesse lassen uns das zweite „the“ übersehen (M. W. Eysenck & Keane, 2020)."
+   },
+   {
+    "t": "In der neutralen Bedingung des Cueing-Paradigmas kündigte ein Pfeil die Seite des Zielreizes an.",
+    "c": false,
+    "fb": "Dort wurde ein neutrales Symbol gezeigt, und der Zielreiz erschien je zur Hälfte links und rechts davon."
+   },
+   {
+    "t": "Die Versuchspersonen durften bei Erscheinen des Hinweisreizes die Augen bereits in Erwartung des Zielreizes bewegen.",
+    "c": false,
+    "fb": "Sie mussten die Bildschirmmitte fixieren — nur so lassen sich Augenbewegungen als Ursache kürzerer Reaktionszeiten ausschließen."
+   }
+  ],
+  "concept": {
+   "title": "Endogene und exogene Aufmerksamkeitslenkung",
+   "points": [
+    "<b>Exogene Aufmerksamkeit</b>: wird von äußeren Reizen der Umwelt angezogen — ein buntes Bild, der eigene Name, lautes Klatschen lenken unwillentlich ab.",
+    "<b>Endogene Aufmerksamkeit</b>: von innen heraus gesteuert und von kognitiven Prozessen beeinflusst; sie unterliegt Erwartungen, Bewertungen, Vorwissen und Vorerfahrungen (Kiesel & Koch, 2018; Huestegge, 2022).",
+    "<b>„Paris in the the spring“</b>: Vorwissen und Erwartung lassen das doppelte Wort überlesen — ein Alltagsbeleg für endogene Steuerung.",
+    "<b>Neutrale Bedingung</b>: neutrales Symbol als Hinweisreiz, Zielreiz je zu 50 % links und rechts — es gibt also keinen Hinweis auf die Seite.",
+    "<b>Valide und invalide Bedingung</b>: ein Pfeil zeigt in eine Richtung; in 80 % der Durchläufe folgt der Zielreiz dort, in 20 % auf der Gegenseite.",
+    "<b>Methodische Auflage</b>: Die Augen bleiben auf die Mitte fixiert — sonst ließe sich nicht ausschließen, dass schlicht die Augenbewegung die Reaktionszeit verkürzt."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.3.3 Klassische Konditionierung",
+  "stem": "Welche Aussagen zum Experiment mit Little Albert und zur Reizgeneralisierung treffen zu?",
+  "opts": [
+   {
+    "t": "Bei den ersten Tests im Alter von etwa neun Monaten zeigte Albert bei keiner der Darbietungen Anzeichen einer Furchtreaktion.",
+    "c": true,
+    "fb": "Gezeigt wurden ihm unter anderem eine weiße Ratte, ein Hase, ein Hund und ein Affe; erschreckt reagierte er nur auf das laute Geräusch."
+   },
+   {
+    "t": "Je unähnlicher ein Reiz dem konditionierten Reiz ist, desto stärker fällt die generalisierte Reaktion aus.",
+    "c": false,
+    "fb": "Die Richtung ist umgekehrt: Je <i>ähnlicher</i> der Reiz, desto stärker die Reaktion."
+   },
+   {
+    "t": "Die Reizgeneralisierung stellt einen Sicherheitsfaktor dar, da wichtige Reize in der Natur selten in exakt gleicher Form auftreten.",
+    "c": true,
+    "fb": "Ein Kind, das von einem Hund gebissen wurde, fürchtet sich deshalb auch vor anderen Hunden."
+   },
+   {
+    "t": "Die Löschung ist als Vergessensprozess zu verstehen, bei dem die ursprüngliche Assoziation aus dem Gedächtnis entfernt wird.",
+    "c": false,
+    "fb": "Sie ist selbst eine Form des Lernens: Zusätzlich zur alten Assoziation wird gespeichert, dass diese nicht mehr gilt."
+   }
+  ],
+  "concept": {
+   "title": "Little Albert, Reizgeneralisierung und die Natur der Löschung",
+   "points": [
+    "<b>Ausgangslage</b>: Watson und Rayner testeten Albert mit etwa neun Monaten — weiße Ratte, Hase, Hund, Affe, Masken, brennendes Zeitungspapier lösten keine Furcht aus. Nur ein Hammerschlag auf eine Eisenstange erschreckte ihn.",
+    "<b>Konditionierung</b>: Mit elf Monaten wurde das Streicheln der Ratte wiederholt mit dem lauten Geräusch gepaart; schließlich weinte Albert schon beim bloßen Anblick der Ratte.",
+    "<b>Reizgeneralisierung</b>: Die Furcht erstreckte sich auf weißen Hasen, Pelzmantel — praktisch alles Weiße mit Fell. Je ähnlicher der Reiz, desto stärker die Reaktion.",
+    "<b>Funktion</b>: Generalisierung ist ein Sicherheitsfaktor, da wichtige Reize in der Natur selten in exakt gleicher Form auftreten.",
+    "<b>Löschung richtig verstanden</b>: kein Vergessen und kein Verlernen — die Reaktion wird nur abgeschwächt; die Spontanremission belegt, dass die Assoziation erhalten bleibt.",
+    "<b>Einordnung</b>: Das Experiment gilt ethisch wie methodisch als hoch umstritten und wäre heute nicht mehr zulässig (Watson & Rayner, 1920)."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.4.3 Arbeitsgedächtnis",
+  "stem": "Im Modell von Baddeley und Hitch hat jede Komponente ihre eigene Rolle. Was ist dazu richtig?",
+  "opts": [
+   {
+    "t": "Die drei Hilfssysteme greifen auf eine gemeinsame, unbegrenzte Speicherkapazität zu.",
+    "c": false,
+    "fb": "Sie verfügen jeweils über eine nur limitierte Kapazität und arbeiten weitgehend unabhängig voneinander."
+   },
+   {
+    "t": "Die zentrale Exekutive ermöglicht komplexe kognitive Aktivitäten wie das Lösen eines Problems oder das gleichzeitige Bearbeiten zweier Aufgaben.",
+    "c": true,
+    "fb": "Sie ist der komplexeste Bestandteil des Modells; die übrigen Komponenten gelten als ihre Hilfssysteme."
+   },
+   {
+    "t": "Das ursprüngliche Modell stammt aus dem Jahr 2000, die Überarbeitung mit dem episodischen Puffer aus 1974.",
+    "c": false,
+    "fb": "Die Jahreszahlen sind vertauscht: Baddeley und Hitch legten das Modell 1974 vor, der episodische Puffer kam 2000 hinzu."
+   },
+   {
+    "t": "Der episodische Puffer erlaubt es, Informationen aus dem Langzeitgedächtnis mit aktuellen Informationen zu verknüpfen.",
+    "c": true,
+    "fb": "Er dient als Schnitt- und Speicherstelle zwischen den Komponenten sowie zu Wahrnehmung und Langzeitgedächtnis (Baddeley, 2012)."
+   }
+  ],
+  "concept": {
+   "title": "Die vier Komponenten des Arbeitsgedächtnisses",
+   "points": [
+    "<b>Zentrale Exekutive</b>: komplexester Bestandteil; kontrolliert die Aufmerksamkeit, koordiniert die übrigen Komponenten und ermöglicht komplexe Aktivitäten wie Problemlösen oder Doppelaufgaben.",
+    "<b>Phonologische Schleife</b>: Verarbeitung und kurzfristige Speicherung sprachbasierter Information — gesprochene wie beim Lesen still mitgesprochene Wörter.",
+    "<b>Visuell-räumlicher Notizblock</b>: speichert visuelle und räumliche Information, etwa einen gedanklich nachvollzogenen Weg.",
+    "<b>Episodischer Puffer</b>: Schnitt- und Speicherstelle zwischen den Komponenten sowie zwischen Arbeitsgedächtnis, Wahrnehmung und Langzeitgedächtnis — er macht die Verknüpfung von Altem und Aktuellem möglich.",
+    "<b>Zeitleiste</b>: Baddeley und Hitch 1974; der episodische Puffer wurde erst 2000 ergänzt, also 25 Jahre später.",
+    "<b>Kapazität</b>: Alle drei Hilfssysteme haben eine limitierte Kapazität und arbeiten weitgehend unabhängig voneinander."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.2.4 Visuelle Wahrnehmung",
+  "stem": "Wohin die beiden Sehpfade ziehen und was ein Ausfallmuster wirklich belegt — was davon stimmt?",
+  "opts": [
+   {
+    "t": "Der dorsale Pfad verläuft vom visuellen Cortex in den Temporallappen.",
+    "c": false,
+    "fb": "Er zieht in den Parietallappen; der Weg zum Temporallappen ist der ventrale Pfad."
+   },
+   {
+    "t": "Nach Goodale und Milner dient der dorsale Pfad der Wahrnehmung von Objekten (Vision for Perception).",
+    "c": false,
+    "fb": "Vision for Perception ist die Funktion des ventralen Pfades; der dorsale steht für Vision for Action."
+   },
+   {
+    "t": "Von einer Dissoziation spricht man bereits dann, wenn eine Person an Aufgabe A scheitert, Aufgabe B aber normal ausführen kann.",
+    "c": true,
+    "fb": "Daraus allein lässt sich aber noch nicht schließen, dass verschiedene Prozesse zugrunde liegen — A könnte schlicht schwieriger sein."
+   },
+   {
+    "t": "Weil die doppelte Dissoziation zwei gegenläufige Muster zeigt, gilt sie als direkter Beweis für zwei getrennte Prozesse.",
+    "c": false,
+    "fb": "Auch sie bleibt ein indirekter Rückschluss; einen direkten Beweis liefert sie nicht (M. W. Eysenck & Keane, 2020)."
+   }
+  ],
+  "concept": {
+   "title": "Dorsaler Pfad, Vision for Action und die Grenzen der Dissoziation",
+   "points": [
+    "<b>Dorsaler Pfad</b>: visueller Cortex → <b>Parietallappen</b>; räumliche Verarbeitung, ursprünglich „Wo“-Pfad (Mishkin, Ungerleider & Macko, 1983).",
+    "<b>Ventraler Pfad</b>: visueller Cortex → Temporallappen; Objekterkennung, „Was“-Pfad.",
+    "<b>Goodale und Milner (1992)</b>: Nicht die Qualität des Inputs, sondern der Zweck trennt die Pfade — ventral <i>Vision for Perception</i>, dorsal <i>Vision for Action</i>, daher treffender „Wie“-Pfad.",
+    "<b>Dissoziation</b>: Eine Person scheitert an Aufgabe A, löst aber Aufgabe B. Allein daraus folgt noch nichts — Aufgabe A könnte einfach schwieriger sein.",
+    "<b>Doppelte Dissoziation</b>: Es finden sich auch Personen mit dem umgekehrten Muster. Das entkräftet den Schwierigkeitseinwand.",
+    "<b>Grenze</b>: Auch eine doppelte Dissoziation ist nur ein indirekter Rückschluss und kein direkter Beweis für zwei verschiedene Prozesse."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.3.4 Operante Konditionierung",
+  "stem": "Hungrige Katzen in einem verriegelten Käfig: Was beobachtete Thorndike dabei?",
+  "opts": [
+   {
+    "t": "Die Tiere — meist Katzen — befreiten sich zunächst eher durch Zufall als durch eine gezielte Handlung.",
+    "c": true,
+    "fb": "Erst das wiederholte Erleben der Folge machte aus dem Zufallstreffer eine gezielte Handlung."
+   },
+   {
+    "t": "Das Lernen der Reiz-Reaktions-Verbindung erfolgte ausschließlich auf der Grundlage von Versuch und Irrtum.",
+    "c": true,
+    "fb": "Einsicht oder Beobachtung spielten in diesem Paradigma keine Rolle — die Tiere probierten so lange, bis etwas wirkte."
+   },
+   {
+    "t": "Außerhalb des Käfigs stand für die Tiere sichtbar eine Schale mit Futter.",
+    "c": true,
+    "fb": "Das Futter bekräftigte das erfolgreiche Verhalten unmittelbar und ließ es in den folgenden Durchgängen häufiger auftreten."
+   },
+   {
+    "t": "In den folgenden Durchgängen benötigten die Katzen zunehmend mehr Zeit, um den Mechanismus zu bedienen.",
+    "c": false,
+    "fb": "Die erforderliche Handlung zeigten sie nach immer <i>kürzeren</i> Zeiten — sie hatten die Verbindung gelernt."
+   }
+  ],
+  "concept": {
+   "title": "Thorndikes Problemkäfig und das Gesetz des Effekts",
+   "points": [
+    "<b>Aufbau</b>: Ein verriegelter Käfig mit Klapptür, die sich über einen speziellen Mechanismus von innen öffnen ließ; hungrige Tiere — meist Katzen — wurden hineingesetzt, davor sichtbar eine Schale mit Futter (Thorndike, 1898).",
+    "<b>Ablauf</b>: Nach zahlreichen erfolglosen Versuchen bedienten die Katzen den Mechanismus eher zufällig; in weiteren Durchgängen gelang das nach immer kürzeren Zeiten.",
+    "<b>S-R-Verbindung</b>: Anders als bei Pawlow verknüpft sich nicht Reiz mit Reiz, sondern ein Reiz (der Mechanismus) mit einer Reaktion (sein Bedienen).",
+    "<b>Versuch und Irrtum</b>: Ausschließlich auf dieser Grundlage kam die Verbindung zustande — ohne Einsicht und ohne Modell.",
+    "<b>Gesetz des Effekts</b>: Lernen wird durch seine Konsequenzen beeinflusst — auf eine befriedigende Konsequenz folgt eine erhöhte, bei ihrem Ausbleiben eine verminderte Auftretenswahrscheinlichkeit.",
+    "<b>Wirkungsgeschichte</b>: Skinner setzte rund dreißig Jahre später genau hier an und formalisierte die Theorie (Becker-Carus & Wendt, 2017; Gerrig et al., 2018)."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.4.4 Langzeitgedächtnis",
+  "stem": "Welche Aussagen zu Amnesien und zur Erforschung der Gedächtnissysteme treffen zu?",
+  "opts": [
+   {
+    "t": "Eine anterograde Amnesie tritt in der Regel isoliert auf und schließt eine retrograde Amnesie aus.",
+    "c": false,
+    "fb": "Sie liegt häufig in Kombination mit einer retrograden Amnesie vor — die beiden Formen schließen einander nicht aus."
+   },
+   {
+    "t": "Als Ursachen einer Amnesie kommen ausschließlich äußere Verletzungen wie Unfälle infrage.",
+    "c": false,
+    "fb": "Neben Unfällen werden auch Erkrankungen genannt, etwa Schlaganfall, Alkoholismus oder Gehirnentzündung."
+   },
+   {
+    "t": "Auch Inhalte des episodischen Gedächtnisses können automatisch eingespeichert werden; der Abruf erfolgt jedoch in der Regel bewusst.",
+    "c": true,
+    "fb": "Die Zuordnung zum expliziten Gedächtnis richtet sich also vor allem nach der Art des Abrufs, nicht der Einspeicherung."
+   },
+   {
+    "t": "Grundlage für die Annahme mehrerer Gedächtnissysteme waren Befunde von Cohen und Squire (1980) an Personen mit Gedächtnisverlust.",
+    "c": true,
+    "fb": "Diese Personen hatten Einschränkungen beim Faktenwissen, nicht jedoch bei motorischen Aufgaben."
+   }
+  ],
+  "concept": {
+   "title": "Amnesie als Fenster in die Gedächtnissysteme",
+   "points": [
+    "<b>Amnesie</b>: teilweiser Verlust der Erinnerungsfähigkeit aufgrund einer Schädigung des Gehirns.",
+    "<b>Ursachen</b>: nicht nur Unfälle, sondern auch diverse Erkrankungen — Schlaganfall, Alkoholismus, Gehirnentzündung.",
+    "<b>Retrograd vs. anterograd</b>: rückwärts gerichtet fehlen Ereignisse kurz vor der Schädigung; vorwärts gerichtet lassen sich keine neuen Inhalte mehr einspeichern. Eine anterograde Amnesie liegt <b>häufig in Kombination</b> mit einer retrograden vor.",
+    "<b>Cohen und Squire (1980)</b>: Personen mit Gedächtnisverlust zeigten Einschränkungen beim Speichern und Erinnern von Faktenwissen, nicht jedoch bei motorischen Aufgaben — die empirische Basis für die Untergliederung in mehrere Systeme.",
+    "<b>Feinheit beim episodischen Gedächtnis</b>: Auch explizite Inhalte können „automatisch“ eingespeichert werden; entscheidend für die Zuordnung ist, dass der <i>Abruf</i> in der Regel bewusst erfolgt.",
+    "<b>Prominenter Fall</b>: Henry Molaison (H.M.) — ausgeprägte anterograde Amnesie nach Entfernung von Teilen der Temporallappen und des Hippocampus, perzeptiv-motorisches Lernen blieb erhalten."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.2.2 Theorien der Wahrnehmung",
+  "stem": "Welche Aussage zu Fechners Psychophysik und zur psychometrischen Funktion trifft zu?",
+  "opts": [
+   {
+    "t": "Werden dieselben Reize einer Person mehrmals dargeboten, lassen sich die Ergebnisse als psychometrische Funktion darstellen.",
+    "c": true,
+    "fb": "Dieser Graph bildet die Erkennungsrate über die Stimulusintensität ab; bei 50 % liegt die Absolutschwelle."
+   },
+   {
+    "t": "Gustav Theodor Fechner begründete die Signalentdeckungstheorie, aus der später die Psychophysik hervorging.",
+    "c": false,
+    "fb": "Fechner steht für die Psychophysik; die Signalentdeckungstheorie entstand erst später als Kritik an deren Schwellenbegriff."
+   },
+   {
+    "t": "Grenz- und Konstanzmethode eignen sich ausschließlich zur Bestimmung von Absolutschwellen.",
+    "c": false,
+    "fb": "Beide lassen sich auch auf Unterschiedsschwellen anwenden — dabei werden zwei Reize dargeboten und verglichen (Kiesel & Koch, 2018)."
+   },
+   {
+    "t": "Die theoretische Schwellenkurve bildet den tatsächlichen Verlauf gut ab, da die Erkennungsrate sprunghaft von 0 auf 100 Prozent steigt.",
+    "c": false,
+    "fb": "Genau das ist nicht der Fall: Die empirische Kurve steigt allmählich an, die theoretische Schwelle ist eine Idealisierung."
+   }
+  ],
+  "concept": {
+   "title": "Fechners Psychophysik und die psychometrische Funktion",
+   "points": [
+    "<b>Gustav Theodor Fechner</b>: untersuchte, was über die Sinne wahrgenommen wird und was nicht; seine Experimente dienen bis heute als Untersuchungsmethoden der Wahrnehmungsschwellen.",
+    "<b>Zwei Schwellen</b>: die <b>Absolutschwelle</b> als kleinste wahrnehmbare Reizintensität und die <b>Unterschiedsschwelle</b> als kleinste unterscheidbare Differenz.",
+    "<b>Grenzmethode</b>: Darbietung in ab- oder zunehmender Intensität. <b>Konstanzmethode</b>: dieselbe Urteilsaufgabe bei zufälliger Reihenfolge.",
+    "<b>Psychometrische Funktion</b>: Werden dieselben Reize mehrfach dargeboten, lassen sich die Ergebnisse als Graph der Erkennungsrate darstellen; die Absolutschwelle liegt bei 50 % Erkennung.",
+    "<b>Theoretisch vs. empirisch</b>: Die theoretische Schwellenkurve unterstellt einen Sprung von 0 auf 100 %; tatsächlich steigt die empirische Kurve allmählich an.",
+    "<b>Reichweite der Methoden</b>: Beide Verfahren taugen auch für Unterschiedsschwellen — dazu werden zwei Reize dargeboten und auf Unterscheidbarkeit geprüft."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.4.1 Gedächtnisprozess",
+  "stem": "Ein Inhalt durchläuft drei Phasen, bis er erinnert werden kann. Was gilt dafür?",
+  "opts": [
+   {
+    "t": "Bei der Enkodierung werden Reize aufgenommen und mittels sensorischer Prozesse in einen spezifischen neuronalen Code übersetzt.",
+    "c": true,
+    "fb": "Erst dieser Code macht die Information überhaupt verarbeitbar."
+   },
+   {
+    "t": "Die Speicherung bewahrt die enkodierten Informationen über einen bestimmten Zeitraum im Gedächtnis auf.",
+    "c": true,
+    "fb": "Im Beispiel des Skripts sind das die Ziffern der Telefonnummer bis zum Abend."
+   },
+   {
+    "t": "Beim Abruf wird die gespeicherte Information im Gedächtnis gesucht und ins Bewusstsein zurückgeholt.",
+    "c": true,
+    "fb": "Gelingt dieser Schritt, lässt sich die Information für nachfolgende Handlungen nutzen."
+   },
+   {
+    "t": "Misslingt das Erinnern, kann die Ursache auf jeder der drei Stufen liegen.",
+    "c": true,
+    "fb": "Unzureichende Enkodierung, eine zu lange Speicherperiode oder erschwerende Umstände beim Abruf kommen gleichermaßen infrage."
+   }
+  ],
+  "concept": {
+   "title": "Enkodierung, Speicherung und Abruf",
+   "points": [
+    "<b>Enkodierung</b>: Aufnahme der Reize und Übersetzung in einen spezifischen neuronalen Code mittels sensorischer Prozesse.",
+    "<b>Speicherung</b>: Aufbewahrung der enkodierten Information über einen bestimmten Zeitraum im Gedächtnis.",
+    "<b>Abruf</b>: Suche der gespeicherten Information und Rückholung ins Bewusstsein — erst damit ist Erinnern vollzogen.",
+    "<b>Fehlerquelle Enkodierung</b>: Wurde zu wenig Zeit zum Einprägen aufgewendet, ist die Information nur unzureichend kodiert.",
+    "<b>Fehlerquelle Speicherung</b>: Wird die Speicherperiode zu lang — der Anruf verschiebt sich um einen Tag —, ist die Information möglicherweise nicht mehr verfügbar.",
+    "<b>Fehlerquelle Abruf</b>: Auch die Umstände beim Abruf wirken mit; Müdigkeit etwa kann das Erinnern am Abend erschweren (Becker-Carus & Wendt, 2017)."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.3.5 Beobachtungslernen",
+  "stem": "Bandura ließ Vierjährige ein Modell beobachten. Was ist zu Aufbau und Begrifflichkeit richtig?",
+  "opts": [
+   {
+    "t": "Andere Bezeichnungen für das Beobachtungslernen sind Signallernen und Belohnungslernen.",
+    "c": false,
+    "fb": "Das sind die Zweitnamen der klassischen bzw. operanten Konditionierung. Für das Beobachtungslernen stehen Modelllernen, Imitationslernen und soziales Lernen."
+   },
+   {
+    "t": "In der aggressiven Bedingung spielte das Modell zunächst ebenfalls mit den Bausteinen und wandte sich erst nach kurzer Zeit der Puppe zu.",
+    "c": true,
+    "fb": "Danach zeigte es in einer spezifischen Art und Weise aggressives Verhalten gegenüber der Puppe — physisch wie verbal."
+   },
+   {
+    "t": "Die untersuchten Kinder waren im Alter von etwa acht Jahren.",
+    "c": false,
+    "fb": "Bandura, Ross und Ross (1961) untersuchten Kinder im Alter von etwa vier Jahren."
+   },
+   {
+    "t": "Dass Konsequenzen einer Handlung durch bloße Beobachtung erlernt werden können, bezeichnet man als stellvertretendes Lernen.",
+    "c": true,
+    "fb": "Das zeigte das Folgeexperiment von 1965, in dem nur das Filmende variiert wurde."
+   }
+  ],
+  "concept": {
+   "title": "Modelllernen — Bezeichnungen, Aufbau und stellvertretendes Lernen",
+   "points": [
+    "<b>Namen für dieselbe Sache</b>: Beobachtungslernen, sozialkognitive Lerntheorie, Imitationslernen, Modelllernen, Lernen am Modell, soziales Lernen. <i>Nicht</i> dazu gehören Signallernen (klassisch) und Belohnungslernen (operant).",
+    "<b>Aufbau 1961</b>: Kinder von etwa vier Jahren kamen in einen Raum mit einer erwachsenen Person (dem Modell), Bausteinen und einer großen aufblasbaren Puppe.",
+    "<b>Nicht-aggressive Bedingung</b>: Das Modell spielte mit den Bausteinen und ignorierte die Puppe.",
+    "<b>Aggressive Bedingung</b>: Das Modell spielte zunächst ebenfalls mit den Bausteinen, wandte sich nach kurzer Zeit der Puppe zu und zeigte physisch wie verbal aggressives Verhalten.",
+    "<b>Ergebnis</b>: Nur die Kinder der aggressiven Bedingung ahmten das Verhalten nach — obwohl kein Anlass dazu bestand.",
+    "<b>Stellvertretendes Lernen (1965)</b>: Variiert wurde nur das Filmende — belohnt, getadelt, folgenlos. Auch die Konsequenzen einer Handlung werden also durch Beobachtung erlernt."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.4.5 Gedächtniseffekte",
+  "stem": "Welche Aussagen zu Kontexteffekten und zu den Formen des Abrufs treffen zu?",
+  "opts": [
+   {
+    "t": "Eine Erklärung der Kontexteffekte lautet, dass die Kontextbedingungen mit eingespeichert werden und beim Abruf als Hinweisreize dienen.",
+    "c": true,
+    "fb": "Nicht nur das Lernmaterial selbst, sondern auch die Umstände des Lernens werden also abgelegt (Pastötter et al., 2018)."
+   },
+   {
+    "t": "Im Teil A der Aufnahmeprüfung wird der Lernstoff über die eigenständige Wiedergabe abgefragt.",
+    "c": false,
+    "fb": "Teil A funktioniert nach dem Prinzip des Wiedererkennens: Zu jeder Antwortalternative ist zu entscheiden, ob sie mit dem Lernstoff übereinstimmt."
+   },
+   {
+    "t": "Das Prinzip der Enkodierspezifität wurde im Rahmen der Erforschung der Theorie der Verarbeitungstiefe entdeckt.",
+    "c": true,
+    "fb": "Der Befund von Morris, Bransford und Franks (1977) relativierte die Annahme, tiefere Verarbeitung sei stets überlegen."
+   },
+   {
+    "t": "Bei Recognition-Tests werden neben den gelernten Wörtern auch neue Distraktorwörter dargeboten.",
+    "c": true,
+    "fb": "Die Versuchspersonen müssen entscheiden, welche Wörter Teil der ursprünglichen Liste waren und welche nicht."
+   }
+  ],
+  "concept": {
+   "title": "Kontexteffekte, Verarbeitungstiefe und die Abrufformen",
+   "points": [
+    "<b>Herkunft des Prinzips</b>: Die Enkodierspezifität wurde bei der Erforschung der <b>Theorie der Verarbeitungstiefe</b> entdeckt — und relativierte sie zugleich.",
+    "<b>Erklärung der Kontexteffekte</b>: Beim Enkodieren wird nicht nur das Lernmaterial gespeichert, sondern auch die vorherrschenden Kontextbedingungen; beim Abruf wirken sie als Hinweisreize.",
+    "<b>Reichweite</b>: Das gilt für äußere Lernumgebungen ebenso wie für innere Zustände — und selbst dann, wenn der Kontext für die Aufgabe völlig irrelevant ist.",
+    "<b>Recognition (Wiedererkennen)</b>: Gelernte Wörter werden zusammen mit neuen <b>Distraktorwörtern</b> dargeboten; zu entscheiden ist, was zur ursprünglichen Liste gehörte.",
+    "<b>Bezug zur Prüfung</b>: Teil A der Aufnahmeprüfung folgt genau diesem Prinzip — pro Antwortalternative ist zu entscheiden, ob die Aussage vollständig und korrekt mit dem Lernstoff übereinstimmt.",
+    "<b>Recall (Wiedergabe)</b>: erfordert in der Regel mehr als Recognition; als <b>Free Recall</b> in beliebiger und als <b>Serial Recall</b> in vorgegebener Reihenfolge."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.1 Was ist Allgemeine Psychologie?",
+  "stem": "Wogegen grenzt sich das Fach ab, und in welcher Reihenfolge verarbeitet es einen Reiz?",
+  "opts": [
+   {
+    "t": "Sozialpsychologische Aspekte werden in der Allgemeinen Psychologie außer Acht gelassen.",
+    "c": true,
+    "fb": "Sie ist damit gegenüber allen drei Nachbarfächern abgegrenzt: Differentielle, Entwicklungs- und Sozialpsychologie."
+   },
+   {
+    "t": "Ziel der Kognitiven Psychologie ist es, Methoden und Theorien zu entwickeln, die erklären, wie kognitive Prozesse ablaufen.",
+    "c": true,
+    "fb": "Nicht das Verhalten allein, sondern der innere Ablauf steht im Zentrum — das unterscheidet sie vom Behaviorismus."
+   },
+   {
+    "t": "Im Prozess der Inputverarbeitung steht die Klassifikation der Situation noch vor dem Filter der Aufmerksamkeit.",
+    "c": false,
+    "fb": "Die Aufmerksamkeit filtert zuerst; die Klassifikation folgt erst nach der bewussten Wahrnehmung."
+   },
+   {
+    "t": "Der kognitionspsychologische Ansatz löste mit der kognitiven Wende den bis dahin vorherrschenden psychodynamischen Ansatz ab.",
+    "c": false,
+    "fb": "Die Kognitive Psychologie entstand als Gegenreaktion zum <i>behavioristischen</i> Ansatz."
+   }
+  ],
+  "concept": {
+   "title": "Zuschnitt und Ablaufmodell der Allgemeinen Psychologie",
+   "points": [
+    "<b>Dreifache Abgrenzung</b>: keine interindividuellen Unterschiede (Differentielle), keine Veränderung über die Lebensspanne (Entwicklungspsychologie), keine sozialen Einflüsse (Sozialpsychologie).",
+    "<b>Kognitive Wende</b>: Seither ist der kognitionspsychologische Ansatz vorherrschend — entstanden als Gegenreaktion auf den Behaviorismus, der kognitive Prozesse zur Gänze ausklammert.",
+    "<b>Ziel der Kognitiven Psychologie</b>: Methoden und Theorien entwickeln, die erklären, <i>wie</i> kognitive Prozesse ablaufen (Becker-Carus & Wendt, 2017).",
+    "<b>Inputverarbeitung, Teil 1</b>: sensorischer Reiz → Rezeptoren der Sinne → <b>Filter der Aufmerksamkeit</b> → bewusste Wahrnehmung.",
+    "<b>Inputverarbeitung, Teil 2</b>: <b>Klassifikation</b> → Denken und Urteilen → Entscheidung über die Reaktion → Handlung nach außen.",
+    "<b>Querschnittsgrößen</b>: Vorwissen, Vorerfahrung, Bewertung und Erwartung speisen sich aus Lernen, Gedächtnis und Wissen; Emotion und Motivation wirken auf die Verarbeitung ein, Sprache macht sie mitteilbar."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.3.4 Operante Konditionierung",
+  "stem": "Welche Aussage zu Skinners Vorgehen und seiner Apparatur trifft zu?",
+  "opts": [
+   {
+    "t": "Skinner übernahm Thorndikes Gesetz des Effekts unverändert, weil er es für ausreichend formalisiert hielt.",
+    "c": false,
+    "fb": "Er war mit dessen subjektivem Aspekt unzufrieden: Befriedigende Zustände seien nicht empirisch beobachtbar. Deshalb formalisierte er die Theorie stärker."
+   },
+   {
+    "t": "Die Basisrate bestimmte Skinner erst nach Abschluss der Konditionierungsphase.",
+    "c": false,
+    "fb": "Sie wurde zuerst erhoben — als Maß dafür, wie oft das Verhalten ganz ohne Verstärkung auftrat."
+   },
+   {
+    "t": "Der Käfig war bewusst reizreich gestaltet, damit dem Tier möglichst viele Handlungsalternativen offenstanden.",
+    "c": false,
+    "fb": "Er war klein und reizarm; gerade dadurch betätigte das Tier früher oder später zwangsläufig das Operandum."
+   },
+   {
+    "t": "In komplexeren Versuchen erhielt das Tier nur dann Futter, wenn zugleich eine Lampe leuchtete oder es sich zuvor gedreht hatte.",
+    "c": true,
+    "fb": "So ließen sich auch jene Faktoren untersuchen, die die Auftretenswahrscheinlichkeit eines Verhaltens beeinflussen (Skinner, 1948)."
+   }
+  ],
+  "concept": {
+   "title": "Skinners Methodik: Basisrate, operante Kammer und Verstärkungsbedingungen",
+   "points": [
+    "<b>Kritik an Thorndike</b>: „Befriedigende Zustände“ — also jene, die das Auftreten eines Verhaltens erhöhen — seien nicht empirisch beobachtbar. Skinner formalisierte die Theorie daher stärker.",
+    "<b>Leitannahme</b>: Inspiriert von Watson und Pawlow nahm er an, dass sich das Verhalten von Tieren durch Anreize für bestimmte Handlungen verändern lässt.",
+    "<b>Skinner-Box</b>: die Weiterentwicklung des Problemkäfigs, von Skinner selbst <i>operante Kammer</i> genannt — klein und reizarm, mit mindestens einem <b>Operandum</b> (Hebel, Taste).",
+    "<b>Schritt 1 — Basisrate</b>: Zuerst wird festgestellt, wie oft das zu konditionierende Verhalten <i>ohne</i> Verstärkung auftritt.",
+    "<b>Schritt 2 — Konditionierungsphase</b>: Danach wird das Verhalten gezielt verstärkt, etwa durch ein Futterkügelchen nach jedem Hebeldruck (Spada, Rummel & Ernst, 2018).",
+    "<b>Komplexere Bedingungen</b>: Futter nur bei gleichzeitig leuchtender Lampe oder nach einer vorherigen Drehung gegen den Uhrzeigersinn — so wurden die Einflussfaktoren auf die Auftretenswahrscheinlichkeit isolierbar (Skinner, 1948)."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.2.2 Theorien der Wahrnehmung",
+  "stem": "Ein Ton, den niemand sicher hört: Was gilt für Sensitivität und Antwortmuster?",
+  "opts": [
+   {
+    "t": "Eine hohe Zahl an Treffern bei gleichzeitig niedriger Zahl falscher Alarme spricht für eine hohe Sensitivität gegenüber dem Reiz.",
+    "c": true,
+    "fb": "Kommen zu den vielen Treffern auch viele falsche Alarme hinzu, deutet das dagegen auf eine Ja-Sage-Tendenz hin."
+   },
+   {
+    "t": "Die Sensitivität einer Person bleibt von konkurrierenden Reizen in der Umgebung unberührt.",
+    "c": false,
+    "fb": "Sie wird maßgeblich davon beeinflusst: In einem Raum voller Gespräche ist ein Ton schwerer wahrzunehmen als in einem stillen."
+   },
+   {
+    "t": "Zu den Faktoren, die in der Psychophysik unbeachtet blieben, zählen der Wunsch, einen Reiz zu entdecken, und die Erwartung seines Auftretens.",
+    "c": true,
+    "fb": "Genau diese motivationalen Komponenten führten zur Entwicklung der Signalentdeckungstheorie."
+   },
+   {
+    "t": "Wird ein Reiz dargeboten und die Person nimmt ihn nicht wahr, spricht man von einer korrekten Zurückweisung.",
+    "c": false,
+    "fb": "Das ist ein Verpasser. Eine korrekte Zurückweisung liegt vor, wenn kein Reiz dargeboten wird und die Person auch keinen meldet."
+   }
+  ],
+  "concept": {
+   "title": "Sensitivität, Antwortverhalten und die vier Ausgänge",
+   "points": [
+    "<b>Anlass der Theorie</b>: Die Vorstellung einer absoluten Wahrnehmungsschwelle ist nicht haltbar — motivationale Komponenten wie der Wunsch, einen Reiz zu entdecken, die Erwartung seines Auftretens und konkurrierende Reize blieben in der Psychophysik unbeachtet.",
+    "<b>Sensitivität</b>: erste Komponente; wird maßgeblich von der Anwesenheit anderer Reize beeinflusst — ein Ton im vollen Raum gegenüber einem im stillen Raum.",
+    "<b>Kognitiver Entscheidungsprozess</b>: zweite, von der Sensitivität unabhängige Komponente; entscheidet vor allem bei uneindeutigen Reizen.",
+    "<b>Die vier Ausgänge</b>: <b>Treffer</b> (Reiz da, Ja) · <b>Verpasser</b> (Reiz da, Nein) · <b>Falscher Alarm</b> (kein Reiz, Ja) · <b>Korrekte Zurückweisung</b> (kein Reiz, Nein).",
+    "<b>Lesart der Muster</b>: viele Treffer + wenige falsche Alarme = hohe Sensitivität; viele Treffer + viele falsche Alarme = Ja-Sage-Tendenz; viele Verpasser = Nein-Sage-Tendenz.",
+    "<b>Merkhilfe</b>: Die erste Silbe eines Ausgangs sagt, ob die Person richtig lag; ob ein Reiz da war, steht in der Zeile der Matrix."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.3.1 Lernen",
+  "stem": "Welche Aussagen zum Verhaltenspotenzial und zu den Lernformen treffen zu?",
+  "opts": [
+   {
+    "t": "Das Verhaltenspotenzial beschreibt, dass sich Gelerntes nicht unmittelbar in Leistung zeigen muss.",
+    "c": true,
+    "fb": "Die Verhaltensänderung kann unter Umständen erst sehr viel später in Erscheinung treten."
+   },
+   {
+    "t": "Implizite Lernprozesse laufen automatisch ab und erfordern keine bewussten Verarbeitungsprozesse.",
+    "c": true,
+    "fb": "Ihnen gegenüber steht das explizite Lernen, bei dem Wissen bewusst und aufwendig angeeignet wird (I. Koch & Stahl, 2017)."
+   },
+   {
+    "t": "Der Begriff des Verhaltenspotenzials wird hier exakt so verwendet wie bei Julian Rotter.",
+    "c": false,
+    "fb": "Die Begriffe sind ähnlich, aber nicht gleich: Bei Rotter ergibt sich das Verhaltenspotenzial als Funktion von Erwartung und Verstärkungswert und betont die situativen Rahmenbedingungen."
+   },
+   {
+    "t": "Werden Fertigkeiten nicht mehr ausgeübt, können sie auf das Ausgangsniveau zurückgehen, lassen sich aber schneller wiedererlangen.",
+    "c": true,
+    "fb": "Einmal Gelerntes wird in der Regel nicht verlernt — das Wiederaufgreifen geht deutlich rascher als der Ersterwerb."
+   }
+  ],
+  "concept": {
+   "title": "Verhaltenspotenzial, implizites und explizites Lernen",
+   "points": [
+    "<b>Verhaltenspotenzial</b>: das durch Lernen entstandene Potenzial, ein bestimmtes Verhalten auszuführen — Gelerntes muss sich nicht sofort oder überhaupt in Leistung zeigen.",
+    "<b>Abgrenzung zu Rotter</b>: ähnlicher, aber nicht identischer Begriff. Bei Rotter (Kapitel 8.2.4) ergibt er sich als Funktion von Erwartung und Verstärkungswert und betont zusätzlich die situativen Rahmenbedingungen.",
+    "<b>Nicht deterministisch</b>: Lernen verändert die <i>Wahrscheinlichkeit</i>, dass ein Verhalten auftritt — nicht mehr und nicht weniger.",
+    "<b>Explizites Lernen</b>: bewusstes, oft aufwendiges Aneignen von Wissen, etwa für eine Prüfung.",
+    "<b>Implizites Lernen</b>: läuft automatisch ab und erfordert keine bewussten Verarbeitungsprozesse; die Lerntheorien der Kapitel 5.3.2–5.3.5 sind ihm zuzuordnen.",
+    "<b>Dauerhaftigkeit</b>: Gelerntes wird in der Regel nicht verlernt. Fertigkeiten können auf das Ausgangsniveau zurückgehen, lassen sich beim Wiederaufgreifen aber viel schneller zurückgewinnen."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.4.5 Gedächtniseffekte",
+  "stem": "Woher der bessere Abruf an Listenanfang und -ende rührt — und wo man ihn nutzt. Was stimmt?",
+  "opts": [
+   {
+    "t": "In der Studie von Jahnke (1965) zeigte sich der Effekt nur bei längeren, nicht aber bei kurzen Wortlisten.",
+    "c": false,
+    "fb": "Er zeigte sich sowohl bei kurzen als auch bei längeren Wortlisten — geprüft wurden Listen mit 6, 10 und 15 Wörtern."
+   },
+   {
+    "t": "Der Recency Effekt wird damit erklärt, dass die letzten Wörter besonders häufig innerlich wiederholt werden konnten.",
+    "c": false,
+    "fb": "Das häufigere innere Wiederholen (Rehearsal) ist die Erklärung für den Primacy Effekt am Listenanfang."
+   },
+   {
+    "t": "Wegen seiner Wirksamkeit setzt man den Effekt im Marketing ein und platziert die wichtigsten Punkte an Anfang und Ende einer Botschaft.",
+    "c": true,
+    "fb": "Der Effekt wurde in sehr verschiedenen Szenarien der psychologischen Forschung bestätigt, was diese Anwendung nahelegt."
+   },
+   {
+    "t": "Frühe Listenelemente lassen sich zeitlich besser voneinander unterscheiden als späte.",
+    "c": false,
+    "fb": "Die höhere zeitliche Diskriminierbarkeit wird gerade den <i>späten</i> Elementen zugeschrieben — sie ist eine der Erklärungen für den Recency Effekt."
+   }
+  ],
+  "concept": {
+   "title": "Der serielle Positionseffekt in Forschung und Anwendung",
+   "points": [
+    "<b>Befund</b>: Bei freier Wiedergabe werden Wörter vom Anfang und vom Ende einer Liste besser erinnert als solche aus der Mitte.",
+    "<b>Jahnke (1965)</b>: Wortlisten unterschiedlicher Länge — 6, 10 und 15 Wörter; der Effekt zeigte sich bei kurzen <i>und</i> bei längeren Listen.",
+    "<b>Primacy Effekt</b>: besserer Abruf am Anfang; plausible Erklärung ist das häufigere innere Wiederholen (Rehearsal).",
+    "<b>Recency Effekt</b>: besserer Abruf am Ende; erste Erklärung ist die Präsenz im Kurzzeitgedächtnis, zweite die höhere <b>zeitliche Diskriminierbarkeit</b> der späten gegenüber den älteren Elementen (Gruber, 2018).",
+    "<b>Asymmetrie der Erklärungen</b>: Der Primacy Effekt gilt als gut erklärt, die Gründe für den Recency Effekt sind weniger eindeutig.",
+    "<b>Anwendung</b>: Unternehmen platzieren die wichtigsten Punkte einer Werbekampagne bewusst zu Beginn und zum Ende ihrer Botschaft."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.2.4 Visuelle Wahrnehmung",
+  "stem": "Welche Aussagen zu weiteren Tiefenhinweisen treffen zu?",
+  "opts": [
+   {
+    "t": "Sehen wir mehrere gleiche Gegenstände, die sich nur in ihrer Größe unterscheiden, deuten wir den kleineren als weiter entfernt.",
+    "c": true,
+    "fb": "Dieser monokulare Hinweis heißt relative Größe."
+   },
+   {
+    "t": "Verdeckt ein Gegenstand einen anderen, nehmen wir den verdeckenden als weiter entfernt wahr.",
+    "c": false,
+    "fb": "Umgekehrt: Der <i>verdeckte</i> Gegenstand wird als weiter entfernt wahrgenommen."
+   },
+   {
+    "t": "Die Querdisparation wird normalerweise bewusst wahrgenommen und muss aktiv aufgelöst werden.",
+    "c": false,
+    "fb": "Das visuelle System verarbeitet den Unterschied so, dass wir ihn gerade <i>nicht</i> bewusst bemerken — das Ergebnis ist räumliche Wahrnehmung."
+   },
+   {
+    "t": "Autostereogramme erzeugen ihre räumliche Wirkung dadurch, dass die Abstände zwischen den Musterwiederholungen bereichsweise leicht verändert sind.",
+    "c": true,
+    "fb": "Über die Querdisparation entsteht daraus die Illusion einer dreidimensionalen Form."
+   }
+  ],
+  "concept": {
+   "title": "Relative Größe, Verdeckung und Querdisparation",
+   "points": [
+    "<b>Relative Größe</b>: Unterscheiden sich mehrere gleiche Gegenstände nur in der Größe, gilt der kleinere als weiter entfernt.",
+    "<b>Verdeckung</b>: Verdeckt ein Gegenstand einen anderen, erscheint der <b>verdeckte</b> als der fernere.",
+    "<b>Beide sind monokular</b>: Die Information eines Auges genügt — anders als bei binokularen Hinweisen.",
+    "<b>Querdisparation</b>: Durch die leicht unterschiedliche Position der Augen weichen die Netzhautbilder voneinander ab. Der Unterschied wird so verarbeitet, dass wir ihn nicht bewusst bemerken; das Ergebnis ist räumliche Wahrnehmung.",
+    "<b>Eigenständige Wirkung</b>: Die Querdisparation allein genügt bereits, um Tiefe entstehen zu lassen.",
+    "<b>Autostereogramme</b>: sehen zunächst wie ein sich wiederholendes Muster aus; bereichsweise leicht veränderte Abstände zwischen den Wiederholungen lassen über die Querdisparation eine dreidimensionale Form entstehen."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.4.2 Drei-Speicher-Modell",
+  "stem": "Welche Aussage zur Kritik an der strikten Trennung von Kurzzeit- und Langzeitspeicher trifft zu?",
+  "opts": [
+   {
+    "t": "Abstrakte Wörter wurden in den Wortlistenstudien zuverlässiger erinnert als konkrete.",
+    "c": false,
+    "fb": "Es war umgekehrt: Listen mit konkreten Wörtern wurden besser wiedergegeben als solche mit abstrakten (Romani, McAlpine & Martin, 2008)."
+   },
+   {
+    "t": "Wortlisten wurden besser wiedergegeben, wenn sie im alltäglichen Sprachgebrauch häufiger vorkommende Wörter enthielten.",
+    "c": true,
+    "fb": "Das spricht dafür, dass neue Informationen sofort mit dem eigenen Wortschatz aus dem Langzeitspeicher verknüpft werden (Hulme, Roodenrys, Brown & Mercer, 1995)."
+   },
+   {
+    "t": "Als sensorisch werden im Modell jene Informationen bezeichnet, die bereits im Langzeitspeicher abgelegt sind.",
+    "c": false,
+    "fb": "Sensorisch meint schlicht: aus den Sinnesorganen stammend."
+   },
+   {
+    "t": "Personen mit stark reduzierter verbaler Kurzzeitgedächtnisspanne konnten weder Sprache verstehen noch Neues lernen.",
+    "c": false,
+    "fb": "Sie konnten beides und kamen im Leben allgemein gut zurecht — genau das stellte die Schlüsselrolle des Kurzzeitspeichers infrage."
+   }
+  ],
+  "concept": {
+   "title": "Kritik am Drei-Speicher-Modell",
+   "points": [
+    "<b>Kritikpunkt 1 — die Nadelöhr-Annahme</b>: Nach Atkinson und Shiffrin müssen sämtliche neuen Informationen den Kurzzeitspeicher passieren, und auch Inhalte aus sensorischem und Langzeitspeicher sind nur dort bearbeitbar.",
+    "<b>Gegenbefund aus der Neuropsychologie</b>: Personen mit stark reduzierter verbaler Kurzzeitgedächtnisspanne konnten dennoch Sprache verstehen, Neues lernen und kamen im Leben gut zurecht.",
+    "<b>Kritikpunkt 2 — die strikte Trennung</b>: Wortlisten wurden besser wiedergegeben, wenn sie im Alltag <b>häufigere</b> Wörter enthielten (Hulme et al., 1995) …",
+    "<b>… und ebenso</b>, wenn sie <b>konkrete</b> statt abstrakter Wörter umfassten (Romani et al., 2008).",
+    "<b>Schlussfolgerung</b>: Die sofortige Verknüpfung neuer Information mit dem eigenen Wortschatz zeigt, dass der Kurzzeitspeicher kein klar trennbarer Übergang ist, sondern in starker Wechselbeziehung zu beiden Nachbarn steht (Pastötter et al., 2018).",
+    "<b>Randnotiz zum Begriff</b>: „Sensorisch“ meint im Modell schlicht: aus den Sinnesorganen stammend."
+   ]
+  }
+ },
+ {
+  "kap": 5,
+  "sec": "5.2.3 Aufmerksamkeit",
+  "stem": "Welche Aussagen zum Begriff der Aufmerksamkeit und zum Cocktailparty-Effekt treffen zu?",
+  "opts": [
+   {
+    "t": "Aufmerksamkeit ist der Filter, der vorsortiert, welche physikalischen Reize aus der Umwelt relevant und wichtig für uns sind.",
+    "c": true,
+    "fb": "Dieser Filter entscheidet also bereits vor der eigentlichen Verarbeitung über die weitere Verwendung der Information."
+   },
+   {
+    "t": "Unter selektiver Aufmerksamkeit versteht man die gleichmäßige Verteilung der Verarbeitung auf alle gleichzeitig eintreffenden Sinneseindrücke.",
+    "c": false,
+    "fb": "Gemeint ist das Gegenteil: der Prozess, mittels dessen aus vielen Sinneseindrücken eine <i>Teilmenge</i> selektiert wird."
+   },
+   {
+    "t": "Der Cocktailparty-Effekt gilt als Beispiel für selektives Hören.",
+    "c": true,
+    "fb": "Die übrigen Gespräche bleiben als Geräuschkulisse hörbar, ohne dass ihr genauer Inhalt wahrgenommen wird (Krummenacher & Müller, 2017)."
+   },
+   {
+    "t": "Das Experiment mit dem Gorillakostüm prägte den Begriff der Unaufmerksamkeitsblindheit.",
+    "c": true,
+    "fb": "Es verdeutlicht, dass Aufmerksamkeitsprozesse maßgeblich an unserer Wahrnehmung beteiligt sind."
+   }
+  ],
+  "concept": {
+   "title": "Aufmerksamkeit als Filter — selektives Hören und Unaufmerksamkeitsblindheit",
+   "points": [
+    "<b>Aufmerksamkeit</b>: der Filter, der vorsortiert, welche physikalischen Reize aus der Umwelt relevant und wichtig für uns sind.",
+    "<b>Selektive Aufmerksamkeit</b>: der Prozess, mittels dessen aus vielen Sinneseindrücken eine <i>Teilmenge</i> selektiert wird — keine Gleichverteilung, sondern Auswahl.",
+    "<b>Cocktailparty-Effekt</b>: Auf einer Party lässt sich einem Gespräch folgen, während die übrigen als Geräuschkulisse hörbar bleiben — ein Beispiel für selektives Hören.",
+    "<b>Kosten des Umschaltens</b>: Fällt im Nebengespräch der eigene Name, wandert die Aufmerksamkeit dorthin; bei der Rückkehr dauert es, bis man dem ursprünglichen Gespräch wieder folgen kann — der Inhalt dazwischen wurde nicht wahrgenommen.",
+    "<b>Unaufmerksamkeitsblindheit</b>: Begriff, den das Gorilla-Experiment von Simons und Chabris (1999) geprägt hat.",
+    "<b>Gemeinsamer Nenner</b>: Aufmerksamkeitsprozesse sind maßgeblich an dem beteiligt, was wir am Ende wahrnehmen — hören oder sehen allein genügt nicht."
+   ]
+  }
+ }
 ]

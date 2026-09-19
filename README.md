@@ -14,6 +14,7 @@ Beide Seiten werden aus einem Fragenpool und einer Konfiguration erzeugt; die
 gebaute `index.html` ist eine einzelne Datei ohne Build-Schritt beim Ausliefern.
 
 ```sh
+python3 tools/build_pool.py quellen lernkonsole2/pool.json   # Kapiteldateien → Pool
 python3 tools/build_app.py lernkonsole/app.config.json
 python3 tools/build_app.py lernkonsole2/app.config.json
 
@@ -23,7 +24,9 @@ node tools/api_check.js                             # übt die Serverless-Funkti
 python3 tools/dupe_check.py                         # doppelte Fragen in und zwischen den Pools
 ```
 
-Ein Durchgang soll keine Fragen aus einem anderen wiederholen. Deshalb nennt
+Der Pool des zweiten Durchgangs entsteht aus den Kapiteldateien in `quellen/`;
+die Kennung einer Frage ist der sha1 ihres Fragestamms, damit der Lernfortschritt
+Neubauten übersteht. Ein Durchgang soll keine Fragen aus einem anderen wiederholen. Deshalb nennt
 `lernkonsole2/app.config.json` unter `keineDoppelungenMit` den Pool des ersten
 Durchgangs: Findet der Bau dort eine wortgleiche Frage, bricht er ab und nennt
 sie beim Namen. `tools/dupe_check.py` prüft dasselbe von Hand und meldet
