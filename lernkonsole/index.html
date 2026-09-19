@@ -158,6 +158,20 @@ const alsNutzlast = (stand) => ({
   log: stand.log.slice(-3000),
   meta: stand.meta,
 });
+/* Wird ein Fragenpool überarbeitet, bleiben Karten zu gestrichenen Fragen im
+   Stand liegen und zählen in der Auswertung mit, ohne je wieder aufzutauchen. */
+const BEKANNT = new Set(POOL.map((q) => q.id));
+const bereinigen = (stand) => {
+  if (!stand) return stand;
+  const cards = {};
+  let fremd = 0;
+  Object.keys(stand.cards).forEach((id) => {
+    if (BEKANNT.has(id)) cards[id] = stand.cards[id]; else fremd++;
+  });
+  if (!fremd) return stand;
+  return { ...stand, cards, log: stand.log.filter((l) => BEKANNT.has(l.id)) };
+};
+
 const lokalLesen = () => {
   try {
     const roh = localStorage.getItem(STORE_KEY);
@@ -288,7 +302,7 @@ function Lernkonsole() {
       }
 
       if (alive) {
-        setState(loaded || leererStand());
+        setState(bereinigen(loaded) || leererStand());
         setStorageMode(mode);
         setServer(serverStand);
         setLoading(false);

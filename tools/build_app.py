@@ -24,6 +24,25 @@ assert "</" not in pool_raw or "</script" not in pool_raw.lower()
 
 POOL_COUNT = len(json.loads(pool_raw))
 
+# Ein Durchgang, der Fragen aus einem anderen wiederholt, fällt sonst erst beim
+# Lernen auf. Mit "keineDoppelungenMit" bricht der Bau stattdessen hier ab.
+gegenpool = CONFIG.get("keineDoppelungenMit")
+if gegenpool:
+    sys.path.insert(0, os.path.join(REPO, "tools"))
+    from dupe_check import signatur
+
+    with open(os.path.join(REPO, gegenpool), encoding="utf-8") as f:
+        fremd = {signatur(q) for q in json.load(f)}
+    doppelt = [q for q in json.loads(pool_raw) if signatur(q) in fremd]
+    if doppelt:
+        print("%d Fragen stehen wortgleich schon in %s:" % (len(doppelt), gegenpool), file=sys.stderr)
+        for q in doppelt[:10]:
+            print("   Kap %d  %s  %s" % (q["kap"], q["id"], q["stem"][:80]), file=sys.stderr)
+        if len(doppelt) > 10:
+            print("   … und %d weitere" % (len(doppelt) - 10), file=sys.stderr)
+        print("Nachsehen mit: python3 tools/dupe_check.py %s %s" % (CONFIG["pool"], gegenpool), file=sys.stderr)
+        sys.exit(1)
+
 css = r"""
 body{background:#F2F4F7;margin:0}
 .lk{
@@ -336,6 +355,20 @@ const alsNutzlast = (stand) => ({
   log: stand.log.slice(-3000),
   meta: stand.meta,
 });
+/* Wird ein Fragenpool überarbeitet, bleiben Karten zu gestrichenen Fragen im
+   Stand liegen und zählen in der Auswertung mit, ohne je wieder aufzutauchen. */
+const BEKANNT = new Set(POOL.map((q) => q.id));
+const bereinigen = (stand) => {
+  if (!stand) return stand;
+  const cards = {};
+  let fremd = 0;
+  Object.keys(stand.cards).forEach((id) => {
+    if (BEKANNT.has(id)) cards[id] = stand.cards[id]; else fremd++;
+  });
+  if (!fremd) return stand;
+  return { ...stand, cards, log: stand.log.filter((l) => BEKANNT.has(l.id)) };
+};
+
 const lokalLesen = () => {
   try {
     const roh = localStorage.getItem(STORE_KEY);
@@ -466,7 +499,7 @@ function Lernkonsole() {
       }
 
       if (alive) {
-        setState(loaded || leererStand());
+        setState(bereinigen(loaded) || leererStand());
         setStorageMode(mode);
         setServer(serverStand);
         setLoading(false);

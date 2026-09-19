@@ -18,8 +18,19 @@ python3 tools/build_app.py lernkonsole/app.config.json
 python3 tools/build_app.py lernkonsole2/app.config.json
 
 node tools/render_check.js lernkonsole/index.html   # rendert jede Ansicht einmal durch
+node tools/sync_check.js lernkonsole/index.html     # Client gegen die echte Funktion
 node tools/api_check.js                             # übt die Serverless-Funktion durch
+python3 tools/dupe_check.py                         # doppelte Fragen in und zwischen den Pools
 ```
+
+Ein Durchgang soll keine Fragen aus einem anderen wiederholen. Deshalb nennt
+`lernkonsole2/app.config.json` unter `keineDoppelungenMit` den Pool des ersten
+Durchgangs: Findet der Bau dort eine wortgleiche Frage, bricht er ab und nennt
+sie beim Namen. `tools/dupe_check.py` prüft dasselbe von Hand und meldet
+zusätzlich bloß umformulierte Fragen.
+
+Karten zu Fragen, die aus einem Pool verschwunden sind, räumt die App beim
+Laden aus dem Stand — sonst zählten sie in der Auswertung ewig mit.
 
 ## Fortschritt speichern
 
